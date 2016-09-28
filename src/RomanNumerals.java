@@ -53,6 +53,7 @@ public class RomanNumerals {
 
 	private boolean isOneTimeRepeatable(char character) {
 		switch(character) {
+		case 'B':
 		case 'L':
 			return true;
 		}
