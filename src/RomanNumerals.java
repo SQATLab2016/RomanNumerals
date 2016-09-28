@@ -1,6 +1,6 @@
 
 public class RomanNumerals {
-	public int convertToInteger(String romanNum) {
+	public int CD(String romanNum) {
 		int retValue = 0;
 		
 		int lastSub = 0;
