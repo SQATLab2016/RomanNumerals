@@ -155,3 +155,8 @@ RefactoringAction 1475073525535 RomanNumerals.java RENAME isOneTimesRepeatable(c
 RefactoringAction 1475073528047 RomanNumerals.java RENAME isOnlyuOneTimesRepeatable(char)=>boolean isOneTimesRepeatable(char) METHOD
 RefactoringAction 1475073532061 RomanNumerals.java RENAME isOneTimesRepeatable(char)=>boolean isOneTimeRepeatable(char) METHOD
 EditAction 1475073575462 RomanNumerals.java 1871 5 12 0
+UnitTestCaseAction 1475073583808 TestRomanNumerals.java OK
+UnitTestSessionAction 1475073583809 TestRomanNumerals.java OK
+RefactoringAction 1475073586729 TestRomanNumerals.java ADD void testConvertIntegerContains_LL_Throw_NumberFormatException()/2 METHOD
+RefactoringAction 1475073601094 TestRomanNumerals.java RENAME testConvertIntegerContains_LL_Throw_NumberFormatException()/2=>void testConvertIntegerContains_VV_Throw_NumberFormatException() METHOD
+EditAction 1475073601281 TestRomanNumerals.java 5933 42 72 30
