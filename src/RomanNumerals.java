@@ -42,7 +42,8 @@ public class RomanNumerals {
 		case 'C': return 100;
 		case 'D': return 500;
 		case 'M': return 1000;
-		default: 0;
+		default:
+			throw new NumberFormatException("Invalid number character");
 		}
 	}
 }

@@ -6,3 +6,10 @@ RefactoringAction 1475071770750 TestRomanNumerals.java REMOVE test FIELD
 RefactoringAction 1475071793541 TestRomanNumerals.java ADD void testConvertInteger_InvalidFormat() METHOD
 EditAction 1475071872518 TestRomanNumerals.java 4432 32 62 30
 EditAction 1475071879051 RomanNumerals.java 1025 3 6 0
+CompilationAction 1475071879269 RomanNumerals.java
+CompilationAction 1475071879269 RomanNumerals.java
+CompilationAction 1475071888532 RomanNumerals.java
+CompilationAction 1475071888532 RomanNumerals.java
+UnitTestCaseAction 1475071890477 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475071890478 TestRomanNumerals.java FAIL
+EditAction 1475071924743 RomanNumerals.java 1086 3 7 0
