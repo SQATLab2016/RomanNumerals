@@ -27,6 +27,11 @@ public class TestRomanNumerals {
 	}
 
 	@Test(expected=NumberFormatException.class)
+	public void testConvertInteger_Subtract_I_M_Throw_NumberFormatException() {
+		mNumerals.convertToInteger("");
+	}
+	
+	@Test(expected=NumberFormatException.class)
 	public void testConvertIntegerContains_VV_Throw_NumberFormatException() {
 		mNumerals.convertToInteger("VV");
 	}

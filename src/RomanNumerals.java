@@ -1,6 +1,10 @@
 
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
+		if (romanNum == null) {
+			throw new NumberFormatException("Null roman numeral.");
+		}
+		
 		if (romanNum.isEmpty()) {
 			throw new NumberFormatException("Empty roman numeral.");
 		}
@@ -38,8 +42,6 @@ public class RomanNumerals {
 				lastSub = 0;
 			}
 		}
-		
-		// TODO characters repeating (tests first...)
 		
 		return retValue;
 	}
