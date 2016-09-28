@@ -1,5 +1,6 @@
 import static org.junit.Assert.*;
 
+import org.junit.Before;
 import org.junit.Test;
 
 public class TestRomanNumerals {
@@ -11,8 +12,9 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void testConvertToInteger_I_0() {
-		assertEquals()
+	public void testConvertToInteger_I_1() {
+		int integer = mNumerals.convertToInteger("I");
+		assertEquals(1)
 	}
 
 }
