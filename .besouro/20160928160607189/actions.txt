@@ -1,3 +1,6 @@
 FileOpenedAction 1475067967483 TestRomanNumerals.java 171 1 0 0
 RefactoringAction 1475067976324 TestRomanNumerals.java ADD RomanNumerals rn FIELD
 EditAction 1475068025092 TestRomanNumerals.java 258 1 2 1
+UnitTestCaseAction 1475068031067 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475068031071 TestRomanNumerals.java FAIL
+EditAction 1475068039268 RomanNumerals.java 101 1 1 0
