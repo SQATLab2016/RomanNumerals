@@ -278,3 +278,6 @@ UnitTestCaseAction 1475070173353 TestRomanNumerals.java OK
 UnitTestSessionAction 1475070173354 TestRomanNumerals.java OK
 EditAction 1475070313257 TestRomanNumerals.java 4298 31 61 30
 EditAction 1475070315835 RomanNumerals.java 981 3 7 0
+UnitTestCaseAction 1475070318801 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475070318802 TestRomanNumerals.java FAIL
+EditAction 1475070320462 TestRomanNumerals.java 4297 31 61 30
