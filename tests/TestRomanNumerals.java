@@ -11,7 +11,7 @@ public class TestRomanNumerals {
 	}
 
 	@Test
-	public void testRomanNumeralI_1(){
+	public void testRomanNumeral_I_1(){
 		RomanNumerals romanNumerals = new RomanNumerals();
 		int result = romanNumerals.convertToInteger("I");
 		assertEquals(1, result);
