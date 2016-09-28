@@ -32,4 +32,10 @@ public class TestRomanNumerals {
 		int result = romanNumerals.convertToInteger("L");
 		assertEquals(50, result);
 	}
+	
+	@Test
+	public void testRomanNumeral_C_100(){
+		int result = romanNumerals.convertToInteger("C");
+		assertEquals(100, result);
+	}
 }
