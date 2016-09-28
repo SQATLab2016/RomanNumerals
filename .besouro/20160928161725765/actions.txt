@@ -50,3 +50,14 @@ EditAction 1475069111193 TestRomanNumerals.java 620 4 7 4
 UnitTestCaseAction 1475069115033 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475069115034 TestRomanNumerals.java FAIL
 EditAction 1475069144675 RomanNumerals.java 182 1 2 0
+UnitTestCaseAction 1475069150023 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069150024 TestRomanNumerals.java OK
+RefactoringAction 1475069168768 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475069170276 TestRomanNumerals.java RENAME test=>void testRoman FIELD
+RefactoringAction 1475069172789 TestRomanNumerals.java RENAME testRoman=>void testRomanNumeral FIELD
+RefactoringAction 1475069174804 TestRomanNumerals.java RENAME testRomanNumeral=>void testRomanNumeral_ FIELD
+RefactoringAction 1475069179331 TestRomanNumerals.java RENAME testRomanNumeral_=>void testRomanNumeral_L FIELD
+RefactoringAction 1475069186840 TestRomanNumerals.java RENAME testRomanNumeral_L=>void testRomanNumeral_L_ FIELD
+RefactoringAction 1475069188353 TestRomanNumerals.java RENAME testRomanNumeral_L_=>void testRomanNumeral_L_50 FIELD
+RefactoringAction 1475069209871 TestRomanNumerals.java RENAME testRomanNumeral_L_50=>void testRomanNumeral_L_50() METHOD
+EditAction 1475069228899 TestRomanNumerals.java 750 5 9 5
