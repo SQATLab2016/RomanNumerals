@@ -146,3 +146,9 @@ EditAction 1475069607933 RomanNumerals.java 980 3 7 0
 UnitTestCaseAction 1475069609882 TestRomanNumerals.java OK
 UnitTestSessionAction 1475069609883 TestRomanNumerals.java OK
 EditAction 1475069618328 RomanNumerals.java 978 3 7 0
+RefactoringAction 1475069627431 TestRomanNumerals.java ADD void testConvertToInteger_VI_6()/2 METHOD
+RefactoringAction 1475069638952 TestRomanNumerals.java RENAME testConvertToInteger_VI_6()/2=>void testConvertToInteger_VI_() METHOD
+RefactoringAction 1475069639964 TestRomanNumerals.java RENAME testConvertToInteger_VI_()=>void testConvertToInteger_VI_6()/2 METHOD
+RefactoringAction 1475069650477 TestRomanNumerals.java RENAME testConvertToInteger_VI_6()/2=>void testConvertToInteger_VI_7() METHOD
+RefactoringAction 1475069655489 TestRomanNumerals.java RENAME testConvertToInteger_VI_7()=>void testConvertToInteger_VII_7() METHOD
+EditAction 1475069657439 TestRomanNumerals.java 1684 12 23 11
