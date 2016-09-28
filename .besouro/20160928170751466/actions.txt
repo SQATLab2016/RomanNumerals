@@ -26,3 +26,5 @@ RefactoringAction 1475071961667 TestRomanNumerals.java RENAME testConvertInteger
 RefactoringAction 1475071965690 TestRomanNumerals.java RENAME testConvertInteger_Throw_NumberFormatException()/2=>void testConvertInteger__Throw_NumberFormatException() METHOD
 RefactoringAction 1475071969221 TestRomanNumerals.java RENAME testConvertInteger__Throw_NumberFormatException()=>void testConvertInteger_ThreeX_Throw_NumberFormatException() METHOD
 EditAction 1475072207581 TestRomanNumerals.java 4603 33 63 30
+RefactoringAction 1475072226317 TestRomanNumerals.java RENAME testConvertInteger_ThreeX_Throw_NumberFormatException()=>void testConvertInteger_FourX_Throw_NumberFormatException() METHOD
+EditAction 1475072229199 TestRomanNumerals.java 4603 33 63 30
