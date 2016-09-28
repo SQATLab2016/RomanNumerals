@@ -5,7 +5,8 @@ public class RomanNumerals {
 		
 		int lastSub = 0;
 		for (int i = 0; i < romanNum.length(); i++) {
-			if (i == 0 && romanNum.length() > 1) {
+			if (i == 0 && romanNum.length() >= 2 &&
+				getElementaryValue(romanNum.charAt(i))) {
 				lastSub = 1;
 				continue;
 			}
@@ -14,6 +15,17 @@ public class RomanNumerals {
 		}
 		
 		return retValue;
+	}
+	
+	private boolean isSubtractableElementaryValue(char character) {
+		switch(character) {
+		case 'I':
+		case 'X':
+		case 'C':
+			return true;
+		}
+		
+		return false;
 	}
 	
 	private int getElementaryValue(char character) {

@@ -128,3 +128,7 @@ RefactoringAction 1475069162168 RomanNumerals.java REMOVE getElementaryValue(cha
 RefactoringAction 1475069169688 RomanNumerals.java ADD int getElementaryValue(char) METHOD
 EditAction 1475069190486 RomanNumerals.java 603 2 5 0
 EditAction 1475069200478 RomanNumerals.java 601 2 5 0
+RefactoringAction 1475069281391 RomanNumerals.java ADD boolean isSubtractableValue FIELD
+RefactoringAction 1475069286402 RomanNumerals.java RENAME isSubtractableValue=>boolean isSubtractableElementaryValue() METHOD
+RefactoringAction 1475069291411 RomanNumerals.java RENAME isSubtractableElementaryValue()=>boolean isSubtractableElementaryValue(char) METHOD
+EditAction 1475069325885 RomanNumerals.java 815 3 7 0
