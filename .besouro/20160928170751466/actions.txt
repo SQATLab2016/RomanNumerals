@@ -235,3 +235,14 @@ RefactoringAction 1475074246777 TestRomanNumerals.java RENAME testConvertInteger
 RefactoringAction 1475074252811 TestRomanNumerals.java ADD void testConvertInteger_ID_Throw_NumberFormatException()/2 METHOD
 RefactoringAction 1475074255830 TestRomanNumerals.java RENAME testConvertInteger_ID_Throw_NumberFormatException()/2=>void testConvertInteger_IM_Throw_NumberFormatException() METHOD
 EditAction 1475074257290 TestRomanNumerals.java 7010 49 79 30
+UnitTestCaseAction 1475074258258 TestRomanNumerals.java OK
+UnitTestSessionAction 1475074258258 TestRomanNumerals.java OK
+RefactoringAction 1475074266362 TestRomanNumerals.java ADD void testConvertInteger_IL_Throw_NumberFormatException()/2 METHOD
+RefactoringAction 1475074266363 TestRomanNumerals.java ADD void testConvertInteger_IC_Throw_NumberFormatException()/2 METHOD
+RefactoringAction 1475074266363 TestRomanNumerals.java ADD void testConvertInteger_ID_Throw_NumberFormatException()/2 METHOD
+RefactoringAction 1475074266363 TestRomanNumerals.java ADD void testConvertInteger_IM_Throw_NumberFormatException()/2 METHOD
+RefactoringAction 1475074272420 TestRomanNumerals.java REMOVE testConvertInteger_IC_Throw_NumberFormatException()/2 METHOD
+RefactoringAction 1475074272420 TestRomanNumerals.java REMOVE testConvertInteger_IM_Throw_NumberFormatException()/2 METHOD
+RefactoringAction 1475074272421 TestRomanNumerals.java REMOVE testConvertInteger_ID_Throw_NumberFormatException()/2 METHOD
+RefactoringAction 1475074272422 TestRomanNumerals.java REMOVE testConvertInteger_IL_Throw_NumberFormatException()/2 METHOD
+EditAction 1475074281393 TestRomanNumerals.java 7014 49 79 30
