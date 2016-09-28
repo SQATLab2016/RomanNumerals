@@ -29,8 +29,7 @@ public class TestRomanNumerals {
 	
 	@Test
 	public void testRomanNumeral_L_50(){
-		int result = romanNumerals.convertToInteger("L");
-		assertEquals(50, result);
+		assertRomanNumerals(50, "L");
 	}
 	
 	@Test
