@@ -6,8 +6,8 @@ public class RomanNumerals {
 		int lastSub = 0;
 		for (int i = 0; i < romanNum.length(); i++) {
 			if ((i + 1 < romanNum.length()) &&
-					canBeSubtrahendElementaryValue(romanNum.charAt(i)) &&
-					getElementaryValue(romanNum.charAt(i)) < getElementaryValue(romanNum.charAt(i + 1))) {
+				canBeSubtrahendElementaryValue(romanNum.charAt(i)) &&
+				getElementaryValue(romanNum.charAt(i)) < getElementaryValue(romanNum.charAt(i + 1))) {
 				lastSub = getElementaryValue(romanNum.charAt(i));
 				
 			} else {
