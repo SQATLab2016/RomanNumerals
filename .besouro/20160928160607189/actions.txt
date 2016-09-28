@@ -45,3 +45,9 @@ EditAction 1475068590244 TestRomanNumerals.java 896 6 10 4
 UnitTestCaseAction 1475068592806 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475068592807 TestRomanNumerals.java FAIL
 EditAction 1475068624254 RomanNumerals.java 490 1 4 0
+UnitTestCaseAction 1475068627249 TestRomanNumerals.java OK
+UnitTestSessionAction 1475068627250 TestRomanNumerals.java OK
+RefactoringAction 1475068770451 TestRomanNumerals.java ADD void test_I_cannot_be_subtracted_from FIELD
+RefactoringAction 1475068771469 TestRomanNumerals.java RENAME test_I_cannot_be_subtracted_from=>void test_I_cannot_be_subtracted_from_ FIELD
+RefactoringAction 1475068777486 TestRomanNumerals.java RENAME test_I_cannot_be_subtracted_from_=>void test_I_cannot_be_subtracted_from_L() METHOD
+EditAction 1475068785120 TestRomanNumerals.java 1051 7 11 4

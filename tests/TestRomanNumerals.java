@@ -39,5 +39,10 @@ public class TestRomanNumerals {
 	public void test_I_cannot_repeat_four_times() {
 		int number = rn.convertToInteger("IIII");
 	}
+	
+	@Test (expected = IllegalArgumentException.class)
+	public void test_I_cannot_be_subtracted_from_L() {
+		int number = rn.convertToInteger("IL");
+	}
 
 }
