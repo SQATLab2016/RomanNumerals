@@ -7,6 +7,8 @@ public class RomanNumerals {
 			return 10;
 		else if (romanNum.equals("L"))
 			return 50;
+		else if (romanNum.equals("C"))
+			return 100;
 		return 1;
 	}
 }
