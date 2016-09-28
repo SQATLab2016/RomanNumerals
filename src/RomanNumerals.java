@@ -1,7 +1,12 @@
 
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
-		switch(romanNum)
+		int retValue = 0;
+		for (char c : romanNum.toCharArray()) {
+			
+		}
+		
+		switch(romanNum) {
 		case "I": return 1;
 		case "V": return 5;
 		case "X": return 10;
@@ -10,5 +15,6 @@ public class RomanNumerals {
 		case "D": return 500;
 		case "M": return 1000;
 		default: return -1;
+		}
 	}
 }
