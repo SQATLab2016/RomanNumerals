@@ -84,7 +84,7 @@ public class TestRomanNumerals {
 
 	@Test
 	public void testConvertToInteger_VII_8() {
-		int integer = mNumerals.convertToInteger("VIII");
+		int integer = mNumerals.convertToInteger("VII");
 		assertEquals(8, integer);
 	}
 
