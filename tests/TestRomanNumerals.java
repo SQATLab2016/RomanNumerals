@@ -35,8 +35,7 @@ public class TestRomanNumerals {
 	
 	@Test
 	public void testRomanNumeral_C_100(){
-		int result = romanNumerals.convertToInteger("C");
-		assertEquals(100, result);
+		assertEquals(100, "C");
 	}
 	
 	@Test

@@ -105,3 +105,6 @@ RefactoringAction 1475069684649 TestRomanNumerals.java RENAME assertRomanNumeral
 RefactoringAction 1475069692163 TestRomanNumerals.java RENAME assertRomanNumerals(int, int)=>void assertRomanNumerals(int) METHOD
 RefactoringAction 1475069697191 TestRomanNumerals.java RENAME assertRomanNumerals(int)=>void assertRomanNumerals(int, String) METHOD
 EditAction 1475069758595 TestRomanNumerals.java 1133 8 14 8
+UnitTestCaseAction 1475069761988 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069761989 TestRomanNumerals.java OK
+EditAction 1475069790846 TestRomanNumerals.java 1078 8 13 8
