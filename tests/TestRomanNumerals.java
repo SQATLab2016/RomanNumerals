@@ -75,4 +75,10 @@ public class TestRomanNumerals {
 		int integer = mNumerals.convertToInteger("VII");
 		assertEquals(7, integer);
 	}
+	
+	@Test
+	public void testConvertToInteger_VII_8() {
+		int integer = mNumerals.convertToInteger("VIII");
+		assertEquals(8, integer);
+	}
 }
