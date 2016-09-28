@@ -28,3 +28,11 @@ EditAction 1475068150436 TestRomanNumerals.java 602 4 8 4
 UnitTestCaseAction 1475068153427 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475068153428 TestRomanNumerals.java FAIL
 EditAction 1475068237992 RomanNumerals.java 271 1 1 0
+UnitTestCaseAction 1475068240910 TestRomanNumerals.java OK
+UnitTestSessionAction 1475068240911 TestRomanNumerals.java OK
+RefactoringAction 1475068412969 TestRomanNumerals.java ADD void test_ FIELD
+RefactoringAction 1475068414987 TestRomanNumerals.java RENAME test_=>void test_V_ FIELD
+RefactoringAction 1475068419499 TestRomanNumerals.java RENAME test_V_=>void test_V_cannot_repeat() METHOD
+RefactoringAction 1475068481375 RomanNumerals.java ADD import java.util.regex.Pattern IMPORT
+RefactoringAction 1475068527395 RomanNumerals.java ADD import java.util.regex.Matcher IMPORT
+EditAction 1475068531137 RomanNumerals.java 484 1 4 0
