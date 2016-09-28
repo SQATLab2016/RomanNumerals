@@ -17,5 +17,11 @@ public class TestRomanNumerals {
 		int number = rn.convertToInteger("II");
 		assertEquals(2, number);
 	}
+	
+	@Test
+	public void test_III_3() {
+		int number = rn.convertToInteger("III");
+		assertEquals(3, number);
+	}
 
 }
