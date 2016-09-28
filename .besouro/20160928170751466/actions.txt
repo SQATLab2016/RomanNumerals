@@ -5,3 +5,4 @@ RefactoringAction 1475071767188 TestRomanNumerals.java ADD void test FIELD
 RefactoringAction 1475071770750 TestRomanNumerals.java REMOVE test FIELD
 RefactoringAction 1475071793541 TestRomanNumerals.java ADD void testConvertInteger_InvalidFormat() METHOD
 EditAction 1475071872518 TestRomanNumerals.java 4432 32 62 30
+EditAction 1475071879051 RomanNumerals.java 1025 3 6 0
