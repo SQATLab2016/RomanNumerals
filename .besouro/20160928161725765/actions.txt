@@ -61,3 +61,6 @@ RefactoringAction 1475069186840 TestRomanNumerals.java RENAME testRomanNumeral_L
 RefactoringAction 1475069188353 TestRomanNumerals.java RENAME testRomanNumeral_L_=>void testRomanNumeral_L_50 FIELD
 RefactoringAction 1475069209871 TestRomanNumerals.java RENAME testRomanNumeral_L_50=>void testRomanNumeral_L_50() METHOD
 EditAction 1475069228899 TestRomanNumerals.java 750 5 9 5
+UnitTestCaseAction 1475069234063 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475069234064 TestRomanNumerals.java FAIL
+EditAction 1475069275288 RomanNumerals.java 229 1 2 0
