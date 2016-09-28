@@ -17,6 +17,16 @@ public class TestRomanNumerals {
 	}
 
 	@Test(expected=NumberFormatException.class)
+	public void testConvertIntegerContains_MMMM_Throw_NumberFormatException() {
+		mNumerals.convertToInteger("MMMM");
+	}
+	
+	@Test
+	public void testConvertIntegerContains_MMM_NoThrow_NumberFormatException() {
+		mNumerals.convertToInteger("MMM");
+	}
+
+	@Test(expected=NumberFormatException.class)
 	public void testConvertIntegerContains_CCCC_Throw_NumberFormatException() {
 		mNumerals.convertToInteger("CCCC");
 	}

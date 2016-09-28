@@ -17,7 +17,8 @@ public class RomanNumerals {
 			}
 			
 			if (duplicates >= 3 && (romanNum.charAt(i) == 'I' ||
-					romanNum.charAt(i) == 'X')) {
+					romanNum.charAt(i) == 'X' ||
+					romanNum.charAt(i) == 'C')) {
 				throw new NumberFormatException("Too many duplicate numeral character");
 			}
 			
