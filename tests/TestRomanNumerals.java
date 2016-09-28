@@ -99,10 +99,16 @@ public class TestRomanNumerals {
 		int integer = mNumerals.convertToInteger("XXX");
 		assertEquals(30, integer);
 	}
-	
+
 	@Test
 	public void testConvertToInteger_XL_40() {
 		int integer = mNumerals.convertToInteger("XL");
 		assertEquals(40, integer);
+	}
+	
+	@Test
+	public void testConvertToInteger_XL_60() {
+		int integer = mNumerals.convertToInteger("LX");
+		assertEquals(60, integer);
 	}
 }
