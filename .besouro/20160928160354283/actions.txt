@@ -265,3 +265,6 @@ RefactoringAction 1475070063267 TestRomanNumerals.java RENAME testConvertToInteg
 RefactoringAction 1475070065776 TestRomanNumerals.java RENAME testConvertToInteger__1984()=>void testConvertToInteger_MMXIV_1984() METHOD
 RefactoringAction 1475070068287 TestRomanNumerals.java RENAME testConvertToInteger_MMXIV_1984()=>void testConvertToInteger_MMXIV_2014() METHOD
 EditAction 1475070076797 TestRomanNumerals.java 4166 30 59 29
+UnitTestCaseAction 1475070079644 TestRomanNumerals.java OK
+UnitTestSessionAction 1475070079645 TestRomanNumerals.java OK
+EditAction 1475070086210 TestRomanNumerals.java 4164 30 59 29

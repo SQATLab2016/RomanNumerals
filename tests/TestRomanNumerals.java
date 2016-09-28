@@ -183,5 +183,4 @@ public class TestRomanNumerals {
 		int integer = mNumerals.convertToInteger("MMXIV");
 		assertEquals(2014, integer);
 	}
-	
 }
