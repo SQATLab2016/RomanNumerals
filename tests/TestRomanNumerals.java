@@ -50,6 +50,11 @@ public class TestRomanNumerals {
 	public void test_C_cannot_repeat_four_times() {
 		rn.convertToInteger("CCCC");
 	}
+	
+	@Test (expected = IllegalArgumentException.class)
+	public void test_M_cannot_repeat_four_times() {
+		rn.convertToInteger("MMMM");
+	}
 
 	@Test (expected = IllegalArgumentException.class)
 	public void test_V_cannot_repeat() {
