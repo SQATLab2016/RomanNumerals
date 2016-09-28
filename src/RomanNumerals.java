@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
 		Pattern p = Pattern.compile(""
-				+ "I{4}"				// repeat limit
+				+ "I{4}|X{4}"			// repeat limit
 				+ "|V{2}|L{2}|D{2}"		// can't repeat
 				+ "|IL|I{2}V|VX"
 				);
