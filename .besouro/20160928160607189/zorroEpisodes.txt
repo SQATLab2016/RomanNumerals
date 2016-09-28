@@ -8,3 +8,4 @@
 1475068918398 refactoring 2A 103 true
 1475068998505 test-first 3 80 true
 1475069058568 test-first 3 60 true
+1475069104504 test-first 3 45 true

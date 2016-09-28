@@ -83,3 +83,8 @@ EditAction 1475069085328 TestRomanNumerals.java 1537 11 16 5
 UnitTestCaseAction 1475069086976 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475069086977 TestRomanNumerals.java FAIL
 EditAction 1475069101330 RomanNumerals.java 562 1 4 0
+UnitTestCaseAction 1475069104503 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069104504 TestRomanNumerals.java OK
+RefactoringAction 1475069113890 TestRomanNumerals.java ADD void test_L_cannot_repeat()/2 METHOD
+RefactoringAction 1475069116407 TestRomanNumerals.java RENAME test_L_cannot_repeat()/2=>void test_D_cannot_repeat() METHOD
+EditAction 1475069118369 TestRomanNumerals.java 1664 12 17 5
