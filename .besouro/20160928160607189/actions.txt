@@ -100,3 +100,10 @@ EditAction 1475069180891 RomanNumerals.java 599 1 4 0
 UnitTestCaseAction 1475069182685 TestRomanNumerals.java OK
 UnitTestSessionAction 1475069182686 TestRomanNumerals.java OK
 EditAction 1475069194864 RomanNumerals.java 635 1 4 0
+UnitTestCaseAction 1475069196584 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069196585 TestRomanNumerals.java OK
+RefactoringAction 1475069206435 TestRomanNumerals.java ADD void test_I_cannot_repeat_four_times()/2 METHOD
+RefactoringAction 1475069209961 TestRomanNumerals.java REMOVE test_I_cannot_repeat_four_times()/2 METHOD
+RefactoringAction 1475069212478 TestRomanNumerals.java ADD void test_I_cannot_repeat_four_times()/2 METHOD
+RefactoringAction 1475069216496 TestRomanNumerals.java RENAME test_I_cannot_repeat_four_times()/2=>void test_X_cannot_repeat_four_times() METHOD
+EditAction 1475069219632 TestRomanNumerals.java 1805 13 18 5

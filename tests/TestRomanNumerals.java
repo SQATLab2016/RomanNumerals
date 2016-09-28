@@ -35,6 +35,16 @@ public class TestRomanNumerals {
 		int number = rn.convertToInteger("VI");
 		assertEquals(6, number);
 	}
+	
+	@Test (expected = IllegalArgumentException.class)
+	public void test_I_cannot_repeat_four_times() {
+		rn.convertToInteger("IIII");
+	}
+	
+	@Test (expected = IllegalArgumentException.class)
+	public void test_X_cannot_repeat_four_times() {
+		rn.convertToInteger("XXXX");
+	}
 
 	@Test (expected = IllegalArgumentException.class)
 	public void test_V_cannot_repeat() {
@@ -49,11 +59,6 @@ public class TestRomanNumerals {
 	@Test (expected = IllegalArgumentException.class)
 	public void test_D_cannot_repeat() {
 		rn.convertToInteger("DD");
-	}
-	
-	@Test (expected = IllegalArgumentException.class)
-	public void test_I_cannot_repeat_four_times() {
-		rn.convertToInteger("IIII");
 	}
 	
 	@Test (expected = IllegalArgumentException.class)
