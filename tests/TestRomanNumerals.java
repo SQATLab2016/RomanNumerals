@@ -46,7 +46,6 @@ public class TestRomanNumerals {
 		mNumerals.convertToInteger("IM");
 	}
 	
-
 	@Test(expected=NumberFormatException.class)
 	public void testConvertInteger_XD_Throw_NumberFormatException() {
 		mNumerals.convertToInteger("XD");
