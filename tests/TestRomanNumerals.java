@@ -16,6 +16,36 @@ public class TestRomanNumerals {
 		int integer = mNumerals.convertToInteger("I");
 		assertEquals(1, integer);
 	}
+
+	@Test
+	public void testConvertToInteger_V_5() {
+		int integer = mNumerals.convertToInteger("V");
+		assertEquals(5, integer);
+	}
+	@Test
+	public void testConvertToInteger_X_10() {
+		int integer = mNumerals.convertToInteger("X");
+		assertEquals(10, integer);
+	}
+	
+	@Test
+	public void testConvertToInteger_L_50() {
+		int integer = mNumerals.convertToInteger("L");
+		assertEquals(50, integer);
+	}
+	
+	@Test
+	public void testConvertToInteger_C_100() {
+		int integer = mNumerals.convertToInteger("C");
+		assertEquals(100, integer);
+	}
+	
+	@Test
+	public void testConvertToInteger_D_500() {
+		int integer = mNumerals.convertToInteger("D");
+		assertEquals(500, integer);
+	}
+	
 	
 	@Test
 	public void testConvertToInteger_II_2() {
@@ -33,12 +63,6 @@ public class TestRomanNumerals {
 	public void testConvertToInteger_IV_4() {
 		int integer = mNumerals.convertToInteger("IV");
 		assertEquals(4, integer);
-	}
-	
-	@Test
-	public void testConvertToInteger_V_5() {
-		int integer = mNumerals.convertToInteger("V");
-		assertEquals(5, integer);
 	}
 
 	@Test
