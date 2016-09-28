@@ -1,7 +1,7 @@
 
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
-		int retValue = -1;
+		int retValue = 0;
 		
 		int lastSub = 0;
 		for (int i = 0; i < romanNum.length(); i++) {
@@ -25,7 +25,7 @@ public class RomanNumerals {
 		case 'C': return 100;
 		case 'D': return 500;
 		case 'M': return 1000;
-		default: return -1;
+		default: return 0;
 		}
 	}
 }
