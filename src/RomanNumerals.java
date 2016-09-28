@@ -4,6 +4,7 @@ public class RomanNumerals {
 		int retValue = 0;
 		
 		int lastSub = 0;
+		
 		for (int i = 0; i < romanNum.length(); i++) {
 			if ((i + 1 < romanNum.length()) &&
 				canBeSubtrahendElementaryValue(romanNum.charAt(i)) &&
