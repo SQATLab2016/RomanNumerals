@@ -147,4 +147,10 @@ public class TestRomanNumerals {
 		int integer = mNumerals.convertToInteger("CD");
 		assertEquals(400, integer);
 	}
+	
+	@Test
+	public void testConvertToInteger_DC_600() {
+		int integer = mNumerals.convertToInteger("CD");
+		assertEquals(600, integer);
+	}
 }

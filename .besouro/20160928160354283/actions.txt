@@ -223,3 +223,9 @@ RefactoringAction 1475069908246 TestRomanNumerals.java RENAME testConvertToInteg
 RefactoringAction 1475069914778 TestRomanNumerals.java ADD void testConvertToInteger_CCC_300()/2 METHOD
 RefactoringAction 1475069916789 TestRomanNumerals.java RENAME testConvertToInteger_CCC_300()/2=>void testConvertToInteger_CCC_400() METHOD
 EditAction 1475069924407 TestRomanNumerals.java 3315 24 47 23
+UnitTestCaseAction 1475069927375 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069927376 TestRomanNumerals.java OK
+RefactoringAction 1475069935318 TestRomanNumerals.java ADD void testConvertToInteger_CCC_400()/2 METHOD
+RefactoringAction 1475069939830 TestRomanNumerals.java RENAME testConvertToInteger_CCC_400()/2=>void testConvertToInteger_DC_400() METHOD
+RefactoringAction 1475069941345 TestRomanNumerals.java RENAME testConvertToInteger_DC_400()=>void testConvertToInteger_DC_600() METHOD
+EditAction 1475069948391 TestRomanNumerals.java 3452 25 49 24
