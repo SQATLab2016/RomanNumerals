@@ -31,3 +31,22 @@ CompilationAction 1475067968392 TestRomanNumerals.java
 CompilationAction 1475067968394 TestRomanNumerals.java
 CompilationAction 1475067968396 TestRomanNumerals.java
 EditAction 1475067980068 TestRomanNumerals.java 345 2 1 0
+CompilationAction 1475067981036 TestRomanNumerals.java
+CompilationAction 1475067981037 TestRomanNumerals.java
+CompilationAction 1475067985179 TestRomanNumerals.java
+RefactoringAction 1475067988561 TestRomanNumerals.java ADD void testConvertToInteger_I_1()/2 METHOD
+RefactoringAction 1475067988564 TestRomanNumerals.java ADD void testConvertToInteger_I_1()/3 METHOD
+RefactoringAction 1475068010115 TestRomanNumerals.java RENAME testConvertToInteger_I_1()/3=>void testConvertToInteger_I_3() METHOD
+RefactoringAction 1475068011125 TestRomanNumerals.java RENAME testConvertToInteger_I_3()=>void testConvertToInteger_III_3() METHOD
+RefactoringAction 1475068013135 TestRomanNumerals.java RENAME testConvertToInteger_I_1()/2=>void testConvertToInteger_II_1() METHOD
+RefactoringAction 1475068015648 TestRomanNumerals.java ADD void testConvertToInteger_III_3()/2 METHOD
+RefactoringAction 1475068017659 TestRomanNumerals.java RENAME testConvertToInteger_III_3()/2=>void testConvertToInteger_IV_3() METHOD
+RefactoringAction 1475068021671 TestRomanNumerals.java ADD void testConvertToInteger_IV_3()/2 METHOD
+RefactoringAction 1475068022682 TestRomanNumerals.java RENAME testConvertToInteger_IV_3()/2=>void testConvertToInteger_IV_4() METHOD
+RefactoringAction 1475068023694 TestRomanNumerals.java RENAME testConvertToInteger_IV_4()=>void testConvertToInteger_V_4() METHOD
+RefactoringAction 1475068026701 TestRomanNumerals.java RENAME testConvertToInteger_V_4()=>void testConvertToInteger_VI_5() METHOD
+RefactoringAction 1475068028711 TestRomanNumerals.java RENAME testConvertToInteger_VI_5()=>void testConvertToInteger_V_5() METHOD
+RefactoringAction 1475068030722 TestRomanNumerals.java ADD void testConvertToInteger_V_5()/2 METHOD
+RefactoringAction 1475068032232 TestRomanNumerals.java RENAME testConvertToInteger_V_5()/2=>void testConvertToInteger_V_7() METHOD
+RefactoringAction 1475068034252 TestRomanNumerals.java RENAME testConvertToInteger_V_7()=>void testConvertToInteger_V_6() METHOD
+EditAction 1475068035456 TestRomanNumerals.java 1017 7 13 6
