@@ -16,7 +16,7 @@ public class RomanNumerals {
 				}
 			}
 			
-			if (duplicates > 2 && romanNum.charAt(i) == 'X') {
+			if (duplicates > 1 && romanNum.charAt(i) == 'X') {
 				throw new NumberFormatException("Too many duplicate numeral character");
 			}
 			
