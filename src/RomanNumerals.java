@@ -15,8 +15,10 @@ public class RomanNumerals {
 			return 2;
 		} else if (romanNum.equals("III")) {
 			return 3;
-		} else {
+		} else if (romanNum.equals("IV")) {
 			return 4;
+		} else {
+			return 6;
 		}
 	}
 }
