@@ -13,3 +13,16 @@ CompilationAction 1475071888532 RomanNumerals.java
 UnitTestCaseAction 1475071890477 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475071890478 TestRomanNumerals.java FAIL
 EditAction 1475071924743 RomanNumerals.java 1086 3 7 0
+UnitTestCaseAction 1475071927154 TestRomanNumerals.java OK
+UnitTestSessionAction 1475071927155 TestRomanNumerals.java OK
+RefactoringAction 1475071937918 TestRomanNumerals.java ADD void testConvertInteger_InvalidFormat()/2 METHOD
+RefactoringAction 1475071951492 TestRomanNumerals.java RENAME testConvertInteger_InvalidFormat()/2=>void testConvertInteger_NumberFormatException() METHOD
+RefactoringAction 1475071953516 TestRomanNumerals.java RENAME testConvertInteger_NumberFormatException()=>void testConvertInteger_ThrowNumberFormatException() METHOD
+RefactoringAction 1475071954548 TestRomanNumerals.java RENAME testConvertInteger_ThrowNumberFormatException()=>void testConvertInteger_Throw_NumberFormatException() METHOD
+RefactoringAction 1475071957593 TestRomanNumerals.java RENAME testConvertInteger_InvalidFormat()=>void testConvertInteger_Throw_InvalidFormat() METHOD
+RefactoringAction 1475071958613 TestRomanNumerals.java RENAME testConvertInteger_Throw_InvalidFormat()=>void testConvertInteger_Throw_NumberFormatExceptionFormat() METHOD
+RefactoringAction 1475071959635 TestRomanNumerals.java RENAME testConvertInteger_Throw_NumberFormatExceptionFormat()=>void testConvertInteger_Throw_Format() METHOD
+RefactoringAction 1475071961667 TestRomanNumerals.java RENAME testConvertInteger_Throw_Format()=>void testConvertInteger_Throw_NumberFormatException()/2 METHOD
+RefactoringAction 1475071965690 TestRomanNumerals.java RENAME testConvertInteger_Throw_NumberFormatException()/2=>void testConvertInteger__Throw_NumberFormatException() METHOD
+RefactoringAction 1475071969221 TestRomanNumerals.java RENAME testConvertInteger__Throw_NumberFormatException()=>void testConvertInteger_ThreeX_Throw_NumberFormatException() METHOD
+EditAction 1475072207581 TestRomanNumerals.java 4603 33 63 30

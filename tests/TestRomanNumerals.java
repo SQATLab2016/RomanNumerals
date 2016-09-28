@@ -10,10 +10,15 @@ public class TestRomanNumerals {
 	public void initialize() {
 		mNumerals = new RomanNumerals();
 	}
+
+	@Test(expected=NumberFormatException.class)
+	public void testConvertInteger_Throw_NumberFormatException() {
+		mNumerals.convertToInteger("IO");
+	}
 	
 	@Test(expected=NumberFormatException.class)
-	public void testConvertInteger_InvalidFormat() {
-		mNumerals.convertToInteger("IO");
+	public void testConvertInteger_ThreeX_Throw_NumberFormatException() {
+		mNumerals.convertToInteger("XXX");
 	}
 
 	@Test
