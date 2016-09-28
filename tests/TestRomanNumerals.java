@@ -10,6 +10,11 @@ public class TestRomanNumerals {
 	public void initialize() {
 		mNumerals = new RomanNumerals();
 	}
+	
+	@Test(expected=NumberFormatException.class)
+	public void testConvertInteger_InvalidFormat() {
+		mNumerals.convertToInteger("IO");
+	}
 
 	@Test
 	public void testConvertToInteger_I_1() {
