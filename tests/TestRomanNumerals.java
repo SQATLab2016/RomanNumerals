@@ -21,6 +21,11 @@ public class TestRomanNumerals {
 		mNumerals.convertToInteger("IIII");
 	}
 	
+	@Test
+	public void testConvertIntegerFourI_NoThrow_NumberFormatException() {
+		mNumerals.convertToInteger("III");
+	}
+	
 	@Test(expected=NumberFormatException.class)
 	public void testConvertIntegerFourX_Throw_NumberFormatException() {
 		mNumerals.convertToInteger("XXXX");
