@@ -17,22 +17,32 @@ public class TestRomanNumerals {
 	}
 
 	@Test(expected=NumberFormatException.class)
-	public void testConvertIntegerFourI_Throw_NumberFormatException() {
+	public void testConvertIntegerContains_CCCC_Throw_NumberFormatException() {
+		mNumerals.convertToInteger("CCCC");
+	}
+	
+	@Test
+	public void testConvertIntegerContains_CCC_NoThrow_NumberFormatException() {
+		mNumerals.convertToInteger("CCC");
+	}
+	
+	@Test(expected=NumberFormatException.class)
+	public void testConvertIntegerContains_IIII_Throw_NumberFormatException() {
 		mNumerals.convertToInteger("IIII");
 	}
 	
 	@Test
-	public void testConvertIntegerFourI_NoThrow_NumberFormatException() {
+	public void testConvertIntegerContains_III_NoThrow_NumberFormatException() {
 		mNumerals.convertToInteger("III");
 	}
 	
 	@Test(expected=NumberFormatException.class)
-	public void testConvertIntegerFourX_Throw_NumberFormatException() {
+	public void testConvertIntegerContains_XXXX_Throw_NumberFormatException() {
 		mNumerals.convertToInteger("XXXX");
 	}
 	
 	@Test
-	public void testConvertIntegerThreeX_NoThrow_NumberFormatException() {
+	public void testConvertIntegerContains_XXX_NoThrow_NumberFormatException() {
 		mNumerals.convertToInteger("XXX");
 	}
 
