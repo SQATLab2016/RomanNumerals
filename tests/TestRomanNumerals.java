@@ -11,20 +11,17 @@ public class TestRomanNumerals {
 
 	@Test
 	public void testRomanNumeral_I_1(){
-		int result = romanNumerals.convertToInteger("I");
-		assertEquals(1, result);
+		assertRomanNumerals(1, "I");
 	}
 	
 	@Test
 	public void testRomanNumeral_V_5(){
-		int result = romanNumerals.convertToInteger("V");
-		assertEquals(5, result);
+		assertRomanNumerals(5, "V");
 	}
 	
 	@Test
 	public void testRomanNumeral_X_10(){
-		int result = romanNumerals.convertToInteger("X");
-		assertEquals(10, result);
+		assertRomanNumerals(10, "X");
 	}
 	
 	@Test
