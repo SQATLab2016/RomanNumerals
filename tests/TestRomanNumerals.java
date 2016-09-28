@@ -72,7 +72,7 @@ public class TestRomanNumerals {
 
 	@Test
 	public void testConvertToInteger_VII_7() {
-		int integer = mNumerals.convertToInteger("VI");
-		assertEquals(6, integer);
+		int integer = mNumerals.convertToInteger("VII");
+		assertEquals(7, integer);
 	}
 }

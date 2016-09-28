@@ -152,3 +152,4 @@ RefactoringAction 1475069639964 TestRomanNumerals.java RENAME testConvertToInteg
 RefactoringAction 1475069650477 TestRomanNumerals.java RENAME testConvertToInteger_VI_6()/2=>void testConvertToInteger_VI_7() METHOD
 RefactoringAction 1475069655489 TestRomanNumerals.java RENAME testConvertToInteger_VI_7()=>void testConvertToInteger_VII_7() METHOD
 EditAction 1475069657439 TestRomanNumerals.java 1684 12 23 11
+EditAction 1475069662868 TestRomanNumerals.java 1685 12 23 11
