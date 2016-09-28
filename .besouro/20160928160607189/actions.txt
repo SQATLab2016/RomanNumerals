@@ -110,3 +110,8 @@ EditAction 1475069219632 TestRomanNumerals.java 1805 13 18 5
 UnitTestCaseAction 1475069221835 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475069221836 TestRomanNumerals.java FAIL
 EditAction 1475069229818 RomanNumerals.java 639 1 4 0
+UnitTestCaseAction 1475069231630 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069231631 TestRomanNumerals.java OK
+RefactoringAction 1475069237516 TestRomanNumerals.java ADD void test_X_cannot_repeat_four_times()/2 METHOD
+RefactoringAction 1475069240525 TestRomanNumerals.java RENAME test_X_cannot_repeat_four_times()/2=>void test_C_cannot_repeat_four_times() METHOD
+EditAction 1475069241151 TestRomanNumerals.java 1946 14 19 5
