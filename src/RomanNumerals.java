@@ -8,7 +8,7 @@ public class RomanNumerals {
 		int duplicates = 0;
 		
 		for (int i = 0; i < romanNum.length(); i++) {
-			if (i > 1) {
+			if (i > 0) {
 				if (romanNum.charAt(i - 1) == romanNum.charAt(i)) {
 					++duplicates;
 				} else {
