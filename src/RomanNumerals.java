@@ -16,12 +16,12 @@ public class RomanNumerals {
 				}
 			}
 
-			if (duplicates >= 2 && isThreeTimesRepeatable(romanNum.charAt(i))) {
-				throw new NumberFormatException("Too many duplicate numeral character");
+			if (duplicates >= 1 && isOneTimeRepeatable(romanNum.charAt(i))) {
+				throw new NumberFormatException("Too many duplicate numeral characters");
 			}
 			
 			if (duplicates >= 3 && isThreeTimesRepeatable(romanNum.charAt(i))) {
-				throw new NumberFormatException("Too many duplicate numeral character");
+				throw new NumberFormatException("Too many duplicate numeral characters");
 			}
 			
 			if ((i + 1 < romanNum.length()) &&
@@ -51,7 +51,7 @@ public class RomanNumerals {
 		return false;
 	}
 
-	private boolean isZeroTimesRepeatable(char character) {
+	private boolean isOneTimeRepeatable(char character) {
 		switch(character) {
 		case 'L':
 			return true;
