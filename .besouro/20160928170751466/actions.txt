@@ -225,3 +225,8 @@ RefactoringAction 1475074194924 RomanNumerals.java RENAME getElementar(char)=>in
 EditAction 1475074208460 RomanNumerals.java 2560 6 15 0
 EditAction 1475074212606 RomanNumerals.java 2560 6 15 0
 EditAction 1475074218151 RomanNumerals.java 2560 6 15 0
+UnitTestCaseAction 1475074220980 TestRomanNumerals.java OK
+UnitTestSessionAction 1475074220981 TestRomanNumerals.java OK
+RefactoringAction 1475074226681 TestRomanNumerals.java ADD void testConvertInteger_IL_Throw_NumberFormatException()/2 METHOD
+RefactoringAction 1475074238704 TestRomanNumerals.java RENAME testConvertInteger_IL_Throw_NumberFormatException()/2=>void testConvertInteger_IC_Throw_NumberFormatException() METHOD
+EditAction 1475074241481 TestRomanNumerals.java 6705 47 77 30

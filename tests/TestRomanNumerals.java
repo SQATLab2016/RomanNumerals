@@ -30,6 +30,11 @@ public class TestRomanNumerals {
 	public void testConvertInteger_IL_Throw_NumberFormatException() {
 		mNumerals.convertToInteger("IL");
 	}
+
+	@Test(expected=NumberFormatException.class)
+	public void testConvertInteger_IC_Throw_NumberFormatException() {
+		mNumerals.convertToInteger("IC");
+	}
 	
 	@Test(expected=NumberFormatException.class)
 	public void testConvertIntegerContains_VV_Throw_NumberFormatException() {
