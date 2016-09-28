@@ -105,10 +105,28 @@ public class TestRomanNumerals {
 		int integer = mNumerals.convertToInteger("XL");
 		assertEquals(40, integer);
 	}
-	
+
 	@Test
-	public void testConvertToInteger_XL_60() {
+	public void testConvertToInteger_LX_60() {
 		int integer = mNumerals.convertToInteger("LX");
 		assertEquals(60, integer);
+	}
+
+	@Test
+	public void testConvertToInteger_LXX_70() {
+		int integer = mNumerals.convertToInteger("LXX");
+		assertEquals(70, integer);
+	}
+	
+	@Test
+	public void testConvertToInteger_LXXX_80() {
+		int integer = mNumerals.convertToInteger("LXXX");
+		assertEquals(80, integer);
+	}
+	
+	@Test
+	public void testConvertToInteger_LXXX_90() {
+		int integer = mNumerals.convertToInteger("XC");
+		assertEquals(90, integer);
 	}
 }

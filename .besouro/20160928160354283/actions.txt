@@ -191,3 +191,16 @@ RefactoringAction 1475069781351 TestRomanNumerals.java ADD void testConvertToInt
 RefactoringAction 1475069784361 TestRomanNumerals.java RENAME testConvertToInteger_XL_40()/2=>void testConvertToInteger_XL_50() METHOD
 RefactoringAction 1475069785873 TestRomanNumerals.java RENAME testConvertToInteger_XL_50()=>void testConvertToInteger_XL_60() METHOD
 EditAction 1475069794208 TestRomanNumerals.java 2493 18 35 17
+UnitTestCaseAction 1475069796350 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069796351 TestRomanNumerals.java OK
+RefactoringAction 1475069799397 TestRomanNumerals.java ADD void testConvertToInteger_XL_60()/2 METHOD
+RefactoringAction 1475069808925 TestRomanNumerals.java RENAME testConvertToInteger_XL_60()/2=>void testConvertToInteger_LL_60() METHOD
+RefactoringAction 1475069810937 TestRomanNumerals.java RENAME testConvertToInteger_LL_60()=>void testConvertToInteger_LX_60() METHOD
+RefactoringAction 1475069814950 TestRomanNumerals.java RENAME testConvertToInteger_XL_60()=>void testConvertToInteger_LXX_60() METHOD
+RefactoringAction 1475069817463 TestRomanNumerals.java RENAME testConvertToInteger_LXX_60()=>void testConvertToInteger_LXX_70() METHOD
+RefactoringAction 1475069823489 TestRomanNumerals.java ADD void testConvertToInteger_LXX_70()/2 METHOD
+RefactoringAction 1475069825502 TestRomanNumerals.java RENAME testConvertToInteger_LXX_70()/2=>void testConvertToInteger_LXXX_70() METHOD
+RefactoringAction 1475069836042 TestRomanNumerals.java RENAME testConvertToInteger_LXXX_70()=>void testConvertToInteger_LXXX_80() METHOD
+RefactoringAction 1475069837556 TestRomanNumerals.java ADD void testConvertToInteger_LXXX_80()/2 METHOD
+RefactoringAction 1475069841067 TestRomanNumerals.java RENAME testConvertToInteger_LXXX_80()/2=>void testConvertToInteger_LXXX_90() METHOD
+EditAction 1475069847522 TestRomanNumerals.java 2904 21 41 20
