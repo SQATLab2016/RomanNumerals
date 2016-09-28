@@ -91,3 +91,6 @@ EditAction 1475069118369 TestRomanNumerals.java 1664 12 17 5
 UnitTestCaseAction 1475069120319 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475069120320 TestRomanNumerals.java FAIL
 EditAction 1475069125743 RomanNumerals.java 568 1 4 0
+UnitTestCaseAction 1475069127677 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069127678 TestRomanNumerals.java OK
+EditAction 1475069138277 RomanNumerals.java 565 1 4 0
