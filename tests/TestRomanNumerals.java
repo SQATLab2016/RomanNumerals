@@ -16,4 +16,11 @@ public class TestRomanNumerals {
 		int result = romanNumerals.convertToInteger("I");
 		assertEquals(1, result);
 	}
+	
+	@Test
+	public void testRomanNumeral_V_5(){
+		RomanNumerals romanNumerals = new RomanNumerals();
+		int result = romanNumerals.convertToInteger("V");
+		assertEquals(5, result);
+	}
 }
