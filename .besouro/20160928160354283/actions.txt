@@ -90,3 +90,12 @@ RefactoringAction 1475068223270 TestRomanNumerals.java RENAME testConvertToInteg
 EditAction 1475068228397 TestRomanNumerals.java 1686 12 23 11
 EditAction 1475068277137 TestRomanNumerals.java 1684 12 23 11
 EditAction 1475068539654 RomanNumerals.java 211 1 0 0
+CompilationAction 1475068540960 RomanNumerals.java
+CompilationAction 1475068540962 RomanNumerals.java
+CompilationAction 1475068547767 RomanNumerals.java
+CompilationAction 1475068547926 RomanNumerals.java
+CompilationAction 1475068547927 RomanNumerals.java
+CompilationAction 1475068561285 RomanNumerals.java
+CompilationAction 1475068561457 RomanNumerals.java
+CompilationAction 1475068561458 RomanNumerals.java
+EditAction 1475068566895 RomanNumerals.java 286 1 0 0
