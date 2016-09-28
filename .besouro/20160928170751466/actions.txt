@@ -81,3 +81,8 @@ UnitTestCaseAction 1475073079755 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475073079755 TestRomanNumerals.java FAIL
 CompilationAction 1475073108080 RomanNumerals.java
 EditAction 1475073111180 RomanNumerals.java 1429 3 8 0
+UnitTestCaseAction 1475073113989 TestRomanNumerals.java OK
+UnitTestSessionAction 1475073113989 TestRomanNumerals.java OK
+RefactoringAction 1475073116992 TestRomanNumerals.java ADD void testConvertIntegerFourI_Throw_NumberFormatException()/2 METHOD
+RefactoringAction 1475073119013 TestRomanNumerals.java RENAME testConvertIntegerFourI_Throw_NumberFormatException()/2=>void testConvertIntegerFourI_NoThrow_NumberFormatException() METHOD
+EditAction 1475073119713 TestRomanNumerals.java 5075 36 66 30
