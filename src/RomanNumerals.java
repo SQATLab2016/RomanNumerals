@@ -10,9 +10,7 @@ public class RomanNumerals {
 		}
 		
 		int retValue = 0;
-		
 		int lastSub = 0;
-		
 		int duplicates = 0;
 		
 		for (int i = 0; i < romanNum.length(); i++) {

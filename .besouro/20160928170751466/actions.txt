@@ -261,3 +261,8 @@ UnitTestCaseAction 1475074373958 TestRomanNumerals.java OK
 UnitTestSessionAction 1475074373959 TestRomanNumerals.java OK
 RefactoringAction 1475074376772 TestRomanNumerals.java ADD void testConvertInteger_XM_Throw_NumberFormatException()/2 METHOD
 EditAction 1475074398897 TestRomanNumerals.java 7315 51 81 30
+UnitTestCaseAction 1475074402388 TestRomanNumerals.java OK
+UnitTestSessionAction 1475074402389 TestRomanNumerals.testConvertInteger_XD_Throw_NumberFormatException OK
+RefactoringAction 1475074477598 RomanNumerals.java ADD boolean canBeRepeated FIELD
+RefactoringAction 1475074481110 RomanNumerals.java RENAME canBeRepeated=>boolean canBeRepeated(char) METHOD
+EditAction 1475074500630 RomanNumerals.java 2554 6 15 0
