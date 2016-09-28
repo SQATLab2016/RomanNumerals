@@ -54,3 +54,8 @@ RefactoringAction 1475068051317 TestRomanNumerals.java RENAME testConvertToInteg
 EditAction 1475068057872 TestRomanNumerals.java 1013 7 13 6
 EditAction 1475068063214 TestRomanNumerals.java 1017 7 13 6
 EditAction 1475068066457 TestRomanNumerals.java 1017 7 13 6
+UnitTestCaseAction 1475068073113 TennisGameTest.java OK
+UnitTestSessionAction 1475068073115 TennisGameTest.java OK
+UnitTestCaseAction 1475068085165 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475068085166 TestRomanNumerals.java FAIL
+EditAction 1475068113972 TestRomanNumerals.java 1016 7 13 6

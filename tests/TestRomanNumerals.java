@@ -7,7 +7,7 @@ public class TestRomanNumerals {
 	RomanNumerals mNumerals;
 	
 	@Before
-	private void initialize() {
+	public void initialize() {
 		mNumerals = new RomanNumerals();
 	}
 
