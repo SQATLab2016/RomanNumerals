@@ -23,5 +23,11 @@ public class TestRomanNumerals {
 		int number = rn.convertToInteger("III");
 		assertEquals(3, number);
 	}
+	
+	@Test
+	public void test_IV_4() {
+		int number = rn.convertToInteger("IV");
+		assertEquals(4, number);
+	}
 
 }

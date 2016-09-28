@@ -20,3 +20,8 @@ EditAction 1475068093948 TestRomanNumerals.java 488 3 6 3
 UnitTestCaseAction 1475068096253 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475068096254 TestRomanNumerals.java FAIL
 EditAction 1475068109491 RomanNumerals.java 217 1 1 0
+UnitTestCaseAction 1475068112052 TestRomanNumerals.java OK
+UnitTestSessionAction 1475068112053 TestRomanNumerals.java OK
+RefactoringAction 1475068123282 TestRomanNumerals.java ADD void test_III_3()/2 METHOD
+RefactoringAction 1475068146806 TestRomanNumerals.java RENAME test_III_3()/2=>void test_IV_4() METHOD
+EditAction 1475068150436 TestRomanNumerals.java 602 4 8 4
