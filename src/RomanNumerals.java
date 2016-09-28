@@ -1,8 +1,12 @@
 
 public class RomanNumerals {
-	public int convertToInteger(String romanNum) {
+	public int convertToInteger(String romanNum) throws RomanNumeralException {
 		// To be Implemented
-		return 0;
+		if (romanNum.equals("I"))
+			return 1;
 		
+		throw new RomanNumeralException("No equivalent found for given roman number: " + romanNum);
 	}
+	
+	
 }
