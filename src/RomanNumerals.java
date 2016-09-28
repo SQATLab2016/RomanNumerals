@@ -11,7 +11,8 @@ public class RomanNumerals {
 			return 100;
 		else if (romanNum.equals("D"))
 			return 500;
-		
+		else if (romanNum.equals("M"))
+			return 1000;
 		return 1;
 	}
 }
