@@ -28,3 +28,8 @@ RefactoringAction 1475071969221 TestRomanNumerals.java RENAME testConvertInteger
 EditAction 1475072207581 TestRomanNumerals.java 4603 33 63 30
 RefactoringAction 1475072226317 TestRomanNumerals.java RENAME testConvertInteger_ThreeX_Throw_NumberFormatException()=>void testConvertInteger_FourX_Throw_NumberFormatException() METHOD
 EditAction 1475072229199 TestRomanNumerals.java 4603 33 63 30
+UnitTestCaseAction 1475072230359 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475072230359 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475072415909 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475072415928 TestRomanNumerals.java FAIL
+EditAction 1475072437286 RomanNumerals.java 1392 3 8 0

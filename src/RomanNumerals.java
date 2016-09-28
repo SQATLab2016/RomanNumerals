@@ -5,7 +5,21 @@ public class RomanNumerals {
 		
 		int lastSub = 0;
 		
+		int duplicates = 0;
+		
 		for (int i = 0; i < romanNum.length(); i++) {
+			if (i > 1) {
+				if (romanNum.charAt(i - 1) == romanNum.charAt(i)) {
+					++duplicates;
+				} else {
+					duplicates = 0;
+				}
+			}
+			
+			if (duplicates > 3 && romanNum.charAt(i) == 'X') {
+				throw new NumberFormatException("Too many duplicate numeral character");
+			}
+			
 			if ((i + 1 < romanNum.length()) &&
 				canBeSubtrahendElementaryValue(romanNum.charAt(i)) &&
 				getElementaryValue(romanNum.charAt(i)) < getElementaryValue(romanNum.charAt(i + 1))) {
@@ -43,7 +57,7 @@ public class RomanNumerals {
 		case 'D': return 500;
 		case 'M': return 1000;
 		default:
-			throw new NumberFormatException("Invalid number character");
+			throw new NumberFormatException("Invalid numeral character");
 		}
 	}
 }
