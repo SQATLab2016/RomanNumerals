@@ -130,3 +130,5 @@ EditAction 1475070020187 TestRomanNumerals.java 979 9 10 9
 UnitTestCaseAction 1475070022518 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475070022519 TestRomanNumerals.java FAIL
 EditAction 1475070048074 RomanNumerals.java 374 1 2 0
+UnitTestCaseAction 1475070053093 TestRomanNumerals.java OK
+UnitTestSessionAction 1475070053094 TestRomanNumerals.java OK
