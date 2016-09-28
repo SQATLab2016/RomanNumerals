@@ -108,3 +108,17 @@ CompilationAction 1475068574965 RomanNumerals.java
 UnitTestCaseAction 1475068583249 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475068583251 TestRomanNumerals.java FAIL
 EditAction 1475068882724 RomanNumerals.java 366 1 3 0
+CompilationAction 1475068993758 RomanNumerals.java
+CompilationAction 1475068993759 RomanNumerals.java
+CompilationAction 1475069013898 RomanNumerals.java
+CompilationAction 1475069013900 RomanNumerals.java
+CompilationAction 1475069014030 RomanNumerals.java
+CompilationAction 1475069014031 RomanNumerals.java
+CompilationAction 1475069014032 RomanNumerals.java
+RefactoringAction 1475069050867 RomanNumerals.java ADD int getElementaryValue() METHOD
+RefactoringAction 1475069056891 RomanNumerals.java RENAME getElementaryValue()=>int getElementaryValue(char) METHOD
+CompilationAction 1475069142291 RomanNumerals.java
+CompilationAction 1475069142292 RomanNumerals.java
+CompilationAction 1475069142293 RomanNumerals.java
+CompilationAction 1475069142495 RomanNumerals.java
+EditAction 1475069144127 RomanNumerals.java 678 2 2 0
