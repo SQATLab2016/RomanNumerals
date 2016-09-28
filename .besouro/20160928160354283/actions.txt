@@ -204,3 +204,5 @@ RefactoringAction 1475069836042 TestRomanNumerals.java RENAME testConvertToInteg
 RefactoringAction 1475069837556 TestRomanNumerals.java ADD void testConvertToInteger_LXXX_80()/2 METHOD
 RefactoringAction 1475069841067 TestRomanNumerals.java RENAME testConvertToInteger_LXXX_80()/2=>void testConvertToInteger_LXXX_90() METHOD
 EditAction 1475069847522 TestRomanNumerals.java 2904 21 41 20
+RefactoringAction 1475069855099 TestRomanNumerals.java RENAME testConvertToInteger_LXXX_90()=>void testConvertToInteger_XC_90() METHOD
+EditAction 1475069855273 TestRomanNumerals.java 2902 21 41 20

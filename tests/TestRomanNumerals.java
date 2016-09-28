@@ -125,7 +125,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void testConvertToInteger_LXXX_90() {
+	public void testConvertToInteger_XC_90() {
 		int integer = mNumerals.convertToInteger("XC");
 		assertEquals(90, integer);
 	}
