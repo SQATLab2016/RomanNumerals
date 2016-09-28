@@ -39,6 +39,11 @@ public class TestRomanNumerals {
 		assertRomanNumerals(500, "D");
 	}
 	
+	@Test
+	public void testRomanNumeral_M_1000(){
+		assertRomanNumerals(1000, "M");
+	}
+	
 	public void assertRomanNumerals(int expectedOutput, String input){
 		int result = romanNumerals.convertToInteger(input);
 		assertEquals(expectedOutput, result);
