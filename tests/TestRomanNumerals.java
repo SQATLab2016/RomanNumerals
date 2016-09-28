@@ -12,7 +12,7 @@ public class TestRomanNumerals {
 	
 	@Test
 	public void testConvertToInteger_I_0() {
-		
+		assertEquals()
 	}
 
 }
