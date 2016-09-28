@@ -28,7 +28,7 @@ public class TestRomanNumerals {
 	
 	@Test
 	public void testConvertIntegerThreeX_NoThrow_NumberFormatException() {
-		mNumerals.convertToInteger("XXXX");
+		mNumerals.convertToInteger("XXX");
 	}
 
 	@Test

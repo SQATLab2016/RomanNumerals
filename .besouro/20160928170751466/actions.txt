@@ -90,3 +90,6 @@ UnitTestCaseAction 1475073121172 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475073121173 TestRomanNumerals.java FAIL
 RefactoringAction 1475073152042 TestRomanNumerals.java REMOVE testConvertIntegerFourI_NoThrow_NumberFormatException() METHOD
 EditAction 1475073157611 TestRomanNumerals.java 4880 35 65 30
+UnitTestCaseAction 1475073161928 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475073161928 TestRomanNumerals.java FAIL
+EditAction 1475073167073 TestRomanNumerals.java 4879 35 65 30
