@@ -272,3 +272,8 @@ RefactoringAction 1475070148331 TestRomanNumerals.java ADD void testConvertToInt
 RefactoringAction 1475070151857 TestRomanNumerals.java RENAME testConvertToInteger_VII_7()/2=>void testConvertToInteger_VI_7() METHOD
 RefactoringAction 1475070153883 TestRomanNumerals.java RENAME testConvertToInteger_VI_7()=>void testConvertToInteger_VI_6() METHOD
 EditAction 1475070158184 TestRomanNumerals.java 4297 31 61 30
+UnitTestCaseAction 1475070161215 TestRomanNumerals.java OK
+UnitTestSessionAction 1475070161216 TestRomanNumerals.java OK
+UnitTestCaseAction 1475070173353 TestRomanNumerals.java OK
+UnitTestSessionAction 1475070173354 TestRomanNumerals.java OK
+EditAction 1475070313257 TestRomanNumerals.java 4298 31 61 30
