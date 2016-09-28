@@ -4,8 +4,8 @@ import java.util.regex.Pattern;
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
 		Pattern p = Pattern.compile(""
-				+ "I{4}"
-				+ "|V{2}|L{2}|D{2}"
+				+ "I{4}"				// repeat limit
+				+ "|V{2}|L{2}|D{2}"		// can't repeat
 				+ "|IL|I{2}V|VX"
 				);
 		Matcher m = p.matcher(romanNum);
