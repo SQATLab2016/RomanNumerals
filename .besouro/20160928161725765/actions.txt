@@ -32,3 +32,6 @@ UnitTestCaseAction 1475068986318 TestRomanNumerals.java OK
 UnitTestSessionAction 1475068986319 TestRomanNumerals.java OK
 RefactoringAction 1475068997830 TestRomanNumerals.java ADD RomanNumerals romanNumerals FIELD
 EditAction 1475069003152 TestRomanNumerals.java 596 3 7 3
+UnitTestCaseAction 1475069005011 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069005012 TestRomanNumerals.java OK
+EditAction 1475069034560 TestRomanNumerals.java 490 3 5 3
