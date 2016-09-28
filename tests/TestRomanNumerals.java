@@ -35,7 +35,7 @@ public class TestRomanNumerals {
 	
 	@Test
 	public void testRomanNumeral_C_100(){
-		assertEquals(100, "C");
+		assertRomanNumerals(100, "C");
 	}
 	
 	@Test
