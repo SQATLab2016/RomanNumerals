@@ -93,3 +93,15 @@ EditAction 1475069564402 TestRomanNumerals.java 1014 7 13 7
 UnitTestCaseAction 1475069567575 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475069567576 TestRomanNumerals.java FAIL
 EditAction 1475069596401 RomanNumerals.java 328 1 2 0
+UnitTestCaseAction 1475069600808 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069600809 TestRomanNumerals.java OK
+RefactoringAction 1475069655535 TestRomanNumerals.java ADD void aser FIELD
+RefactoringAction 1475069660049 TestRomanNumerals.java RENAME aser=>void assertRoman FIELD
+RefactoringAction 1475069662063 TestRomanNumerals.java RENAME assertRoman=>void assertRomanNumeral FIELD
+RefactoringAction 1475069663077 TestRomanNumerals.java RENAME assertRomanNumeral=>void assertRomanNumerals FIELD
+RefactoringAction 1475069664091 TestRomanNumerals.java RENAME assertRomanNumerals=>void assertRomanNumerals() METHOD
+RefactoringAction 1475069675107 TestRomanNumerals.java RENAME assertRomanNumerals()=>void assertRomanNumerals(int) METHOD
+RefactoringAction 1475069684649 TestRomanNumerals.java RENAME assertRomanNumerals(int)=>void assertRomanNumerals(int, int) METHOD
+RefactoringAction 1475069692163 TestRomanNumerals.java RENAME assertRomanNumerals(int, int)=>void assertRomanNumerals(int) METHOD
+RefactoringAction 1475069697191 TestRomanNumerals.java RENAME assertRomanNumerals(int)=>void assertRomanNumerals(int, String) METHOD
+EditAction 1475069758595 TestRomanNumerals.java 1133 8 14 8

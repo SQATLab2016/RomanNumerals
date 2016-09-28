@@ -41,7 +41,11 @@ public class TestRomanNumerals {
 	
 	@Test
 	public void testRomanNumeral_D_500(){
-		int result = romanNumerals.convertToInteger("D");
-		assertEquals(500, result);
+		assertRomanNumerals(500, "D");
+	}
+	
+	public void assertRomanNumerals(int expectedOutput, String input){
+		int result = romanNumerals.convertToInteger(input);
+		assertEquals(expectedOutput, result);
 	}
 }
