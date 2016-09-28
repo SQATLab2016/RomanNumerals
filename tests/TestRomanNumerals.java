@@ -129,4 +129,22 @@ public class TestRomanNumerals {
 		int integer = mNumerals.convertToInteger("XC");
 		assertEquals(90, integer);
 	}
+
+	@Test
+	public void testConvertToInteger_CC_200() {
+		int integer = mNumerals.convertToInteger("CC");
+		assertEquals(200, integer);
+	}
+	
+	@Test
+	public void testConvertToInteger_CCC_300() {
+		int integer = mNumerals.convertToInteger("CCC");
+		assertEquals(300, integer);
+	}
+	
+	@Test
+	public void testConvertToInteger_CCC_400() {
+		int integer = mNumerals.convertToInteger("CD");
+		assertEquals(400, integer);
+	}
 }

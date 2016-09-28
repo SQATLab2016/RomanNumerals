@@ -206,3 +206,20 @@ RefactoringAction 1475069841067 TestRomanNumerals.java RENAME testConvertToInteg
 EditAction 1475069847522 TestRomanNumerals.java 2904 21 41 20
 RefactoringAction 1475069855099 TestRomanNumerals.java RENAME testConvertToInteger_LXXX_90()=>void testConvertToInteger_XC_90() METHOD
 EditAction 1475069855273 TestRomanNumerals.java 2902 21 41 20
+UnitTestCaseAction 1475069857191 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069857192 TestRomanNumerals.testConvertToInteger_XC_90 OK
+UnitTestCaseAction 1475069861963 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069861965 TestRomanNumerals.java OK
+RefactoringAction 1475069875611 TestRomanNumerals.java ADD void testConvertToInteger_XC_90()/2 METHOD
+RefactoringAction 1475069880122 TestRomanNumerals.java RENAME testConvertToInteger_XC_90()/2=>void testConvertToInteger_CC_90() METHOD
+RefactoringAction 1475069881628 TestRomanNumerals.java RENAME testConvertToInteger_CC_90()=>void testConvertToInteger_CC_200() METHOD
+RefactoringAction 1475069888662 TestRomanNumerals.java ADD void testConvertToInteger_CC_200()/2 METHOD
+RefactoringAction 1475069893685 TestRomanNumerals.java RENAME testConvertToInteger_CC_200()/2=>void testConvertToInteger_() METHOD
+RefactoringAction 1475069895199 TestRomanNumerals.java RENAME testConvertToInteger_()=>void testConvertToInteger_300() METHOD
+RefactoringAction 1475069896210 TestRomanNumerals.java RENAME testConvertToInteger_300()=>void testConvertToInteger_300_() METHOD
+RefactoringAction 1475069897721 TestRomanNumerals.java RENAME testConvertToInteger_300_()=>void testConvertToInteger_300_CCC() METHOD
+RefactoringAction 1475069904233 TestRomanNumerals.java RENAME testConvertToInteger_300_CCC()=>void testConvertToInteger_300() METHOD
+RefactoringAction 1475069908246 TestRomanNumerals.java RENAME testConvertToInteger_300()=>void testConvertToInteger_CCC_300() METHOD
+RefactoringAction 1475069914778 TestRomanNumerals.java ADD void testConvertToInteger_CCC_300()/2 METHOD
+RefactoringAction 1475069916789 TestRomanNumerals.java RENAME testConvertToInteger_CCC_300()/2=>void testConvertToInteger_CCC_400() METHOD
+EditAction 1475069924407 TestRomanNumerals.java 3315 24 47 23
