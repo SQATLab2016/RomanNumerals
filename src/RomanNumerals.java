@@ -17,6 +17,8 @@ public class RomanNumerals {
 			}
 		}
 		
+		// TODO characters repeating (tests first...)
+		
 		return retValue;
 	}
 	
