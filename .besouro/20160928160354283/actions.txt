@@ -245,3 +245,14 @@ RefactoringAction 1475069993046 TestRomanNumerals.java RENAME testConvertToInteg
 EditAction 1475069996641 TestRomanNumerals.java 3869 28 55 27
 RefactoringAction 1475070002071 TestRomanNumerals.java RENAME testConvertToInteger_DCCC_900()=>void testConvertToInteger_CM_900() METHOD
 EditAction 1475070002096 TestRomanNumerals.java 3867 28 55 27
+UnitTestCaseAction 1475070004012 TestRomanNumerals.java OK
+UnitTestSessionAction 1475070004013 TestRomanNumerals.testConvertToInteger_CM_900 OK
+UnitTestCaseAction 1475070008679 TestRomanNumerals.java OK
+UnitTestSessionAction 1475070008681 TestRomanNumerals.java OK
+RefactoringAction 1475070017090 TestRomanNumerals.java ADD void testConvertToInteger_CM_900()/2 METHOD
+RefactoringAction 1475070024116 TestRomanNumerals.java RENAME testConvertToInteger_CM_900()/2=>void testConvertToInteger_MCMLXXX_900() METHOD
+RefactoringAction 1475070026129 TestRomanNumerals.java RENAME testConvertToInteger_MCMLXXX_900()=>void testConvertToInteger_MCMLXXXIV_900() METHOD
+RefactoringAction 1475070027643 TestRomanNumerals.java RENAME testConvertToInteger_MCMLXXXIV_900()=>void testConvertToInteger_MCMLXXXIV_() METHOD
+RefactoringAction 1475070029657 TestRomanNumerals.java RENAME testConvertToInteger_MCMLXXXIV_()=>void testConvertToInteger_MCMLXXXIV_19() METHOD
+RefactoringAction 1475070031170 TestRomanNumerals.java RENAME testConvertToInteger_MCMLXXXIV_19()=>void testConvertToInteger_MCMLXXXIV_1984() METHOD
+EditAction 1475070039578 TestRomanNumerals.java 4019 29 57 28

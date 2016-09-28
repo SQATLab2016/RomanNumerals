@@ -165,6 +165,12 @@ public class TestRomanNumerals {
 		int integer = mNumerals.convertToInteger("DCCC");
 		assertEquals(800, integer);
 	}
+
+	@Test
+	public void testConvertToInteger_MCMLXXXIV_1984() {
+		int integer = mNumerals.convertToInteger("MCMLXXXIV");
+		assertEquals(1984, integer);
+	}
 	
 	@Test
 	public void testConvertToInteger_CM_900() {
