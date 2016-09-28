@@ -37,3 +37,8 @@ RefactoringAction 1475068481375 RomanNumerals.java ADD import java.util.regex.Pa
 RefactoringAction 1475068527395 RomanNumerals.java ADD import java.util.regex.Matcher IMPORT
 EditAction 1475068531137 RomanNumerals.java 484 1 4 0
 EditAction 1475068539209 TestRomanNumerals.java 742 5 9 4
+UnitTestCaseAction 1475068542345 TestRomanNumerals.java OK
+UnitTestSessionAction 1475068542346 TestRomanNumerals.java OK
+RefactoringAction 1475068580316 TestRomanNumerals.java ADD void test_I_cannot_repeat_ FIELD
+RefactoringAction 1475068586836 TestRomanNumerals.java RENAME test_I_cannot_repeat_=>void test_I_cannot_repeat_four_times() METHOD
+EditAction 1475068590244 TestRomanNumerals.java 896 6 10 4
