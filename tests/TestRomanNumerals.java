@@ -15,7 +15,12 @@ public class TestRomanNumerals {
 	public void testConvertInteger_Throw_NumberFormatException() {
 		mNumerals.convertToInteger("IO");
 	}
-	
+
+	@Test(expected=NumberFormatException.class)
+	public void testConvertIntegerFourX_Throw_NumberFormatException() {
+		mNumerals.convertToInteger("IIII");
+	}
+
 	@Test(expected=NumberFormatException.class)
 	public void testConvertIntegerFourX_Throw_NumberFormatException() {
 		mNumerals.convertToInteger("XXXX");

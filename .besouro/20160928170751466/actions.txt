@@ -62,3 +62,7 @@ UnitTestCaseAction 1475072887503 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475072887503 TestRomanNumerals.java FAIL
 EditAction 1475072995227 RomanNumerals.java 1392 3 8 0
 EditAction 1475073004129 TestRomanNumerals.java 4602 33 63 30
+UnitTestCaseAction 1475073004645 TestRomanNumerals.java OK
+UnitTestSessionAction 1475073004645 TestRomanNumerals.java OK
+RefactoringAction 1475073030732 TestRomanNumerals.java ADD void testConvertIntegerFourX_Throw_NumberFormatException()/2 METHOD
+EditAction 1475073034426 TestRomanNumerals.java 4757 34 64 30
