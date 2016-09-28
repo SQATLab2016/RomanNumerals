@@ -133,3 +133,8 @@ EditAction 1475069450477 RomanNumerals.java 651 1 4 0
 UnitTestCaseAction 1475069452265 TestRomanNumerals.java OK
 UnitTestSessionAction 1475069452266 TestRomanNumerals.java OK
 EditAction 1475069526284 RomanNumerals.java 826 1 4 0
+UnitTestCaseAction 1475069529331 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069529331 TestRomanNumerals.java OK
+RefactoringAction 1475069557590 TestRomanNumerals.java ADD void test_I_cannot_be_subtracted_from_L()/2 METHOD
+RefactoringAction 1475069563105 TestRomanNumerals.java RENAME test_I_cannot_be_subtracted_from_L()/2=>void test_I_cannot_be_subtracted_from_C() METHOD
+EditAction 1475069565389 TestRomanNumerals.java 2229 16 21 5

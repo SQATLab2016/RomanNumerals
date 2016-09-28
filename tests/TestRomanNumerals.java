@@ -77,6 +77,11 @@ public class TestRomanNumerals {
 	}
 	
 	@Test (expected = IllegalArgumentException.class)
+	public void test_I_cannot_be_subtracted_from_C() {
+		rn.convertToInteger("IC");
+	}
+	
+	@Test (expected = IllegalArgumentException.class)
 	public void test_I_cannot_be_subtracted_twice() {
 		rn.convertToInteger("IIV");
 	}
