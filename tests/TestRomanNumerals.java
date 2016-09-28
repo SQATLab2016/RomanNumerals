@@ -27,8 +27,8 @@ public class TestRomanNumerals {
 	}
 
 	@Test(expected=NumberFormatException.class)
-	public void testConvertInteger_IM_Throw_NumberFormatException() {
-		mNumerals.convertToInteger("IM");
+	public void testConvertInteger_IL_Throw_NumberFormatException() {
+		mNumerals.convertToInteger("IL");
 	}
 	
 	@Test(expected=NumberFormatException.class)
