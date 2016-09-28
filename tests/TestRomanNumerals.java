@@ -10,9 +10,14 @@ public class TestRomanNumerals {
 	public void initialize() {
 		mNumerals = new RomanNumerals();
 	}
+	
+	@Test(expected=NumberFormatException.class)
+	public void testConvertIntegerNull_Throw_NumberFormatException() {
+		mNumerals.convertToInteger(null);
+	}
 
 	@Test(expected=NumberFormatException.class)
-	public void testConvertInteger_Throw_NumberFormatException() {
+	public void testConvertIntegerEmpty_Throw_NumberFormatException() {
 		mNumerals.convertToInteger("");
 	}
 	

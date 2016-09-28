@@ -1,6 +1,10 @@
 
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
+		if (romanNum.isEmpty()) {
+			throw new NumberFormatException("Empty roman numeral.");
+		}
+		
 		int retValue = 0;
 		
 		int lastSub = 0;
@@ -17,11 +21,11 @@ public class RomanNumerals {
 			}
 
 			if (duplicates >= 1 && isOneTimeRepeatable(romanNum.charAt(i))) {
-				throw new NumberFormatException("Too many duplicate numeral characters");
+				throw new NumberFormatException("Too many duplicate numeral characters.");
 			}
 			
 			if (duplicates >= 3 && isThreeTimesRepeatable(romanNum.charAt(i))) {
-				throw new NumberFormatException("Too many duplicate numeral characters");
+				throw new NumberFormatException("Too many duplicate numeral characters.");
 			}
 			
 			if ((i + 1 < romanNum.length()) &&
@@ -85,7 +89,7 @@ public class RomanNumerals {
 		case 'D': return 500;
 		case 'M': return 1000;
 		default:
-			throw new NumberFormatException("Invalid numeral character");
+			throw new NumberFormatException("Invalid numeral character.");
 		}
 	}
 }
