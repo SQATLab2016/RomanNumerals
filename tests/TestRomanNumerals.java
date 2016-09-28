@@ -18,7 +18,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void testConvertToInteger_II_1() {
+	public void testConvertToInteger_II_2() {
 		int integer = mNumerals.convertToInteger("II");
 		assertEquals(1, integer);
 	}
@@ -28,11 +28,13 @@ public class TestRomanNumerals {
 		int integer = mNumerals.convertToInteger("III");
 		assertEquals(3, integer);
 	}
+	
 	@Test
 	public void testConvertToInteger_IV_4() {
 		int integer = mNumerals.convertToInteger("IV");
 		assertEquals(4, integer);
 	}
+	
 	@Test
 	public void testConvertToInteger_V_5() {
 		int integer = mNumerals.convertToInteger("V");
