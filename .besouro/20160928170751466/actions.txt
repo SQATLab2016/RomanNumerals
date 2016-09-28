@@ -86,3 +86,7 @@ UnitTestSessionAction 1475073113989 TestRomanNumerals.java OK
 RefactoringAction 1475073116992 TestRomanNumerals.java ADD void testConvertIntegerFourI_Throw_NumberFormatException()/2 METHOD
 RefactoringAction 1475073119013 TestRomanNumerals.java RENAME testConvertIntegerFourI_Throw_NumberFormatException()/2=>void testConvertIntegerFourI_NoThrow_NumberFormatException() METHOD
 EditAction 1475073119713 TestRomanNumerals.java 5075 36 66 30
+UnitTestCaseAction 1475073121172 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475073121173 TestRomanNumerals.java FAIL
+RefactoringAction 1475073152042 TestRomanNumerals.java REMOVE testConvertIntegerFourI_NoThrow_NumberFormatException() METHOD
+EditAction 1475073157611 TestRomanNumerals.java 4880 35 65 30

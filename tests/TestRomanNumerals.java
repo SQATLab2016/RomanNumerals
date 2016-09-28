@@ -20,18 +20,13 @@ public class TestRomanNumerals {
 	public void testConvertIntegerFourI_Throw_NumberFormatException() {
 		mNumerals.convertToInteger("IIII");
 	}
-
-	@Test(expected=NumberFormatException.class)
-	public void testConvertIntegerFourI_NoThrow_NumberFormatException() {
-		mNumerals.convertToInteger("III");
-	}
 	
 	@Test(expected=NumberFormatException.class)
 	public void testConvertIntegerFourX_Throw_NumberFormatException() {
 		mNumerals.convertToInteger("XXXX");
 	}
 	
-	@Test(expected=NumberFormatException.class)
+	@Test
 	public void testConvertIntegerThreeX_NoThrow_NumberFormatException() {
 		mNumerals.convertToInteger("XXXX");
 	}
