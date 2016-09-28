@@ -11,8 +11,8 @@ public class RomanNumerals {
 				lastSub = getElementaryValue(romanNum.charAt(i));
 				
 			} else {
-				lastSub = 0;
 				retValue += getElementaryValue(romanNum.charAt(i)) - lastSub;
+				lastSub = 0;
 			}
 		}
 		
