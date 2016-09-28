@@ -55,6 +55,7 @@ public class RomanNumerals {
 		switch(character) {
 		case 'V':
 		case 'L':
+		case 'D':
 			return true;
 		}
 		
