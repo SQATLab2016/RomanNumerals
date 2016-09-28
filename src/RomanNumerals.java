@@ -6,7 +6,9 @@ public class RomanNumerals {
 		Pattern p = Pattern.compile(""
 				+ "I{4}|X{4}|C{4}|M{4}|" // repeat limit
 				+ "V{2}|L{2}|D{2}|"	     // can't repeat
-				+ "IL|I{2}V|VX"
+				+ "IL|"                  // can't subtract from too big numbers
+				+ "I{2}V|"               // can't subtract more than once
+				+ "VX"                   // can't subtract the '5' symbols
 				);
 		Matcher m = p.matcher(romanNum);
 		if (m.find()) {
