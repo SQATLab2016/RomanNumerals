@@ -48,10 +48,9 @@ public class TestRomanNumerals {
 
 	@Test
 	public void testConvertToInteger_M_1000() {
-		int integer = mNumerals.convertToInteger("D");
+		int integer = mNumerals.convertToInteger("M");
 		assertEquals(1000, integer);
 	}
-	
 	
 	@Test
 	public void testConvertToInteger_II_2() {

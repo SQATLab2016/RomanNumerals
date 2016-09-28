@@ -88,3 +88,4 @@ RefactoringAction 1475068216713 TestRomanNumerals.java ADD void testConvertToInt
 RefactoringAction 1475068220760 TestRomanNumerals.java RENAME testConvertToInteger_D_500()/2=>void testConvertToInteger_M_500() METHOD
 RefactoringAction 1475068223270 TestRomanNumerals.java RENAME testConvertToInteger_M_500()=>void testConvertToInteger_M_1000() METHOD
 EditAction 1475068228397 TestRomanNumerals.java 1686 12 23 11
+EditAction 1475068277137 TestRomanNumerals.java 1684 12 23 11
