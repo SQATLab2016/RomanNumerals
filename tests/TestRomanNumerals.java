@@ -20,4 +20,10 @@ public class TestRomanNumerals {
 		int result = romanNumerals.convertToInteger("V");
 		assertEquals(5, result);
 	}
+	
+	@Test
+	public void testRomanNumeral_X_10(){
+		int result = romanNumerals.convertToInteger("X");
+		assertEquals(10, result);
+	}
 }
