@@ -167,14 +167,21 @@ public class TestRomanNumerals {
 	}
 
 	@Test
+	public void testConvertToInteger_CM_900() {
+		int integer = mNumerals.convertToInteger("CM");
+		assertEquals(900, integer);
+	}
+	
+	@Test
 	public void testConvertToInteger_MCMLXXXIV_1984() {
 		int integer = mNumerals.convertToInteger("MCMLXXXIV");
 		assertEquals(1984, integer);
 	}
 	
 	@Test
-	public void testConvertToInteger_CM_900() {
-		int integer = mNumerals.convertToInteger("CM");
-		assertEquals(900, integer);
+	public void testConvertToInteger_MMXIV_2014() {
+		int integer = mNumerals.convertToInteger("MMXIV");
+		assertEquals(2014, integer);
 	}
+	
 }

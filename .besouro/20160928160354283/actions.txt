@@ -256,3 +256,12 @@ RefactoringAction 1475070027643 TestRomanNumerals.java RENAME testConvertToInteg
 RefactoringAction 1475070029657 TestRomanNumerals.java RENAME testConvertToInteger_MCMLXXXIV_()=>void testConvertToInteger_MCMLXXXIV_19() METHOD
 RefactoringAction 1475070031170 TestRomanNumerals.java RENAME testConvertToInteger_MCMLXXXIV_19()=>void testConvertToInteger_MCMLXXXIV_1984() METHOD
 EditAction 1475070039578 TestRomanNumerals.java 4019 29 57 28
+UnitTestCaseAction 1475070044727 TestRomanNumerals.java OK
+UnitTestSessionAction 1475070044728 TestRomanNumerals.java OK
+RefactoringAction 1475070053703 TestRomanNumerals.java REMOVE testConvertToInteger_MCMLXXXIV_1984() METHOD
+RefactoringAction 1475070055217 TestRomanNumerals.java ADD void testConvertToInteger_MCMLXXXIV_1984() METHOD
+RefactoringAction 1475070057230 TestRomanNumerals.java ADD void testConvertToInteger_MCMLXXXIV_1984()/2 METHOD
+RefactoringAction 1475070063267 TestRomanNumerals.java RENAME testConvertToInteger_MCMLXXXIV_1984()/2=>void testConvertToInteger__1984() METHOD
+RefactoringAction 1475070065776 TestRomanNumerals.java RENAME testConvertToInteger__1984()=>void testConvertToInteger_MMXIV_1984() METHOD
+RefactoringAction 1475070068287 TestRomanNumerals.java RENAME testConvertToInteger_MMXIV_1984()=>void testConvertToInteger_MMXIV_2014() METHOD
+EditAction 1475070076797 TestRomanNumerals.java 4166 30 59 29
