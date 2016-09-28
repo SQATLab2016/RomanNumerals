@@ -5,19 +5,21 @@ public class RomanNumerals {
 		
 		int lastSub = 0;
 		for (int i = 0; i < romanNum.length(); i++) {
-			if (i == 0 && romanNum.length() >= 2 &&
-				getElementaryValue(romanNum.charAt(i))) {
-				lastSub = 1;
-				continue;
+			if ((i + 1 < romanNum.length()) &&
+					canBeSubtrahendElementaryValue(romanNum.charAt(i)) &&
+					getElementaryValue(romanNum.charAt(i)) < getElementaryValue(romanNum.charAt(i + 1))) {
+				lastSub = getElementaryValue(romanNum.charAt(i));
+				
+			} else {
+				lastSub = 0;
+				retValue += getElementaryValue(romanNum.charAt(i));
 			}
-			
-			retValue += getElementaryValue(romanNum.charAt(i));
 		}
 		
 		return retValue;
 	}
 	
-	private boolean isSubtractableElementaryValue(char character) {
+	private boolean canBeSubtrahendElementaryValue(char character) {
 		switch(character) {
 		case 'I':
 		case 'X':

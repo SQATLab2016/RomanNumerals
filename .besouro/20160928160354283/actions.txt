@@ -132,3 +132,8 @@ RefactoringAction 1475069281391 RomanNumerals.java ADD boolean isSubtractableVal
 RefactoringAction 1475069286402 RomanNumerals.java RENAME isSubtractableValue=>boolean isSubtractableElementaryValue() METHOD
 RefactoringAction 1475069291411 RomanNumerals.java RENAME isSubtractableElementaryValue()=>boolean isSubtractableElementaryValue(char) METHOD
 EditAction 1475069325885 RomanNumerals.java 815 3 7 0
+CompilationAction 1475069327065 RomanNumerals.java
+RefactoringAction 1475069345024 RomanNumerals.java RENAME isSubtractableElementaryValue(char)=>boolean isSubtraElementaryValue(char) METHOD
+RefactoringAction 1475069351037 RomanNumerals.java RENAME isSubtraElementaryValue(char)=>boolean canBeSubtrahendElementaryValue(char) METHOD
+CompilationAction 1475069504699 RomanNumerals.java
+EditAction 1475069512759 RomanNumerals.java 970 3 7 0
