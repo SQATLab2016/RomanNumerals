@@ -30,4 +30,9 @@ public class TestRomanNumerals {
 		assertEquals(4, number);
 	}
 
+	@Test (expected = IllegalArgumentException.class)
+	public void test_V_cannot_repeat() {
+		int number = rn.convertToInteger("VV");
+	}
+
 }
