@@ -71,6 +71,12 @@ public class TestRomanNumerals {
 	}
 
 	@Test
+	public void testConvertToInteger_VI_6() {
+		int integer = mNumerals.convertToInteger("VI");
+		assertEquals(6, integer);
+	}
+	
+	@Test
 	public void testConvertToInteger_VII_7() {
 		int integer = mNumerals.convertToInteger("VII");
 		assertEquals(7, integer);
