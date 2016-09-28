@@ -39,11 +39,17 @@ public class TestRomanNumerals {
 		int integer = mNumerals.convertToInteger("C");
 		assertEquals(100, integer);
 	}
-	
+
 	@Test
 	public void testConvertToInteger_D_500() {
 		int integer = mNumerals.convertToInteger("D");
 		assertEquals(500, integer);
+	}
+
+	@Test
+	public void testConvertToInteger_M_1000() {
+		int integer = mNumerals.convertToInteger("D");
+		assertEquals(1000, integer);
 	}
 	
 	
