@@ -3,10 +3,9 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class TestRomanNumerals {
-
+	RomanNumerals romanNumerals = new RomanNumerals();
 	@Test
-	public void testCheckRomanNumerals_null() {
-		RomanNumerals romanNumerals = new RomanNumerals();
+	public void testCheckRomanNumerals_null() {		
 		assertNotNull(romanNumerals);
 	}
 
