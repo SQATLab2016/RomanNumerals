@@ -122,3 +122,8 @@ CompilationAction 1475069142292 RomanNumerals.java
 CompilationAction 1475069142293 RomanNumerals.java
 CompilationAction 1475069142495 RomanNumerals.java
 EditAction 1475069144127 RomanNumerals.java 678 2 2 0
+UnitTestCaseAction 1475069152138 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475069152140 TestRomanNumerals.java FAIL
+RefactoringAction 1475069162168 RomanNumerals.java REMOVE getElementaryValue(char) METHOD
+RefactoringAction 1475069169688 RomanNumerals.java ADD int getElementaryValue(char) METHOD
+EditAction 1475069190486 RomanNumerals.java 603 2 5 0

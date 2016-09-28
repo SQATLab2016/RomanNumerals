@@ -1,7 +1,6 @@
 
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
-		/*
 		int retValue = -1;
 		
 		int lastSub = 0;
@@ -11,14 +10,10 @@ public class RomanNumerals {
 				continue;
 			}
 			
-			retValue += getElementaryValue();
-			
-			
+			retValue += getElementaryValue(romanNum.charAt(i));
 		}
-		*/
-		if (romanNum.length() > 0)
-			return getElementaryValue(romanNum.charAt(0));
-		else return -1;
+		
+		return retValue;
 	}
 	
 	private int getElementaryValue(char character) {
