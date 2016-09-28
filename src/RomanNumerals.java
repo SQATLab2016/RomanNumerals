@@ -39,7 +39,7 @@ public class RomanNumerals {
 				int diff = getElementaryIndex(romanNum.charAt(i + 1))
 						- getElementaryIndex(romanNum.charAt(i));
 				
-				if (diff > 3) {
+				if (diff > 2) {
 					throw new NumberFormatException("Illegal subtraction format");
 				}
 				

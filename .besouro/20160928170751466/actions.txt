@@ -224,3 +224,4 @@ RefactoringAction 1475074193409 RomanNumerals.java RENAME g(char)=>int getElemen
 RefactoringAction 1475074194924 RomanNumerals.java RENAME getElementar(char)=>int getElementaryIndex(char) METHOD
 EditAction 1475074208460 RomanNumerals.java 2560 6 15 0
 EditAction 1475074212606 RomanNumerals.java 2560 6 15 0
+EditAction 1475074218151 RomanNumerals.java 2560 6 15 0
