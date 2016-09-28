@@ -5,8 +5,15 @@ import org.junit.Test;
 public class TestRomanNumerals {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testCheckRomanNumerals_null() {
+		RomanNumerals romanNumerals = new RomanNumerals();
+		assertNotNull(romanNumerals);
 	}
 
+	@Test
+	public void testRomanNumeralI_1(){
+		RomanNumerals romanNumerals = new RomanNumerals();
+		int result = romanNumerals.convertToInteger("I");
+		assertEquals(1, result);
+	}
 }

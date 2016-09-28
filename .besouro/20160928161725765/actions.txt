@@ -1,0 +1,10 @@
+FileOpenedAction 1475068646429 TestRomanNumerals.java 238 1 2 1
+RefactoringAction 1475068662448 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475068665966 TestRomanNumerals.java RENAME test=>void testNum FIELD
+RefactoringAction 1475068667983 TestRomanNumerals.java RENAME testNum=>void testNumeral FIELD
+RefactoringAction 1475068673499 TestRomanNumerals.java RENAME testNumeral=>void testRomanNumeral FIELD
+RefactoringAction 1475068678519 TestRomanNumerals.java RENAME testRomanNumeral=>void testRomanNumeralI FIELD
+RefactoringAction 1475068679537 TestRomanNumerals.java RENAME testRomanNumeralI=>void testRomanNumeralI_ FIELD
+RefactoringAction 1475068681556 TestRomanNumerals.java RENAME testRomanNumeralI_=>void testRomanNumeralI_1 FIELD
+RefactoringAction 1475068686072 TestRomanNumerals.java RENAME testRomanNumeralI_1=>void testRomanNumeralI_1() METHOD
+EditAction 1475068756839 TestRomanNumerals.java 414 2 5 2
