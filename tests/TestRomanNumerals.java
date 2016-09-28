@@ -25,6 +25,11 @@ public class TestRomanNumerals {
 	public void testConvertIntegerContains_LL_Throw_NumberFormatException() {
 		mNumerals.convertToInteger("LL");
 	}
+
+	@Test(expected=NumberFormatException.class)
+	public void testConvertIntegerContains_DD_Throw_NumberFormatException() {
+		mNumerals.convertToInteger("DD");
+	}
 	
 	@Test(expected=NumberFormatException.class)
 	public void testConvertIntegerContains_MMMM_Throw_NumberFormatException() {
