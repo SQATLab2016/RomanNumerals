@@ -147,10 +147,28 @@ public class TestRomanNumerals {
 		int integer = mNumerals.convertToInteger("CD");
 		assertEquals(400, integer);
 	}
-	
+
 	@Test
 	public void testConvertToInteger_DC_600() {
 		int integer = mNumerals.convertToInteger("DC");
 		assertEquals(600, integer);
+	}
+	
+	@Test
+	public void testConvertToInteger_DCC_700() {
+		int integer = mNumerals.convertToInteger("DCC");
+		assertEquals(700, integer);
+	}
+
+	@Test
+	public void testConvertToInteger_DCCC_800() {
+		int integer = mNumerals.convertToInteger("DCCC");
+		assertEquals(800, integer);
+	}
+	
+	@Test
+	public void testConvertToInteger_DCCC_900() {
+		int integer = mNumerals.convertToInteger("CM");
+		assertEquals(900, integer);
 	}
 }

@@ -232,3 +232,14 @@ EditAction 1475069948391 TestRomanNumerals.java 3452 25 49 24
 UnitTestCaseAction 1475069950337 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475069950338 TestRomanNumerals.java FAIL
 EditAction 1475069953172 TestRomanNumerals.java 3452 25 49 24
+UnitTestCaseAction 1475069956456 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069956457 TestRomanNumerals.java OK
+RefactoringAction 1475069959879 TestRomanNumerals.java ADD void testConvertToInteger_DC_600()/2 METHOD
+RefactoringAction 1475069964414 TestRomanNumerals.java RENAME testConvertToInteger_DC_600()/2=>void testConvertToInteger_DC_700() METHOD
+RefactoringAction 1475069968937 TestRomanNumerals.java ADD void testConvertToInteger_DC_700()/2 METHOD
+RefactoringAction 1475069975469 TestRomanNumerals.java RENAME testConvertToInteger_DC_700()/2=>void testConvertToInteger_DCCC_700() METHOD
+RefactoringAction 1475069976984 TestRomanNumerals.java RENAME testConvertToInteger_DC_700()=>void testConvertToInteger_DCC_700() METHOD
+RefactoringAction 1475069981498 TestRomanNumerals.java RENAME testConvertToInteger_DCCC_700()=>void testConvertToInteger_DCCC_800() METHOD
+RefactoringAction 1475069987013 TestRomanNumerals.java ADD void testConvertToInteger_DCCC_800()/2 METHOD
+RefactoringAction 1475069993046 TestRomanNumerals.java RENAME testConvertToInteger_DCCC_800()/2=>void testConvertToInteger_DCCC_900() METHOD
+EditAction 1475069996641 TestRomanNumerals.java 3869 28 55 27
