@@ -26,23 +26,23 @@ public class TestRomanNumerals {
 	@Test
 	public void testConvertToInteger_III_3() {
 		int integer = mNumerals.convertToInteger("III");
-		assertEquals(1, integer);
+		assertEquals(3, integer);
 	}
 	@Test
-	public void testConvertToInteger_IV_3() {
-		int integer = mNumerals.convertToInteger("III");
-		assertEquals(1, integer);
+	public void testConvertToInteger_IV_4() {
+		int integer = mNumerals.convertToInteger("IV");
+		assertEquals(4, integer);
 	}
 	@Test
 	public void testConvertToInteger_V_5() {
-		int integer = mNumerals.convertToInteger("III");
-		assertEquals(1, integer);
+		int integer = mNumerals.convertToInteger("V");
+		assertEquals(5, integer);
 	}
 
 	@Test
 	public void testConvertToInteger_VI_6() {
-		int integer = mNumerals.convertToInteger("III");
-		assertEquals(1, integer);
+		int integer = mNumerals.convertToInteger("VI");
+		assertEquals(6, integer);
 	}
 
 }
