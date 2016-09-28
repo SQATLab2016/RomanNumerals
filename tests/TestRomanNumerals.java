@@ -20,7 +20,7 @@ public class TestRomanNumerals {
 	@Test
 	public void testConvertToInteger_II_2() {
 		int integer = mNumerals.convertToInteger("II");
-		assertEquals(1, integer);
+		assertEquals(2, integer);
 	}
 
 	@Test
