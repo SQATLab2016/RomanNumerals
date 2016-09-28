@@ -46,3 +46,6 @@ RefactoringAction 1475072618501 TestRomanNumerals.java RENAME testConvertInteger
 RefactoringAction 1475072622024 TestRomanNumerals.java RENAME testConvertIntegerFourXs_Throw_NumberFormatException()=>void testConvertIntegerFourX_Throw_NumberFormatException() METHOD
 EditAction 1475072623417 TestRomanNumerals.java 4602 33 63 30
 EditAction 1475072642561 RomanNumerals.java 1392 3 8 0
+UnitTestCaseAction 1475072644071 TestRomanNumerals.java OK
+UnitTestSessionAction 1475072644071 TestRomanNumerals.testConvertIntegerFourX_Throw_NumberFormatException OK
+EditAction 1475072648612 TestRomanNumerals.java 4601 33 63 30
