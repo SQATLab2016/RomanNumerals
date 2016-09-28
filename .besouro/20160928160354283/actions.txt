@@ -10,3 +10,8 @@ RefactoringAction 1475067879779 TestRomanNumerals.java RENAME testInteger_I_()=>
 RefactoringAction 1475067888294 TestRomanNumerals.java RENAME testInteger_I_0()=>void testConvertToInteger_I_0() METHOD
 RefactoringAction 1475067908332 TestRomanNumerals.java ADD void initialize() METHOD
 EditAction 1475067915207 TestRomanNumerals.java 207 2 0 0
+CompilationAction 1475067916506 TestRomanNumerals.java
+CompilationAction 1475067916508 TestRomanNumerals.java
+CompilationAction 1475067916509 TestRomanNumerals.java
+CompilationAction 1475067916510 TestRomanNumerals.java
+EditAction 1475067921690 TestRomanNumerals.java 227 2 1 0

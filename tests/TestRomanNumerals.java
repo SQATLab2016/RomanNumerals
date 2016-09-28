@@ -6,7 +6,7 @@ public class TestRomanNumerals {
 	@Before
 	private void initialize()
 	{
-		mNumerals = 
+		mNumerals = new RomanNumerals();
 	}
 	@Test
 	public void testConvertToInteger_I_0() {
