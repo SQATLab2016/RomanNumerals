@@ -167,7 +167,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void testConvertToInteger_DCCC_900() {
+	public void testConvertToInteger_CM_900() {
 		int integer = mNumerals.convertToInteger("CM");
 		assertEquals(900, integer);
 	}

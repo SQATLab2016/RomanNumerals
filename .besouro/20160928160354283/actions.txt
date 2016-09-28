@@ -243,3 +243,5 @@ RefactoringAction 1475069981498 TestRomanNumerals.java RENAME testConvertToInteg
 RefactoringAction 1475069987013 TestRomanNumerals.java ADD void testConvertToInteger_DCCC_800()/2 METHOD
 RefactoringAction 1475069993046 TestRomanNumerals.java RENAME testConvertToInteger_DCCC_800()/2=>void testConvertToInteger_DCCC_900() METHOD
 EditAction 1475069996641 TestRomanNumerals.java 3869 28 55 27
+RefactoringAction 1475070002071 TestRomanNumerals.java RENAME testConvertToInteger_DCCC_900()=>void testConvertToInteger_CM_900() METHOD
+EditAction 1475070002096 TestRomanNumerals.java 3867 28 55 27
