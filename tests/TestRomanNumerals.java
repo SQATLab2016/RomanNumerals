@@ -13,6 +13,11 @@ public class TestRomanNumerals {
 
 	@Test(expected=NumberFormatException.class)
 	public void testConvertInteger_Throw_NumberFormatException() {
+		mNumerals.convertToInteger("");
+	}
+	
+	@Test(expected=NumberFormatException.class)
+	public void testConvertInteger_Throw_NumberFormatException() {
 		mNumerals.convertToInteger("IO");
 	}
 
