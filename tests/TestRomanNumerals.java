@@ -89,8 +89,14 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void testConvertToInteger_X_10() {
-		int integer = mNumerals.convertToInteger("X");
-		assertEquals(10, integer);
+	public void testConvertToInteger_XX_20() {
+		int integer = mNumerals.convertToInteger("XX");
+		assertEquals(20, integer);
+	}
+	
+	@Test
+	public void testConvertToInteger_XXX_30() {
+		int integer = mNumerals.convertToInteger("XXX");
+		assertEquals(30, integer);
 	}
 }

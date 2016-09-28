@@ -169,3 +169,13 @@ RefactoringAction 1475069715621 TestRomanNumerals.java ADD void testConvertToInt
 RefactoringAction 1475069719134 TestRomanNumerals.java RENAME testConvertToInteger_VII_9()/2=>void testConvertToInteger_X_9() METHOD
 RefactoringAction 1475069720146 TestRomanNumerals.java RENAME testConvertToInteger_X_9()=>void testConvertToInteger_X_10()/2 METHOD
 EditAction 1475069728378 TestRomanNumerals.java 2086 15 29 14
+CompilationAction 1475069729474 TestRomanNumerals.java
+RefactoringAction 1475069738198 TestRomanNumerals.java RENAME testConvertToInteger_X_10()/2=>void testConvertToInteger_XX_10() METHOD
+RefactoringAction 1475069739210 TestRomanNumerals.java RENAME testConvertToInteger_XX_10()=>void testConvertToInteger_XX_20() METHOD
+CompilationAction 1475069743080 TestRomanNumerals.java
+UnitTestCaseAction 1475069743695 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069743696 TestRomanNumerals.java OK
+RefactoringAction 1475069747234 TestRomanNumerals.java ADD void testConvertToInteger_XX_20()/2 METHOD
+RefactoringAction 1475069749747 TestRomanNumerals.java RENAME testConvertToInteger_XX_20()/2=>void testConvertToInteger_XXX_20() METHOD
+RefactoringAction 1475069751259 TestRomanNumerals.java RENAME testConvertToInteger_XXX_20()=>void testConvertToInteger_XXX_30() METHOD
+EditAction 1475069755576 TestRomanNumerals.java 2225 16 31 15
