@@ -57,9 +57,6 @@ public class TestRomanNumerals {
 		mNumerals.convertToInteger("XM");
 	}
 
-	
-	
-	
 	@Test(expected=NumberFormatException.class)
 	public void testConvertIntegerContains_VV_Throw_NumberFormatException() {
 		mNumerals.convertToInteger("VV");

@@ -257,3 +257,7 @@ RefactoringAction 1475074356693 TestRomanNumerals.java RENAME testConvertInteger
 RefactoringAction 1475074357707 TestRomanNumerals.java RENAME testConvertInteger_C_Throw_NumberFormatException()=>void testConvertInteger_XC_Throw_NumberFormatException() METHOD
 RefactoringAction 1475074366721 TestRomanNumerals.java RENAME testConvertInteger_XC_Throw_NumberFormatException()=>void testConvertInteger_XM_Throw_NumberFormatException() METHOD
 EditAction 1475074372634 TestRomanNumerals.java 7321 51 81 30
+UnitTestCaseAction 1475074373958 TestRomanNumerals.java OK
+UnitTestSessionAction 1475074373959 TestRomanNumerals.java OK
+RefactoringAction 1475074376772 TestRomanNumerals.java ADD void testConvertInteger_XM_Throw_NumberFormatException()/2 METHOD
+EditAction 1475074398897 TestRomanNumerals.java 7315 51 81 30
