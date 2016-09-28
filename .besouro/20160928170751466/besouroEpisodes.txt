@@ -14,3 +14,15 @@
 1475073312297 test-addition 1 94 true
 1475073312298 test-addition 2 94 true
 1475073312299 test-addition 1 94 true
+1475073343578 test-addition 1 25 true
+1475073343579 test-addition 2 25 true
+1475073343580 test-addition 1 25 true
+1475073343581 test-addition 2 25 true
+1475073440259 refactoring 2B 79 true
+1475073440260 refactoring 2B 79 true
+1475073440261 refactoring 2B 79 true
+1475073440262 regression 1 79 true
+1475073440263 refactoring 2B 79 true
+1475073440264 refactoring 2B 79 true
+1475073440265 refactoring 2B 79 true
+1475073440266 refactoring 2B 79 true

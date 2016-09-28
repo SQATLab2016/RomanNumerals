@@ -128,3 +128,19 @@ RefactoringAction 1475073328030 TestRomanNumerals.java RENAME testConvertInteger
 RefactoringAction 1475073330054 TestRomanNumerals.java RENAME testConvertIntegerContains_CCC_NoThrow_NumberFormatException()/2=>void testConvertIntegerContains_CC_NoThrow_NumberFormatException() METHOD
 RefactoringAction 1475073331574 TestRomanNumerals.java RENAME testConvertIntegerContains_CC_NoThrow_NumberFormatException()=>void testConvertIntegerContains_MMM_NoThrow_NumberFormatException() METHOD
 EditAction 1475073332663 TestRomanNumerals.java 5611 40 70 30
+UnitTestCaseAction 1475073334427 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475073334427 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475073343578 TestRomanNumerals.java OK
+UnitTestSessionAction 1475073343578 TestRomanNumerals.java OK
+RefactoringAction 1475073360693 RomanNumerals.java ADD boolean isNotRepeatable FIELD
+RefactoringAction 1475073386711 RomanNumerals.java RENAME isNotRepeatable=>boolean isRepeatable FIELD
+RefactoringAction 1475073390725 RomanNumerals.java RENAME isRepeatable=>boolean is FIELD
+RefactoringAction 1475073393738 RomanNumerals.java RENAME is=>boolean i FIELD
+RefactoringAction 1475073394749 RomanNumerals.java RENAME i=>boolean is FIELD
+RefactoringAction 1475073397760 RomanNumerals.java RENAME is=>boolean isThreeTimes FIELD
+RefactoringAction 1475073402272 RomanNumerals.java RENAME isThreeTimes=>boolean isThreeTimesRepeatable(char) METHOD
+UnitTestCaseAction 1475073440259 TestRomanNumerals.java OK
+UnitTestSessionAction 1475073440259 TestRomanNumerals.java OK
+RefactoringAction 1475073444138 TestRomanNumerals.java ADD void testConvertIntegerContains_MMMM_Throw_NumberFormatException()/2 METHOD
+RefactoringAction 1475073451658 TestRomanNumerals.java RENAME testConvertIntegerContains_MMMM_Throw_NumberFormatException()/2=>void testConvertIntegerContains_LL_Throw_NumberFormatException() METHOD
+EditAction 1475073457867 TestRomanNumerals.java 5772 41 71 30
