@@ -38,17 +38,22 @@ public class TestRomanNumerals {
 
 	@Test (expected = IllegalArgumentException.class)
 	public void test_V_cannot_repeat() {
-		int number = rn.convertToInteger("VV");
+		rn.convertToInteger("VV");
 	}
 	
 	@Test (expected = IllegalArgumentException.class)
 	public void test_I_cannot_repeat_four_times() {
-		int number = rn.convertToInteger("IIII");
+		rn.convertToInteger("IIII");
 	}
 	
 	@Test (expected = IllegalArgumentException.class)
 	public void test_I_cannot_be_subtracted_from_L() {
-		int number = rn.convertToInteger("IL");
+		rn.convertToInteger("IL");
+	}
+	
+	@Test (expected = IllegalArgumentException.class)
+	public void test_I_cannot_be_subtracted_twice() {
+		rn.convertToInteger("IIV");
 	}
 
 }

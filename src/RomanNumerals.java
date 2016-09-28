@@ -3,7 +3,7 @@ import java.util.regex.Pattern;
 
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
-		Pattern p = Pattern.compile("I{4,}|V{2,}|IL");
+		Pattern p = Pattern.compile("I{4,}|V{2,}|IL|I{2,}V");
 		Matcher m = p.matcher(romanNum);
 		if (m.find()) {
 			throw new IllegalArgumentException();

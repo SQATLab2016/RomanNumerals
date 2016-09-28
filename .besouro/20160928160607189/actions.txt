@@ -59,3 +59,9 @@ UnitTestSessionAction 1475068815073 TestRomanNumerals.java OK
 UnitTestCaseAction 1475068878168 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475068878169 TestRomanNumerals.java FAIL
 EditAction 1475068916349 RomanNumerals.java 546 1 4 0
+UnitTestCaseAction 1475068918396 TestRomanNumerals.java OK
+UnitTestSessionAction 1475068918398 TestRomanNumerals.java OK
+RefactoringAction 1475068966136 TestRomanNumerals.java ADD void test_I_cannot_be_subtracted_twice() METHOD
+UnitTestCaseAction 1475068982559 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475068982560 TestRomanNumerals.java FAIL
+EditAction 1475068996349 RomanNumerals.java 553 1 4 0
