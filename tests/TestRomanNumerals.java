@@ -150,7 +150,7 @@ public class TestRomanNumerals {
 	
 	@Test
 	public void testConvertToInteger_DC_600() {
-		int integer = mNumerals.convertToInteger("CD");
+		int integer = mNumerals.convertToInteger("DC");
 		assertEquals(600, integer);
 	}
 }
