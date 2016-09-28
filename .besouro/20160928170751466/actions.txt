@@ -267,3 +267,5 @@ RefactoringAction 1475074477598 RomanNumerals.java ADD boolean canBeRepeated FIE
 RefactoringAction 1475074481110 RomanNumerals.java RENAME canBeRepeated=>boolean canBeRepeated(char) METHOD
 EditAction 1475074500630 RomanNumerals.java 2554 6 15 0
 EditAction 1475074646147 TestRomanNumerals.java 7314 51 81 30
+UnitTestCaseAction 1475074647788 TestRomanNumerals.java OK
+UnitTestSessionAction 1475074647788 TestRomanNumerals.java OK
