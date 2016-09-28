@@ -35,6 +35,16 @@ public class TestRomanNumerals {
 	public void testConvertInteger_IC_Throw_NumberFormatException() {
 		mNumerals.convertToInteger("IC");
 	}
+
+	@Test(expected=NumberFormatException.class)
+	public void testConvertInteger_ID_Throw_NumberFormatException() {
+		mNumerals.convertToInteger("ID");
+	}
+	
+	@Test(expected=NumberFormatException.class)
+	public void testConvertInteger_IM_Throw_NumberFormatException() {
+		mNumerals.convertToInteger("IM");
+	}
 	
 	@Test(expected=NumberFormatException.class)
 	public void testConvertIntegerContains_VV_Throw_NumberFormatException() {

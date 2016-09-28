@@ -230,3 +230,8 @@ UnitTestSessionAction 1475074220981 TestRomanNumerals.java OK
 RefactoringAction 1475074226681 TestRomanNumerals.java ADD void testConvertInteger_IL_Throw_NumberFormatException()/2 METHOD
 RefactoringAction 1475074238704 TestRomanNumerals.java RENAME testConvertInteger_IL_Throw_NumberFormatException()/2=>void testConvertInteger_IC_Throw_NumberFormatException() METHOD
 EditAction 1475074241481 TestRomanNumerals.java 6705 47 77 30
+RefactoringAction 1475074242736 TestRomanNumerals.java ADD void testConvertInteger_IC_Throw_NumberFormatException()/2 METHOD
+RefactoringAction 1475074246777 TestRomanNumerals.java RENAME testConvertInteger_IC_Throw_NumberFormatException()/2=>void testConvertInteger_ID_Throw_NumberFormatException() METHOD
+RefactoringAction 1475074252811 TestRomanNumerals.java ADD void testConvertInteger_ID_Throw_NumberFormatException()/2 METHOD
+RefactoringAction 1475074255830 TestRomanNumerals.java RENAME testConvertInteger_ID_Throw_NumberFormatException()/2=>void testConvertInteger_IM_Throw_NumberFormatException() METHOD
+EditAction 1475074257290 TestRomanNumerals.java 7010 49 79 30
