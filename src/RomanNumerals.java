@@ -15,6 +15,10 @@ public class RomanNumerals {
 					duplicates = 0;
 				}
 			}
+
+			if (duplicates >= 2 && isThreeTimesRepeatable(romanNum.charAt(i))) {
+				throw new NumberFormatException("Too many duplicate numeral character");
+			}
 			
 			if (duplicates >= 3 && isThreeTimesRepeatable(romanNum.charAt(i))) {
 				throw new NumberFormatException("Too many duplicate numeral character");
@@ -46,6 +50,16 @@ public class RomanNumerals {
 		
 		return false;
 	}
+
+	private boolean isZeroTimesRepeatable(char character) {
+		switch(character) {
+		case 'L':
+			return true;
+		}
+		
+		return false;
+		
+	}
 	
 	private boolean isThreeTimesRepeatable(char character) {
 		switch(character) {
@@ -57,7 +71,6 @@ public class RomanNumerals {
 		}
 		
 		return false;
-		
 	}
 	
 	private int getElementaryValue(char character) {
