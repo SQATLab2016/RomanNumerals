@@ -9,6 +9,9 @@ public class RomanNumerals {
 			return 50;
 		else if (romanNum.equals("C"))
 			return 100;
+		else if (romanNum.equals("D"))
+			return 500;
+		
 		return 1;
 	}
 }
