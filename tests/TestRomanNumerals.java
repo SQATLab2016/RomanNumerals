@@ -18,7 +18,7 @@ public class TestRomanNumerals {
 	
 	@Test(expected=NumberFormatException.class)
 	public void testConvertIntegerFourX_Throw_NumberFormatException() {
-		mNumerals.convertToInteger("XXX");
+		mNumerals.convertToInteger("XXXX");
 	}
 
 	@Test
