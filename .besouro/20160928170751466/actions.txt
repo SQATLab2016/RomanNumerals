@@ -216,3 +216,10 @@ EditAction 1475074149377 RomanNumerals.java 2249 5 14 0
 UnitTestCaseAction 1475074151575 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475074151576 TestRomanNumerals.java FAIL
 EditAction 1475074160811 RomanNumerals.java 2044 5 14 0
+UnitTestCaseAction 1475074164048 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475074164048 TestRomanNumerals.java FAIL
+RefactoringAction 1475074189876 RomanNumerals.java ADD int getElementaryValue(char)/2 METHOD
+RefactoringAction 1475074191898 RomanNumerals.java RENAME getElementaryValue(char)/2=>int g(char) METHOD
+RefactoringAction 1475074193409 RomanNumerals.java RENAME g(char)=>int getElementar(char) METHOD
+RefactoringAction 1475074194924 RomanNumerals.java RENAME getElementar(char)=>int getElementaryIndex(char) METHOD
+EditAction 1475074208460 RomanNumerals.java 2560 6 15 0

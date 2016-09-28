@@ -36,6 +36,12 @@ public class RomanNumerals {
 				canBeSubtrahendElementaryValue(romanNum.charAt(i)) &&
 				getElementaryValue(romanNum.charAt(i)) < getElementaryValue(romanNum.charAt(i + 1))) {
 				
+				int diff = getElementaryValue(romanNum.charAt(i + 1))
+						- getElementaryValue(romanNum.charAt(i));
+				
+				if (diff > 3) {
+					throw new NumberFormatException("Illegal subtraction format");
+				}
 				
 				lastSub = getElementaryValue(romanNum.charAt(i));
 				
@@ -82,7 +88,7 @@ public class RomanNumerals {
 		
 		return false;
 	}
-	
+
 	private int getElementaryValue(char character) {
 		switch(character) {
 		case 'I': return 1;
@@ -92,6 +98,20 @@ public class RomanNumerals {
 		case 'C': return 100;
 		case 'D': return 500;
 		case 'M': return 1000;
+		default:
+			throw new NumberFormatException("Invalid numeral character.");
+		}
+	}
+	
+	private int getElementaryIndex(char character) {
+		switch(character) {
+		case 'I': return 0;
+		case 'V': return 1;
+		case 'X': return 2;
+		case 'L': return 3;
+		case 'C': return 4;
+		case 'D': return 5;
+		case 'M': return 6;
 		default:
 			throw new NumberFormatException("Invalid numeral character.");
 		}
