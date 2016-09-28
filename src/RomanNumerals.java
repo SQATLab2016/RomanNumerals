@@ -12,7 +12,7 @@ public class RomanNumerals {
 				
 			} else {
 				lastSub = 0;
-				retValue += getElementaryValue(romanNum.charAt(i));
+				retValue += getElementaryValue(romanNum.charAt(i)) - lastSub;
 			}
 		}
 		
