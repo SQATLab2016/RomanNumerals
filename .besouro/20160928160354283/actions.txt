@@ -290,3 +290,13 @@ RefactoringAction 1475070361443 RomanNumerals.java RENAME convertToInteger(Strin
 RefactoringAction 1475070363493 TestRomanNumerals.java RENAME testConvertToInteger_CCC_400()=>void testConvertToInteger_CD_400() METHOD
 EditAction 1475070365875 TestRomanNumerals.java 4296 31 61 30
 EditAction 1475070378861 RomanNumerals.java 967 3 7 0
+CompilationAction 1475070380071 TestRomanNumerals.java
+RefactoringAction 1475070386025 TestRomanNumerals.java ADD void testConvertToInteger_II_9() METHOD
+RefactoringAction 1475070386027 TestRomanNumerals.java ADD void testConvertToInteger_CCC_400() METHOD
+RefactoringAction 1475070388041 TestRomanNumerals.java ADD void testConvertToInteger_VII_8() METHOD
+RefactoringAction 1475070388043 TestRomanNumerals.java ADD void testConvertToInteger_VII_9() METHOD
+RefactoringAction 1475070395572 TestRomanNumerals.java ADD void testConvertToInteger_VIII_8() METHOD
+RefactoringAction 1475070395576 TestRomanNumerals.java ADD void testConvertToInteger_IX_9() METHOD
+RefactoringAction 1475070395578 TestRomanNumerals.java ADD void testConvertToInteger_CD_400() METHOD
+RefactoringAction 1475070407462 RomanNumerals.java RENAME CD(String)=>int convertToInteger(String) METHOD
+EditAction 1475070408271 RomanNumerals.java 981 3 7 0
