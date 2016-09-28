@@ -207,3 +207,6 @@ RefactoringAction 1475073932991 TestRomanNumerals.java RENAME testConvertInteger
 RefactoringAction 1475073934512 TestRomanNumerals.java RENAME testConvertInteger_I_M_Throw_NumberFormatException()=>void testConvertInteger_IM_Throw_NumberFormatException() METHOD
 EditAction 1475073937998 TestRomanNumerals.java 6553 46 76 30
 EditAction 1475073969934 TestRomanNumerals.java 6553 46 76 30
+UnitTestCaseAction 1475073984149 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475073984149 TestRomanNumerals.java FAIL
+EditAction 1475074124205 RomanNumerals.java 2249 5 14 0

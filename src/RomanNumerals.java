@@ -35,6 +35,14 @@ public class RomanNumerals {
 			if ((i + 1 < romanNum.length()) &&
 				canBeSubtrahendElementaryValue(romanNum.charAt(i)) &&
 				getElementaryValue(romanNum.charAt(i)) < getElementaryValue(romanNum.charAt(i + 1))) {
+				
+				int diff = getElementaryValue(romanNum.charAt(i + 1))
+						- getElementaryValue(romanNum.charAt(i));
+				
+				if (diff > 2) {
+					throw new NumberFormatException("Illegal subtraction format");
+				}
+				
 				lastSub = getElementaryValue(romanNum.charAt(i));
 				
 			} else {
