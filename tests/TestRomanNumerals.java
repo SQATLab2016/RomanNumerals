@@ -83,13 +83,13 @@ public class TestRomanNumerals {
 	}
 
 	@Test
-	public void testConvertToInteger_VII_8() {
-		int integer = mNumerals.convertToInteger("VII");
+	public void testConvertToInteger_VIII_8() {
+		int integer = mNumerals.convertToInteger("VIII");
 		assertEquals(8, integer);
 	}
 
 	@Test
-	public void testConvertToInteger_VII_9() {
+	public void testConvertToInteger_IX_9() {
 		int integer = mNumerals.convertToInteger("IX");
 		assertEquals(9, integer);
 	}
@@ -149,7 +149,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void testConvertToInteger_CCC_400() {
+	public void testConvertToInteger_CD_400() {
 		int integer = mNumerals.convertToInteger("CD");
 		assertEquals(400, integer);
 	}

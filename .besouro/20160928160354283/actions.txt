@@ -284,3 +284,8 @@ EditAction 1475070320462 TestRomanNumerals.java 4297 31 61 30
 UnitTestCaseAction 1475070322314 TestRomanNumerals.java OK
 UnitTestSessionAction 1475070322315 TestRomanNumerals.java OK
 EditAction 1475070338530 TestRomanNumerals.java 4296 31 61 30
+RefactoringAction 1475070342462 TestRomanNumerals.java RENAME testConvertToInteger_VII_8()=>void testConvertToInteger_VIII_8() METHOD
+RefactoringAction 1475070348476 TestRomanNumerals.java RENAME testConvertToInteger_VII_9()=>void testConvertToInteger_IX_9() METHOD
+RefactoringAction 1475070361443 RomanNumerals.java RENAME convertToInteger(String)=>int CD(String) METHOD
+RefactoringAction 1475070363493 TestRomanNumerals.java RENAME testConvertToInteger_CCC_400()=>void testConvertToInteger_CD_400() METHOD
+EditAction 1475070365875 TestRomanNumerals.java 4296 31 61 30
