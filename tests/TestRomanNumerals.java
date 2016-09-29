@@ -6,7 +6,10 @@ public class TestRomanNumerals {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		public void testConvertingI() {
+			RomanNumerals rn = new RomanNumerals();
+			int converted = rn.convertToInteger("I");
+			assertEquals(1, converted);
 	}
 
 }
