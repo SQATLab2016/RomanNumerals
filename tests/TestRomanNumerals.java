@@ -13,9 +13,15 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_Convert1digit(){
+	public void test_AssignDigit(){
 		RomanNumerals.RomanNumber="I";
 		assertEquals("","I",RomanNumerals.RomanNumber);
+	}
+	
+	@Test
+	public void test_Convert1Digit(){
+		RomanNumerals.RomanNumber="I";
+		assertEquals("",1,RomanNumerals.ArabicNumber);
 	}
 	
 }

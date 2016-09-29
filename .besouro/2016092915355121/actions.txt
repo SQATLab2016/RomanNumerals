@@ -45,3 +45,4 @@ RefactoringAction 1475153096609 RomanNumerals.java ADD int A FIELD
 RefactoringAction 1475153098628 RomanNumerals.java RENAME A=>int Arabic FIELD
 RefactoringAction 1475153100641 RomanNumerals.java RENAME Arabic=>int ArabicNumber FIELD
 EditAction 1475153110455 RomanNumerals.java 176 1 1 0
+EditAction 1475153110578 TestRomanNumerals.java 491 3 5 3
