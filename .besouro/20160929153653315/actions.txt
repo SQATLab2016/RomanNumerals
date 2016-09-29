@@ -40,3 +40,4 @@ RefactoringAction 1475153052280 TestRomanNumerals.java ADD void test_CherFor3C()
 RefactoringAction 1475153055319 TestRomanNumerals.java RENAME test_CherFor3C()/2=>void test_CherFor3M() METHOD
 RefactoringAction 1475153062594 RomanNumerals.java ADD boolean cherFor3M(String) METHOD
 EditAction 1475153074670 RomanNumerals.java 1175 5 13 0
+EditAction 1475153074829 TestRomanNumerals.java 1020 5 9 4
