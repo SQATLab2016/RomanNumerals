@@ -127,7 +127,7 @@ public class RomanNumerals {
 		}else 	return true;
 	}
 	public int wahtIsIVis4(String num) {
-		
+
 		for (int i = 0; i < num.length(); i++) {
 			if (num.charAt(i)=='I' &&(num.charAt(i+1)=='V')) {
 				return 4;

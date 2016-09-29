@@ -192,3 +192,7 @@ CompilationAction 1475156016664 TestRomanNumerals.java
 UnitTestCaseAction 1475156017235 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475156017236 TestRomanNumerals.java FAIL
 EditAction 1475156019752 TestRomanNumerals.java 4301 14 27 13
+RefactoringAction 1475156043750 TestRomanNumerals.java ADD be made FIELD
+RefactoringAction 1475156043750 TestRomanNumerals.java ADD per numeral() METHOD
+RefactoringAction 1475156046271 TestRomanNumerals.java REMOVE made FIELD
+RefactoringAction 1475156046272 TestRomanNumerals.java REMOVE numeral() METHOD
