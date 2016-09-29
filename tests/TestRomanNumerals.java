@@ -51,7 +51,7 @@ public class TestRomanNumerals {
 		catch(Exception e) {
 		}
 		System.out.println("result: " + converted);
-		assertEquals(true, converted);
+		assertEquals(2, converted);
 		System.out.println("result: " + converted);
 	}
 }
