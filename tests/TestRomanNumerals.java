@@ -16,7 +16,7 @@ public class TestRomanNumerals {
 		RomanNumerals rn = new RomanNumerals();
 		boolean thrown = false;
 		try {
-			rn.convertToInteger("I");
+			rn.convertToInteger("1");
 		}
 		catch(Exception e) {
 			thrown = true;
