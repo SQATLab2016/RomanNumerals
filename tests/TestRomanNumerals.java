@@ -6,7 +6,13 @@ public class TestRomanNumerals {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		RomanNumerals rm = new RomanNumerals("I");
+		assertNotNull(rm);
+	}
+	
+	@Test
+	public void test2() {
+		
 	}
 
 }
