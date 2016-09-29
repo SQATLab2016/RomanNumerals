@@ -144,3 +144,13 @@ EditAction 1475154188962 RomanNumerals.java 921 4 6 0
 UnitTestCaseAction 1475154191093 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475154191094 TestRomanNumerals.java FAIL
 EditAction 1475154373134 RomanNumerals.java 797 4 6 0
+UnitTestCaseAction 1475154375785 TestRomanNumerals.java OK
+UnitTestSessionAction 1475154375787 TestRomanNumerals.java OK
+RefactoringAction 1475154392081 TestRomanNumerals.java ADD void test_ FIELD
+RefactoringAction 1475154393094 TestRomanNumerals.java RENAME test_=>void test_Con FIELD
+RefactoringAction 1475154395148 TestRomanNumerals.java RENAME test_Con=>void test_ConvertTo FIELD
+RefactoringAction 1475154397162 TestRomanNumerals.java RENAME test_ConvertTo=>void test_ConvertToInteger FIELD
+RefactoringAction 1475154398674 TestRomanNumerals.java RENAME test_ConvertToInteger=>void test_ConvertToIntegerValue FIELD
+RefactoringAction 1475154399687 TestRomanNumerals.java RENAME test_ConvertToIntegerValue=>void test_ConvertToIntegerValueX FIELD
+RefactoringAction 1475154400698 TestRomanNumerals.java RENAME test_ConvertToIntegerValueX=>void test_ConvertToIntegerValueX() METHOD
+EditAction 1475154413803 TestRomanNumerals.java 816 7 8 7
