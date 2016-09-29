@@ -285,3 +285,5 @@ EditAction 1475156760111 RomanNumerals.java 2042 7 15 0
 EditAction 1475156868848 RomanNumerals.java 2176 7 15 0
 EditAction 1475156908760 RomanNumerals.java 2202 7 15 0
 EditAction 1475157022918 RomanNumerals.java 2258 7 15 0
+UnitTestCaseAction 1475157028892 TestRomanNumerals.java OK
+UnitTestSessionAction 1475157028893 TestRomanNumerals.java OK
