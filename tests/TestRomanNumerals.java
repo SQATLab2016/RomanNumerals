@@ -75,4 +75,36 @@ public class TestRomanNumerals {
 		String num="IV";
 		assertEquals(4, (romanNumerals.wahtIsIVis4(num)));
 	}
+	@Test
+	public void test_checkIfIVis9(){
+//		The	'1'	symbols	('I',	'X',	and	'C')	can	only	be	subtracted	from	the	2	next	highest	values	('IV'	and	
+//		'IX',	'XL'	and	'XC',	'CD'	and	'CM').	
+	
+		String num="IX";
+		assertEquals(9, (romanNumerals.wahtIsIVis9(num)));
+	}
+	@Test
+	public void test_checkIfIVis49(){
+//		The	'1'	symbols	('I',	'X',	and	'C')	can	only	be	subtracted	from	the	2	next	highest	values	('IV'	and	
+//		'IX',	'XL'	and	'XC',	'CD'	and	'CM').	
+	
+		String num="IL";
+		assertEquals(49, (romanNumerals.wahtIsIVis49(num)));
+	}
+	@Test
+	public void test_checkIfIVis99(){
+//		The	'1'	symbols	('I',	'X',	and	'C')	can	only	be	subtracted	from	the	2	next	highest	values	('IV'	and	
+//		'IX',	'XL'	and	'XC',	'CD'	and	'CM').	
+	
+		String num="IC";
+		assertEquals(99, (romanNumerals.wahtIsIVis99(num)));
+	}
+	@Test
+	public void test_checkIfIVis499(){
+//		The	'1'	symbols	('I',	'X',	and	'C')	can	only	be	subtracted	from	the	2	next	highest	values	('IV'	and	
+//		'IX',	'XL'	and	'XC',	'CD'	and	'CM').	
+	
+		String num="ID";
+		assertEquals(499, (romanNumerals.wahtIsIVis499(num)));
+	}
 }
