@@ -20,13 +20,18 @@ public class RomanNumerals {
 			return 3;
 		}
 		char currentChar;
+		int counter;
 		for(int c = 0; c < romanNum.length();c++) {
 			currentChar = romanNum.charAt(c);
+			counter = 1;
 			while(romanNum.charAt(c+1) == currentChar) {
-				if( c < romanNum.length()-1)
+				if( c < romanNum.length()-1) {
 					c++;
-			}
-					
+					counter++;
+					if(counter > 3)
+						throw new RomanNumeralsException("Roman Numeral to be converted isn't valid");
+				}
+			}	
 		}
 		
 		return 0;
