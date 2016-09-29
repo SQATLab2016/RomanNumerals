@@ -2,3 +2,6 @@
 1475149843015 test-first 3 638 true
 1475150140257 refactoring 3 254 false
 1475150257723 refactoring 3 71 true
+1475150273049 regression 1 1 false
+1475150312135 regression 1 0 true
+1475150325153 regression 1 0 true

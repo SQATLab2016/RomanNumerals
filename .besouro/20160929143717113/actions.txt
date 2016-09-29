@@ -79,3 +79,10 @@ EditAction 1475150254262 TestRomanNumerals.java 957 4 12 2
 UnitTestCaseAction 1475150257722 TestRomanNumerals.java OK
 UnitTestSessionAction 1475150257723 TestRomanNumerals.java OK
 EditAction 1475150272000 TestRomanNumerals.java 957 4 12 2
+UnitTestCaseAction 1475150273048 TestRomanNumerals.java OK
+UnitTestSessionAction 1475150273049 TestRomanNumerals.java OK
+UnitTestCaseAction 1475150312135 TestRomanNumerals.java OK
+UnitTestSessionAction 1475150312135 TestRomanNumerals.testConvertingII OK
+UnitTestCaseAction 1475150325152 TestRomanNumerals.java OK
+UnitTestSessionAction 1475150325153 TestRomanNumerals.java OK
+EditAction 1475150359497 TestRomanNumerals.java 991 4 12 2
