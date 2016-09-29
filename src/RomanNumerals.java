@@ -23,8 +23,8 @@ public class RomanNumerals {
 	}
 	
 	public int getRomanCharValue(char romanChar) {
-		if (romanChar == 'I') return 1;
-		else if (romanChar == 'V') return 5;
+		if (romanChar == 'I') return I_VALUE;
+		else if (romanChar == 'V') return V_VALUE;
 		else return 1;
 	}
 }
