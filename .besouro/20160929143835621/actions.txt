@@ -94,3 +94,11 @@ UnitTestSessionAction 1475154579193 TestRomanNumerals.java OK
 RefactoringAction 1475154675259 TestRomanNumerals.java ADD void testRepetition_V_L_D_s()/2 METHOD
 RefactoringAction 1475154682284 TestRomanNumerals.java RENAME testRepetition_V_L_D_s()/2=>void testRepetition_V_L_D_s_pass() METHOD
 EditAction 1475154688847 TestRomanNumerals.java 1434 6 23 2
+UnitTestCaseAction 1475154690642 TestRomanNumerals.java OK
+UnitTestSessionAction 1475154690643 TestRomanNumerals.java OK
+RefactoringAction 1475154705857 TestRomanNumerals.java ADD void testRepetition_V_L_D_s()/2 METHOD
+RefactoringAction 1475154715371 TestRomanNumerals.java RENAME testRepetition_V_L_D_s()/2=>void testSubs() METHOD
+RefactoringAction 1475154717884 TestRomanNumerals.java RENAME testSubs()=>void testSubtraction() METHOD
+RefactoringAction 1475154718897 TestRomanNumerals.java RENAME testSubtraction()=>void testSubtractionFrom() METHOD
+RefactoringAction 1475154723913 TestRomanNumerals.java RENAME testSubtractionFrom()=>void testSubtractionFrom2NextHighest() METHOD
+EditAction 1475155327410 TestRomanNumerals.java 1635 7 25 2

@@ -50,7 +50,12 @@ public class TestRomanNumerals {
 		rm.convertToInteger("L");
 		rm.convertToInteger("D");
 	}
-		
+	
+	@Test (expected = RomanNumeralsException.class)
+	public void testSubtractionFrom2NextHighest() throws RomanNumeralsException {
+		RomanNumerals rm = new RomanNumerals();
+		rm.convertToInteger("IX");
+	}
 	
 	
 
