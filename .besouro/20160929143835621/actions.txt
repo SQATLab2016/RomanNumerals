@@ -107,3 +107,9 @@ UnitTestSessionAction 1475155328942 TestRomanNumerals.java FAIL
 RefactoringAction 1475155418755 RomanNumerals.java ADD static int decodeSingle(char) METHOD
 RefactoringAction 1475155439331 RomanNumerals.java ADD static int decode(String) METHOD
 EditAction 1475155526088 RomanNumerals.java 2903 6 21 0
+UnitTestCaseAction 1475155527623 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475155527624 TestRomanNumerals.java FAIL
+RefactoringAction 1475155559573 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475155562086 TestRomanNumerals.java RENAME test=>void testBig FIELD
+RefactoringAction 1475155571602 TestRomanNumerals.java RENAME testBig=>void testBigNumber() METHOD
+EditAction 1475155661282 TestRomanNumerals.java 1862 8 28 3

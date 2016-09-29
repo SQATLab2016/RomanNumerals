@@ -57,6 +57,13 @@ public class TestRomanNumerals {
 		rm.convertToInteger("IX");
 	}
 	
+	@Test
+	public void testBigNumber() throws RomanNumeralsException {
+		RomanNumerals rm = new RomanNumerals();
+		int number = rm.convertToInteger("MCMLXXXIV");
+		assertEquals("Expected MCMLXXXIV to be 1984", 1984, number);
+	}
+	
 	
 
 }
