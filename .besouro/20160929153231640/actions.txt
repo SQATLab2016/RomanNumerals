@@ -177,3 +177,11 @@ UnitTestCaseAction 1475154544555 TestRomanNumerals.java OK
 UnitTestSessionAction 1475154544556 TestRomanNumerals.java OK
 RefactoringAction 1475154586108 TestRomanNumerals.java ADD void test_ConvertToIntegerValueXIII() METHOD
 EditAction 1475154600378 TestRomanNumerals.java 1084 10 11 10
+UnitTestCaseAction 1475154604506 TestRomanNumerals.java OK
+UnitTestSessionAction 1475154604507 TestRomanNumerals.java OK
+RefactoringAction 1475154647172 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475154649185 TestRomanNumerals.java RENAME test=>void test_COnvert FIELD
+RefactoringAction 1475154651698 TestRomanNumerals.java RENAME test_COnvert=>void test_Convert FIELD
+RefactoringAction 1475154657711 TestRomanNumerals.java RENAME test_Convert=>void test_ConvertToIntegerValueL FIELD
+RefactoringAction 1475154659726 TestRomanNumerals.java RENAME test_ConvertToIntegerValueL=>void test_ConvertToIntegerValueL() METHOD
+EditAction 1475154669171 TestRomanNumerals.java 1170 11 12 11
