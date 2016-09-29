@@ -9,7 +9,15 @@ public class RomanNumerals {
 		// To be Implemented
 		//Test for too many "I, X, C, M" returns true if too many
 		if(testRepeatedTooManyTimes(romanNum)) throw new RomanNumeralsException();
+		/*Test if same letter is repeated too many times.
+		 *Returns true if it was repeated too many times
+		*/ 
 		if(testSameRepeatedTooManyTimes(romanNum)) throw new RomanNumeralsException();
+		/*
+		 * Test if symbols "I, X and C" are subtracted only from the 2 next highest values
+		 * returns true if failed
+		 */
+		if(testFirstSubtractedOnlyTwoNextSecondHighest(romanNum)) throw new RomanNumeralsException();
 		if(romanNum == "IIII") throw new RomanNumeralsException();
 		
 		//If every test pass then we can decode the roman to arabic
@@ -83,11 +91,18 @@ public class RomanNumerals {
 			if(romanNum.charAt(i) == 'L') L_counter++;
 			if(romanNum.charAt(i) == 'D') D_counter++;
 		}
-		if(V_counter > 1 || L_counter > 1 || D_counter > 1) return true;
+		//Returns true if V, L OR D appeared more than once. Otherwise returns false
+		if(V_counter > 1 || L_counter > 1 || D_counter > 1) {
+			return true;
+		} else {
+			return false;	
+		}
+	}
+	
+	public boolean testFirstSubtractedOnlyTwoNextSecondHighest(String romanNum){
 		
 		
 		return false;
-		
 	}
 	
 	

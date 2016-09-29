@@ -117,3 +117,16 @@ UnitTestCaseAction 1475155662833 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475155662840 TestRomanNumerals.java FAIL
 EditAction 1475155805684 RomanNumerals.java 2990 6 21 0
 EditAction 1475155806921 TestRomanNumerals.java 1862 8 28 3
+UnitTestCaseAction 1475155808558 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475155808559 TestRomanNumerals.java FAIL
+RefactoringAction 1475155856629 RomanNumerals.java REMOVE decodeSingle(char) METHOD
+RefactoringAction 1475155856630 RomanNumerals.java REMOVE testRepeatedTooManyTimes(String) METHOD
+RefactoringAction 1475155856631 RomanNumerals.java REMOVE decode(String) METHOD
+RefactoringAction 1475155856633 RomanNumerals.java REMOVE testSameRepeatedTooManyTimes(String) METHOD
+RefactoringAction 1475155860728 RomanNumerals.java ADD static int decodeSingle(char) METHOD
+RefactoringAction 1475155860729 RomanNumerals.java ADD static int decode(String) METHOD
+RefactoringAction 1475155860729 RomanNumerals.java ADD boolean testRepeatedTooManyTimes(String) METHOD
+RefactoringAction 1475155860730 RomanNumerals.java ADD boolean testSameRepeatedTooManyTimes(String) METHOD
+RefactoringAction 1475156005119 RomanNumerals.java ADD void testFirstSubtractedOnlyTwoNextSecondHighest() METHOD
+RefactoringAction 1475156009136 RomanNumerals.java RENAME testFirstSubtractedOnlyTwoNextSecondHighest()=>void testFirstSubtractedOnlyTwoNextSecondHighest(String) METHOD
+EditAction 1475156134779 RomanNumerals.java 3516 7 22 0
