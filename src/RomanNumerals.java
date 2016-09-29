@@ -12,13 +12,17 @@ public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
 
 		if (hasSubstractiveNumber(romanNum)) {
-			return getRomanCharValue(getCharFromRomanNum(romanNum, 1)) - getRomanCharValue(getCharFromRomanNum(romanNum, 0));
+			return getSubstractiveRomanNumberValue(romanNum);
 		}
 		else if (romanNum == "IIX") {
 			return getRomanCharValue(getCharFromRomanNum(romanNum, 2)) - getRomanCharValue(getCharFromRomanNum(romanNum, 1)) - getRomanCharValue(getCharFromRomanNum(romanNum, 0));
 		}
 		else return getRomanNumberValue(romanNum);
 		
+	}
+
+	private int getSubstractiveRomanNumberValue(String romanNum) {
+		return getRomanCharValue(getCharFromRomanNum(romanNum, 1)) - getRomanCharValue(getCharFromRomanNum(romanNum, 0));
 	}
 
 	private boolean hasSubstractiveNumber(String romanNum) {
