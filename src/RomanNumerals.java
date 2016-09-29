@@ -13,7 +13,7 @@ public class RomanNumerals {
 			return getRomanNumberValue(romanNum);
 		}
 		else if (romanNum == "V") {
-			return getRomanCharValue(getCharFromRomanNum(romanNum, 0));
+			return getRomanNumberValue(romanNum);
 		}
 		else if (romanNum == "IV") {
 			return getRomanCharValue(romanNum.charAt(1)) - getRomanCharValue(getCharFromRomanNum(romanNum, 0));
