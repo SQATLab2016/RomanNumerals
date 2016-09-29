@@ -68,7 +68,12 @@ public class RomanNumerals {
 					|| value == 100 || value == 1000) 
 					&& counter == 3 ) {
 						throw new IllegalArgumentException("This roman number can't be repeated over three times in a row");
-					}		
+					}
+			
+			if((value == 5 || value == 50 || value == 500) 
+					&& lastValue == value) {
+				throw new IllegalArgumentException("This roman number can't be repeated");
+			}
 
 			
 			sum = sum + value;
