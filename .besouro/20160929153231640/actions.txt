@@ -25,3 +25,7 @@ EditAction 1475152570255 RomanNumerals.java 99 1 1 0
 UnitTestCaseAction 1475152571828 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475152571829 TestRomanNumerals.java FAIL
 EditAction 1475152604399 RomanNumerals.java 147 1 1 0
+UnitTestCaseAction 1475152607819 TestRomanNumerals.java OK
+UnitTestSessionAction 1475152607820 TestRomanNumerals.java OK
+RefactoringAction 1475152637123 TestRomanNumerals.java ADD void assertRomanValue() METHOD
+EditAction 1475152637128 TestRomanNumerals.java 464 3 5 3
