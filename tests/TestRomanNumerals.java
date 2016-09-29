@@ -73,6 +73,7 @@ public class TestRomanNumerals {
 			rn.convertToInteger("IIII");
 		}
 		catch(Exception e) {
+			System.out.println(e.getMessage());
 			thrown = true;
 		}
 		assertEquals(true, thrown);
