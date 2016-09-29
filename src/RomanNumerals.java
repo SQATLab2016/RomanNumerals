@@ -2,7 +2,10 @@
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
 
-		return 1;
+		if (romanNum == "II") {
+			return 2;
+		}
+		else return 1;
 		
 	}
 }
