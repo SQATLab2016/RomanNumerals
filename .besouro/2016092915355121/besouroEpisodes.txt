@@ -7,3 +7,16 @@
 1475154266723 test-addition 2 147 true
 1475154344391 regression 2 68 true
 1475154430035 refactoring 2A 0 true
+1475155539130 refactoring 3 1096 true
+1475155539131 refactoring 3 1096 true
+1475155539132 refactoring 3 1096 true
+1475155539133 refactoring 3 1096 true
+1475155539134 refactoring 3 1096 true
+1475155539135 refactoring 3 1096 true
+1475155539136 refactoring 3 1096 true
+1475155539137 refactoring 3 1096 true
+1475155539138 refactoring 3 1096 true
+1475155539139 refactoring 2A 1096 true
+1475155539140 refactoring 3 1096 true
+1475155539141 refactoring 3 1096 true
+1475155539142 refactoring 3 1096 true
