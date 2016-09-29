@@ -96,3 +96,8 @@ EditAction 1475154344113 TestRomanNumerals.java 740 4 9 4
 UnitTestCaseAction 1475154344391 TestRomanNumerals.java OK
 UnitTestSessionAction 1475154344391 TestRomanNumerals.java OK
 EditAction 1475154429748 RomanNumerals.java 743 1 4 0
+UnitTestCaseAction 1475154430035 TestRomanNumerals.java OK
+UnitTestSessionAction 1475154430035 TestRomanNumerals.java OK
+RefactoringAction 1475154442207 TestRomanNumerals.java RENAME test_Convert_1100()=>void test_Convert_1() METHOD
+RefactoringAction 1475154443215 TestRomanNumerals.java RENAME test_Convert_1()=>void test_Convert_11() METHOD
+EditAction 1475154450216 TestRomanNumerals.java 740 4 9 4

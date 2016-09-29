@@ -25,10 +25,10 @@ public class TestRomanNumerals {
 		assertEquals("",1,RomanNumerals.ArabicNumber);
 	}
 	@Test
-	public void test_Convert_1100(){
-		RomanNumerals.RomanNumber="V";
+	public void test_Convert_11(){
+		RomanNumerals.RomanNumber="XI";
 		RomanNumerals.convertToInteger(RomanNumerals.RomanNumber);
-		assertEquals("",5,RomanNumerals.ArabicNumber);
+		assertEquals("",11,RomanNumerals.ArabicNumber);
 	}	
 	
 
