@@ -101,3 +101,5 @@ RefactoringAction 1475153420756 RomanNumerals.java RENAME getCharValue=>int getC
 RefactoringAction 1475153431777 RomanNumerals.java RENAME getCharValue()=>int getRomanCharValue() METHOD
 RefactoringAction 1475153436790 RomanNumerals.java RENAME getRomanCharValue()=>int getRomanCharValue(char) METHOD
 EditAction 1475153504484 RomanNumerals.java 503 2 2 0
+CompilationAction 1475153505828 RomanNumerals.java
+EditAction 1475153513128 RomanNumerals.java 520 2 2 0
