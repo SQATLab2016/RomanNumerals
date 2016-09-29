@@ -8,13 +8,13 @@ public class RomanNumerals {
 		
 		}
 		
-		if(romanNum.equals(new String("I"))) {
+		if(romanNum.equals("I")) {
 			return 1;		
 		}
-		else if (romanNum.equals(new String("II"))) {
+		else if (romanNum.equals("II")) {
 			return 2;
 		}
-		else if (romanNum.equals(new String("III"))) {
+		else if (romanNum.equals("III")) {
 			return 3;
 		}
 		
