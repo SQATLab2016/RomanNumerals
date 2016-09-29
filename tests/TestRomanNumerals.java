@@ -63,4 +63,16 @@ public class TestRomanNumerals {
 		String num="MCMLXXXIV";
 		assertTrue(romanNumerals.checkForNorepeatD(num));
 	}
+	
+	
+//rule 3
+	
+	@Test
+	public void test_checkIfIVis4(){
+//		The	'1'	symbols	('I',	'X',	and	'C')	can	only	be	subtracted	from	the	2	next	highest	values	('IV'	and	
+//		'IX',	'XL'	and	'XC',	'CD'	and	'CM').	
+	
+		String num="IV";
+		assertEquals(4, (romanNumerals.checkIfIVis4(num));
+	}
 }

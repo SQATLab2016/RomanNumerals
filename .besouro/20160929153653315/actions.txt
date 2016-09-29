@@ -80,3 +80,24 @@ RefactoringAction 1475153471716 TestRomanNumerals.java RENAME test_checkForNo()=
 RefactoringAction 1475153478480 RomanNumerals.java ADD boolean checkForNorepeatD(String) METHOD
 EditAction 1475153490459 RomanNumerals.java 2176 8 24 0
 EditAction 1475153490618 TestRomanNumerals.java 1573 8 15 7
+UnitTestCaseAction 1475153491557 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475153491558 TestRomanNumerals.java FAIL
+RefactoringAction 1475153530962 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475153532482 TestRomanNumerals.java RENAME test=>void test_ FIELD
+RefactoringAction 1475153536504 TestRomanNumerals.java RENAME test_=>void test_() METHOD
+RefactoringAction 1475153615121 TestRomanNumerals.java RENAME test_()=>void test_First() METHOD
+RefactoringAction 1475153616148 TestRomanNumerals.java RENAME test_First()=>void test_FirstI() METHOD
+RefactoringAction 1475153638818 RomanNumerals.java ADD boolean checkFirstI(String) METHOD
+RefactoringAction 1475154830909 TestRomanNumerals.java RENAME test_FirstI()=>void test_che() METHOD
+RefactoringAction 1475154831978 TestRomanNumerals.java RENAME test_che()=>void test_check() METHOD
+RefactoringAction 1475154835504 TestRomanNumerals.java RENAME test_check()=>void test_che() METHOD
+RefactoringAction 1475154840030 TestRomanNumerals.java RENAME test_che()=>void test_check() METHOD
+RefactoringAction 1475154843054 TestRomanNumerals.java RENAME test_check()=>void test_checkIf() METHOD
+RefactoringAction 1475154846583 TestRomanNumerals.java RENAME test_checkIf()=>void test_checkIfIVis() METHOD
+RefactoringAction 1475154848107 TestRomanNumerals.java RENAME test_checkIfIVis()=>void test_checkIfIVis$() METHOD
+RefactoringAction 1475154849624 TestRomanNumerals.java RENAME test_checkIfIVis$()=>void test_checkIfIVis4() METHOD
+RefactoringAction 1475154898952 RomanNumerals.java RENAME checkFirstI(String)=>boolean checkIfIVis4(String) METHOD
+RefactoringAction 1475155051379 RomanNumerals.java RENAME checkIfIVis4(String)=>int wahtIVis4(String) METHOD
+RefactoringAction 1475155052406 RomanNumerals.java RENAME wahtIVis4(String)=>int wahtIIVis4(String) METHOD
+RefactoringAction 1475155053932 RomanNumerals.java RENAME wahtIIVis4(String)=>int wahtIsIVis4(String) METHOD
+EditAction 1475155100008 TestRomanNumerals.java 1853 9 15 7

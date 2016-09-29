@@ -4,7 +4,12 @@ public class RomanNumerals {
 		// To be Implemented
 		int num=0;
 		if (checkFor3C(romanNum)&&checkFor3I(romanNum)&&checkFor3M(romanNum)&&checkFor3X(romanNum)) {
+			if (checkForNorepeatD(romanNum)&&checkForNorepeatL(romanNum)&&checkForNorepeatV(romanNum)) {
 
+
+
+
+			}
 
 
 
@@ -111,14 +116,25 @@ public class RomanNumerals {
 	}
 	public boolean checkForNorepeatD(String num) {
 		// TODO Auto-generated method stub
-				int numOfThatChar=0;
-				for (int i = 0; i < num.length(); i++) {
-					if (num.charAt(i)=='D') {
-						numOfThatChar++;
-					}
-				}
-				if (numOfThatChar>1) {
-					return false;
-				}else 	return true;
+		int numOfThatChar=0;
+		for (int i = 0; i < num.length(); i++) {
+			if (num.charAt(i)=='D') {
+				numOfThatChar++;
+			}
+		}
+		if (numOfThatChar>1) {
+			return false;
+		}else 	return true;
+	}
+	public int wahtIsIVis4(String num) {
+		
+		for (int i = 0; i < num.length(); i++) {
+			if (num.charAt(i)=='I' &&(num.charAt(i+1)=='V')) {
+				return 4;
+			}else return -1;
+
+
+		}
+		return -1;
 	}
 }
