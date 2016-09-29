@@ -56,15 +56,10 @@ public class RomanNumerals {
 			if(i == 0) {
 				lastValue = value;
 			}
-			
-			if(value != lastValue) {
-				counter = 0;
-			}
-			
-			
+						
 			if((value == 1 || value == 10 
 					|| value == 100 || value == 1000) 
-					&& counter == 2 ) {
+					&& counter == 3 ) {
 						throw new IllegalArgumentException("This roman number can't be repeated over three times in a row");
 					}		
 
