@@ -51,21 +51,27 @@ public class RomanNumerals {
 						throw new IllegalArgumentException("Something went horribly wrong");
 					
 			}
-			sum = sum + value;
-			if(lastValue != value || i == 0) {
-				lastValue = value;
-				counter = 0;
 
-			} else {
+			
+			if(i == 0) {
 				lastValue = value;
-				counter++;
 			}
+			
+			if(value != lastValue) {
+				counter = 0;
+			}
+			
 			
 			if((value == 1 || value == 10 
 					|| value == 100 || value == 1000) 
 					&& counter == 3 ) {
 						throw new IllegalArgumentException("This roman number can't be repeated over three times in a row");
 					}		
+
+			
+			sum = sum + value;
+			counter++;
+			
 			System.out.println("Sum: " + sum);
 			System.out.println("Value: " + value);
 			System.out.println("Counter: " + counter);
