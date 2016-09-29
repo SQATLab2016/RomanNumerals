@@ -65,8 +65,10 @@ public class RomanNumerals {
 					&& counter == 3 ) {
 						throw new IllegalArgumentException("This roman number can't be repeated over three times in a row");
 					}		
-			System.out.println(sum);
-			System.out.println(value);
+			System.out.println("Sum: " + sum);
+			System.out.println("Value: " + value);
+			System.out.println("Counter: " + counter);
+			
 		}
 		
 		return sum;
