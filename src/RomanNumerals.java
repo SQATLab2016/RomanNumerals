@@ -14,16 +14,6 @@ public class RomanNumerals {
 		
 		}
 		
-		if(romanNum.equals("I")) {
-			return 1;		
-		}
-		else if (romanNum.equals("II")) {
-			return 2;
-		}
-		else if (romanNum.equals("III")) {
-			return 3;
-		}
-		
 		char currentChar;
 		int counter = 0, oldPos = 0;
 		for(int c = 0; c < romanNum.length();c++) {
