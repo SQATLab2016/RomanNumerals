@@ -39,7 +39,7 @@ public class RomanNumerals {
                 return 0;
         }
     }
-	
+	//Source http://stackoverflow.com/questions/20313254/roman-numeral-to-number-conversion
 	public static int decode(String roman) {
         int result = 0;
         String uRoman = roman.toUpperCase(); //case-insensitive
