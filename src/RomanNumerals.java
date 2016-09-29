@@ -10,7 +10,7 @@ public class RomanNumerals {
 			return I_VALUE * 2;
 		}
 		else if (romanNum == "III") {
-			return 3;
+			return I_VALUE * 3;
 		}
 		else if (romanNum == "V") {
 			return 5;
