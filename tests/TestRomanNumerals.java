@@ -16,5 +16,10 @@ public class TestRomanNumerals {
 		int number = rm.convertToInteger("I");
 		assertEquals("I was not 1", 1, number);
 	}
+	
+	@Test
+	public void testMoreThanThree_I_s() throws RomanNumeralsException {
+		
+	}
 
 }
