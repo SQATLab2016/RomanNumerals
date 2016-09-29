@@ -10,7 +10,7 @@ public class RomanNumerals {
 			return getRomanCharValue(getCharFromRomanNum(romanNum, 0)) + getRomanCharValue(getCharFromRomanNum(romanNum, 1));
 		}
 		else if (romanNum == "III") {
-			return getRomanCharValue(getCharFromRomanNum(romanNum, 0)) + getRomanCharValue(getCharFromRomanNum(romanNum, 1)) + getRomanCharValue(romanNum.charAt(2));
+			return getRomanCharValue(getCharFromRomanNum(romanNum, 0)) + getRomanCharValue(getCharFromRomanNum(romanNum, 1)) + getRomanCharValue(getCharFromRomanNum(romanNum, 2));
 		}
 		else if (romanNum == "V") {
 			return getRomanCharValue(getCharFromRomanNum(romanNum, 0));
