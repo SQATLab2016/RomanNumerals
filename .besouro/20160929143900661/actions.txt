@@ -82,3 +82,4 @@ RefactoringAction 1475153470161 TestRomanNumerals.java ADD ExpectedException exp
 RefactoringAction 1475153479334 TestRomanNumerals.java ADD import org.junit.Rule IMPORT
 RefactoringAction 1475153483583 TestRomanNumerals.java ADD import org.junit.rules.ExpectedException IMPORT
 EditAction 1475154011182 TestRomanNumerals.java 1339 6 14 5
+EditAction 1475154012456 RomanNumerals.java 1190 1 4 0

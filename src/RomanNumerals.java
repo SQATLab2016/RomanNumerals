@@ -13,7 +13,20 @@ public class RomanNumerals {
 		
 		for(int i = 0; i < romanNum.length(); i++) {
 			char roman = romanNum.charAt(i);
-			int value = 0;
+			int value = 0;		
+			int lastValue = 0;
+			int counter = 0;
+			if(i > 1) {
+				lastValue = value;
+				if(value == lastValue) {
+					counter++;
+					if((value == 1 || value == 10 
+							|| value == 100 || value == 1000) 
+							&& counter == 3 ) {
+						throw new IllegalArgumentException("This roman number can't be repeated over three times in a row");
+					}
+				}
+			}
 			
 				switch(roman) {
 			
@@ -49,6 +62,7 @@ public class RomanNumerals {
 						throw new IllegalArgumentException("Something went horribly wrong");
 					
 			}
+
 			sum = sum + value;
 		}
 		
