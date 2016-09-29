@@ -157,3 +157,8 @@ RefactoringAction 1475155743743 RomanNumerals.java RENAME wahtIsIis99(String)=>O
 RefactoringAction 1475155746765 RomanNumerals.java RENAME wahtIsIVis499(String)=>Object wahtIsIis499(String) METHOD
 RefactoringAction 1475155747793 RomanNumerals.java RENAME wahtIsIis499(String)=>Object wahtIsIDis499(String) METHOD
 EditAction 1475155790661 RomanNumerals.java 3830 16 40 0
+CompilationAction 1475155790853 TestRomanNumerals.java
+CompilationAction 1475155790854 TestRomanNumerals.java
+CompilationAction 1475155790854 TestRomanNumerals.java
+CompilationAction 1475155790854 TestRomanNumerals.java
+EditAction 1475155790871 TestRomanNumerals.java 3750 16 31 15
