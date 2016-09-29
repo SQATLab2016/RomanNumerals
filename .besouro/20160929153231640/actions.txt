@@ -118,3 +118,7 @@ EditAction 1475153787843 RomanNumerals.java 730 2 2 0
 UnitTestCaseAction 1475153798861 TestRomanNumerals.java OK
 UnitTestSessionAction 1475153798862 TestRomanNumerals.java OK
 EditAction 1475153841024 RomanNumerals.java 806 2 2 0
+UnitTestCaseAction 1475153844190 TestRomanNumerals.java OK
+UnitTestSessionAction 1475153844191 TestRomanNumerals.java OK
+RefactoringAction 1475153880493 RomanNumerals.java ADD char getCharFromRomanNum(String) METHOD
+EditAction 1475153880497 RomanNumerals.java 936 3 3 0
