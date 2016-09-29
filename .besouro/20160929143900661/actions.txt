@@ -60,3 +60,4 @@ RefactoringAction 1475152092911 RomanNumerals.java REMOVE decimals FIELD
 RefactoringAction 1475153070094 TestRomanNumerals.java ADD void convertI()/2 METHOD
 RefactoringAction 1475153073606 TestRomanNumerals.java RENAME convertI()/2=>void convertX() METHOD
 EditAction 1475153087288 TestRomanNumerals.java 732 4 8 4
+EditAction 1475153088419 RomanNumerals.java 625 1 4 0
