@@ -7,7 +7,7 @@ public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
 
 		if (romanNum == "II") {
-			return I_VALUE * 2;
+			return getRomanCharValue(romanNum.charAt(0)) + getRomanCharValue(romanNum.charAt(1));
 		}
 		else if (romanNum == "III") {
 			return I_VALUE * 3;

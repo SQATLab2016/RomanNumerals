@@ -103,3 +103,6 @@ RefactoringAction 1475153436790 RomanNumerals.java RENAME getRomanCharValue()=>i
 EditAction 1475153504484 RomanNumerals.java 503 2 2 0
 CompilationAction 1475153505828 RomanNumerals.java
 EditAction 1475153513128 RomanNumerals.java 520 2 2 0
+UnitTestCaseAction 1475153515848 TestRomanNumerals.java OK
+UnitTestSessionAction 1475153515849 TestRomanNumerals.java OK
+EditAction 1475153677376 RomanNumerals.java 586 2 2 0
