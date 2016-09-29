@@ -22,7 +22,7 @@ public class RomanNumerals {
 					counter++;
 					if((value == 1 || value == 10 
 							|| value == 100 || value == 1000) 
-							&& counter == 3 ) {
+							&& counter == 2 ) {
 						throw new IllegalArgumentException("This roman number can't be repeated over three times in a row");
 					}
 				}
@@ -62,8 +62,9 @@ public class RomanNumerals {
 						throw new IllegalArgumentException("Something went horribly wrong");
 					
 			}
-
+				
 			sum = sum + value;
+			
 		}
 		
 		return sum;
