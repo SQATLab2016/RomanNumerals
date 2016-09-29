@@ -52,12 +52,13 @@ public class RomanNumerals {
 					
 			}
 			sum = sum + value;
-			if(lastValue == value || i == 0) {
-				lastValue = value;
-				counter++;
-			} else {
+			if(lastValue != value || i == 0) {
 				lastValue = value;
 				counter = 0;
+
+			} else {
+				lastValue = value;
+				counter++;
 			}
 			
 			if((value == 1 || value == 10 
