@@ -7,8 +7,12 @@ public class TestRomanNumerals {
 	@Test
 	public void testConvertingI() {
 		RomanNumerals rn = new RomanNumerals();
-		int converted = rn.convertToInteger("I");
-		assertEquals(1, converted);
+		try {
+			int converted = rn.convertToInteger("I");
+			assertEquals(1, converted);
+		}
+		catch(Exception e) {
+		}
 	}
 	
 	@Test
@@ -17,6 +21,19 @@ public class TestRomanNumerals {
 		boolean thrown = false;
 		try {
 			rn.convertToInteger("1");
+		}
+		catch(Exception e) {
+			thrown = true;
+		}
+		assertEquals(true, thrown);
+	}
+	
+	@Test
+	public void testConvertingA() {
+		RomanNumerals rn = new RomanNumerals();
+		boolean thrown = false;
+		try {
+			rn.convertToInteger("A");
 		}
 		catch(Exception e) {
 			thrown = true;

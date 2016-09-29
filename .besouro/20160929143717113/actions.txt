@@ -52,3 +52,15 @@ RefactoringAction 1475149608107 RomanNumeralsException.java RENAME RomanNumerals
 RefactoringAction 1475149610616 RomanNumeralsException.java RENAME RomanNumeralsExceptionException(String)=>RomanNumeralsException(String) METHOD
 EditAction 1475149613640 RomanNumeralsException.java 178 1 1 0
 EditAction 1475149794013 RomanNumerals.java 334 1 2 0
+CompilationAction 1475149794127 TestRomanNumerals.java
+UnitTestCaseAction 1475149796135 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475149796136 TestRomanNumerals.java FAIL
+CompilationAction 1475149842771 TestRomanNumerals.java
+UnitTestCaseAction 1475149843015 TestRomanNumerals.java OK
+UnitTestSessionAction 1475149843015 TestRomanNumerals.java OK
+RefactoringAction 1475149885543 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475149902559 TestRomanNumerals.java RENAME test=>void testc FIELD
+RefactoringAction 1475149906581 TestRomanNumerals.java RENAME testc=>void testConverting FIELD
+RefactoringAction 1475149909095 TestRomanNumerals.java RENAME testConverting=>void testConvertingA FIELD
+RefactoringAction 1475149910610 TestRomanNumerals.java RENAME testConvertingA=>void testConvertingA() METHOD
+EditAction 1475149925321 TestRomanNumerals.java 753 3 10 2
