@@ -47,11 +47,11 @@ public class TestRomanNumerals {
 		int converted = 0;
 		try {
 			converted = rn.convertToInteger("II");
-			System.out.println("result: " + converted);
-			assertEquals(true, converted);
 		}
 		catch(Exception e) {
 		}
+		System.out.println("result: " + converted);
+		assertEquals(true, converted);
 		System.out.println("result: " + converted);
 	}
 }
