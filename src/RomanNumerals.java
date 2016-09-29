@@ -22,7 +22,7 @@ public class RomanNumerals {
 					counter++;
 					if((value == 1 || value == 10 
 							|| value == 100 || value == 1000) 
-							&& counter == 2 ) {
+							&& counter == 1 ) {
 						throw new IllegalArgumentException("This roman number can't be repeated over three times in a row");
 					}
 				}
