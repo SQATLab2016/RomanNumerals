@@ -210,3 +210,10 @@ UnitTestCaseAction 1475154943191 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475154943192 TestRomanNumerals.java FAIL
 RefactoringAction 1475154955092 RomanNumerals.java ADD int D_VALUE FIELD
 EditAction 1475154974781 RomanNumerals.java 1165 4 6 0
+UnitTestCaseAction 1475154977955 TestRomanNumerals.java OK
+UnitTestSessionAction 1475154977956 TestRomanNumerals.java OK
+RefactoringAction 1475154988543 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475154994083 TestRomanNumerals.java RENAME test=>void test_ConvertToInteger FIELD
+RefactoringAction 1475154996094 TestRomanNumerals.java RENAME test_ConvertToInteger=>void test_ConvertToIntegerValueM FIELD
+RefactoringAction 1475154997106 TestRomanNumerals.java RENAME test_ConvertToIntegerValueM=>void test_ConvertToIntegerValueM() METHOD
+EditAction 1475155008942 TestRomanNumerals.java 1432 14 15 14
