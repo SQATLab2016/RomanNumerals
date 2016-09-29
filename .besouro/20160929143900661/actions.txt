@@ -2,3 +2,17 @@ FileOpenedAction 1475149140876 RomanNumerals.java 121 1 1 0
 FileOpenedAction 1475149155805 TestRomanNumerals.java 159 1 1 0
 RefactoringAction 1475149169805 TestRomanNumerals.java RENAME test()=>void testObject() METHOD
 EditAction 1475149297509 TestRomanNumerals.java 219 1 2 1
+UnitTestCaseAction 1475149298801 TestRomanNumerals.java OK
+UnitTestSessionAction 1475149298804 TestRomanNumerals.java OK
+RefactoringAction 1475149308613 TestRomanNumerals.java RENAME testObject()=>void testObjectCreation() METHOD
+RefactoringAction 1475149310628 TestRomanNumerals.java RENAME testObjectCreation()=>void testObjectCreatio() METHOD
+RefactoringAction 1475149315144 TestRomanNumerals.java RENAME testObjectCreatio()=>void createObject() METHOD
+RefactoringAction 1475149326178 TestRomanNumerals.java RENAME createObject()=>void createObjectRomanNumerals() METHOD
+RefactoringAction 1475149339712 TestRomanNumerals.java ADD void createObjectRomanNumerals()/2 METHOD
+RefactoringAction 1475149350231 TestRomanNumerals.java RENAME createObjectRomanNumerals()/2=>void test() METHOD
+RefactoringAction 1475150263345 TestRomanNumerals.java RENAME test()=><initializer /1> null
+RefactoringAction 1475150308864 TestRomanNumerals.java RENAME <initializer /1>=>void conver() METHOD
+RefactoringAction 1475150311880 TestRomanNumerals.java RENAME conver()=>void convertToInteger() METHOD
+RefactoringAction 1475150314897 TestRomanNumerals.java RENAME convertToInteger()=>void convertToIntegerReturn() METHOD
+RefactoringAction 1475150317417 TestRomanNumerals.java RENAME convertToIntegerReturn()=>void convertToIntegerReturns() METHOD
+EditAction 1475150480720 TestRomanNumerals.java 407 2 4 2
