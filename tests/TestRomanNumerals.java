@@ -17,6 +17,11 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
+	public void test_ConvertToIntegerValueIII() {
+		assertRomanValue(3, "III");
+	}
+	
+	@Test
 	public void test_ConvertToIntegerValueV() {
 		assertRomanValue(5, "V");
 	}
