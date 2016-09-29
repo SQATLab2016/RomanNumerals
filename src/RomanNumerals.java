@@ -7,7 +7,11 @@ public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
 
 		if (romanNum == "II") {
-			return getRomanCharValue(getCharFromRomanNum(romanNum, 0)) + getRomanCharValue(getCharFromRomanNum(romanNum, 1));
+			int value = 0;
+			for (int i = 0; i < romanNum.length(); i++) {
+				value += getRomanCharValue(getCharFromRomanNum(romanNum, i));
+			}
+			return value;
 		}
 		else if (romanNum == "III") {
 			return getRomanCharValue(getCharFromRomanNum(romanNum, 0)) + getRomanCharValue(getCharFromRomanNum(romanNum, 1)) + getRomanCharValue(getCharFromRomanNum(romanNum, 2));
