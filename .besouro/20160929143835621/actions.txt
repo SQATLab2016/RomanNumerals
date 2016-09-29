@@ -11,3 +11,9 @@ RefactoringAction 1475149616055 RomanNumerals.java RENAME changeNumber()=>int ge
 RefactoringAction 1475149617082 RomanNumerals.java REMOVE getNumber() METHOD
 EditAction 1475149703515 RomanNumerals.java 241 2 2 0
 EditAction 1475149705008 TestRomanNumerals.java 362 2 5 2
+UnitTestCaseAction 1475149706544 TestRomanNumerals.java OK
+UnitTestSessionAction 1475149706545 TestRomanNumerals.java OK
+RefactoringAction 1475149719805 TestRomanNumerals.java RENAME testReturn()=>void testReturnWithOne() METHOD
+RefactoringAction 1475149728324 TestRomanNumerals.java RENAME testReturnWithOne()=>void testReturnWith() METHOD
+RefactoringAction 1475149729840 TestRomanNumerals.java RENAME testReturnWith()=>void testReturnWith_I() METHOD
+EditAction 1475149992309 TestRomanNumerals.java 368 2 5 2
