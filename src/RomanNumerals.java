@@ -7,13 +7,33 @@ public class RomanNumerals {
 		int i=0;
 		for(i=0;i<romanNum.length();i++){
 			char RomanNumber=romanNum.charAt(i);
-			if (RomanNumber=='I'){ArabicNumber=ArabicNumber+1;}
-			if (RomanNumber=='V'){ArabicNumber=ArabicNumber+5;}
-			if (RomanNumber=='X'){ArabicNumber=ArabicNumber+10;}
-			if (RomanNumber=='L'){ArabicNumber=ArabicNumber+50;}
-			if (RomanNumber=='C'){ArabicNumber=ArabicNumber+100;}
-			if (RomanNumber=='D'){ArabicNumber=ArabicNumber+500;}
-			if (RomanNumber=='M'){ArabicNumber=ArabicNumber+1000;}
+			if (RomanNumber=='I'){
+				if (romanNum.charAt(i-1)=='I')ArabicNumber=ArabicNumber-2;
+				ArabicNumber=ArabicNumber+1;
+				}
+			if (RomanNumber=='V'){
+				ArabicNumber=ArabicNumber+5;
+			}
+			if (RomanNumber=='X'){
+				if (romanNum.charAt(i-1)=='I')ArabicNumber=ArabicNumber-2;
+				ArabicNumber=ArabicNumber+10;
+				}
+			if (RomanNumber=='L'){
+				if (romanNum.charAt(i-1)=='X')ArabicNumber=ArabicNumber-20;
+				ArabicNumber=ArabicNumber+50;
+			}
+			if (RomanNumber=='C'){
+				if (romanNum.charAt(i-1)=='X')ArabicNumber=ArabicNumber-20;
+				ArabicNumber=ArabicNumber+100;
+				}
+			if (RomanNumber=='D'){
+				if (romanNum.charAt(i-1)=='C')ArabicNumber=ArabicNumber-200;
+				ArabicNumber=ArabicNumber+500;
+			}
+			if (RomanNumber=='M'){
+				if (romanNum.charAt(i-1)=='C')ArabicNumber=ArabicNumber-200;
+				ArabicNumber=ArabicNumber+1000;
+			}
 		}
 		return ArabicNumber;
 		
