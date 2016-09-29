@@ -72,7 +72,7 @@ public class TestRomanNumerals {
 		try {
 			rn.convertToInteger("I");
 		}
-		catch(Exception e) {
+		catch(RomanNumeralsException e) {
 			System.out.println(e.getMessage());
 			thrown = true;
 		}
