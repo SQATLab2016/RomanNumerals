@@ -19,9 +19,13 @@ public class RomanNumerals {
 		else if (romanNum.equals("III")) {
 			return 3;
 		}
-		
+		char currentChar;
 		for(int c = 0; c < romanNum.length();c++) {
-			
+			currentChar = romanNum.charAt(c);
+			while(romanNum.charAt(c+1) == currentChar) {
+				c++;
+			}
+					
 		}
 		
 		return 0;
