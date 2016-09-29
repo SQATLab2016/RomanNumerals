@@ -21,4 +21,9 @@ public class RomanNumerals {
 		else return 1;
 		
 	}
+	
+	public int getRomanCharValue(char romanChar) {
+		if (romanChar == 'I') return 1;
+		else if (romanChar == 'V') return 5;
+	}
 }

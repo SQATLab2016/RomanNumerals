@@ -93,3 +93,11 @@ EditAction 1475153365961 RomanNumerals.java 377 1 1 0
 UnitTestCaseAction 1475153368843 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475153368845 TestRomanNumerals.java FAIL
 EditAction 1475153374138 RomanNumerals.java 377 1 1 0
+UnitTestCaseAction 1475153376246 TestRomanNumerals.java OK
+UnitTestSessionAction 1475153376247 TestRomanNumerals.java OK
+RefactoringAction 1475153416233 RomanNumerals.java ADD int get FIELD
+RefactoringAction 1475153419745 RomanNumerals.java RENAME get=>int getCharValue FIELD
+RefactoringAction 1475153420756 RomanNumerals.java RENAME getCharValue=>int getCharValue() METHOD
+RefactoringAction 1475153431777 RomanNumerals.java RENAME getCharValue()=>int getRomanCharValue() METHOD
+RefactoringAction 1475153436790 RomanNumerals.java RENAME getRomanCharValue()=>int getRomanCharValue(char) METHOD
+EditAction 1475153504484 RomanNumerals.java 503 2 2 0
