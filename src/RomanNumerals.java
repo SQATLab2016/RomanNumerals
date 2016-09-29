@@ -13,7 +13,7 @@ public class RomanNumerals {
 			return I_VALUE * 3;
 		}
 		else if (romanNum == "V") {
-			return V_VALUE * 5;
+			return V_VALUE * 1;
 		}
 		else if (romanNum == "IV") {
 			return 4;
