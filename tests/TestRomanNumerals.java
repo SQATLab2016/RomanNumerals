@@ -70,7 +70,7 @@ public class TestRomanNumerals {
 		RomanNumerals rn = new RomanNumerals();
 		boolean thrown = false;
 		try {
-			rn.convertToInteger("I");
+			rn.convertToInteger("IIII");
 		}
 		catch(RomanNumeralsException e) {
 			System.out.println(e.getMessage());
