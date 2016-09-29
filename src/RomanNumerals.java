@@ -32,7 +32,7 @@ public class RomanNumerals {
 			oldPos = c;
 			if(c+1 < romanNum.length()){
 				while(romanNum.charAt(c+1) == currentChar) {
-					if( c < romanNum.length()-1) {
+					if( c < romanNum.length()) {
 						c++;
 						counter++;
 						if(counter > 3)
