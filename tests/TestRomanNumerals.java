@@ -40,4 +40,15 @@ public class TestRomanNumerals {
 		}
 		assertEquals(true, thrown);
 	}
+	
+	@Test
+	public void testConvertingII() {
+		RomanNumerals rn = new RomanNumerals();
+		try {
+			int converted = rn.convertToInteger("II");
+			assertEquals(1, converted);
+		}
+		catch(Exception e) {
+		}
+	}
 }

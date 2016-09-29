@@ -67,3 +67,12 @@ EditAction 1475149925321 TestRomanNumerals.java 753 3 10 2
 UnitTestCaseAction 1475149925586 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475149925586 TestRomanNumerals.java FAIL
 EditAction 1475150139993 RomanNumerals.java 394 1 2 0
+UnitTestCaseAction 1475150140256 TestRomanNumerals.java OK
+UnitTestSessionAction 1475150140257 TestRomanNumerals.java OK
+RefactoringAction 1475150186246 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475150188760 TestRomanNumerals.java RENAME test=>void testConverting FIELD
+RefactoringAction 1475150190781 TestRomanNumerals.java RENAME testConverting=>void testConvertingIII FIELD
+RefactoringAction 1475150191796 TestRomanNumerals.java RENAME testConvertingIII=>void testConvertingIII() METHOD
+RefactoringAction 1475150193310 TestRomanNumerals.java RENAME testConvertingIII()=>void testConvertingII FIELD
+RefactoringAction 1475150194325 TestRomanNumerals.java RENAME testConvertingII=>void testConvertingII() METHOD
+EditAction 1475150254262 TestRomanNumerals.java 957 4 12 2
