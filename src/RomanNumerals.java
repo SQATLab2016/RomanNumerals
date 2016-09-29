@@ -23,7 +23,8 @@ public class RomanNumerals {
 		for(int c = 0; c < romanNum.length();c++) {
 			currentChar = romanNum.charAt(c);
 			while(romanNum.charAt(c+1) == currentChar) {
-				c++;
+				if( c < romanNum.length()-1)
+					c++;
 			}
 					
 		}
