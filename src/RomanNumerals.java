@@ -16,7 +16,7 @@ public class RomanNumerals {
 			int value = 0;		
 			int lastValue = 0;
 			int counter = 0;
-			if(i > 1) {
+			if(i > 0) {
 				lastValue = value;
 				if(value == lastValue) {
 					counter++;
