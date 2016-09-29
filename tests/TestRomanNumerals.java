@@ -39,6 +39,8 @@ public class TestRomanNumerals {
 	public void testRepetition_V_L_D_s() throws RomanNumeralsException {
 		RomanNumerals rm = new RomanNumerals();
 		rm.convertToInteger("VVV");
+		rm.convertToInteger("LL");
+		rm.convertToInteger("DDDD");
 	}
 	
 	
