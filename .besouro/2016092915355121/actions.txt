@@ -69,3 +69,4 @@ UnitTestSessionAction 1475153452479 TestRomanNumerals.java FAIL
 RefactoringAction 1475153569525 TestRomanNumerals.java REMOVE test_Convert_N_Digit() METHOD
 FileOpenedAction 1475153876572 SudokuVerifier.java 2918 5 49 0
 EditAction 1475154102359 RomanNumerals.java 730 1 4 0
+EditAction 1475154102464 TestRomanNumerals.java 552 3 6 3
