@@ -16,12 +16,7 @@ public class RomanNumerals {
 			int value = 0;		
 			int lastValue = 0;
 			int counter = 0;
-			if((value == 1 || value == 10 
-				|| value == 100 || value == 1000) 
-				&& counter == 1 ) {
-					throw new IllegalArgumentException("This roman number can't be repeated over three times in a row");
-				}							
-			
+								
 				switch(roman) {
 			
 					case 'I':
@@ -64,6 +59,12 @@ public class RomanNumerals {
 				lastValue = value;
 				counter = 0;
 			}
+			
+			if((value == 1 || value == 10 
+					|| value == 100 || value == 1000) 
+					&& counter == 1 ) {
+						throw new IllegalArgumentException("This roman number can't be repeated over three times in a row");
+					}		
 		}
 		
 		return sum;
