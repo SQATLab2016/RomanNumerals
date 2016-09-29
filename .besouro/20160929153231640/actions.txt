@@ -167,3 +167,9 @@ RefactoringAction 1475154473821 TestRomanNumerals.java RENAME test_ConvertToInte
 RefactoringAction 1475154475833 TestRomanNumerals.java RENAME test_ConvertToIntegerValueX=>void test_ConvertToIntegerValueXI FIELD
 RefactoringAction 1475154477345 TestRomanNumerals.java RENAME test_ConvertToIntegerValueXI=>void test_ConvertToIntegerValueXI() METHOD
 EditAction 1475154493074 TestRomanNumerals.java 904 8 9 8
+UnitTestCaseAction 1475154503604 TestRomanNumerals.java OK
+UnitTestSessionAction 1475154503605 TestRomanNumerals.java OK
+RefactoringAction 1475154521929 TestRomanNumerals.java ADD void test_ConvertToIntegerValue FIELD
+RefactoringAction 1475154523441 TestRomanNumerals.java RENAME test_ConvertToIntegerValue=>void test_ConvertToIntegerValueXV FIELD
+RefactoringAction 1475154524954 TestRomanNumerals.java RENAME test_ConvertToIntegerValueXV=>void test_ConvertToIntegerValueXV() METHOD
+EditAction 1475154539800 TestRomanNumerals.java 992 9 10 9
