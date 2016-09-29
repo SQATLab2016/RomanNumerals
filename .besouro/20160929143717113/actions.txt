@@ -6,3 +6,20 @@ UnitTestCaseAction 1475149047238 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475149047238 TestRomanNumerals.java FAIL
 RefactoringAction 1475149060883 TestRomanNumerals.java REMOVE testConvertingI() METHOD
 EditAction 1475149064257 TestRomanNumerals.java 285 1 0 0
+CompilationAction 1475149064335 TestRomanNumerals.java
+CompilationAction 1475149064336 TestRomanNumerals.java
+CompilationAction 1475149064336 TestRomanNumerals.java
+CompilationAction 1475149064336 TestRomanNumerals.java
+CompilationAction 1475149064336 TestRomanNumerals.java
+UnitTestCaseAction 1475149065636 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475149065636 TestRomanNumerals.java FAIL
+RefactoringAction 1475149075927 TestRomanNumerals.java ADD void testConvertingI() METHOD
+RefactoringAction 1475149079458 TestRomanNumerals.java REMOVE test() METHOD
+CompilationAction 1475149088590 TestRomanNumerals.java
+CompilationAction 1475149088591 TestRomanNumerals.java
+CompilationAction 1475149088592 TestRomanNumerals.java
+CompilationAction 1475149088593 TestRomanNumerals.java
+CompilationAction 1475149088594 TestRomanNumerals.java
+UnitTestCaseAction 1475149090429 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475149090430 TestRomanNumerals.java FAIL
+EditAction 1475149173831 RomanNumerals.java 139 1 1 0

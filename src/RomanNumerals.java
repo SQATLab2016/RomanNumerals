@@ -1,8 +1,9 @@
 
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
-		// To be Implemented
-		return 0;
-		
+		if(romanNum == "I")
+			return 1;
+		else 
+			return 0;
 	}
 }
