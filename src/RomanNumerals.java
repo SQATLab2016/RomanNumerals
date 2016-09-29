@@ -7,13 +7,13 @@ public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
 
 		if (romanNum == "II") {
-			return getRomanCharValue(getCharFromRomanNum(romanNum)) + getRomanCharValue(romanNum.charAt(1));
+			return getRomanCharValue(getCharFromRomanNum(romanNum, 0)) + getRomanCharValue(getCharFromRomanNum(romanNum, 1));
 		}
 		else if (romanNum == "III") {
-			return getRomanCharValue(getCharFromRomanNum(romanNum)) + getRomanCharValue(romanNum.charAt(1)) + getRomanCharValue(romanNum.charAt(2));
+			return getRomanCharValue(getCharFromRomanNum(romanNum, 0)) + getRomanCharValue(getCharFromRomanNum(romanNum, 1)) + getRomanCharValue(romanNum.charAt(2));
 		}
 		else if (romanNum == "V") {
-			return getRomanCharValue(getCharFromRomanNum(romanNum));
+			return getRomanCharValue(getCharFromRomanNum(romanNum, 0));
 		}
 		else if (romanNum == "IV") {
 			return getRomanCharValue(romanNum.charAt(1)) - getRomanCharValue(getCharFromRomanNum(romanNum));
@@ -22,8 +22,8 @@ public class RomanNumerals {
 		
 	}
 
-	private char getCharFromRomanNum(String romanNum) {
-		return romanNum.charAt(0);
+	private char getCharFromRomanNum(String romanNum, int index) {
+		return romanNum.charAt(index);
 	}
 	
 	public int getRomanCharValue(char romanChar) {
