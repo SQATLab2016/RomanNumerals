@@ -47,7 +47,6 @@ public class RomanNumerals {
 					
 					default:
 						throw new IllegalArgumentException("Something went horribly wrong");
-						break;
 					
 			}
 			sum = sum + value;

@@ -27,6 +27,12 @@ public class TestRomanNumerals {
 		RomanNumerals romanNumerals = new RomanNumerals();
 		assertEquals("10", 10, romanNumerals.convertToInteger("X"));
 	}
+	
+	@Test
+	public void convertIII() {
+		RomanNumerals romanNumerals = new RomanNumerals();
+		assertEquals("3", 3, romanNumerals.convertToInteger("III"));
+	}
 
 
 	
