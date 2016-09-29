@@ -51,3 +51,4 @@ RefactoringAction 1475149605595 RomanNumeralsException.java RENAME RomanNumeExce
 RefactoringAction 1475149608107 RomanNumeralsException.java RENAME RomanNumeralsException(String)=>void RomanNumeralsExceptionException(String) METHOD
 RefactoringAction 1475149610616 RomanNumeralsException.java RENAME RomanNumeralsExceptionException(String)=>RomanNumeralsException(String) METHOD
 EditAction 1475149613640 RomanNumeralsException.java 178 1 1 0
+EditAction 1475149794013 RomanNumerals.java 334 1 2 0
