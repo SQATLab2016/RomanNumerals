@@ -137,7 +137,7 @@ public class RomanNumerals {
 		}
 		return -1;
 	}
-	public Object wahtIsIVis9(String num) {
+	public Object wahtIsIXis9(String num) {
 		for (int i = 0; i < num.length(); i++) {
 			if (num.charAt(i)=='I' &&(num.charAt(i+1)=='X')) {
 				return 9;
@@ -147,7 +147,7 @@ public class RomanNumerals {
 		}
 		return -1;
 	}
-	public Object wahtIsIVis49(String num) {
+	public Object wahtIsILis49(String num) {
 		for (int i = 0; i < num.length(); i++) {
 			if (num.charAt(i)=='I' &&(num.charAt(i+1)=='L')) {
 				return 49;
@@ -157,7 +157,7 @@ public class RomanNumerals {
 		}
 		return -1;
 	}
-	public Object wahtIsIVis99(String num) {
+	public Object wahtIsICis99(String num) {
 		for (int i = 0; i < num.length(); i++) {
 			if (num.charAt(i)=='I' &&(num.charAt(i+1)=='C')) {
 				return 99;
@@ -167,10 +167,40 @@ public class RomanNumerals {
 		}
 		return -1;
 	}
-	public Object wahtIsIVis499(String num) {
+	public Object wahtIsIDis499(String num) {
 		for (int i = 0; i < num.length(); i++) {
 			if (num.charAt(i)=='I' &&(num.charAt(i+1)=='D')) {
 				return 499;
+			}else return -1;
+
+
+		}
+		return -1;
+	}
+	public Object wahtIsXLis40(String num) {
+		for (int i = 0; i < num.length(); i++) {
+			if (num.charAt(i)=='X' &&(num.charAt(i+1)=='L')) {
+				return 40;
+			}else return -1;
+
+
+		}
+		return -1;
+	}
+	public Object wahtIsXCis90(String num) {
+		for (int i = 0; i < num.length(); i++) {
+			if (num.charAt(i)=='X' &&(num.charAt(i+1)=='C')) {
+				return 90;
+			}else return -1;
+
+
+		}
+		return -1;
+	}
+	public Object wahtIsXDis490(String num) {
+		for (int i = 0; i < num.length(); i++) {
+			if (num.charAt(i)=='X' &&(num.charAt(i+1)=='D')) {
+				return 490;
 			}else return -1;
 
 
