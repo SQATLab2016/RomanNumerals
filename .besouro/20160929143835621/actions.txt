@@ -50,3 +50,4 @@ UnitTestSessionAction 1475152883418 TestRomanNumerals.java OK
 RefactoringAction 1475152917916 TestRomanNumerals.java ADD void testMoreThanThree_I_s()/2 METHOD
 RefactoringAction 1475152922431 TestRomanNumerals.java RENAME testMoreThanThree_I_s()/2=>void testMoreThanThree_X_s() METHOD
 EditAction 1475153030093 RomanNumerals.java 893 3 7 0
+EditAction 1475153031262 TestRomanNumerals.java 813 4 9 2

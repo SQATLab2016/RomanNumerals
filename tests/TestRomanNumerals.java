@@ -22,5 +22,11 @@ public class TestRomanNumerals {
 		RomanNumerals rm = new RomanNumerals();
 		rm.convertToInteger("IIII");
 	}
+	
+	@Test (expected = RomanNumeralsException.class)
+	public void testMoreThanThree_X_s() throws RomanNumeralsException {
+		RomanNumerals rm = new RomanNumerals();
+		rm.convertToInteger("XXXX");
+	}
 
 }
