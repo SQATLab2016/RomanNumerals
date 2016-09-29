@@ -10,6 +10,7 @@ public class TestRomanNumerals {
 			RomanNumerals rn = new RomanNumerals();
 			int converted = rn.convertToInteger("I");
 			assertEquals(1, converted);
+		}
 	}
 
 }

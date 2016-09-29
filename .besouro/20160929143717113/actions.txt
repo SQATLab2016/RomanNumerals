@@ -1,3 +1,8 @@
 FileOpenedAction 1475149037345 TestRomanNumerals.java 159 1 1 0
 RefactoringAction 1475149041774 TestRomanNumerals.java ADD void testConvertingI() METHOD
 EditAction 1475149044804 TestRomanNumerals.java 281 2 3 1
+CompilationAction 1475149044959 TestRomanNumerals.java
+UnitTestCaseAction 1475149047238 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475149047238 TestRomanNumerals.java FAIL
+RefactoringAction 1475149060883 TestRomanNumerals.java REMOVE testConvertingI() METHOD
+EditAction 1475149064257 TestRomanNumerals.java 285 1 0 0
