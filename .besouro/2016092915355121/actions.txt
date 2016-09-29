@@ -28,3 +28,20 @@ RefactoringAction 1475152907887 TestRomanNumerals.java ADD RomanNumerals RomanNu
 RefactoringAction 1475152962627 RomanNumerals.java ADD String RomanNumber FIELD
 EditAction 1475152981621 RomanNumerals.java 150 1 1 0
 EditAction 1475152981712 TestRomanNumerals.java 364 2 3 2
+UnitTestCaseAction 1475152982000 TestRomanNumerals.java OK
+UnitTestSessionAction 1475152982001 TestRomanNumerals.java OK
+RefactoringAction 1475152996660 TestRomanNumerals.java RENAME test_Convert1digit()=>void test_Assign1digit() METHOD
+RefactoringAction 1475152998175 TestRomanNumerals.java RENAME test_Assign1digit()=>void test_Assigndigit() METHOD
+RefactoringAction 1475153003689 TestRomanNumerals.java RENAME test_Assigndigit()=>void test_AssignDigit() METHOD
+RefactoringAction 1475153013248 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475153015262 TestRomanNumerals.java RENAME test=>void test_ FIELD
+RefactoringAction 1475153019276 TestRomanNumerals.java RENAME test_=>void test_Convert FIELD
+RefactoringAction 1475153022289 TestRomanNumerals.java RENAME test_Convert=>void test_Convert1 FIELD
+RefactoringAction 1475153024320 TestRomanNumerals.java RENAME test_Convert1=>void test_Convert1Digit FIELD
+RefactoringAction 1475153026833 TestRomanNumerals.java RENAME test_Convert1Digit=>void test_Convert1Digit() METHOD
+RefactoringAction 1475153086196 RomanNumerals.java ADD Object ArabicNumber FIELD
+RefactoringAction 1475153095096 RomanNumerals.java REMOVE ArabicNumber FIELD
+RefactoringAction 1475153096609 RomanNumerals.java ADD int A FIELD
+RefactoringAction 1475153098628 RomanNumerals.java RENAME A=>int Arabic FIELD
+RefactoringAction 1475153100641 RomanNumerals.java RENAME Arabic=>int ArabicNumber FIELD
+EditAction 1475153110455 RomanNumerals.java 176 1 1 0
