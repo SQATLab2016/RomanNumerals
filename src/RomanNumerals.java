@@ -23,10 +23,10 @@ public class RomanNumerals {
 
 	private int getSubstractiveRomanNumberValue(String romanNum) {
 		int value = getRomanCharValue(getCharFromRomanNum(romanNum, romanNum.length() - 1));
-		for (int i = romanNum.length() - 1; i >= 0; i--) {
-			
+		for (int i = romanNum.length() - 2; i >= 0; i--) {
+			value -= getRomanCharValue(getCharFromRomanNum(romanNum, i));
 		}
-		return getRomanCharValue(getCharFromRomanNum(romanNum, 1)) - getRomanCharValue(getCharFromRomanNum(romanNum, 0));
+		return value;
 	}
 
 	private boolean hasSubstractiveNumber(String romanNum) {
