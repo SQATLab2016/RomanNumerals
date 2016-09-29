@@ -16,8 +16,8 @@ public class TestRomanNumerals {
 		assertRomanValue(2);
 	}
 
-	private void assertRomanValue(int expected, String actual) {
-		int value = numerals.convertToInteger("II");
+	private void assertRomanValue(int expected, String testValue) {
+		int value = numerals.convertToInteger(testValue);
 		assertEquals(expected, value);
 	}
 
