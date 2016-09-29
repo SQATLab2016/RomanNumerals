@@ -1,10 +1,11 @@
 
 public class RomanNumerals {
 	
-	private int I_VALUE = 1;
-	private int V_VALUE = 5;
-	private int X_VALUE = 10;
-	private int L_VALUE = 50;
+	private static final int I_VALUE = 1;
+	private static final int V_VALUE = 5;
+	private static final int X_VALUE = 10;
+	private static final int L_VALUE = 50;
+	private static final int C_VALUE = 100;
 	
 	public int convertToInteger(String romanNum) {
 
@@ -32,6 +33,7 @@ public class RomanNumerals {
 		else if (romanChar == 'V') return V_VALUE;
 		else if (romanChar == 'X') return X_VALUE;
 		else if (romanChar == 'L') return L_VALUE;
+		else if (romanChar == 'C') return C_VALUE;
 		else return 1;
 	}
 }
