@@ -213,3 +213,11 @@ RefactoringAction 1475154164500 TestRomanNumerals.java RENAME testConvertingXXXX
 RefactoringAction 1475154166010 TestRomanNumerals.java RENAME testConvertingXXX()=>void testConvertingXXXIII() METHOD
 RefactoringAction 1475154167024 TestRomanNumerals.java RENAME testConvertingXXXIII()=>void testConvertingXXXIIII() METHOD
 EditAction 1475154187860 TestRomanNumerals.java 1668 7 22 4
+UnitTestCaseAction 1475154189239 TestRomanNumerals.java OK
+UnitTestSessionAction 1475154189240 TestRomanNumerals.java OK
+RefactoringAction 1475154403612 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475154405623 TestRomanNumerals.java RENAME test=>void testConverting FIELD
+RefactoringAction 1475154420636 TestRomanNumerals.java RENAME testConverting=>void testConvertingI FIELD
+RefactoringAction 1475154421646 TestRomanNumerals.java RENAME testConvertingI=>void testConvertingIV FIELD
+RefactoringAction 1475154422655 TestRomanNumerals.java RENAME testConvertingIV=>void testConvertingIV() METHOD
+EditAction 1475154484534 TestRomanNumerals.java 1884 8 24 4

@@ -90,4 +90,15 @@ public class TestRomanNumerals {
 		}
 		assertEquals(true, thrown);
 	}
+	
+	@Test
+	public void testConvertingIV(){
+		RomanNumerals rn = new RomanNumerals();
+		try {
+			int converted = rn.convertToInteger("IV");
+			assertEquals(4, converted);
+		}
+		catch(RomanNumeralsException e) {
+		}
+	}
 }
