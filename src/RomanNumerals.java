@@ -13,33 +13,42 @@ public class RomanNumerals {
 		
 		for(int i = 0; i < romanNum.length(); i++) {
 			char roman = romanNum.charAt(i);
-			
 			int value = 0;
 			
-			switch(roman) {
+				switch(roman) {
 			
-			case 'I':
-				value = 1;
+					case 'I':
+						value = 1;
+						break;
 			
-			case 'V':
-				value = 5;
+					case 'V':
+						value = 5;
+						break;
 			
-			case 'X':
-				value = 10;
+					case 'X':
+						value = 10;
+						break;
 				
-			case 'L':
-				value = 50;
+					case 'L':
+						value = 50;
+						break;
 			
-			case 'C':
-				value = 100;
+					case 'C':
+						value = 100;
+						break;
 			
-			case 'D':
-				value = 500;
+					case 'D':
+						value = 500;
+						break;
 				
-			case 'M':
-				value = 1000;
-				
-				
+					case 'M':
+						value = 1000;
+						break;
+					
+					default:
+						throw new IllegalArgumentException("Something went horribly wrong");
+						break;
+					
 			}
 			sum = sum + value;
 		}
