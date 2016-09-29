@@ -134,3 +134,16 @@ EditAction 1475156048892 TestRomanNumerals.java 856 6 10 5
 UnitTestCaseAction 1475156049172 TestRomanNumerals.java OK
 UnitTestSessionAction 1475156049172 TestRomanNumerals.java OK
 EditAction 1475156082667 TestRomanNumerals.java 795 6 9 5
+UnitTestCaseAction 1475156082951 TestRomanNumerals.java OK
+UnitTestSessionAction 1475156082951 TestRomanNumerals.java OK
+RefactoringAction 1475156270277 TestRomanNumerals.java ADD void test_Convert10()/2 METHOD
+RefactoringAction 1475156270279 TestRomanNumerals.java ADD void test_Convert10()/3 METHOD
+RefactoringAction 1475156270280 TestRomanNumerals.java ADD void test_Convert10()/4 METHOD
+RefactoringAction 1475156270280 TestRomanNumerals.java ADD void test_Convert10()/5 METHOD
+RefactoringAction 1475156279825 TestRomanNumerals.java RENAME test_Convert10()/5=>void test_Convert1000() METHOD
+RefactoringAction 1475156287869 TestRomanNumerals.java RENAME test_Convert10()/4=>void test_Convert500() METHOD
+RefactoringAction 1475156295910 TestRomanNumerals.java RENAME test_Convert10()/3=>void test_Convert100() METHOD
+RefactoringAction 1475156307943 TestRomanNumerals.java RENAME test_Convert10()/2=>void test_Convert50() METHOD
+RefactoringAction 1475156317481 TestRomanNumerals.java ADD void test_Convert10()/2 METHOD
+RefactoringAction 1475156320493 TestRomanNumerals.java RENAME test_Convert10()/2=>void test_Convert5() METHOD
+EditAction 1475156326456 TestRomanNumerals.java 1367 11 21 11

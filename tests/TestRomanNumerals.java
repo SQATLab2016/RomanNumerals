@@ -25,8 +25,39 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
+	public void test_Convert5(){
+		RomanNumerals.RomanNumber="V";
+		assertEqualsNumber(5);
+	}
+	
+	@Test
 	public void test_Convert10(){
-		
+		RomanNumerals.RomanNumber="X";
+		assertEqualsNumber(10);
+	}
+	
+	@Test
+	public void test_Convert50(){
+		RomanNumerals.RomanNumber="L";
+		assertEqualsNumber(50);
+	}
+	
+	@Test
+	public void test_Convert100(){
+		RomanNumerals.RomanNumber="C";
+		assertEqualsNumber(100);
+	}
+	
+	@Test
+	public void test_Convert500(){
+		RomanNumerals.RomanNumber="D";
+		assertEqualsNumber(500);
+	}
+	
+	@Test
+	public void test_Convert1000(){
+		RomanNumerals.RomanNumber="M";
+		assertEqualsNumber(1000);
 	}
 	
 	@Test
