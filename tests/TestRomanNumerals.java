@@ -12,7 +12,6 @@ public class TestRomanNumerals {
 			assertEquals(1, converted);
 		}
 		catch(Exception e) {
-			System.out.println(e.getMessage());
 		}
 	}
 	
