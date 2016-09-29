@@ -1,8 +1,13 @@
 import static org.junit.Assert.*;
 
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 
 public class TestRomanNumerals {
+	
+	@Rule
+	public ExpectedException expectedEx = ExpectedException.none();
 
 	@Test
 	public void createObjectRomanNumerals() {
@@ -34,6 +39,13 @@ public class TestRomanNumerals {
 		assertEquals("3", 3, romanNumerals.convertToInteger("III"));
 	}
 
+	@Test
+	public void convertIIII() throws IllegalArgumentException {
+		expectedEx.expect(IllegalArgumentException.class);
+		expectedEx.expectMessage("This roman number can't be repeated over three times in a row");
+		RomanNumerals romanNumerals = new RomanNumerals();
+		romanNumerals.convertToInteger("IIII");
+	}
 
 	
 	
