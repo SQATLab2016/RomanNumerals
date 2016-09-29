@@ -3,6 +3,7 @@ import java.util.List;
 
 public class RomanNumerals {
 	private List<String> subStrings = new ArrayList<String>();
+	private List<Integer> subStringValues = new ArrayList<Integer>();
 	public int convertToInteger(String romanNum) throws RomanNumeralsException{
 		for(char c : romanNum.toCharArray()) {
 			if(c == 'I' || c == 'V' || c == 'X' || c == 'L' || c == 'C' || c == 'D' || c == 'M') {
@@ -43,7 +44,18 @@ public class RomanNumerals {
 			else 
 				subStrings.add(romanNum.substring(oldPos, oldPos+counter-1));			
 		}
-		System.out.println(subStrings.get(0) + " " + subStrings.get(1));
+		for(String s: subStrings) {
+			switch(s) {
+			case "I": subStringValues.add(1);
+			break;
+			case "II": subStringValues.add(2);
+			break;
+			case "III": subStringValues.add(3);
+			break;
+			case "V": subStringValues.add(5);
+			break;
+			}
+		}
 		
 		return 0;
 	}
