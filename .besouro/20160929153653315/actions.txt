@@ -8,3 +8,7 @@ RefactoringAction 1475152660407 TestRomanNumerals.java RENAME test_CherFore()=>v
 RefactoringAction 1475152661434 TestRomanNumerals.java RENAME test_CherFor3()=>void test_CherFor3I() METHOD
 RefactoringAction 1475152764363 TestRomanNumerals.java ADD RomanNumerals romanNumerals FIELD
 EditAction 1475152770354 TestRomanNumerals.java 409 2 3 1
+CompilationAction 1475152770533 TestRomanNumerals.java
+RefactoringAction 1475152785945 RomanNumerals.java ADD boolean cherFor3I(String) METHOD
+CompilationAction 1475152910860 TestRomanNumerals.java
+EditAction 1475152910876 RomanNumerals.java 389 2 4 0

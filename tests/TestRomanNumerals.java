@@ -21,7 +21,7 @@ public class TestRomanNumerals {
 
 		String num="MCMLXXXIV";
 				
-		assertTrue(cherFor3I(num));
+		assertTrue(romanNumerals.cherFor3I(num));
 	}
 
 }
