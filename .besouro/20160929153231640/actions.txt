@@ -32,3 +32,6 @@ EditAction 1475152637128 TestRomanNumerals.java 464 3 5 3
 RefactoringAction 1475152664069 TestRomanNumerals.java RENAME assertRomanValue()=>void assertRomanValue(String) METHOD
 RefactoringAction 1475152673588 TestRomanNumerals.java RENAME assertRomanValue(String)=>void assertRomanValue(int) METHOD
 EditAction 1475152683998 TestRomanNumerals.java 484 3 5 3
+UnitTestCaseAction 1475152686204 TestRomanNumerals.java OK
+UnitTestSessionAction 1475152686206 TestRomanNumerals.java OK
+EditAction 1475152696321 TestRomanNumerals.java 435 3 4 3

@@ -8,8 +8,7 @@ public class TestRomanNumerals {
 
 	@Test
 	public void test_ConvertToIntegerValueI() {
-		int value = numerals.convertToInteger("I");
-		assertEquals(1, value);
+		assertRomanValue(1);
 	}
 	
 	@Test
