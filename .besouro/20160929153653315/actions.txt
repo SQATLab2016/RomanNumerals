@@ -167,3 +167,22 @@ CompilationAction 1475155791042 TestRomanNumerals.java
 CompilationAction 1475155791042 TestRomanNumerals.java
 CompilationAction 1475155791043 TestRomanNumerals.java
 EditAction 1475155823048 TestRomanNumerals.java 3750 16 31 15
+UnitTestCaseAction 1475155823717 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475155823718 TestRomanNumerals.java FAIL
+RefactoringAction 1475155837169 TestRomanNumerals.java ADD void test_checkIfIVis90()/2 METHOD
+RefactoringAction 1475155837171 TestRomanNumerals.java ADD void test_checkIfIVis490()/2 METHOD
+RefactoringAction 1475155841249 TestRomanNumerals.java RENAME test_checkIfIVis90()/2=>void test_checkIfLis90() METHOD
+RefactoringAction 1475155844279 TestRomanNumerals.java RENAME test_checkIfLis90()=>void test_checkIfLCis90() METHOD
+RefactoringAction 1475155869828 TestRomanNumerals.java REMOVE test_checkIfIVis490()/2 METHOD
+RefactoringAction 1475155888376 TestRomanNumerals.java ADD void test_checkIfIVis490()/2 METHOD
+RefactoringAction 1475155892424 TestRomanNumerals.java REMOVE test_checkIfIVis490()/2 METHOD
+RefactoringAction 1475155905506 TestRomanNumerals.java REMOVE test_checkIfIVis99() METHOD
+RefactoringAction 1475155905508 TestRomanNumerals.java REMOVE test_checkIfIVis499() METHOD
+RefactoringAction 1475155905509 TestRomanNumerals.java REMOVE test_checkIfIVis49() METHOD
+RefactoringAction 1475155928119 TestRomanNumerals.java RENAME test_checkIfLCis90()=>void test_checkIfis90() METHOD
+RefactoringAction 1475155930164 TestRomanNumerals.java RENAME test_checkIfis90()=>void test_checkIfCDis90() METHOD
+RefactoringAction 1475155936704 TestRomanNumerals.java RENAME test_checkIfCDis90()=>void test_checkIfCDis400() METHOD
+RefactoringAction 1475155944229 TestRomanNumerals.java RENAME test_checkIfIVis490()=>void test_checkIfIVis900() METHOD
+RefactoringAction 1475155971401 RomanNumerals.java ADD Object wahtIsCDis400(String) METHOD
+RefactoringAction 1475155990571 RomanNumerals.java ADD Object wahtIsCMis900(String) METHOD
+EditAction 1475156005715 RomanNumerals.java 4226 18 44 0

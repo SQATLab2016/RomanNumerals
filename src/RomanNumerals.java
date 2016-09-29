@@ -207,4 +207,24 @@ public class RomanNumerals {
 		}
 		return -1;
 	}
+	public Object wahtIsCDis400(String num) {
+		for (int i = 0; i < num.length(); i++) {
+			if (num.charAt(i)=='C' &&(num.charAt(i+1)=='D')) {
+				return 400;
+			}else return -1;
+
+
+		}
+		return -1;
+	}
+	public Object wahtIsCMis900(String num) {
+		for (int i = 0; i < num.length(); i++) {
+			if (num.charAt(i)=='C' &&(num.charAt(i+1)=='M')) {
+				return 900;
+			}else return -1;
+
+
+		}
+		return -1;
+	}
 }
