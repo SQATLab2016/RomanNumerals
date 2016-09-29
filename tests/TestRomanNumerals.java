@@ -8,7 +8,7 @@ public class TestRomanNumerals {
 
 	@Test
 	public void test_ConvertToIntegerValueI() {
-		assertRomanValue(1);
+		assertRomanValue(1, "I");
 	}
 	
 	@Test
@@ -16,7 +16,7 @@ public class TestRomanNumerals {
 		assertRomanValue(2);
 	}
 
-	private void assertRomanValue(int expected) {
+	private void assertRomanValue(int expected, String actual) {
 		int value = numerals.convertToInteger("II");
 		assertEquals(expected, value);
 	}
