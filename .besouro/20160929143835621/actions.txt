@@ -45,3 +45,8 @@ RefactoringAction 1475151740143 RomanNumerals.java RENAME testRea=>boolean testR
 RefactoringAction 1475151745170 RomanNumerals.java RENAME testRepeatedTooManyTimes()=>boolean testRepeatedTooManyTimes(string) METHOD
 RefactoringAction 1475151749684 RomanNumerals.java RENAME testRepeatedTooManyTimes(string)=>boolean testRepeatedTooManyTimes(String) METHOD
 EditAction 1475152881098 RomanNumerals.java 833 3 7 0
+UnitTestCaseAction 1475152883417 TestRomanNumerals.java OK
+UnitTestSessionAction 1475152883418 TestRomanNumerals.java OK
+RefactoringAction 1475152917916 TestRomanNumerals.java ADD void testMoreThanThree_I_s()/2 METHOD
+RefactoringAction 1475152922431 TestRomanNumerals.java RENAME testMoreThanThree_I_s()/2=>void testMoreThanThree_X_s() METHOD
+EditAction 1475153030093 RomanNumerals.java 893 3 7 0

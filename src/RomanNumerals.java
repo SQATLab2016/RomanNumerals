@@ -22,7 +22,8 @@ public class RomanNumerals {
 		if(roman.length() < 4 ) return false;
 		
 		//Test the obvious
-		if(roman == "IIII") return true;
+		if(roman == "IIII" || roman == "XXXX" || roman == "CCCC" || roman == "MMMM") return true;
+		
 		
 		return false;
 	}
