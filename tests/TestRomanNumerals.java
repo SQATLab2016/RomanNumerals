@@ -48,7 +48,7 @@ public class TestRomanNumerals {
 		try {
 			converted = rn.convertToInteger("II");
 			System.out.println("result: " + converted);
-			assertEquals(2, converted);
+			assertEquals(true, converted);
 		}
 		catch(Exception e) {
 		}
