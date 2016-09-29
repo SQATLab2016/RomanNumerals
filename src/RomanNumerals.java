@@ -8,6 +8,9 @@ public class RomanNumerals {
 		else if (romanNum == "V") {
 			return 5;
 		}
+		else if (romanNum == "IV") {
+			return 4;
+		}
 		else return 1;
 		
 	}
