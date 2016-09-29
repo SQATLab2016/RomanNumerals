@@ -70,3 +70,6 @@ UnitTestCaseAction 1475152995100 TestRomanNumerals.java OK
 UnitTestSessionAction 1475152995101 TestRomanNumerals.java OK
 RefactoringAction 1475153022882 TestRomanNumerals.java ADD void test_ConvertToIntegerValueIII() METHOD
 EditAction 1475153033753 TestRomanNumerals.java 730 6 7 6
+UnitTestCaseAction 1475153041761 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475153041762 TestRomanNumerals.java FAIL
+EditAction 1475153062825 RomanNumerals.java 291 1 1 0
