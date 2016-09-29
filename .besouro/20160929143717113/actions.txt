@@ -276,3 +276,6 @@ RefactoringAction 1475156830830 RomanNumerals.java ADD String s FIELD
 RefactoringAction 1475156833339 RomanNumerals.java REMOVE s FIELD
 EditAction 1475156842371 RomanNumerals.java 1713 1 7 0
 EditAction 1475156889359 RomanNumerals.java 1758 1 7 0
+UnitTestCaseAction 1475156890183 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475156890183 TestRomanNumerals.java FAIL
+EditAction 1475157006991 RomanNumerals.java 1807 1 7 0

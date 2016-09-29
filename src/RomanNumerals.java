@@ -37,6 +37,8 @@ public class RomanNumerals {
 						counter++;
 						if(counter > 3)
 							throw new RomanNumeralsException("Roman Numeral to be converted isn't valid");
+						if(c+1 == romanNum.length())
+							break;
 					}
 				}
 			}
