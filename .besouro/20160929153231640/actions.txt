@@ -233,3 +233,7 @@ EditAction 1475155131012 TestRomanNumerals.java 1521 15 16 15
 UnitTestCaseAction 1475155133844 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475155133845 TestRomanNumerals.java FAIL
 EditAction 1475155210908 RomanNumerals.java 1459 4 6 0
+UnitTestCaseAction 1475155212532 TestRomanNumerals.java OK
+UnitTestSessionAction 1475155212533 TestRomanNumerals.java OK
+RefactoringAction 1475155329342 RomanNumerals.java ADD boolean hasSubstractiveNumber(String) METHOD
+EditAction 1475155329349 RomanNumerals.java 1563 5 7 0

@@ -11,7 +11,7 @@ public class RomanNumerals {
 	
 	public int convertToInteger(String romanNum) {
 
-		if (romanNum == "IV") {
+		if (hasSubstractiveNumber(romanNum)) {
 			return getRomanCharValue(getCharFromRomanNum(romanNum, 1)) - getRomanCharValue(getCharFromRomanNum(romanNum, 0));
 		}
 		else if (romanNum == "IIX") {
@@ -19,6 +19,10 @@ public class RomanNumerals {
 		}
 		else return getRomanNumberValue(romanNum);
 		
+	}
+
+	private boolean hasSubstractiveNumber(String romanNum) {
+		return romanNum == "IV";
 	}
 
 	private int getRomanNumberValue(String romanNum) {
