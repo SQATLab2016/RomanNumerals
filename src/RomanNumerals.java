@@ -58,7 +58,7 @@ public class RomanNumerals {
 				continue;
 			}
 			else {
-				
+				tokens.add(sb.toString());
 			}
 		}
 		return tokens;
