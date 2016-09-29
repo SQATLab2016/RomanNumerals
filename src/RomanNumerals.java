@@ -15,7 +15,7 @@ public class RomanNumerals {
 			return getSubstractiveRomanNumberValue(romanNum);
 		}
 		else if (romanNum == "IX") {
-			return getRomanCharValue(getCharFromRomanNum(romanNum, 2)) - getRomanCharValue(getCharFromRomanNum(romanNum, 1)) - getRomanCharValue(getCharFromRomanNum(romanNum, 0));
+			return getRomanCharValue(getCharFromRomanNum(romanNum, 1)) - getRomanCharValue(getCharFromRomanNum(romanNum, 0));
 		}
 		else return getRomanNumberValue(romanNum);
 		
