@@ -154,6 +154,10 @@ public class TestRomanNumerals {
 		String num="CM";
 		assertEquals(900, (romanNumerals.wahtIsCMis900(num)));
 	}
+	//4 rule
+	
+//	Only	one	subtraction	can
+//	be	made	per	numeral	('XC'	is	allowed,	'XXC'	is	not).	
 
 
 }
