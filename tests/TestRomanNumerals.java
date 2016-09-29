@@ -73,7 +73,7 @@ public class TestRomanNumerals {
 	
 	@Test
 	public void test_ConvertToIntegerValueIIX() {
-		assertRomanValue(8, "IIX");
+		assertRomanValue(9, "IX");
 	}
 
 	private void assertRomanValue(int expected, String testValue) {
