@@ -43,6 +43,15 @@ public class TestRomanNumerals {
 		rm.convertToInteger("DDDD");
 	}
 	
+	@Test 
+	public void testRepetition_V_L_D_s_pass() throws RomanNumeralsException {
+		RomanNumerals rm = new RomanNumerals();
+		rm.convertToInteger("V");
+		rm.convertToInteger("L");
+		rm.convertToInteger("D");
+	}
+		
+	
 	
 
 }

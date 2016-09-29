@@ -89,3 +89,8 @@ EditAction 1475154540997 TestRomanNumerals.java 1157 5 17 2
 UnitTestCaseAction 1475154542570 TestRomanNumerals.java OK
 UnitTestSessionAction 1475154542571 TestRomanNumerals.java OK
 EditAction 1475154577456 TestRomanNumerals.java 1217 5 19 2
+UnitTestCaseAction 1475154579192 TestRomanNumerals.java OK
+UnitTestSessionAction 1475154579193 TestRomanNumerals.java OK
+RefactoringAction 1475154675259 TestRomanNumerals.java ADD void testRepetition_V_L_D_s()/2 METHOD
+RefactoringAction 1475154682284 TestRomanNumerals.java RENAME testRepetition_V_L_D_s()/2=>void testRepetition_V_L_D_s_pass() METHOD
+EditAction 1475154688847 TestRomanNumerals.java 1434 6 23 2
