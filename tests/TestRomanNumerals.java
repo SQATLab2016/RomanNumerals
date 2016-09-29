@@ -81,7 +81,7 @@ public class TestRomanNumerals {
 //		'IX',	'XL'	and	'XC',	'CD'	and	'CM').	
 	
 		String num="IX";
-		assertEquals(9, (romanNumerals.wahtIsIVis9(num)));
+		assertEquals(9, (romanNumerals.wahtIsIXis9(num)));
 	}
 	@Test
 	public void test_checkIfIVis49(){
@@ -89,7 +89,7 @@ public class TestRomanNumerals {
 //		'IX',	'XL'	and	'XC',	'CD'	and	'CM').	
 	
 		String num="IL";
-		assertEquals(49, (romanNumerals.wahtIsIVis49(num)));
+		assertEquals(49, (romanNumerals.wahtIsILis49(num)));
 	}
 	@Test
 	public void test_checkIfIVis99(){
@@ -97,7 +97,7 @@ public class TestRomanNumerals {
 //		'IX',	'XL'	and	'XC',	'CD'	and	'CM').	
 	
 		String num="IC";
-		assertEquals(99, (romanNumerals.wahtIsIVis99(num)));
+		assertEquals(99, (romanNumerals.wahtIsICis99(num)));
 	}
 	@Test
 	public void test_checkIfIVis499(){
@@ -105,7 +105,7 @@ public class TestRomanNumerals {
 //		'IX',	'XL'	and	'XC',	'CD'	and	'CM').	
 	
 		String num="ID";
-		assertEquals(499, (romanNumerals.wahtIsIVis499(num)));
+		assertEquals(499, (romanNumerals.wahtIsIDis499(num)));
 	}
 	
 	
