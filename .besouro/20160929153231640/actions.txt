@@ -130,3 +130,7 @@ EditAction 1475153996088 RomanNumerals.java 1005 3 3 0
 UnitTestCaseAction 1475154008772 TestRomanNumerals.java OK
 UnitTestSessionAction 1475154008773 TestRomanNumerals.java OK
 EditAction 1475154092324 RomanNumerals.java 1043 3 3 0
+UnitTestCaseAction 1475154095249 TestRomanNumerals.java OK
+UnitTestSessionAction 1475154095250 TestRomanNumerals.java OK
+RefactoringAction 1475154132790 RomanNumerals.java ADD int getRomanNumberValue(String) METHOD
+EditAction 1475154132793 RomanNumerals.java 1135 4 6 0
