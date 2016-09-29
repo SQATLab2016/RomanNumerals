@@ -32,3 +32,16 @@ RefactoringAction 1475150401433 RomanNumeralsException.java REMOVE serialVersion
 EditAction 1475150451226 RomanNumeralsException.java 63 0 0 0
 EditAction 1475150456703 RomanNumerals.java 272 2 2 0
 EditAction 1475150457915 TestRomanNumerals.java 452 3 5 2
+CompilationAction 1475150459010 TestRomanNumerals.java
+FileOpenedAction 1475150694540 RomanNumeralsException.java 63 0 0 0
+RefactoringAction 1475151414637 RomanNumerals.java RENAME RomanNumerals(String)=>RomanNumerals() METHOD
+CompilationAction 1475151666276 TestRomanNumerals.java
+UnitTestCaseAction 1475151667677 TestRomanNumerals.java OK
+UnitTestSessionAction 1475151667678 TestRomanNumerals.java OK
+RefactoringAction 1475151728099 RomanNumerals.java ADD boolean test FIELD
+RefactoringAction 1475151734613 RomanNumerals.java RENAME test=>boolean testR FIELD
+RefactoringAction 1475151735629 RomanNumerals.java RENAME testR=>boolean testRea FIELD
+RefactoringAction 1475151740143 RomanNumerals.java RENAME testRea=>boolean testRepeatedTooManyTimes() METHOD
+RefactoringAction 1475151745170 RomanNumerals.java RENAME testRepeatedTooManyTimes()=>boolean testRepeatedTooManyTimes(string) METHOD
+RefactoringAction 1475151749684 RomanNumerals.java RENAME testRepeatedTooManyTimes(string)=>boolean testRepeatedTooManyTimes(String) METHOD
+EditAction 1475152881098 RomanNumerals.java 833 3 7 0
