@@ -147,3 +147,10 @@ RefactoringAction 1475156307943 TestRomanNumerals.java RENAME test_Convert10()/2
 RefactoringAction 1475156317481 TestRomanNumerals.java ADD void test_Convert10()/2 METHOD
 RefactoringAction 1475156320493 TestRomanNumerals.java RENAME test_Convert10()/2=>void test_Convert5() METHOD
 EditAction 1475156326456 TestRomanNumerals.java 1367 11 21 11
+UnitTestCaseAction 1475156326747 TestRomanNumerals.java OK
+UnitTestSessionAction 1475156326747 TestRomanNumerals.java OK
+RefactoringAction 1475156348595 TestRomanNumerals.java ADD void test_Convert1100() METHOD
+RefactoringAction 1475156395314 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475156400350 TestRomanNumerals.java ADD void Convert900() METHOD
+RefactoringAction 1475156438000 TestRomanNumerals.java REMOVE test_Convert_1984() METHOD
+EditAction 1475156439995 TestRomanNumerals.java 1465 12 23 12

@@ -61,10 +61,17 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_Convert_1984(){
-		RomanNumerals.RomanNumber="MCMLXXXIV";
-		assertEqualsNumber(1984);
+	public void test_Convert1100(){
+		RomanNumerals.RomanNumber="MC";
+		assertEqualsNumber(1100);
 	}
+	@Test
+	public void test_Convert900(){
+		RomanNumerals.RomanNumber="CM";
+		assertEqualsNumber(900);
+	}
+	
+
 
 	private void assertEqualsNumber(int Number) {
 		RomanNumerals.convertToInteger(RomanNumerals.RomanNumber);
