@@ -18,15 +18,14 @@ public class TestRomanNumerals {
 	}
 	
 	@Test (expected = RomanNumeralsException.class)
-	public void testMoreThanThree_I_s() throws RomanNumeralsException {
+	public void testMoreThanThree_I_X_C_M_s() throws RomanNumeralsException {
 		RomanNumerals rm = new RomanNumerals();
 		rm.convertToInteger("IIII");
+		rm.convertToInteger("XXXX");
+		rm.convertToInteger("CCCC");
+		rm.convertToInteger("MMMM");
 	}
 	
-	@Test (expected = RomanNumeralsException.class)
-	public void testMoreThanThree_X_s() throws RomanNumeralsException {
-		RomanNumerals rm = new RomanNumerals();
-		rm.convertToInteger("XXXX");
-	}
+	
 
 }
