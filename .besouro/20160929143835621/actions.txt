@@ -1,0 +1,3 @@
+FileOpenedAction 1475149115895 TestRomanNumerals.java 159 2 2 1
+RefactoringAction 1475149129818 TestRomanNumerals.java RENAME test()/2=>void test2() METHOD
+EditAction 1475149150848 RomanNumerals.java 206 2 1 0
