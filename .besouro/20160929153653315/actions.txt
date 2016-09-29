@@ -47,3 +47,13 @@ RefactoringAction 1475153175046 TestRomanNumerals.java ADD void test_CherFor3M()
 RefactoringAction 1475153203606 TestRomanNumerals.java RENAME test_CherFor3M()/2=>void test_CherForNo() METHOD
 RefactoringAction 1475153205127 TestRomanNumerals.java RENAME test_CherForNo()=>void test_CherForNoV() METHOD
 EditAction 1475153210562 TestRomanNumerals.java 1127 6 9 4
+RefactoringAction 1475153266779 TestRomanNumerals.java ADD void test_checkFor3I() METHOD
+RefactoringAction 1475153266780 TestRomanNumerals.java ADD void test_checkFor3X() METHOD
+RefactoringAction 1475153266782 TestRomanNumerals.java ADD void test_checkFor3C() METHOD
+RefactoringAction 1475153266785 TestRomanNumerals.java ADD void test_checkFor3M() METHOD
+RefactoringAction 1475153266795 TestRomanNumerals.java ADD void test_checkForNoV() METHOD
+RefactoringAction 1475153278295 RomanNumerals.java ADD boolean checkFor3I(String) METHOD
+RefactoringAction 1475153278296 RomanNumerals.java ADD boolean checkFor3X(String) METHOD
+RefactoringAction 1475153278297 RomanNumerals.java ADD boolean checkFor3C(String) METHOD
+RefactoringAction 1475153278297 RomanNumerals.java ADD boolean checkFor3M(String) METHOD
+EditAction 1475153280571 TestRomanNumerals.java 1206 6 11 5
