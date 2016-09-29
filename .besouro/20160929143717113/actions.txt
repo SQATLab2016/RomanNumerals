@@ -116,3 +116,6 @@ RefactoringAction 1475151572067 TestRomanNumerals.java RENAME test=>void testCon
 RefactoringAction 1475151573579 TestRomanNumerals.java RENAME testConverting=>void testConvertingIII FIELD
 RefactoringAction 1475151575093 TestRomanNumerals.java RENAME testConvertingIII=>void testConvertingIII() METHOD
 EditAction 1475151656453 TestRomanNumerals.java 1194 5 18 4
+UnitTestCaseAction 1475151656722 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475151656722 TestRomanNumerals.java FAIL
+EditAction 1475151697251 RomanNumerals.java 492 1 4 0
