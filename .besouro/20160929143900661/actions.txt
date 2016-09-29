@@ -17,3 +17,46 @@ RefactoringAction 1475150314897 TestRomanNumerals.java RENAME convertToInteger()
 RefactoringAction 1475150317417 TestRomanNumerals.java RENAME convertToIntegerReturn()=>void convertToIntegerReturns() METHOD
 EditAction 1475150480720 TestRomanNumerals.java 407 2 4 2
 EditAction 1475150481935 RomanNumerals.java 148 1 2 0
+UnitTestCaseAction 1475150483390 TestRomanNumerals.java OK
+UnitTestSessionAction 1475150483391 TestRomanNumerals.java OK
+RefactoringAction 1475150492812 TestRomanNumerals.java RENAME convertToIntegerReturns()=>void convertToIntegerReturnsZeroWithEmptyString() METHOD
+RefactoringAction 1475150498329 TestRomanNumerals.java ADD void convertToIntegerReturnsZeroWithEmptyString()/2 METHOD
+RefactoringAction 1475150510349 TestRomanNumerals.java RENAME convertToIntegerReturnsZeroWithEmptyString()/2=>void convert() METHOD
+RefactoringAction 1475150518367 TestRomanNumerals.java RENAME convert()=>void convertI() METHOD
+RefactoringAction 1475150637433 RomanNumerals.java ADD Set conversions FIELD
+RefactoringAction 1475150660005 RomanNumerals.java ADD import java.util.Set IMPORT
+RefactoringAction 1475150663035 RomanNumerals.java ADD import java.util.HashSet IMPORT
+RefactoringAction 1475150706566 RomanNumerals.java ADD void RomanNumerals FIELD
+RefactoringAction 1475150707582 RomanNumerals.java RENAME RomanNumerals=>void RomanNumerals() METHOD
+RefactoringAction 1475150943401 valuePair.java ADD valuePair.java CLASS
+FileOpenedAction 1475150943689 valuePair.java 33 0 0 0
+RefactoringAction 1475150972710 valuePair.java ADD int decimal FIELD
+RefactoringAction 1475150977229 valuePair.java ADD String roman FIELD
+RefactoringAction 1475151000286 valuePair.java ADD void valuePair FIELD
+RefactoringAction 1475151002795 valuePair.java RENAME valuePair=>void valuePair() METHOD
+RefactoringAction 1475151013824 valuePair.java RENAME valuePair()=>void valuePair(int, String) METHOD
+RefactoringAction 1475151095906 valuePair.java ADD int convert FIELD
+RefactoringAction 1475151100920 valuePair.java RENAME convert=>int convertRoman FIELD
+RefactoringAction 1475151102934 valuePair.java RENAME convertRoman=>int convertRoman() METHOD
+RefactoringAction 1475151116955 valuePair.java RENAME convertRoman()=>int n() METHOD
+RefactoringAction 1475151120966 valuePair.java RENAME n()=>int getDecimal() METHOD
+RefactoringAction 1475151124477 valuePair.java RENAME getDecimal()=>int getDecimal(String) METHOD
+RefactoringAction 1475151175159 valuePair.java REMOVE valuePair.java CLASS
+RefactoringAction 1475151198130 RomanNumerals.java REMOVE conversions FIELD
+RefactoringAction 1475151203171 RomanNumerals.java ADD int FIELD
+RefactoringAction 1475151214208 RomanNumerals.java ADD String FIELD
+RefactoringAction 1475151249758 RomanNumerals.java REMOVE romans FIELD
+RefactoringAction 1475151249760 RomanNumerals.java REMOVE decimals FIELD
+RefactoringAction 1475151262815 RomanNumerals.java ADD Set<Integer> decimals FIELD
+RefactoringAction 1475151272854 RomanNumerals.java ADD Set<String> roman FIELD
+RefactoringAction 1475151273866 RomanNumerals.java RENAME roman=>Set<String> romans FIELD
+RefactoringAction 1475151470020 RomanNumerals.java REMOVE romans FIELD
+RefactoringAction 1475151470022 RomanNumerals.java REMOVE decimals FIELD
+RefactoringAction 1475151485588 RomanNumerals.java ADD int FIELD
+RefactoringAction 1475151489102 RomanNumerals.java ADD String FIELD
+RefactoringAction 1475151530145 RomanNumerals.java REMOVE RomanNumerals() METHOD
+RefactoringAction 1475152092908 RomanNumerals.java REMOVE romans FIELD
+RefactoringAction 1475152092911 RomanNumerals.java REMOVE decimals FIELD
+RefactoringAction 1475153070094 TestRomanNumerals.java ADD void convertI()/2 METHOD
+RefactoringAction 1475153073606 TestRomanNumerals.java RENAME convertI()/2=>void convertX() METHOD
+EditAction 1475153087288 TestRomanNumerals.java 732 4 8 4

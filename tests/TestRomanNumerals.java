@@ -11,10 +11,23 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void convertToIntegerReturns() {
+	public void convertToIntegerReturnsZeroWithEmptyString() {
 		RomanNumerals romanNumerals = new RomanNumerals();
 		assertEquals("0", 0, romanNumerals.convertToInteger(""));
 	}
+	
+	@Test
+	public void convertI() {
+		RomanNumerals romanNumerals = new RomanNumerals();
+		assertEquals("1", 1, romanNumerals.convertToInteger("I"));
+	}
+
+	@Test
+	public void convertX() {
+		RomanNumerals romanNumerals = new RomanNumerals();
+		assertEquals("10", 10, romanNumerals.convertToInteger("X"));
+	}
+
 
 	
 	
