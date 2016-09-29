@@ -31,10 +31,20 @@ public class RomanNumerals {
 	//Return true if letter appears too many times
 	public boolean testSameRepeatedTooManyTimes(String romanNum){
 		//Test if the romanNumber got any letters that cant exists more than once
-		if(romanNum.contains("V") || romanNum.contains("L") || romanNum.contains("D")) {
-		} else {
-			return false;
+		if(!(romanNum.contains("V") || romanNum.contains("L") || romanNum.contains("D"))) return false;
+		
+		//Lets count the different letters on the romanNum
+		int V_counter = 0;
+		int L_counter = 0;
+		int D_counter = 0;
+		
+		for(int i=0; i<romanNum.length(); i++){
+			if(romanNum.charAt(i) == 'V') V_counter++;
+			if(romanNum.charAt(i) == 'L') L_counter++;
+			if(romanNum.charAt(i) == 'D') D_counter++;
 		}
+		if(V_counter > 1 || L_counter > 1 || D_counter > 1) return true;
+		
 		
 		return false;
 		
