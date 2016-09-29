@@ -73,3 +73,7 @@ EditAction 1475153033753 TestRomanNumerals.java 730 6 7 6
 UnitTestCaseAction 1475153041761 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475153041762 TestRomanNumerals.java FAIL
 EditAction 1475153062825 RomanNumerals.java 291 1 1 0
+UnitTestCaseAction 1475153067648 TestRomanNumerals.java OK
+UnitTestSessionAction 1475153067649 TestRomanNumerals.java OK
+RefactoringAction 1475153179575 RomanNumerals.java ADD boolean checkRomanNumberValue(String) METHOD
+EditAction 1475153179579 RomanNumerals.java 395 2 2 0

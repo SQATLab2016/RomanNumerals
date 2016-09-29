@@ -2,7 +2,7 @@
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
 
-		if (romanNum == "II") {
+		if (checkRomanNumberValue(romanNum)) {
 			return 2;
 		}
 		else if (romanNum == "III") {
@@ -16,5 +16,9 @@ public class RomanNumerals {
 		}
 		else return 1;
 		
+	}
+
+	private boolean checkRomanNumberValue(String romanNum) {
+		return romanNum == "II";
 	}
 }
