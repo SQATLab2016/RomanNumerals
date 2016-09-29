@@ -18,7 +18,7 @@ public class RomanNumerals {
 			return 3;
 		}
 		else
-			System.out.println(romanNum);
+			System.out.println("" + romanNum);
 		
 		for(int c = 0; c < romanNum.length();c++) {
 			
