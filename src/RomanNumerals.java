@@ -55,7 +55,7 @@ public class RomanNumerals {
 			if(lastValue == value || i == 0) {
 				lastValue = value;
 				counter++;
-			} else (lastValue != value) {
+			} else {
 				lastValue = value;
 				counter = 0;
 			}
@@ -65,9 +65,9 @@ public class RomanNumerals {
 					&& counter == 3 ) {
 						throw new IllegalArgumentException("This roman number can't be repeated over three times in a row");
 					}		
-			System.out.println("Sum: " + sum);
-			System.out.println("Value: " + value);
-			System.out.println("Counter: " + counter);
+			//System.out.println("Sum: " + sum);
+			//System.out.println("Value: " + value);
+			//System.out.println("Counter: " + counter);
 			
 		}
 		

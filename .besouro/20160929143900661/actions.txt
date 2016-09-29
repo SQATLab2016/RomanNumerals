@@ -131,3 +131,12 @@ EditAction 1475155086729 RomanNumerals.java 1386 1 4 0
 UnitTestCaseAction 1475155088222 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475155088223 TestRomanNumerals.java FAIL
 EditAction 1475155276072 RomanNumerals.java 1384 1 0 0
+CompilationAction 1475155277233 RomanNumerals.java
+CompilationAction 1475155277234 RomanNumerals.java
+CompilationAction 1475155277235 RomanNumerals.java
+UnitTestCaseAction 1475155280183 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475155280184 TestRomanNumerals.java FAIL
+CompilationAction 1475155287845 RomanNumerals.java
+UnitTestCaseAction 1475155288231 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475155288232 TestRomanNumerals.java FAIL
+EditAction 1475155298423 RomanNumerals.java 1369 1 4 0
