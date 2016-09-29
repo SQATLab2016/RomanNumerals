@@ -30,3 +30,4 @@ FileOpenedAction 1475150376902 RomanNumeralsException.java 46 0 0 0
 RefactoringAction 1475150398270 RomanNumeralsException.java ADD long serialVersionUID FIELD
 RefactoringAction 1475150401433 RomanNumeralsException.java REMOVE serialVersionUID FIELD
 EditAction 1475150451226 RomanNumeralsException.java 63 0 0 0
+EditAction 1475150456703 RomanNumerals.java 272 2 2 0
