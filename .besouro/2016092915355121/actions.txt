@@ -27,3 +27,4 @@ RefactoringAction 1475152881848 TestRomanNumerals.java RENAME test_NewRomamNumbe
 RefactoringAction 1475152907887 TestRomanNumerals.java ADD RomanNumerals RomanNumerals FIELD
 RefactoringAction 1475152962627 RomanNumerals.java ADD String RomanNumber FIELD
 EditAction 1475152981621 RomanNumerals.java 150 1 1 0
+EditAction 1475152981712 TestRomanNumerals.java 364 2 3 2
