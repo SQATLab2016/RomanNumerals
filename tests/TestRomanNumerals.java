@@ -44,12 +44,14 @@ public class TestRomanNumerals {
 	@Test
 	public void testConvertingII() {
 		RomanNumerals rn = new RomanNumerals();
+		int converted = 0;
 		try {
-			int converted = rn.convertToInteger("II");
+			converted = rn.convertToInteger("II");
 			System.out.println("result: " + converted);
 			assertEquals(2, converted);
 		}
 		catch(Exception e) {
 		}
+		System.out.println("result: " + converted);
 	}
 }
