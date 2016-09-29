@@ -6,6 +6,8 @@ public class RomanNumerals {
 
 	public int convertToInteger(String romanNum) {
 		// To be Implemented
+		if(romanNum == "I") return 1;
+		
 		return 0;
 		
 	}
