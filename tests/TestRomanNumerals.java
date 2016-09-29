@@ -13,7 +13,7 @@ public class TestRomanNumerals {
 	
 	@Test
 	public void test_ConvertToIntegerValueII() {
-		assertRomanValue(2);
+		assertRomanValue(2, "II");
 	}
 
 	private void assertRomanValue(int expected, String testValue) {
