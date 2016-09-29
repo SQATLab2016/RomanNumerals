@@ -26,9 +26,9 @@ public class TestRomanNumerals {
 	}
 	@Test
 	public void test_Convert_1100(){
-		RomanNumerals.RomanNumber="VI";
+		RomanNumerals.RomanNumber="V";
 		RomanNumerals.convertToInteger(RomanNumerals.RomanNumber);
-		assertEquals("",6,RomanNumerals.ArabicNumber);
+		assertEquals("",5,RomanNumerals.ArabicNumber);
 	}	
 	
 
