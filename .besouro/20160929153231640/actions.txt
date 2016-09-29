@@ -239,3 +239,6 @@ RefactoringAction 1475155329342 RomanNumerals.java ADD boolean hasSubstractiveNu
 EditAction 1475155329349 RomanNumerals.java 1563 5 7 0
 RefactoringAction 1475155364189 RomanNumerals.java ADD int getSubstractiveRomanNumberValue(String) METHOD
 EditAction 1475155364193 RomanNumerals.java 1683 6 8 0
+UnitTestCaseAction 1475155380276 TestRomanNumerals.java OK
+UnitTestSessionAction 1475155380277 TestRomanNumerals.java OK
+EditAction 1475155516283 RomanNumerals.java 1831 6 10 0
