@@ -30,12 +30,14 @@ public class RomanNumerals {
 			currentChar = romanNum.charAt(c);
 			counter = 1;
 			oldPos = c;
-			while(c+1 < romanNum.length()){
-				if(romanNum.charAt(c+1) == currentChar) {		
-					c++;
-					counter++;
-					if(counter > 3)
-						throw new RomanNumeralsException("Roman Numeral to be converted isn't valid");
+			if(c+1 < romanNum.length()){
+				while(romanNum.charAt(c+1) == currentChar) {
+					if( c < romanNum.length()-1) {
+						c++;
+						counter++;
+						if(counter > 3)
+							throw new RomanNumeralsException("Roman Numeral to be converted isn't valid");
+					}
 				}
 			}
 			if(counter == 1)
