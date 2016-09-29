@@ -14,6 +14,9 @@ public class RomanNumerals {
 		if (romanNum == "IV") {
 			return getRomanCharValue(getCharFromRomanNum(romanNum, 1)) - getRomanCharValue(getCharFromRomanNum(romanNum, 0));
 		}
+		else if (romanNum == "IIX") {
+			return getRomanCharValue(getCharFromRomanNum(romanNum, 2)) - getRomanCharValue(getCharFromRomanNum(romanNum, 1)) - getRomanCharValue(getCharFromRomanNum(romanNum, 0));
+		}
 		else return getRomanNumberValue(romanNum);
 		
 	}

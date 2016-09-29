@@ -230,3 +230,6 @@ CompilationAction 1475155127244 TestRomanNumerals.java
 CompilationAction 1475155127245 TestRomanNumerals.java
 CompilationAction 1475155127246 TestRomanNumerals.java
 EditAction 1475155131012 TestRomanNumerals.java 1521 15 16 15
+UnitTestCaseAction 1475155133844 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475155133845 TestRomanNumerals.java FAIL
+EditAction 1475155210908 RomanNumerals.java 1459 4 6 0
