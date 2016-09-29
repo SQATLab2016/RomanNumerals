@@ -2,3 +2,6 @@
 1475153223274 test-first 3 226 true
 1475153223275 test-last 1 226 false
 1475154103437 test-first 3 869 true
+1475154266721 test-addition 1 147 true
+1475154266722 test-addition 2 147 true
+1475154266723 test-addition 2 147 true
