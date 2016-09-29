@@ -19,7 +19,7 @@ public class TestRomanNumerals {
 		//The	symbols	'I',	'X',	'C',	and	'M'	can	be	repeated	
 		//		at	most	3	times	in	a	row.	
 
-		String num="MCMLXXXIV";
+		String num="MCMLIIIIV";
 				
 		assertTrue(romanNumerals.cherFor3I(num));
 	}

@@ -12,3 +12,8 @@ CompilationAction 1475152770533 TestRomanNumerals.java
 RefactoringAction 1475152785945 RomanNumerals.java ADD boolean cherFor3I(String) METHOD
 CompilationAction 1475152910860 TestRomanNumerals.java
 EditAction 1475152910876 RomanNumerals.java 389 2 4 0
+UnitTestCaseAction 1475152918095 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475152918096 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475152939535 TestRomanNumerals.java OK
+UnitTestSessionAction 1475152939536 Rerun TestRomanNumerals.test_CherFor3I OK
+EditAction 1475152954181 TestRomanNumerals.java 423 2 3 1
