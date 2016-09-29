@@ -77,3 +77,4 @@ UnitTestCaseAction 1475153067648 TestRomanNumerals.java OK
 UnitTestSessionAction 1475153067649 TestRomanNumerals.java OK
 RefactoringAction 1475153179575 RomanNumerals.java ADD boolean checkRomanNumberValue(String) METHOD
 EditAction 1475153179579 RomanNumerals.java 395 2 2 0
+EditAction 1475153216342 RomanNumerals.java 291 1 1 0
