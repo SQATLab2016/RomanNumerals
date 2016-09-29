@@ -11,8 +11,8 @@ public class RomanNumerals {
 		if(romanNum == "I") {
 			return 1;		
 		}
-		else if (romanNum == "II") {
-			return 2;
+		else if (romanNum == "III") {
+			return 3;
 		}
 		
 		for(int c = 0; c < romanNum.length();c++) {
