@@ -22,13 +22,23 @@ public class TestRomanNumerals {
 	public void test_Convert1(){
 		RomanNumerals.RomanNumber="I";
 		RomanNumerals.convertToInteger(RomanNumerals.RomanNumber);
-		assertEquals("",1,RomanNumerals.ArabicNumber);
+		assertEqualsNumber(1);
 	}
+	
+	@Test
+	public void test_Convert10(){
+		
+	}
+	
 	@Test
 	public void test_Convert_1984(){
 		RomanNumerals.RomanNumber="MCMLXXXIV";
 		RomanNumerals.convertToInteger(RomanNumerals.RomanNumber);
-		assertEquals("",1984,RomanNumerals.ArabicNumber);
+		assertEqualsNumber(1984);
+	}
+
+	private void assertEqualsNumber(int Number) {
+		assertEquals("",Number,RomanNumerals.ArabicNumber);
 	}	
 	
 
