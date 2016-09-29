@@ -79,8 +79,9 @@ public class RomanNumerals {
 				sum = sum + (value - lastValue);
 			}
 
-			
+			else {
 			sum = sum + value;
+			}
 			counter++;
 			
 			System.out.println("Sum: " + sum);
