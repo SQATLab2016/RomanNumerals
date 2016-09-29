@@ -3,6 +3,7 @@ public class RomanNumerals {
 	
 	private int I_VALUE = 1;
 	private int V_VALUE = 5;
+	private int X_VALUE = 10;
 	
 	public int convertToInteger(String romanNum) {
 
