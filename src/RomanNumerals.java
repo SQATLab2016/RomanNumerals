@@ -32,6 +32,8 @@ public class RomanNumerals {
 			oldPos = c;
 			if(c+counter < romanNum.length()){
 				while(romanNum.charAt(c+counter) == currentChar) {
+					if(currentChar == 'V' || currentChar == 'L' || currentChar == 'D')
+						throw new RomanNumeralsException("Roman Numeral to be converted isn't valid");
 					if( c < romanNum.length()) {
 						counter++;
 						if(counter > 3)
