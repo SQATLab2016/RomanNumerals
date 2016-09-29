@@ -10,3 +10,4 @@ RefactoringAction 1475149581805 RomanNumerals.java ADD int getNumber() METHOD
 RefactoringAction 1475149616055 RomanNumerals.java RENAME changeNumber()=>int getNumber() METHOD
 RefactoringAction 1475149617082 RomanNumerals.java REMOVE getNumber() METHOD
 EditAction 1475149703515 RomanNumerals.java 241 2 2 0
+EditAction 1475149705008 TestRomanNumerals.java 362 2 5 2

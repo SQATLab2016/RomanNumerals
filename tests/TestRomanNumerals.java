@@ -11,8 +11,10 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test2() {
-		
+	public void testReturn() {
+		RomanNumerals rm = new RomanNumerals("I");
+		int number = rm.convertToInteger("I");
+		assertEquals("I was not 1", 1, number);
 	}
 
 }
