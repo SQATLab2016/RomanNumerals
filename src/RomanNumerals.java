@@ -58,7 +58,9 @@ public class RomanNumerals {
 				continue;
 			}
 			else {
+				sb.append(romanNum.charAt(i));
 				tokens.add(sb.toString());
+				sb.setLength(0);
 			}
 		}
 		return tokens;
