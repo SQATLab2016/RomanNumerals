@@ -78,3 +78,4 @@ RefactoringAction 1475153894825 RomanNumerals.java ADD boolean testSameRepeatedT
 RefactoringAction 1475153902350 RomanNumerals.java RENAME testSameRepeatedTooManyTimes()=>boolean testSameRepeatedTooManyTimesromanNum FIELD
 RefactoringAction 1475153904364 RomanNumerals.java RENAME testSameRepeatedTooManyTimesromanNum=>boolean testSameRepeatedTooManyTimes(String) METHOD
 EditAction 1475154092674 RomanNumerals.java 1299 4 10 0
+EditAction 1475154094053 TestRomanNumerals.java 1157 5 17 2
