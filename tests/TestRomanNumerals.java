@@ -42,9 +42,17 @@ public class TestRomanNumerals {
 	@Test
 	public void convertIIII() throws IllegalArgumentException {
 		expectedEx.expect(IllegalArgumentException.class);
-		//expectedEx.expectMessage("This roman number can't be repeated over three times in a row");
+		expectedEx.expectMessage("This roman number can't be repeated over three times in a row");
 		RomanNumerals romanNumerals = new RomanNumerals();
 		romanNumerals.convertToInteger("IIII");
+	}
+	
+	@Test
+	public void convertVV() throws IllegalArgumentException {
+		expectedEx.expect(IllegalArgumentException.class);
+		expectedEx.expectMessage("This roman number can't be repeated");
+		RomanNumerals romanNumerals = new RomanNumerals();
+		romanNumerals.convertToInteger("VV");
 	}
 
 	

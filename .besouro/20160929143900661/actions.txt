@@ -163,3 +163,9 @@ UnitTestSessionAction 1475155855810 TestRomanNumerals.java FAIL
 UnitTestCaseAction 1475155896707 TestRomanNumerals.java OK
 UnitTestSessionAction 1475155896708 TestRomanNumerals.java OK
 EditAction 1475155954493 RomanNumerals.java 1368 1 7 0
+UnitTestCaseAction 1475155957257 TestRomanNumerals.java OK
+UnitTestSessionAction 1475155957258 TestRomanNumerals.java OK
+RefactoringAction 1475155982645 TestRomanNumerals.java ADD void convertIIII()/2 METHOD
+RefactoringAction 1475155990171 TestRomanNumerals.java RENAME convertIIII()/2=>void convertIIVV() METHOD
+RefactoringAction 1475155992188 TestRomanNumerals.java RENAME convertIIVV()=>void convertVV() METHOD
+EditAction 1475156107160 TestRomanNumerals.java 1623 7 18 5
