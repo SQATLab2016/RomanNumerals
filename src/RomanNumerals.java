@@ -52,7 +52,14 @@ public class RomanNumerals {
 		StringBuilder sb = new StringBuilder();
 		char prevChar;
 		for(int i = 0; i < romanNum.length(); i++) {
-			
+			prevChar = romanNum.charAt(i);
+			if(prevChar == romanNum.charAt(i)) {
+				sb.append(prevChar);
+				continue;
+			}
+			else {
+				
+			}
 		}
 		return tokens;
 	}
