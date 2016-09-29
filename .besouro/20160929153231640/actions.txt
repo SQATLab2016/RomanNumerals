@@ -78,3 +78,9 @@ UnitTestSessionAction 1475153067649 TestRomanNumerals.java OK
 RefactoringAction 1475153179575 RomanNumerals.java ADD boolean checkRomanNumberValue(String) METHOD
 EditAction 1475153179579 RomanNumerals.java 395 2 2 0
 EditAction 1475153216342 RomanNumerals.java 291 1 1 0
+RefactoringAction 1475153216863 RomanNumerals.java REMOVE checkRomanNumberValue(String) METHOD
+RefactoringAction 1475153265955 RomanNumerals.java ADD int I FIELD
+RefactoringAction 1475153266966 RomanNumerals.java REMOVE I FIELD
+RefactoringAction 1475153281515 RomanNumerals.java ADD int I_VALUE FIELD
+RefactoringAction 1475153297057 RomanNumerals.java ADD int V_VALUE FIELD
+EditAction 1475153319416 RomanNumerals.java 347 1 1 0
