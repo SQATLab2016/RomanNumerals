@@ -16,17 +16,11 @@ public class RomanNumerals {
 			int value = 0;		
 			int lastValue = 0;
 			int counter = 0;
-			if(i > 0) {
-				lastValue = value;
-				if(value == lastValue) {
-					counter++;
-					if((value == 1 || value == 10 
-							|| value == 100 || value == 1000) 
-							&& counter == 1 ) {
-						throw new IllegalArgumentException("This roman number can't be repeated over three times in a row");
-					}
-				}
-			}
+			if((value == 1 || value == 10 
+				|| value == 100 || value == 1000) 
+				&& counter == 2 ) {
+					throw new IllegalArgumentException("This roman number can't be repeated over three times in a row");
+				}							
 			
 				switch(roman) {
 			
@@ -62,9 +56,14 @@ public class RomanNumerals {
 						throw new IllegalArgumentException("Something went horribly wrong");
 					
 			}
-				
 			sum = sum + value;
-			
+			if(lastValue == value || i == 0) {
+				lastValue = value;
+				counter++;
+			} else if(lastValue != value && i != 0) {
+				lastValue = value;
+				counter = 0;
+			}
 		}
 		
 		return sum;
