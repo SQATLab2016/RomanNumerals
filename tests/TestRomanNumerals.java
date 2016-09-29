@@ -56,12 +56,12 @@ public class TestRomanNumerals {
 	@Test
 	public void testConvertingIII(){
 		RomanNumerals rn = new RomanNumerals();
-		int converted = 0;
 		try {
-			converted = rn.convertToInteger("III");
+			int converted = rn.convertToInteger("III");
+			assertEquals(3, converted);
 		}
 		catch(Exception e) {
 		}
-		assertEquals(3, converted);
+	
 	}
 }
