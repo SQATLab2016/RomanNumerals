@@ -275,3 +275,10 @@ RefactoringAction 1475156186249 RomanNumerals.java REMOVE parseRomanNumber(Strin
 EditAction 1475156196747 RomanNumerals.java 1737 6 10 0
 EditAction 1475156202816 TestRomanNumerals.java 1520 15 16 15
 EditAction 1475156403788 RomanNumerals.java 1737 6 10 0
+RefactoringAction 1475156523358 RomanNumerals.java ADD String FIELD
+RefactoringAction 1475156532372 RomanNumerals.java RENAME parse=>String FIELD
+RefactoringAction 1475156533385 RomanNumerals.java RENAME parseRomanNumStringToTokens=>String METHOD
+RefactoringAction 1475156536398 RomanNumerals.java RENAME parseRomanNumStringToTokens()=>String METHOD
+RefactoringAction 1475156593763 RomanNumerals.java ADD import java.util.List IMPORT
+RefactoringAction 1475156667638 RomanNumerals.java ADD import java.util.ArrayList IMPORT
+EditAction 1475156760111 RomanNumerals.java 2042 7 15 0

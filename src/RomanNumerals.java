@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 
 public class RomanNumerals {
 	
@@ -43,6 +45,16 @@ public class RomanNumerals {
 
 	private char getCharFromRomanNum(String romanNum, int index) {
 		return romanNum.charAt(index);
+	}
+	
+	private List<String> parseRomanNumStringToTokens(String romanNum) {
+		List<String> tokens = new ArrayList<String>();
+		StringBuilder sb = new StringBuilder();
+		char prevChar;
+		for(int i = 0; i < romanNum.length(); i++) {
+			
+		}
+		return tokens;
 	}
 	
 	public int getRomanCharValue(char romanChar) {
