@@ -29,6 +29,7 @@ public class RomanNumerals {
 	public int getRomanCharValue(char romanChar) {
 		if (romanChar == 'I') return I_VALUE;
 		else if (romanChar == 'V') return V_VALUE;
+		else if (romanChar == 'X') return X_VALUE;
 		else return 1;
 	}
 }
