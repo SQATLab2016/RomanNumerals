@@ -10,12 +10,15 @@ public class RomanNumerals {
 		}
 		
 		int sum = 0;
+		int counter = 0;
+		int lastValue = 0;
+		int value = 0;	
 		
 		for(int i = 0; i < romanNum.length(); i++) {
 			char roman = romanNum.charAt(i);
-			int value = 0;		
-			int lastValue = 0;
-			int counter = 0;
+				
+			
+			
 								
 				switch(roman) {
 			
@@ -55,6 +58,10 @@ public class RomanNumerals {
 			
 			if(i == 0) {
 				lastValue = value;
+			}
+			
+			if(lastValue != value) {
+				counter = 0;
 			}
 						
 			if((value == 1 || value == 10 
