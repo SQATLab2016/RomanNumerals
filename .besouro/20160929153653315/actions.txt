@@ -187,3 +187,8 @@ RefactoringAction 1475155971401 RomanNumerals.java ADD Object wahtIsCDis400(Stri
 RefactoringAction 1475155990571 RomanNumerals.java ADD Object wahtIsCMis900(String) METHOD
 EditAction 1475156005715 RomanNumerals.java 4226 18 44 0
 EditAction 1475156006062 TestRomanNumerals.java 4284 14 27 13
+CompilationAction 1475156006248 TestRomanNumerals.java
+CompilationAction 1475156016664 TestRomanNumerals.java
+UnitTestCaseAction 1475156017235 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475156017236 TestRomanNumerals.java FAIL
+EditAction 1475156019752 TestRomanNumerals.java 4301 14 27 13
