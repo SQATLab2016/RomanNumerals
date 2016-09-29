@@ -72,3 +72,10 @@ RefactoringAction 1475153427599 TestRomanNumerals.java RENAME test_checkForNoV()
 RefactoringAction 1475153436569 RomanNumerals.java ADD boolean checkForNorepeatL(String) METHOD
 EditAction 1475153459314 RomanNumerals.java 1881 7 21 0
 EditAction 1475153459462 TestRomanNumerals.java 1392 7 13 6
+UnitTestCaseAction 1475153460322 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475153460323 TestRomanNumerals.java FAIL
+RefactoringAction 1475153468674 TestRomanNumerals.java ADD void test_checkForNoL()/2 METHOD
+RefactoringAction 1475153470692 TestRomanNumerals.java RENAME test_checkForNoL()/2=>void test_checkForNo() METHOD
+RefactoringAction 1475153471716 TestRomanNumerals.java RENAME test_checkForNo()=>void test_checkForNoD() METHOD
+RefactoringAction 1475153478480 RomanNumerals.java ADD boolean checkForNorepeatD(String) METHOD
+EditAction 1475153490459 RomanNumerals.java 2176 8 24 0

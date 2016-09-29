@@ -109,4 +109,16 @@ public class RomanNumerals {
 			return false;
 		}else 	return true;
 	}
+	public boolean checkForNorepeatD(String num) {
+		// TODO Auto-generated method stub
+				int numOfThatChar=0;
+				for (int i = 0; i < num.length(); i++) {
+					if (num.charAt(i)=='D') {
+						numOfThatChar++;
+					}
+				}
+				if (numOfThatChar>1) {
+					return false;
+				}else 	return true;
+	}
 }
