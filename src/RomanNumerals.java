@@ -55,7 +55,7 @@ public class RomanNumerals {
 			if(lastValue == value || i == 0) {
 				lastValue = value;
 				counter++;
-			} else if(lastValue != value) {
+			} else (lastValue != value) {
 				lastValue = value;
 				counter = 0;
 			}
