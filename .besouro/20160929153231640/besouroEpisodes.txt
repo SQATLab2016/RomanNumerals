@@ -3,3 +3,6 @@
 1475152607820 test-first 3 102 true
 1475152686206 test-addition 1 49 true
 1475152686207 test-addition 1 49 true
+1475152765835 refactoring 3 69 true
+1475152765836 refactoring 3 69 true
+1475152765837 refactoring 1A 69 true

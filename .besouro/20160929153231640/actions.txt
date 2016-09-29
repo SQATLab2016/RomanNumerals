@@ -43,3 +43,10 @@ CompilationAction 1475152742938 TestRomanNumerals.java
 EditAction 1475152758197 TestRomanNumerals.java 463 3 4 3
 CompilationAction 1475152759361 TestRomanNumerals.java
 EditAction 1475152763489 TestRomanNumerals.java 469 3 4 3
+UnitTestCaseAction 1475152765834 TestRomanNumerals.java OK
+UnitTestSessionAction 1475152765835 TestRomanNumerals.java OK
+RefactoringAction 1475152777424 TestRomanNumerals.java ADD void test_ FIELD
+RefactoringAction 1475152781941 TestRomanNumerals.java RENAME test_=>void test_ConvertToInteger FIELD
+RefactoringAction 1475152783458 TestRomanNumerals.java RENAME test_ConvertToInteger=>void test_ConvertToIntegerValue FIELD
+RefactoringAction 1475152796475 TestRomanNumerals.java RENAME test_ConvertToIntegerValue=>void test_ConvertToIntegerValueV() METHOD
+EditAction 1475152810100 TestRomanNumerals.java 554 4 5 4
