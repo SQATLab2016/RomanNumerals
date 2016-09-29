@@ -263,3 +263,13 @@ EditAction 1475156033898 RomanNumerals.java 1791 6 10 0
 UnitTestCaseAction 1475156036201 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475156036202 TestRomanNumerals.java FAIL
 EditAction 1475156067421 RomanNumerals.java 1737 6 10 0
+UnitTestCaseAction 1475156069387 TestRomanNumerals.java OK
+UnitTestSessionAction 1475156069388 TestRomanNumerals.java OK
+RefactoringAction 1475156107999 RomanNumerals.java ADD int parse FIELD
+RefactoringAction 1475156112512 RomanNumerals.java RENAME parse=>int parseRoman FIELD
+RefactoringAction 1475156114524 RomanNumerals.java RENAME parseRoman=>int parseRomanNumber FIELD
+RefactoringAction 1475156115536 RomanNumerals.java RENAME parseRomanNumber=>int parseRomanNumberTo FIELD
+RefactoringAction 1475156117548 RomanNumerals.java RENAME parseRomanNumberTo=>int parseRomanNumber FIELD
+RefactoringAction 1475156121061 RomanNumerals.java RENAME parseRomanNumber=>int parseRomanNumber(String) METHOD
+RefactoringAction 1475156186249 RomanNumerals.java REMOVE parseRomanNumber(String) METHOD
+EditAction 1475156196747 RomanNumerals.java 1737 6 10 0
