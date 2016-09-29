@@ -41,7 +41,7 @@ public class RomanNumerals {
 						break;
 				}
 			}
-			if(counter == 1 && oldPos+1 < romanNum.length())
+			if(counter == 1)
 				subStrings.add(romanNum.substring(oldPos, oldPos+1));
 			else 
 				subStrings.add(romanNum.substring(oldPos, oldPos+counter-1));	
