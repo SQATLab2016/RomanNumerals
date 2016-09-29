@@ -17,3 +17,16 @@ RefactoringAction 1475149719805 TestRomanNumerals.java RENAME testReturn()=>void
 RefactoringAction 1475149728324 TestRomanNumerals.java RENAME testReturnWithOne()=>void testReturnWith() METHOD
 RefactoringAction 1475149729840 TestRomanNumerals.java RENAME testReturnWith()=>void testReturnWith_I() METHOD
 EditAction 1475149992309 TestRomanNumerals.java 368 2 5 2
+UnitTestCaseAction 1475149993823 TestRomanNumerals.java OK
+UnitTestSessionAction 1475149993824 TestRomanNumerals.java OK
+RefactoringAction 1475150244923 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475150247440 TestRomanNumerals.java RENAME test=>void testReturn FIELD
+RefactoringAction 1475150251957 TestRomanNumerals.java RENAME testReturn=>void test FIELD
+RefactoringAction 1475150256973 TestRomanNumerals.java RENAME test=>void testMoreThanThree_I FIELD
+RefactoringAction 1475150258488 TestRomanNumerals.java RENAME testMoreThanThree_I=>void testMoreThanThree_I_s FIELD
+RefactoringAction 1475150261005 TestRomanNumerals.java RENAME testMoreThanThree_I_s=>void testMoreThanThree_I_s() METHOD
+RefactoringAction 1475150376755 RomanNumeralsException.java ADD RomanNumeralsException.java CLASS
+FileOpenedAction 1475150376902 RomanNumeralsException.java 46 0 0 0
+RefactoringAction 1475150398270 RomanNumeralsException.java ADD long serialVersionUID FIELD
+RefactoringAction 1475150401433 RomanNumeralsException.java REMOVE serialVersionUID FIELD
+EditAction 1475150451226 RomanNumeralsException.java 63 0 0 0
