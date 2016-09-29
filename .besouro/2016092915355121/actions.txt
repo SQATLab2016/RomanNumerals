@@ -70,3 +70,11 @@ RefactoringAction 1475153569525 TestRomanNumerals.java REMOVE test_Convert_N_Dig
 FileOpenedAction 1475153876572 SudokuVerifier.java 2918 5 49 0
 EditAction 1475154102359 RomanNumerals.java 730 1 4 0
 EditAction 1475154102464 TestRomanNumerals.java 552 3 6 3
+UnitTestCaseAction 1475154103436 TestRomanNumerals.java OK
+UnitTestSessionAction 1475154103437 TestRomanNumerals.java OK
+RefactoringAction 1475154119146 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475154121159 TestRomanNumerals.java RENAME test=>void test_ FIELD
+RefactoringAction 1475154123171 TestRomanNumerals.java RENAME test_=>void test_Convert FIELD
+RefactoringAction 1475154125183 TestRomanNumerals.java RENAME test_Convert=>void test_Convert_ FIELD
+RefactoringAction 1475154128696 TestRomanNumerals.java RENAME test_Convert_=>void test_Convert_1100() METHOD
+EditAction 1475154204797 TestRomanNumerals.java 743 4 9 4
