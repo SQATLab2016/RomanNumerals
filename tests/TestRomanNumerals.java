@@ -21,5 +21,11 @@ public class TestRomanNumerals {
 		String num="MCMLXXXIV";
 		assertTrue(romanNumerals.cherFor3I(num));
 	}
-
+	@Test
+	public void test_CherFor3X() {
+		//The	symbols	'I',	'X',	'C',	and	'M'	can	be	repeated	
+		//		at	most	3	times	in	a	row.	
+		String num="MCMLXXXIV";
+		assertTrue(romanNumerals.cherFor3X(num));
+	}
 }
