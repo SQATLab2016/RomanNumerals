@@ -20,3 +20,9 @@ EditAction 1475152954181 TestRomanNumerals.java 423 2 3 1
 UnitTestCaseAction 1475152954939 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475152954939 TestRomanNumerals.java FAIL
 EditAction 1475152967856 TestRomanNumerals.java 416 2 3 1
+RefactoringAction 1475152971810 TestRomanNumerals.java ADD void test_CherFor3I()/2 METHOD
+RefactoringAction 1475152976846 TestRomanNumerals.java RENAME test_CherFor3I()/2=>void test_CherFor3() METHOD
+RefactoringAction 1475152977894 TestRomanNumerals.java RENAME test_CherFor3()=>void test_CherFor3C() METHOD
+RefactoringAction 1475152979943 TestRomanNumerals.java RENAME test_CherFor3C()=>void test_CherFor3X() METHOD
+RefactoringAction 1475152992744 RomanNumerals.java ADD boolean cherFor3X(String) METHOD
+EditAction 1475153008204 RomanNumerals.java 642 3 7 0
