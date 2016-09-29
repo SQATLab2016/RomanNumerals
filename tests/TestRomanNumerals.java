@@ -28,7 +28,7 @@ public class TestRomanNumerals {
 	public void test_Convert_1100(){
 		RomanNumerals.RomanNumber="MC";
 		RomanNumerals.convertToInteger(RomanNumerals.RomanNumber);
-		assertEquals("",1100,RomanNumerals.RomanNumber);
+		assertEquals("",1100,RomanNumerals.ArabicNumber);
 	}	
 	
 
