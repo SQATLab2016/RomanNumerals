@@ -131,3 +131,6 @@ RefactoringAction 1475155950523 TestRomanNumerals.java ADD void test_Convert10()
 RefactoringAction 1475156011989 TestRomanNumerals.java ADD void assertEqualsNumber() METHOD
 RefactoringAction 1475156021558 TestRomanNumerals.java RENAME assertEqualsNumber()=>void assertEqualsNumber(int) METHOD
 EditAction 1475156048892 TestRomanNumerals.java 856 6 10 5
+UnitTestCaseAction 1475156049172 TestRomanNumerals.java OK
+UnitTestSessionAction 1475156049172 TestRomanNumerals.java OK
+EditAction 1475156082667 TestRomanNumerals.java 795 6 9 5
