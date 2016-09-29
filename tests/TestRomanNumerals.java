@@ -44,13 +44,13 @@ public class TestRomanNumerals {
 	@Test
 	public void testConvertingII() {
 		RomanNumerals rn = new RomanNumerals();
-		int converted = 0;
 		try {
-			converted = rn.convertToInteger("II");
+			int converted = rn.convertToInteger("II");
+			assertEquals(2, converted);
 		}
 		catch(Exception e) {
 		}
-		assertEquals(2, converted);
+		
 	}
 	
 	@Test
