@@ -57,4 +57,10 @@ public class TestRomanNumerals {
 		String num="MCMLXXXIV";
 		assertTrue(romanNumerals.checkForNorepeatL(num));
 	}
+	@Test
+	public void test_checkForNoD() {
+		//	The	symbols	'V',	'L',	and	'D'	can	never	be	repeated.	
+		String num="MCMLXXXIV";
+		assertTrue(romanNumerals.checkForNorepeatD(num));
+	}
 }
