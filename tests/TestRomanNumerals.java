@@ -35,6 +35,11 @@ public class TestRomanNumerals {
 	public void test_ConvertToIntegerValueX() {
 		assertRomanValue(10, "X");
 	}
+	
+	@Test
+	public void test_ConvertToIntegerValueXI() {
+		assertRomanValue(11, "XI");
+	}
 
 	private void assertRomanValue(int expected, String testValue) {
 		int value = numerals.convertToInteger(testValue);
