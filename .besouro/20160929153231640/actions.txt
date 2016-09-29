@@ -29,3 +29,6 @@ UnitTestCaseAction 1475152607819 TestRomanNumerals.java OK
 UnitTestSessionAction 1475152607820 TestRomanNumerals.java OK
 RefactoringAction 1475152637123 TestRomanNumerals.java ADD void assertRomanValue() METHOD
 EditAction 1475152637128 TestRomanNumerals.java 464 3 5 3
+RefactoringAction 1475152664069 TestRomanNumerals.java RENAME assertRomanValue()=>void assertRomanValue(String) METHOD
+RefactoringAction 1475152673588 TestRomanNumerals.java RENAME assertRomanValue(String)=>void assertRomanValue(int) METHOD
+EditAction 1475152683998 TestRomanNumerals.java 484 3 5 3

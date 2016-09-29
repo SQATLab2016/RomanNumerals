@@ -14,12 +14,12 @@ public class TestRomanNumerals {
 	
 	@Test
 	public void test_ConvertToIntegerValueII() {
-		assertRomanValue();
+		assertRomanValue(2);
 	}
 
-	private void assertRomanValue() {
+	private void assertRomanValue(int expected) {
 		int value = numerals.convertToInteger("II");
-		assertEquals(2, value);
+		assertEquals(expected, value);
 	}
 
 }
