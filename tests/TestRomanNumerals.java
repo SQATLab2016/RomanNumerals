@@ -21,6 +21,7 @@ public class TestRomanNumerals {
 	@Test
 	public void test_Convert1Digit(){
 		RomanNumerals.RomanNumber="I";
+		RomanNumerals.convertToInteger(RomanNumerals.RomanNumber);
 		assertEquals("",1,RomanNumerals.ArabicNumber);
 	}
 	
