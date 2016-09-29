@@ -137,4 +137,44 @@ public class RomanNumerals {
 		}
 		return -1;
 	}
+	public Object wahtIsIVis9(String num) {
+		for (int i = 0; i < num.length(); i++) {
+			if (num.charAt(i)=='I' &&(num.charAt(i+1)=='X')) {
+				return 9;
+			}else return -1;
+
+
+		}
+		return -1;
+	}
+	public Object wahtIsIVis49(String num) {
+		for (int i = 0; i < num.length(); i++) {
+			if (num.charAt(i)=='I' &&(num.charAt(i+1)=='L')) {
+				return 49;
+			}else return -1;
+
+
+		}
+		return -1;
+	}
+	public Object wahtIsIVis99(String num) {
+		for (int i = 0; i < num.length(); i++) {
+			if (num.charAt(i)=='I' &&(num.charAt(i+1)=='C')) {
+				return 99;
+			}else return -1;
+
+
+		}
+		return -1;
+	}
+	public Object wahtIsIVis499(String num) {
+		for (int i = 0; i < num.length(); i++) {
+			if (num.charAt(i)=='I' &&(num.charAt(i+1)=='D')) {
+				return 499;
+			}else return -1;
+
+
+		}
+		return -1;
+	}
 }

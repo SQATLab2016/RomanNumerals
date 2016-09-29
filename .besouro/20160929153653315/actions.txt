@@ -101,3 +101,36 @@ RefactoringAction 1475155051379 RomanNumerals.java RENAME checkIfIVis4(String)=>
 RefactoringAction 1475155052406 RomanNumerals.java RENAME wahtIVis4(String)=>int wahtIIVis4(String) METHOD
 RefactoringAction 1475155053932 RomanNumerals.java RENAME wahtIIVis4(String)=>int wahtIsIVis4(String) METHOD
 EditAction 1475155100008 TestRomanNumerals.java 1853 9 15 7
+CompilationAction 1475155100365 TestRomanNumerals.java
+CompilationAction 1475155100366 TestRomanNumerals.java
+UnitTestCaseAction 1475155102330 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475155102331 TestRomanNumerals.java FAIL
+RefactoringAction 1475155121960 RomanNumerals.java ADD Object checkIfIVis4(String) METHOD
+RefactoringAction 1475155134198 RomanNumerals.java REMOVE checkIfIVis4(String) METHOD
+CompilationAction 1475155138095 TestRomanNumerals.java
+CompilationAction 1475155138096 TestRomanNumerals.java
+UnitTestCaseAction 1475155138741 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475155138742 TestRomanNumerals.java FAIL
+RefactoringAction 1475155146594 TestRomanNumerals.java ADD void test_checkIfIVis4()/2 METHOD
+RefactoringAction 1475155152619 TestRomanNumerals.java RENAME test_checkIfIVis4()/2=>void test_checkIfIVis9() METHOD
+RefactoringAction 1475155185151 TestRomanNumerals.java REMOVE test_checkIfIVis9() METHOD
+RefactoringAction 1475155211683 TestRomanNumerals.java ADD void test_checkIfIVis4()/2 METHOD
+RefactoringAction 1475155222236 TestRomanNumerals.java RENAME test_checkIfIVis4()/2=>void test_() METHOD
+RefactoringAction 1475155286106 TestRomanNumerals.java REMOVE test_() METHOD
+RefactoringAction 1475155290188 TestRomanNumerals.java ADD void test_checkIfIVis4()/2 METHOD
+RefactoringAction 1475155293215 TestRomanNumerals.java RENAME test_checkIfIVis4()/2=>void test_checkIfIVis9() METHOD
+RefactoringAction 1475155304302 TestRomanNumerals.java ADD void test_checkIfIVis9()/2 METHOD
+RefactoringAction 1475155307882 TestRomanNumerals.java RENAME test_checkIfIVis9()/2=>void test_checkIfIVis() METHOD
+RefactoringAction 1475155312926 TestRomanNumerals.java RENAME test_checkIfIVis()=>void test_checkIfIVis49() METHOD
+RefactoringAction 1475155321997 TestRomanNumerals.java ADD void test_checkIfIVis9()/2 METHOD
+RefactoringAction 1475155336091 TestRomanNumerals.java RENAME test_checkIfIVis9()/2=>void test_checkIfIVis99() METHOD
+RefactoringAction 1475155344137 TestRomanNumerals.java ADD void test_checkIfIVis99()/2 METHOD
+RefactoringAction 1475155347156 TestRomanNumerals.java RENAME test_checkIfIVis99()/2=>void test_checkIfIVis49()/2 METHOD
+RefactoringAction 1475155357608 RomanNumerals.java ADD Object wahtIsIVis9(String) METHOD
+RefactoringAction 1475155363134 RomanNumerals.java ADD Object wahtIsIVis49(String) METHOD
+RefactoringAction 1475155367896 RomanNumerals.java ADD Object wahtIsIVis99(String) METHOD
+RefactoringAction 1475155373907 RomanNumerals.java ADD Object wahtIsIVis499(String) METHOD
+RefactoringAction 1475155471553 TestRomanNumerals.java RENAME test_checkIfIVis49()/2=>void test_checkIfIVis490() METHOD
+RefactoringAction 1475155472573 TestRomanNumerals.java RENAME test_checkIfIVis490()=>void test_checkIfIVis4909() METHOD
+RefactoringAction 1475155473598 TestRomanNumerals.java RENAME test_checkIfIVis4909()=>void test_checkIfIVis499() METHOD
+EditAction 1475155477149 RomanNumerals.java 3240 13 34 0

@@ -73,6 +73,6 @@ public class TestRomanNumerals {
 //		'IX',	'XL'	and	'XC',	'CD'	and	'CM').	
 	
 		String num="IV";
-		assertEquals(4, (romanNumerals.checkIfIVis4(num));
+		assertEquals(4, (romanNumerals.wahtIsIVis4(num)));
 	}
 }
