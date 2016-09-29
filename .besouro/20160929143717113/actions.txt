@@ -40,3 +40,14 @@ EditAction 1475149390130 TestRomanNumerals.java 483 2 7 2
 UnitTestCaseAction 1475149390387 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475149390387 TestRomanNumerals.java FAIL
 EditAction 1475149408027 TestRomanNumerals.java 483 2 7 2
+UnitTestCaseAction 1475149408292 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475149408292 TestRomanNumerals.java FAIL
+RefactoringAction 1475149553352 RomanNumeralsException.java ADD RomanNumeralsException.java CLASS
+FileOpenedAction 1475149553518 RomanNumeralsException.java 46 0 0 0
+RefactoringAction 1475149588047 RomanNumeralsException.java ADD long serialVersionUID FIELD
+RefactoringAction 1475149588048 RomanNumeralsException.java ADD void LengthException(String) METHOD
+RefactoringAction 1475149604585 RomanNumeralsException.java RENAME LengthException(String)=>void RomanNumeException(String) METHOD
+RefactoringAction 1475149605595 RomanNumeralsException.java RENAME RomanNumeException(String)=>RomanNumeralsException(String) METHOD
+RefactoringAction 1475149608107 RomanNumeralsException.java RENAME RomanNumeralsException(String)=>void RomanNumeralsExceptionException(String) METHOD
+RefactoringAction 1475149610616 RomanNumeralsException.java RENAME RomanNumeralsExceptionException(String)=>RomanNumeralsException(String) METHOD
+EditAction 1475149613640 RomanNumeralsException.java 178 1 1 0
