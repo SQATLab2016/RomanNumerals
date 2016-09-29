@@ -26,6 +26,15 @@ public class TestRomanNumerals {
 		rm.convertToInteger("MMMM");
 	}
 	
+	@Test
+	public void testThree_I_X_C_M_s() throws RomanNumeralsException {
+		RomanNumerals rm = new RomanNumerals();
+		rm.convertToInteger("III");
+		rm.convertToInteger("XXX");
+		rm.convertToInteger("CCC");
+		rm.convertToInteger("MMM");
+	}
+	
 	
 
 }

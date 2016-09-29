@@ -58,3 +58,12 @@ RefactoringAction 1475153050984 TestRomanNumerals.java RENAME testMoreThanThree_
 RefactoringAction 1475153054510 TestRomanNumerals.java RENAME testMoreThanThree_I_X_C__s()=>void testMoreThanThree_I_X_C_M_s() METHOD
 RefactoringAction 1475153081605 TestRomanNumerals.java REMOVE testMoreThanThree_X_s() METHOD
 EditAction 1475153082410 TestRomanNumerals.java 720 3 10 2
+UnitTestCaseAction 1475153084123 TestRomanNumerals.java OK
+UnitTestSessionAction 1475153084124 TestRomanNumerals.java OK
+RefactoringAction 1475153424193 TestRomanNumerals.java ADD void testmore FIELD
+RefactoringAction 1475153427208 TestRomanNumerals.java REMOVE testmore FIELD
+RefactoringAction 1475153428720 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475153433236 TestRomanNumerals.java RENAME test=>void testThree FIELD
+RefactoringAction 1475153439749 TestRomanNumerals.java RENAME testThree=>void testThree_I_X_C_M FIELD
+RefactoringAction 1475153442263 TestRomanNumerals.java RENAME testThree_I_X_C_M=>void testThree_I_X_C_M_s() METHOD
+EditAction 1475153477506 TestRomanNumerals.java 961 4 15 2
