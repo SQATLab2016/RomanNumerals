@@ -9,14 +9,14 @@ public class RomanNumerals {
 		// To be Implemented
 		//Test for too many "I, X, C, M" returns true if too many
 		if(testRepeatedTooManyTimes(romanNum)) throw new RomanNumeralsException();
-		
+		if(testSameRepeatedTooManyTimes(romanNum)) throw new RomanNumeralsException();
 		if(romanNum == "IIII") throw new RomanNumeralsException();
 		if(romanNum == "I") return 1;
 		
 		return 0;
 	}
 	
-	//Return false if one of the letters is repeated too many times
+	//Return true if one of the letters is repeated too many times
 	public boolean testRepeatedTooManyTimes(String roman){
 		//Test if there is a possibility for too many of the same number
 		if(roman.length() < 4 ) return false;
@@ -26,6 +26,18 @@ public class RomanNumerals {
 		
 		
 		return false;
+	}
+	
+	//Return true if letter appears too many times
+	public boolean testSameRepeatedTooManyTimes(String romanNum){
+		//Test if the romanNumber got any letters that cant exists more than once
+		if(romanNum.contains("V") || romanNum.contains("L") || romanNum.contains("D")) {
+		} else {
+			return false;
+		}
+		
+		return false;
+		
 	}
 	
 	

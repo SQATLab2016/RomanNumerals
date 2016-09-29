@@ -67,3 +67,14 @@ RefactoringAction 1475153433236 TestRomanNumerals.java RENAME test=>void testThr
 RefactoringAction 1475153439749 TestRomanNumerals.java RENAME testThree=>void testThree_I_X_C_M FIELD
 RefactoringAction 1475153442263 TestRomanNumerals.java RENAME testThree_I_X_C_M=>void testThree_I_X_C_M_s() METHOD
 EditAction 1475153477506 TestRomanNumerals.java 961 4 15 2
+UnitTestCaseAction 1475153478987 TestRomanNumerals.java OK
+UnitTestSessionAction 1475153478989 TestRomanNumerals.java OK
+RefactoringAction 1475153637399 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475153640419 TestRomanNumerals.java RENAME test=>void testRepetition FIELD
+RefactoringAction 1475153641933 TestRomanNumerals.java RENAME testRepetition=>void testRepetition_ FIELD
+RefactoringAction 1475153645948 TestRomanNumerals.java RENAME testRepetition_=>void testRepetition_V_L_D FIELD
+RefactoringAction 1475153648462 TestRomanNumerals.java RENAME testRepetition_V_L_D=>void testRepetition_V_L_D_s() METHOD
+RefactoringAction 1475153894825 RomanNumerals.java ADD boolean testSameRepeatedTooManyTimes() METHOD
+RefactoringAction 1475153902350 RomanNumerals.java RENAME testSameRepeatedTooManyTimes()=>boolean testSameRepeatedTooManyTimesromanNum FIELD
+RefactoringAction 1475153904364 RomanNumerals.java RENAME testSameRepeatedTooManyTimesromanNum=>boolean testSameRepeatedTooManyTimes(String) METHOD
+EditAction 1475154092674 RomanNumerals.java 1299 4 10 0
