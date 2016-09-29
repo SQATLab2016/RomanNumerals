@@ -8,7 +8,7 @@ public class RomanNumerals {
 		int i=0;
 		for(i=0;i<RomanNumber.length;i++){
 			if (RomanNumber[i]=="I"){
-				ArabicNumber++;
+				ArabicNumber=ArabicNumber+1;
 			}
 			if (RomanNumber[i]=="V"){
 				ArabicNumber=ArabicNumber+5;
