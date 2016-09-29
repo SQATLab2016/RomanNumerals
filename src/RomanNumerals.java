@@ -37,11 +37,11 @@ public class RomanNumerals {
 						if(counter > 3)
 							throw new RomanNumeralsException("Roman Numeral to be converted isn't valid");
 					}
-					if(c+1 == romanNum.length())
+					if(c+counter >= romanNum.length())
 						break;
 				}
 			}
-			if(counter == 1)
+			if(counter == 1 && oldPos+1 < romanNum.length())
 				subStrings.add(romanNum.substring(oldPos, oldPos+1));
 			else 
 				subStrings.add(romanNum.substring(oldPos, oldPos+counter-1));	
