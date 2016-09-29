@@ -26,7 +26,7 @@ public class RomanNumerals {
 		int counter = 0, oldPos = 0;
 		for(int c = 0; c < romanNum.length();c++) {
 			currentChar = romanNum.charAt(c);
-			counter = 0;
+			counter = 1;
 			oldPos = c;
 			if(c+1 < romanNum.length()){
 				while(romanNum.charAt(c+1) == currentChar) {
@@ -40,10 +40,10 @@ public class RomanNumerals {
 			}
 			
 		}
-		if(counter == 0)
+		if(counter == 1)
 			subStrings.add(romanNum.substring(oldPos, oldPos));
 		else 
-			subStrings.add(romanNum.substring(oldPos, oldPos+counter));
+			subStrings.add(romanNum.substring(oldPos, oldPos+counter-1));
 		return 0;
 	}
 }
