@@ -1,0 +1,9 @@
+FileOpenedAction 1475152351994 TestRomanNumerals.java 159 1 1 0
+RefactoringAction 1475152367624 TestRomanNumerals.java RENAME test()=>void test_() METHOD
+RefactoringAction 1475152370641 TestRomanNumerals.java RENAME test_()=>void test_Convert() METHOD
+RefactoringAction 1475152379660 TestRomanNumerals.java RENAME test_Convert()=>void test_ConvertToInteger() METHOD
+RefactoringAction 1475152384177 TestRomanNumerals.java RENAME test_ConvertToInteger()=>void test_ConvertToIntegerV() METHOD
+RefactoringAction 1475152385193 TestRomanNumerals.java RENAME test_ConvertToIntegerV()=>void test_ConvertToIntegerVa() METHOD
+RefactoringAction 1475152386208 TestRomanNumerals.java RENAME test_ConvertToIntegerVa()=>void test_ConvertToIntegerValue() METHOD
+RefactoringAction 1475152387229 TestRomanNumerals.java RENAME test_ConvertToIntegerValue()=>void test_ConvertToIntegerValueI() METHOD
+EditAction 1475152389945 TestRomanNumerals.java 182 1 1 0

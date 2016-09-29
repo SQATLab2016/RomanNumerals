@@ -5,7 +5,7 @@ import org.junit.Test;
 public class TestRomanNumerals {
 
 	@Test
-	public void test() {
+	public void test_ConvertToIntegerValueI() {
 		fail("Not yet implemented");
 	}
 
