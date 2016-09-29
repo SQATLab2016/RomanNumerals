@@ -4,17 +4,16 @@ public class RomanNumerals {
 	public String RomanNumber;
 
 	public int convertToInteger(String romanNum) {
-		String[] RomanNumber = romanNum.split("");
 		int i=0;
-		for(i=0;i<RomanNumber.length;i++){
-			System.out.println(RomanNumber[i]);
-			if (RomanNumber[i]=="I"){ArabicNumber=ArabicNumber+1;}
-			if (RomanNumber[i]=="V"){ArabicNumber=ArabicNumber+5;}
-			if (RomanNumber[i]=="X"){ArabicNumber=ArabicNumber+10;}
-			if (RomanNumber[i]=="L"){ArabicNumber=ArabicNumber+50;}
-			if (RomanNumber[i]=="C"){ArabicNumber=ArabicNumber+100;}
-			if (RomanNumber[i]=="D"){ArabicNumber=ArabicNumber+500;}
-			if (RomanNumber[i]=="M"){ArabicNumber=ArabicNumber+1000;}
+		for(i=0;i<romanNum.length();i++){
+			String RomanNumber=romanNum.substring(i,i);
+			if (RomanNumber=="I"){ArabicNumber=ArabicNumber+1;}
+			if (RomanNumber=="V"){ArabicNumber=ArabicNumber+5;}
+			if (RomanNumber=="X"){ArabicNumber=ArabicNumber+10;}
+			if (RomanNumber=="L"){ArabicNumber=ArabicNumber+50;}
+			if (RomanNumber=="C"){ArabicNumber=ArabicNumber+100;}
+			if (RomanNumber=="D"){ArabicNumber=ArabicNumber+500;}
+			if (RomanNumber=="M"){ArabicNumber=ArabicNumber+1000;}
 		}
 		return ArabicNumber;
 		
