@@ -153,3 +153,8 @@ EditAction 1475152374386 TestRomanNumerals.java 1167 5 14 2
 UnitTestCaseAction 1475152374680 TestRomanNumerals.java OK
 UnitTestSessionAction 1475152374681 TestRomanNumerals.java OK
 EditAction 1475152403079 RomanNumerals.java 568 1 4 0
+UnitTestCaseAction 1475152404752 TestRomanNumerals.java OK
+UnitTestSessionAction 1475152404752 TestRomanNumerals.java OK
+RefactoringAction 1475152501274 TestRomanNumerals.java ADD void testConvertingIIII FIELD
+RefactoringAction 1475152502287 TestRomanNumerals.java RENAME testConvertingIIII=>void testConvertingIIII() METHOD
+EditAction 1475152620660 TestRomanNumerals.java 1402 6 18 3

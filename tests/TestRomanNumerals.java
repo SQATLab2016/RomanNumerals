@@ -64,4 +64,17 @@ public class TestRomanNumerals {
 		}
 	
 	}
+	
+	@Test
+	public void testConvertingIIII() {
+		RomanNumerals rn = new RomanNumerals();
+		boolean thrown = false;
+		try {
+			rn.convertToInteger("IIII");
+		}
+		catch(Exception e) {
+			thrown = true;
+		}
+		assertEquals(true, thrown);
+	}
 }
