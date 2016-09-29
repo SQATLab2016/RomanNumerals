@@ -72,7 +72,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_ConvertToIntegerValueIIX {
+	public void test_ConvertToIntegerValueIIX() {
 		assertRomanValue(8, "IIX");
 	}
 

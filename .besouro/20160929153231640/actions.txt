@@ -226,3 +226,7 @@ RefactoringAction 1475155102719 TestRomanNumerals.java RENAME test=>void test_Co
 RefactoringAction 1475155105231 TestRomanNumerals.java RENAME test_ConvertToIntegerValue=>void test_ConvertToIntegerValueII FIELD
 RefactoringAction 1475155106275 TestRomanNumerals.java RENAME test_ConvertToIntegerValueII=>void test_ConvertToIntegerValueIIX FIELD
 EditAction 1475155125937 TestRomanNumerals.java 1519 14 15 14
+CompilationAction 1475155127244 TestRomanNumerals.java
+CompilationAction 1475155127245 TestRomanNumerals.java
+CompilationAction 1475155127246 TestRomanNumerals.java
+EditAction 1475155131012 TestRomanNumerals.java 1521 15 16 15
