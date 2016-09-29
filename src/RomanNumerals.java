@@ -23,6 +23,7 @@ public class RomanNumerals {
 		else if (romanNum.equals("III")) {
 			return 3;
 		}
+		
 		char currentChar;
 		int counter = 0, oldPos = 0;
 		for(int c = 0; c < romanNum.length();c++) {
@@ -44,6 +45,7 @@ public class RomanNumerals {
 			else 
 				subStrings.add(romanNum.substring(oldPos, oldPos+counter-1));			
 		}
+		
 		for(String s: subStrings) {
 			switch(s) {
 			case "I": subStringValues.add(1);
@@ -56,7 +58,9 @@ public class RomanNumerals {
 			break;
 			}
 		}
-		
-		return 0;
+		if(subStringValues.get(0)<subStringValues.get(1))
+			return subStringValues.get(1)-subStringValues.get(0);
+		else
+			return subStringValues.get(1)+subStringValues.get(0);
 	}
 }
