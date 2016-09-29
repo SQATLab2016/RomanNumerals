@@ -84,3 +84,6 @@ RefactoringAction 1475153266966 RomanNumerals.java REMOVE I FIELD
 RefactoringAction 1475153281515 RomanNumerals.java ADD int I_VALUE FIELD
 RefactoringAction 1475153297057 RomanNumerals.java ADD int V_VALUE FIELD
 EditAction 1475153319416 RomanNumerals.java 347 1 1 0
+UnitTestCaseAction 1475153327176 TestRomanNumerals.java OK
+UnitTestSessionAction 1475153327177 TestRomanNumerals.java OK
+EditAction 1475153344157 RomanNumerals.java 363 1 1 0
