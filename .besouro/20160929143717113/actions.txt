@@ -246,3 +246,6 @@ RefactoringAction 1475155461001 RomanNumerals.java ADD List<String> subStrings/2
 RefactoringAction 1475155472555 RomanNumerals.java RENAME subStrings/2=>List<Integer> subStringValues FIELD
 EditAction 1475155711944 RomanNumerals.java 1542 1 7 0
 EditAction 1475155907438 RomanNumerals.java 1706 1 7 0
+UnitTestCaseAction 1475155908675 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475155908675 TestRomanNumerals.java FAIL
+EditAction 1475156015072 RomanNumerals.java 1720 1 7 0
