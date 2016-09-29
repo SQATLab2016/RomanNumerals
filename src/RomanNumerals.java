@@ -33,7 +33,7 @@ public class RomanNumerals {
 		if (getCharFromRomanNum(romanNum, romanNum.length() - 1) != 'I') {
 			return true;
 		}
-		return false;
+		else return false;
 	}
 
 	private int getRomanNumberValue(String romanNum) {
