@@ -64,3 +64,8 @@ RefactoringAction 1475153353580 TestRomanNumerals.java RENAME test_Convert=>void
 RefactoringAction 1475153356094 TestRomanNumerals.java RENAME test_Convert_N=>void test_Convert_N_Digit FIELD
 RefactoringAction 1475153357109 TestRomanNumerals.java RENAME test_Convert_N_Digit=>void test_Convert_N_Digit() METHOD
 EditAction 1475153452183 TestRomanNumerals.java 750 4 9 4
+UnitTestCaseAction 1475153452478 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475153452479 TestRomanNumerals.java FAIL
+RefactoringAction 1475153569525 TestRomanNumerals.java REMOVE test_Convert_N_Digit() METHOD
+FileOpenedAction 1475153876572 SudokuVerifier.java 2918 5 49 0
+EditAction 1475154102359 RomanNumerals.java 730 1 4 0
