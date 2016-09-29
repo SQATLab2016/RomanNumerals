@@ -1,7 +1,11 @@
 
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
-		// To be Implemented
+		if(romanNum.isEmpty()) {
+			return 0;
+		}
+		
+		
 		return 0;
 		
 	}

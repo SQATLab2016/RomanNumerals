@@ -16,3 +16,4 @@ RefactoringAction 1475150311880 TestRomanNumerals.java RENAME conver()=>void con
 RefactoringAction 1475150314897 TestRomanNumerals.java RENAME convertToInteger()=>void convertToIntegerReturn() METHOD
 RefactoringAction 1475150317417 TestRomanNumerals.java RENAME convertToIntegerReturn()=>void convertToIntegerReturns() METHOD
 EditAction 1475150480720 TestRomanNumerals.java 407 2 4 2
+EditAction 1475150481935 RomanNumerals.java 148 1 2 0
