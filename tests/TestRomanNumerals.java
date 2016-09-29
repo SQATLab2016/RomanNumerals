@@ -101,4 +101,18 @@ public class TestRomanNumerals {
 		catch(RomanNumeralsException e) {
 		}
 	}
+	
+	@Test
+	public void testConvertingVV() {
+		RomanNumerals rn = new RomanNumerals();
+		boolean thrown = false;
+		try {
+			rn.convertToInteger("VV");
+		}
+		catch(RomanNumeralsException e) {
+			thrown = true;
+		}
+		assertEquals(true, thrown);
+	}
+	
 }
