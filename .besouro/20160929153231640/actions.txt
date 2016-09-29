@@ -199,3 +199,10 @@ UnitTestCaseAction 1475154818058 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475154818059 TestRomanNumerals.java FAIL
 RefactoringAction 1475154828879 RomanNumerals.java ADD int C_VALUE FIELD
 EditAction 1475154903060 RomanNumerals.java 1079 4 6 0
+UnitTestCaseAction 1475154905302 TestRomanNumerals.java OK
+UnitTestSessionAction 1475154905303 TestRomanNumerals.java OK
+RefactoringAction 1475154919452 TestRomanNumerals.java ADD void test_ConvertToInteger FIELD
+RefactoringAction 1475154921463 TestRomanNumerals.java RENAME test_ConvertToInteger=>void test_ConvertToIntegerValue FIELD
+RefactoringAction 1475154928474 TestRomanNumerals.java RENAME test_ConvertToIntegerValue=>void test_ConvertToIntegerValueD FIELD
+RefactoringAction 1475154930487 TestRomanNumerals.java RENAME test_ConvertToIntegerValueD=>void test_ConvertToIntegerValueD() METHOD
+EditAction 1475154939403 TestRomanNumerals.java 1344 13 14 13
