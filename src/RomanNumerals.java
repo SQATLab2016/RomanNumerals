@@ -8,10 +8,12 @@ public class RomanNumerals {
 		
 		}
 		
-		if(romanNum == "I")
+		if(romanNum == "I") {
 			return 1;		
-		else if (romanNum == "II")
+		}
+		else if (romanNum == "II") {
 			return 2;
+		}
 		
 		for(int c = 0; c < romanNum.length();c++) {
 			
