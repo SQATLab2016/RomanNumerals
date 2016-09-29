@@ -1,5 +1,8 @@
+import java.util.ArrayList;
+import java.util.List;
 
 public class RomanNumerals {
+	private List<String> subStrings = new ArrayList<String>();
 	public int convertToInteger(String romanNum) throws RomanNumeralsException{
 		for(char c : romanNum.toCharArray()) {
 			if(c == 'I' || c == 'V' || c == 'X' || c == 'L' || c == 'C' || c == 'D' || c == 'M') {
@@ -20,10 +23,11 @@ public class RomanNumerals {
 			return 3;
 		}
 		char currentChar;
-		int counter;
+		int counter = 0, oldPos = 0;
 		for(int c = 0; c < romanNum.length();c++) {
 			currentChar = romanNum.charAt(c);
-			counter = 1;
+			counter = 0;
+			oldPos = c;
 			if(c+1 < romanNum.length()){
 				while(romanNum.charAt(c+1) == currentChar) {
 					if( c < romanNum.length()-1) {
@@ -34,8 +38,12 @@ public class RomanNumerals {
 					}
 				}
 			}
+			
 		}
-		
+		if(counter == 0)
+			subStrings.add(romanNum.substring(oldPos, oldPos));
+		else 
+			subStrings.add(romanNum.substring(oldPos, oldPos+counter));
 		return 0;
 	}
 }

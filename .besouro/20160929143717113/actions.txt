@@ -224,3 +224,10 @@ EditAction 1475154484534 TestRomanNumerals.java 1884 8 24 4
 UnitTestCaseAction 1475154485848 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475154485848 TestRomanNumerals.java FAIL
 EditAction 1475154585531 RomanNumerals.java 934 1 6 0
+UnitTestCaseAction 1475154586818 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475154586819 TestRomanNumerals.java FAIL
+RefactoringAction 1475154670984 RomanNumerals.java ADD String FIELD
+RefactoringAction 1475154671993 RomanNumerals.java RENAME subString=>String FIELD
+RefactoringAction 1475154804272 RomanNumerals.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1475154810419 RomanNumerals.java ADD import java.util.List IMPORT
+EditAction 1475155024666 RomanNumerals.java 1222 1 7 0
