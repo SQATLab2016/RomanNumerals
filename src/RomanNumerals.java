@@ -62,12 +62,12 @@ public class RomanNumerals {
 			
 			if((value == 1 || value == 10 
 					|| value == 100 || value == 1000) 
-					&& counter == 2 ) {
+					&& counter == 3 ) {
 						throw new IllegalArgumentException("This roman number can't be repeated over three times in a row");
 					}		
-			//System.out.println("Sum: " + sum);
-			//System.out.println("Value: " + value);
-			//System.out.println("Counter: " + counter);
+			System.out.println("Sum: " + sum);
+			System.out.println("Value: " + value);
+			System.out.println("Counter: " + counter);
 			
 		}
 		
