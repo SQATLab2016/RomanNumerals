@@ -57,7 +57,7 @@ public class RomanNumerals {
 			break;
 			case "V": subStringValues.add(5);
 			break;
-			default: subStringValues.add(100);
+			default: subStringValues.add(0);
 			}
 		}
 		if(subStringValues.get(0)<subStringValues.get(1))
