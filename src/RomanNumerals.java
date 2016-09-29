@@ -3,83 +3,110 @@ public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
 		// To be Implemented
 		int num=0;
-		if (cherFor3C(romanNum)&&cherFor3I(romanNum)&&cherFor3M(romanNum)&&cherFor3X(romanNum)) {
-			
-			
-			
-			
-			
-			
-			
-		}
-		
-		
-		return 0;
-	
-		
-		
-	}
+		if (checkFor3C(romanNum)&&checkFor3I(romanNum)&&checkFor3M(romanNum)&&checkFor3X(romanNum)) {
 
-	public boolean cherFor3I(String num) {
+
+
+
+
+
+
+		}
+
+
+		return 0;
+
+
+
+	}
+	//1 rule
+	public boolean checkFor3I(String num) {
 		// TODO Auto-generated method stub
-		int numI=0;
+		int numOfThatChar=0;
 		for (int i = 0; i < num.length(); i++) {
 			if (num.charAt(i)=='I') {
-				numI++;
+				numOfThatChar++;
 			}
-			
+
 		}
-		
-		
-		if (numI<=3) {
+
+
+		if (numOfThatChar<=3) {
 			return true;
 		}else 	return false;
 	}
 
-	public boolean cherFor3X(String num) {
+	public boolean checkFor3X(String num) {
 		// TODO Auto-generated method stub
-		int numI=0;
+		int numOfThatChar=0;
 		for (int i = 0; i < num.length(); i++) {
 			if (num.charAt(i)=='X') {
-				numI++;
+				numOfThatChar++;
 			}
-			
+
 		}
-		
-		
-		if (numI<=3) {
+
+
+		if (numOfThatChar<=3) {
 			return true;
 		}else 	return false;	}
 
-	public boolean cherFor3C(String num) {
+	public boolean checkFor3C(String num) {
 		// TODO Auto-generated method stub
-				int numI=0;
-				for (int i = 0; i < num.length(); i++) {
-					if (num.charAt(i)=='C') {
-						numI++;
-					}
-					
-				}
-				
-				
-				if (numI<=3) {
-					return true;
-				}else 	return false;	
+		int numOfThatChar=0;
+		for (int i = 0; i < num.length(); i++) {
+			if (num.charAt(i)=='C') {
+				numOfThatChar++;
+			}
+
+		}
+
+
+		if (numOfThatChar<=3) {
+			return true;
+		}else 	return false;	
 	}
 
-	public boolean cherFor3M(String num) {
+	public boolean checkFor3M(String num) {
 		// TODO Auto-generated method stub
-		int numI=0;
+		int numOfThatChar=0;
 		for (int i = 0; i < num.length(); i++) {
 			if (num.charAt(i)=='M') {
-				numI++;
+				numOfThatChar++;
 			}
-			
+
 		}
-		
-		
-		if (numI<=3) {
+
+
+		if (numOfThatChar<=3) {
 			return true;
 		}else 	return false;
+	}
+
+
+	//2rule
+
+	public boolean checkForNorepeatV(String num) {
+		int numOfThatChar=0;
+		for (int i = 0; i < num.length(); i++) {
+			if (num.charAt(i)=='V') {
+				numOfThatChar++;
+			}
+		}
+		if (numOfThatChar>1) {
+			return false;
+		}else 	return true;
+	}
+	public boolean checkForNorepeatL(String num) {
+		// TODO Auto-generated method stub
+		int numOfThatChar=0;
+		for (int i = 0; i < num.length(); i++) {
+			if (num.charAt(i)=='L') {
+				numOfThatChar++;
+			}
+		}
+		if (numOfThatChar>1) {
+			return false;
+		}else 	return true;
 	}
 }

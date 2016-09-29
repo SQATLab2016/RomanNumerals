@@ -57,3 +57,17 @@ RefactoringAction 1475153278296 RomanNumerals.java ADD boolean checkFor3X(String
 RefactoringAction 1475153278297 RomanNumerals.java ADD boolean checkFor3C(String) METHOD
 RefactoringAction 1475153278297 RomanNumerals.java ADD boolean checkFor3M(String) METHOD
 EditAction 1475153280571 TestRomanNumerals.java 1206 6 11 5
+CompilationAction 1475153280845 TestRomanNumerals.java
+CompilationAction 1475153280845 TestRomanNumerals.java
+CompilationAction 1475153280845 TestRomanNumerals.java
+CompilationAction 1475153280845 TestRomanNumerals.java
+CompilationAction 1475153280845 TestRomanNumerals.java
+CompilationAction 1475153281030 TestRomanNumerals.java
+RefactoringAction 1475153296142 RomanNumerals.java ADD boolean checkForNorepeatV(String) METHOD
+CompilationAction 1475153411415 TestRomanNumerals.java
+UnitTestCaseAction 1475153412029 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475153412029 TestRomanNumerals.java FAIL
+RefactoringAction 1475153424069 TestRomanNumerals.java ADD void test_checkForNoV()/2 METHOD
+RefactoringAction 1475153427599 TestRomanNumerals.java RENAME test_checkForNoV()/2=>void test_checkForNoL() METHOD
+RefactoringAction 1475153436569 RomanNumerals.java ADD boolean checkForNorepeatL(String) METHOD
+EditAction 1475153459314 RomanNumerals.java 1881 7 21 0

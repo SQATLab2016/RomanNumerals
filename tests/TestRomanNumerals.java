@@ -48,7 +48,7 @@ public class TestRomanNumerals {
 	public void test_checkForNoV() {
 		//	The	symbols	'V',	'L',	and	'D'	can	never	be	repeated.	
 		String num="MCMLXXXIV";
-		assertTrue(romanNumerals.checkForNoV(num));
+		assertTrue(romanNumerals.checkForNorepeatV(num));
 
 
 
