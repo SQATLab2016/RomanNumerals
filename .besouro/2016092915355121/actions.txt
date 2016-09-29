@@ -154,3 +154,5 @@ RefactoringAction 1475156395314 TestRomanNumerals.java ADD void test FIELD
 RefactoringAction 1475156400350 TestRomanNumerals.java ADD void Convert900() METHOD
 RefactoringAction 1475156438000 TestRomanNumerals.java REMOVE test_Convert_1984() METHOD
 EditAction 1475156439995 TestRomanNumerals.java 1465 12 23 12
+UnitTestCaseAction 1475156440280 TestRomanNumerals.java OK
+UnitTestSessionAction 1475156440280 TestRomanNumerals.java OK
