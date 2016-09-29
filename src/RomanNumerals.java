@@ -62,7 +62,7 @@ public class RomanNumerals {
 			
 			if((value == 1 || value == 10 
 					|| value == 100 || value == 1000) 
-					&& counter == 4 ) {
+					&& counter == 2 ) {
 						throw new IllegalArgumentException("This roman number can't be repeated over three times in a row");
 					}		
 		}
