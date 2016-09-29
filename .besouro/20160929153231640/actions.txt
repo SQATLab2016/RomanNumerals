@@ -124,3 +124,5 @@ RefactoringAction 1475153880493 RomanNumerals.java ADD char getCharFromRomanNum(
 EditAction 1475153880497 RomanNumerals.java 936 3 3 0
 RefactoringAction 1475153900212 RomanNumerals.java RENAME getCharFromRomanNum(String)=>char getCharFromRomanNum(String, int) METHOD
 EditAction 1475153950275 RomanNumerals.java 988 3 3 0
+CompilationAction 1475153951485 RomanNumerals.java
+EditAction 1475153961023 RomanNumerals.java 991 3 3 0

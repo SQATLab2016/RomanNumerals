@@ -16,7 +16,7 @@ public class RomanNumerals {
 			return getRomanCharValue(getCharFromRomanNum(romanNum, 0));
 		}
 		else if (romanNum == "IV") {
-			return getRomanCharValue(romanNum.charAt(1)) - getRomanCharValue(getCharFromRomanNum(romanNum));
+			return getRomanCharValue(romanNum.charAt(1)) - getRomanCharValue(getCharFromRomanNum(romanNum, 0));
 		}
 		else return 1;
 		
