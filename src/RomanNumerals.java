@@ -2,7 +2,16 @@
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
 		// To be Implemented
-		
+		int num=0;
+		if (cherFor3C(romanNum)&&cherFor3I(romanNum)&&cherFor3M(romanNum)&&cherFor3X(romanNum)) {
+			
+			
+			
+			
+			
+			
+			
+		}
 		
 		
 		return 0;
