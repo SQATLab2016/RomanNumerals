@@ -74,6 +74,10 @@ public class RomanNumerals {
 					&& lastValue == value) {
 				throw new IllegalArgumentException("This roman number can't be repeated");
 			}
+			
+			if(((value == 5 || value == 10) && lastValue == 1)) {
+				sum = sum + (value - lastValue);
+			}
 
 			
 			sum = sum + value;
