@@ -30,10 +30,7 @@ public class RomanNumerals {
 	}
 
 	private boolean hasSubstractiveNumber(String romanNum) {
-		if (getCharFromRomanNum(romanNum, romanNum.length() - 2) == 'I') {
-			return true;
-		}
-		else return false;
+		return romanNum == "IV";
 	}
 
 	private int getRomanNumberValue(String romanNum) {
