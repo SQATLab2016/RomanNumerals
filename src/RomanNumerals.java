@@ -41,4 +41,20 @@ public class RomanNumerals {
 		if (numI<=3) {
 			return true;
 		}else 	return false;	}
+
+	public boolean cherFor3C(String num) {
+		// TODO Auto-generated method stub
+				int numI=0;
+				for (int i = 0; i < num.length(); i++) {
+					if (num.charAt(i)=='C') {
+						numI++;
+					}
+					
+				}
+				
+				
+				if (numI<=3) {
+					return true;
+				}else 	return false;	
+	}
 }
