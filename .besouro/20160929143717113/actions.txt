@@ -269,3 +269,6 @@ UnitTestSessionAction 1475156436808 TestRomanNumerals.java OK
 RefactoringAction 1475156476576 TestRomanNumerals.java ADD void testConvertingVV FIELD
 RefactoringAction 1475156478085 TestRomanNumerals.java RENAME testConvertingVV=>void testConvertingVV() METHOD
 EditAction 1475156503891 TestRomanNumerals.java 2130 9 28 5
+UnitTestCaseAction 1475156505801 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475156505801 TestRomanNumerals.java FAIL
+EditAction 1475156763364 RomanNumerals.java 1758 1 7 0

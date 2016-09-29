@@ -30,8 +30,8 @@ public class RomanNumerals {
 			currentChar = romanNum.charAt(c);
 			counter = 1;
 			oldPos = c;
-			if(c+1 < romanNum.length()){
-				while(romanNum.charAt(c+1) == currentChar) {
+			while(c+1 < romanNum.length()){
+				if(romanNum.charAt(c+1) == currentChar) {
 					if( c < romanNum.length()-1) {
 						c++;
 						counter++;
