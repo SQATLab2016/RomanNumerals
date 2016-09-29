@@ -170,3 +170,8 @@ RefactoringAction 1475155990171 TestRomanNumerals.java RENAME convertIIII()/2=>v
 RefactoringAction 1475155992188 TestRomanNumerals.java RENAME convertIIVV()=>void convertVV() METHOD
 EditAction 1475156107160 TestRomanNumerals.java 1623 7 18 5
 EditAction 1475156109197 RomanNumerals.java 1535 1 7 0
+UnitTestCaseAction 1475156110655 TestRomanNumerals.java OK
+UnitTestSessionAction 1475156110656 TestRomanNumerals.java OK
+RefactoringAction 1475156542305 TestRomanNumerals.java ADD void convertIII()/2 METHOD
+RefactoringAction 1475156545818 TestRomanNumerals.java RENAME convertIII()/2=>void convertIX() METHOD
+EditAction 1475156557901 TestRomanNumerals.java 1777 8 20 6

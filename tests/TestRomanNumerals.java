@@ -54,6 +54,12 @@ public class TestRomanNumerals {
 		RomanNumerals romanNumerals = new RomanNumerals();
 		romanNumerals.convertToInteger("VV");
 	}
+	
+	@Test
+	public void convertIX() {
+		RomanNumerals romanNumerals = new RomanNumerals();
+		assertEquals("9", 9, romanNumerals.convertToInteger("IX"));
+	}
 
 	
 	
