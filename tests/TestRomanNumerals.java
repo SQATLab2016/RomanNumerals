@@ -77,4 +77,17 @@ public class TestRomanNumerals {
 		}
 		assertEquals(true, thrown);
 	}
+	
+	@Test
+	public void testConvertingXXXIIII(){
+		RomanNumerals rn = new RomanNumerals();
+		boolean thrown = false;
+		try {
+			rn.convertToInteger("XXXIIII");
+		}
+		catch(RomanNumeralsException e) {
+			thrown = true;
+		}
+		assertEquals(true, thrown);
+	}
 }
