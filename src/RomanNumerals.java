@@ -43,6 +43,7 @@ public class RomanNumerals {
 			else 
 				subStrings.add(romanNum.substring(oldPos, oldPos+counter-1));			
 		}
+		System.out.println(subStrings.get(0) + " " + subStrings.get(1));
 		
 		return 0;
 	}
