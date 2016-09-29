@@ -50,3 +50,17 @@ UnitTestCaseAction 1475153110890 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475153110890 TestRomanNumerals.java FAIL
 EditAction 1475153222898 RomanNumerals.java 216 1 2 0
 EditAction 1475153222994 TestRomanNumerals.java 552 3 6 3
+UnitTestCaseAction 1475153223274 TestRomanNumerals.java OK
+UnitTestSessionAction 1475153223274 TestRomanNumerals.java OK
+RefactoringAction 1475153234379 TestRomanNumerals.java RENAME test_Convert1Digit()=>void test_Convert1() METHOD
+RefactoringAction 1475153342458 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475153343473 TestRomanNumerals.java RENAME test=>void test_ FIELD
+RefactoringAction 1475153345988 TestRomanNumerals.java RENAME test_=>void test_Convert FIELD
+RefactoringAction 1475153347022 TestRomanNumerals.java RENAME test_Convert=>void test_Convertn FIELD
+RefactoringAction 1475153348037 TestRomanNumerals.java RENAME test_Convertn=>void test_Convert FIELD
+RefactoringAction 1475153349052 TestRomanNumerals.java RENAME test_Convert=>void test_ConvertN FIELD
+RefactoringAction 1475153352066 TestRomanNumerals.java RENAME test_ConvertN=>void test_Convert FIELD
+RefactoringAction 1475153353580 TestRomanNumerals.java RENAME test_Convert=>void test_Convert_N FIELD
+RefactoringAction 1475153356094 TestRomanNumerals.java RENAME test_Convert_N=>void test_Convert_N_Digit FIELD
+RefactoringAction 1475153357109 TestRomanNumerals.java RENAME test_Convert_N_Digit=>void test_Convert_N_Digit() METHOD
+EditAction 1475153452183 TestRomanNumerals.java 750 4 9 4
