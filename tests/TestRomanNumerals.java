@@ -52,4 +52,16 @@ public class TestRomanNumerals {
 		}
 		assertEquals(2, converted);
 	}
+	
+	@Test
+	public void testConvertingIII(){
+		RomanNumerals rn = new RomanNumerals();
+		int converted = 0;
+		try {
+			converted = rn.convertToInteger("III");
+		}
+		catch(Exception e) {
+		}
+		assertEquals(3, converted);
+	}
 }
