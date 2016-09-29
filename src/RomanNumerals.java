@@ -1,11 +1,13 @@
 
 public class RomanNumerals {
-	public int ArabicNumber;
+	public int ArabicNumber = 0;
 	public String RomanNumber;
 
 	public int convertToInteger(String romanNum) {
-		// To be Implemented
-		return 0;
+		if (RomanNumber=="I"){
+			ArabicNumber++;
+		}
+		return ArabicNumber;
 		
 	}
 }
