@@ -6,19 +6,10 @@ public class RomanNumerals {
 	
 	public int convertToInteger(String romanNum) {
 
-		if (romanNum == "II") {
-			return getRomanNumberValue(romanNum);
+		if (romanNum == "IV") {
+			return getRomanCharValue(getCharFromRomanNum(romanNum, 1)) - getRomanCharValue(getCharFromRomanNum(romanNum, 0));
 		}
-		else if (romanNum == "III") {
-			return getRomanNumberValue(romanNum);
-		}
-		else if (romanNum == "V") {
-			return getRomanNumberValue(romanNum);
-		}
-		else if (romanNum == "IV") {
-			return getRomanNumberValue(romanNum);
-		}
-		else return 1;
+		else return getRomanNumberValue(romanNum);
 		
 	}
 
