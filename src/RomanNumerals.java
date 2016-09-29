@@ -6,6 +6,7 @@ public class RomanNumerals {
 	private static final int X_VALUE = 10;
 	private static final int L_VALUE = 50;
 	private static final int C_VALUE = 100;
+	private static final int D_VALUE = 500;
 	
 	public int convertToInteger(String romanNum) {
 
@@ -34,6 +35,7 @@ public class RomanNumerals {
 		else if (romanChar == 'X') return X_VALUE;
 		else if (romanChar == 'L') return L_VALUE;
 		else if (romanChar == 'C') return C_VALUE;
+		else if (romanChar == 'D') return D_VALUE;
 		else return 1;
 	}
 }
