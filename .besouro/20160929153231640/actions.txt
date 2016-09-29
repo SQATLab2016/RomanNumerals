@@ -53,3 +53,12 @@ EditAction 1475152810100 TestRomanNumerals.java 554 4 5 4
 UnitTestCaseAction 1475152813795 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475152813796 TestRomanNumerals.java FAIL
 EditAction 1475152843254 RomanNumerals.java 194 1 1 0
+UnitTestCaseAction 1475152867396 TestRomanNumerals.java OK
+UnitTestSessionAction 1475152867397 TestRomanNumerals.java OK
+RefactoringAction 1475152901089 TestRomanNumerals.java ADD void test_Con FIELD
+RefactoringAction 1475152905107 TestRomanNumerals.java RENAME test_Con=>void test_ConvertToInteger FIELD
+RefactoringAction 1475152906622 TestRomanNumerals.java RENAME test_ConvertToInteger=>void test_ConvertToIntegerValue FIELD
+RefactoringAction 1475152914138 TestRomanNumerals.java RENAME test_ConvertToIntegerValue=>void test_ConvertToIntegerValueVI FIELD
+RefactoringAction 1475152916659 TestRomanNumerals.java RENAME test_ConvertToIntegerValueVI=>void test_ConvertToIntegerValueIV FIELD
+RefactoringAction 1475152917672 TestRomanNumerals.java RENAME test_ConvertToIntegerValueIV=>void test_ConvertToIntegerValueIV() METHOD
+EditAction 1475152930785 TestRomanNumerals.java 641 5 6 5
