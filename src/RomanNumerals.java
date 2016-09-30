@@ -57,7 +57,7 @@ public class RomanNumerals {
 		}else if (romanNum == "DCCC"){
 			return 500 + 100 + 100 + 100;
 		}else if (romanNum == "CM"){
-			return 900;
+			return 1000 - 100;
 		}else if (romanNum == "M"){
 			return convertSingleRoman(romanNum);
 		}
