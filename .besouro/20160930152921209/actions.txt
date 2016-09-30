@@ -18,3 +18,6 @@ EditAction 1475239800279 RomanNumerals.java 126 1 1 0
 RefactoringAction 1475239938345 RomanNumerals.java REMOVE romanNum FIELD
 EditAction 1475239982282 RomanNumerals.java 140 1 2 0
 EditAction 1475240204993 RomanNumerals.java 225 1 2 0
+FileOpenedAction 1475240374390 BowlingGame.java 698 4 2 0
+FileOpenedAction 1475240389382 SudokuVerifier.java 1493 4 6 0
+EditAction 1475240496164 RomanNumerals.java 261 1 0 0
