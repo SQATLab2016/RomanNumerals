@@ -32,6 +32,8 @@ public class RomanNumerals {
 			return 40;
 		}else if (romanNum == "L"){
 			return 50;
+		}else if (romanNum == "LX"){
+			return 60;
 		}
 		return 0;
 	}
