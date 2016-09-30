@@ -12,3 +12,6 @@ EditAction 1475239658712 RomanNumerals.java 703 1 8 0
 EditAction 1475239668135 RomanNumerals.java 701 1 8 0
 EditAction 1475239690746 RomanNumerals.java 702 1 8 0
 EditAction 1475239740556 RomanNumerals.java 706 1 8 0
+FileOpenedAction 1475239772063 BowlingException.java 58 0 0 0
+FileOpenedAction 1475239790324 RomanNumerals.java 706 1 8 0
+EditAction 1475239800279 RomanNumerals.java 126 1 1 0
