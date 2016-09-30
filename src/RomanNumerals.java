@@ -50,6 +50,8 @@ public class RomanNumerals {
 			return 400;
 		}else if (romanNum == "D"){
 			return 500;
+		}else if (romanNum == "DC"){
+			return 600;
 		}
 		return 0;
 	}
