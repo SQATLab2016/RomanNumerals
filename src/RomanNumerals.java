@@ -48,8 +48,8 @@ public class RomanNumerals {
 		int decimal = 0;
 
 		String romanNumeral = roman.toUpperCase();
-		for (int x = 0; x < romanNumeral.length(); x++) {
-			char convertToDecimal = roman.charAt(x);
+		for (int i = 0; i < romanNumeral.length(); i++) {
+			char convertToDecimal = roman.charAt(i);
 
 			switch (convertToDecimal) {
 			case 'M':
