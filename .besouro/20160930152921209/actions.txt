@@ -197,3 +197,6 @@ CompilationAction 1475244324532 RomanNumerals.java
 UnitTestCaseAction 1475244328861 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475244328861 TestRomanNumerals.java FAIL
 EditAction 1475244393542 RomanNumerals.java 1663 2 3 0
+UnitTestCaseAction 1475244395877 TestRomanNumerals.java OK
+UnitTestSessionAction 1475244395878 TestRomanNumerals.java OK
+EditAction 1475244448591 RomanNumerals.java 1708 2 3 0

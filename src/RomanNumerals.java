@@ -15,7 +15,7 @@ public class RomanNumerals {
 				return convertSingleRoman(romanNum.substring(1)) - convertSingleRoman(romanNum.substring(0,1));	
 			else if ((convertSingleRoman(romanNum.substring(0,1))) > convertSingleRoman((romanNum.substring(1))))
 				return convertSingleRoman(romanNum.substring(1)) + convertSingleRoman(romanNum.substring(0,1));	
-
+//TODO: implement for the three-letter groups
 		}else if (romanNum == "III"){
 			return 1 + 1 + 1;
 
