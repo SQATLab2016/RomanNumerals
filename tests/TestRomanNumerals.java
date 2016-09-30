@@ -16,6 +16,21 @@ public class TestRomanNumerals {
 		int result = roman.convertToInteger("II");
 		assertEquals(2, result);
 	}
+	
+	@Test
+	public void test_III() {
+		RomanNumerals roman = new RomanNumerals();
+		int result = roman.convertToInteger("III");
+		assertEquals(3, result);
+	}
+	@Test
+	public void test_IV() {
+		RomanNumerals roman = new RomanNumerals();
+		int result = roman.convertToInteger("IV");
+		assertEquals(4, result);
+	}
+	
+	
 
 	@Test
 	public void test_spike() {

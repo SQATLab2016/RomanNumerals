@@ -62,3 +62,14 @@ EditAction 1475241459663 RomanNumerals.java 303 1 2 0
 EditAction 1475241484480 RomanNumerals.java 288 1 2 0
 EditAction 1475241495010 RomanNumerals.java 290 1 2 0
 EditAction 1475241511715 RomanNumerals.java 276 1 2 0
+UnitTestCaseAction 1475241516848 TestRomanNumerals.java OK
+UnitTestSessionAction 1475241516849 TestRomanNumerals.java OK
+RefactoringAction 1475241592279 TestRomanNumerals.java ADD void test_II()/2 METHOD
+RefactoringAction 1475241596792 TestRomanNumerals.java RENAME test_II()/2=>void test_III() METHOD
+UnitTestCaseAction 1475241607331 TestRomanNumerals.java OK
+UnitTestSessionAction 1475241607332 TestRomanNumerals.java OK
+RefactoringAction 1475241617864 TestRomanNumerals.java ADD void test_II()/2 METHOD
+RefactoringAction 1475241623375 TestRomanNumerals.java RENAME test_II()/2=>void test_IV() METHOD
+UnitTestCaseAction 1475241634348 TestRomanNumerals.java OK
+UnitTestSessionAction 1475241634348 TestRomanNumerals.java OK
+EditAction 1475241769372 RomanNumerals.java 542 1 2 0
