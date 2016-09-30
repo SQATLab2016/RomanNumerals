@@ -39,7 +39,7 @@ public class RomanNumerals {
 		}else if (romanNum == "LXXX"){
 			return 50 + 10 + 10 + 10;
 		}else if (romanNum == "XC"){
-			return 90;
+			return 100 - 10;
 		}else if (romanNum == "C"){
 			return convertSingleRoman(romanNum);
 		}else if (romanNum == "CC"){
