@@ -11,7 +11,7 @@ public class RomanNumerals {
 		}else if (romanNum == "III"){
 			return 1 + 1 + 1;
 		}else if (romanNum ==  "IV"){
-			return 4;
+			return 5 - 1;
 		}else if (romanNum == "V"){
 			return 5;
 		}else if (romanNum == "VI"){
@@ -63,4 +63,9 @@ public class RomanNumerals {
 		}
 		return 0;
 	}
+	
+	private int convertSingleRoman(String roman) {
+		
+	}
+	
 }

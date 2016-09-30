@@ -103,3 +103,8 @@ EditAction 1475242345119 RomanNumerals.java 1180 1 2 0
 EditAction 1475242410644 RomanNumerals.java 1321 1 2 0
 EditAction 1475242465941 RomanNumerals.java 1367 1 2 0
 EditAction 1475242562798 RomanNumerals.java 1379 1 2 0
+RefactoringAction 1475242649368 RomanNumerals.java ADD int convert FIELD
+RefactoringAction 1475242650879 RomanNumerals.java RENAME convert=>int convertOne FIELD
+RefactoringAction 1475242658891 RomanNumerals.java RENAME convertOne=>int convertSingleRoman() METHOD
+RefactoringAction 1475242663411 RomanNumerals.java RENAME convertSingleRoman()=>int convertSingleRoman(String) METHOD
+EditAction 1475242671700 RomanNumerals.java 1441 2 2 0
