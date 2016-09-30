@@ -73,3 +73,19 @@ RefactoringAction 1475241623375 TestRomanNumerals.java RENAME test_II()/2=>void 
 UnitTestCaseAction 1475241634348 TestRomanNumerals.java OK
 UnitTestSessionAction 1475241634348 TestRomanNumerals.java OK
 EditAction 1475241769372 RomanNumerals.java 542 1 2 0
+RefactoringAction 1475241779941 TestRomanNumerals.java ADD void test_II()/2 METHOD
+RefactoringAction 1475241781957 TestRomanNumerals.java ADD void test_II()/3 METHOD
+RefactoringAction 1475241781957 TestRomanNumerals.java ADD void test_II()/4 METHOD
+RefactoringAction 1475241785975 TestRomanNumerals.java RENAME test_II()/4=>void test_V() METHOD
+RefactoringAction 1475241797504 TestRomanNumerals.java RENAME test_II()/3=>void test_V()/2 METHOD
+RefactoringAction 1475241798518 TestRomanNumerals.java RENAME test_V()/2=>void test_VI() METHOD
+RefactoringAction 1475241810060 TestRomanNumerals.java RENAME test_II()/2=>void test_VII() METHOD
+RefactoringAction 1475241825097 TestRomanNumerals.java ADD void test_II()/2 METHOD
+RefactoringAction 1475241831610 TestRomanNumerals.java RENAME test_II()/2=>void test_VIII() METHOD
+RefactoringAction 1475241844165 TestRomanNumerals.java ADD void test_II()/2 METHOD
+RefactoringAction 1475241849179 TestRomanNumerals.java RENAME test_II()/2=>void test_IX() METHOD
+RefactoringAction 1475241865718 TestRomanNumerals.java ADD void test_II()/2 METHOD
+RefactoringAction 1475241871231 TestRomanNumerals.java RENAME test_II()/2=>void test_X() METHOD
+UnitTestCaseAction 1475241918965 TestRomanNumerals.java OK
+UnitTestSessionAction 1475241918966 TestRomanNumerals.java OK
+EditAction 1475242026534 RomanNumerals.java 678 1 2 0

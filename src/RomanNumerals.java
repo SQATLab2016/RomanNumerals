@@ -24,6 +24,12 @@ public class RomanNumerals {
 			return 9;
 		}else if (romanNum == "X"){
 			return 10;
+		}else if (romanNum == "XX"){
+			return 20;
+		}else if (romanNum == "XXX"){
+			return 30;
+		}else if (romanNum == "XL"){
+			return 40;
 		}
 		return 0;
 	}
