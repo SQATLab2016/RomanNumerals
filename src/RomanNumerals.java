@@ -13,7 +13,7 @@ public class RomanNumerals {
 		}else if (romanNum ==  "IV"){
 			return 5 - 1;
 		}else if (romanNum == "V"){
-			return 5;
+			return convertSingleRoman(romanNum);
 		}else if (romanNum == "VI"){
 			return 6;
 		}else if (romanNum == "VII"){
