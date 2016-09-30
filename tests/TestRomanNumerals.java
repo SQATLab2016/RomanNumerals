@@ -6,7 +6,7 @@ public class TestRomanNumerals {
 
 	@Test
 	public void testIs1() {
-		String number = RomanNumerals
+		assertEquals("I gives an invalid value.");
 	}
 	
 	@Test
