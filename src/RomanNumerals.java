@@ -46,6 +46,10 @@ public class RomanNumerals {
 			return 200;
 		}else if (romanNum == "CCC"){
 			return 300;
+		}else if (romanNum == "CD"){
+			return 400;
+		}else if (romanNum == "D"){
+			return 500;
 		}
 		return 0;
 	}
