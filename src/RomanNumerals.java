@@ -59,7 +59,7 @@ public class RomanNumerals {
 		}else if (romanNum == "CM"){
 			return 900;
 		}else if (romanNum == "M"){
-			return 1000;
+			return convertSingleRoman(romanNum);
 		}
 		return 0;
 	}
