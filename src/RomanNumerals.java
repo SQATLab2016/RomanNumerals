@@ -52,6 +52,12 @@ public class RomanNumerals {
 			return 500;
 		}else if (romanNum == "DC"){
 			return 600;
+		}else if (romanNum == "DCC"){
+			return 700;
+		}else if (romanNum == "DCCC"){
+			return 800;
+		}else if (romanNum == "CM"){
+			return 900;
 		}
 		return 0;
 	}
