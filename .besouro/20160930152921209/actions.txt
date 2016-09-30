@@ -175,3 +175,6 @@ CompilationAction 1475244055027 RomanNumerals.java
 CompilationAction 1475244055028 RomanNumerals.java
 CompilationAction 1475244055184 RomanNumerals.java
 EditAction 1475244064361 RomanNumerals.java 2029 2 3 0
+UnitTestCaseAction 1475244067918 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475244067919 TestRomanNumerals.java FAIL
+EditAction 1475244109463 RomanNumerals.java 2041 2 2 0

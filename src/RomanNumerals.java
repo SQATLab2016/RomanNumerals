@@ -62,11 +62,11 @@ public class RomanNumerals {
 	private int convertSingleRoman(String roman) {
 		if (roman.equals("I"))
 			return 1;
-		else if (roman == "V")
+		else if (roman.equals("V")
 			return 5;
-		else if (roman == "X")
+		else if (roman.equals("X")
 			return 10;
-		else if (roman == "L")
+		else if (roman.equals("L")
 			return 50;
 		else if (roman == "C")
 			return 100;
