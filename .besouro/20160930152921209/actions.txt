@@ -15,3 +15,5 @@ EditAction 1475239740556 RomanNumerals.java 706 1 8 0
 FileOpenedAction 1475239772063 BowlingException.java 58 0 0 0
 FileOpenedAction 1475239790324 RomanNumerals.java 706 1 8 0
 EditAction 1475239800279 RomanNumerals.java 126 1 1 0
+RefactoringAction 1475239938345 RomanNumerals.java REMOVE romanNum FIELD
+EditAction 1475239982282 RomanNumerals.java 140 1 2 0
