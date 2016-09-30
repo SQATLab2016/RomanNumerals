@@ -32,3 +32,10 @@ EditAction 1475240758859 RomanNumerals.java 328 1 2 0
 FileOpenedAction 1475240824170 TestRomanNumerals.java 159 1 1 0
 EditAction 1475240967608 TestRomanNumerals.java 219 1 2 0
 EditAction 1475241036336 TestRomanNumerals.java 246 1 3 1
+UnitTestCaseAction 1475241044692 TestRomanNumerals.java OK
+UnitTestSessionAction 1475241044693 TestRomanNumerals.java OK
+RefactoringAction 1475241060144 TestRomanNumerals.java ADD void test()/2 METHOD
+RefactoringAction 1475241063157 TestRomanNumerals.java RENAME test()/2=>void test_() METHOD
+RefactoringAction 1475241064171 TestRomanNumerals.java RENAME test_()=>void test_I() METHOD
+RefactoringAction 1475241068184 TestRomanNumerals.java RENAME test()=>void test_II() METHOD
+EditAction 1475241075958 TestRomanNumerals.java 402 2 6 2
