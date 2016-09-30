@@ -58,6 +58,8 @@ public class RomanNumerals {
 			return 800;
 		}else if (romanNum == "CM"){
 			return 900;
+		}else if (romanNum == "M"){
+			return 1000;
 		}
 		return 0;
 	}
