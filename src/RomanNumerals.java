@@ -23,7 +23,7 @@ public class RomanNumerals {
 		}else if (romanNum == "IX"){
 			return 9;
 		}else if (romanNum == "X"){
-			return 10;
+			return convertSingleRoman(romanNum);
 		}else if (romanNum == "XX"){
 			return 20;
 		}else if (romanNum == "XXX"){
