@@ -75,6 +75,12 @@ public class RomanNumerals {
 			return 50;
 		else if (roman == "C")
 			return 100;
+		else if (roman == "D")
+			return 500;
+		else if (roman == "M")
+			return 1000;
+		else
+			return 0;
 				
 	}
 	
