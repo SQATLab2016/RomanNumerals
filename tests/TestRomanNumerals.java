@@ -9,9 +9,9 @@ public class TestRomanNumerals {
 		//fail("Not yet implemented");
 		
 	RomanNumerals obj = new RomanNumerals();
-	int num = obj.convertToInteger("iv");
+	int num = obj.convertToInteger("x");
 
-	assertEquals("", 4, num);
+	assertEquals("", 0, num);
 	
 	
 		
