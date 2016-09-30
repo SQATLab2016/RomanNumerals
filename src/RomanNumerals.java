@@ -10,7 +10,7 @@ public class RomanNumerals {
 		if (romanNum.startsWith("C")) return 500 + convertToInteger(romanNum.replace("M", ""));
 		if (romanNum.startsWith("CD")) return 400 + convertToInteger(romanNum.replace("M", ""));
 		if (romanNum.startsWith("C")) return 100 + convertToInteger(romanNum.replace("M", ""));
-		if (romanNum.startsWith("CX")) return 1000 + convertToInteger(romanNum.replace("M", ""));
+		if (romanNum.startsWith("CX")) return 90 + convertToInteger(romanNum.replace("M", ""));
 		return 0;
 		
 	}
