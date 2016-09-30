@@ -47,7 +47,7 @@ public class RomanNumerals {
 		}else if (romanNum == "CCC"){
 			return 100 + 100 + 100;
 		}else if (romanNum == "CD"){
-			return 400;
+			return 500 - 100;
 		}else if (romanNum == "D"){
 			return convertSingleRoman(romanNum);
 		}else if (romanNum == "DC"){
