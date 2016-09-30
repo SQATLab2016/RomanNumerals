@@ -23,6 +23,7 @@ public class TestRomanNumerals {
 		String ii = "II";
 
 		assertEquals("I", ii.substring(0, 1));
+		assertEquals("I", ii.substring(1, 2));		
 	}
 	
 	

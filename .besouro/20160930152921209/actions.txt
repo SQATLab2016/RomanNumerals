@@ -45,3 +45,10 @@ RefactoringAction 1475241185733 TestRomanNumerals.java ADD void test_II()/2 METH
 RefactoringAction 1475241190247 TestRomanNumerals.java RENAME test_II()/2=>void test_spike() METHOD
 EditAction 1475241282883 TestRomanNumerals.java 547 3 9 3
 EditAction 1475241288372 RomanNumerals.java 340 1 0 0
+CompilationAction 1475241288439 RomanNumerals.java
+UnitTestCaseAction 1475241290331 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475241290331 TestRomanNumerals.java FAIL
+CompilationAction 1475241301754 RomanNumerals.java
+UnitTestCaseAction 1475241305163 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475241305163 TestRomanNumerals.java FAIL
+EditAction 1475241325210 TestRomanNumerals.java 590 3 10 4
