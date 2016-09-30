@@ -33,11 +33,11 @@ public class RomanNumerals {
 		}else if (romanNum == "L"){
 			return convertSingleRoman(romanNum);
 		}else if (romanNum == "LX"){
-			return 60;
+			return 50 + 10;
 		}else if (romanNum == "LXX"){
-			return 70;
+			return 50 + 10 + 10;
 		}else if (romanNum == "LXXX"){
-			return 80;
+			return 50 + 10 + 10 + 10;
 		}else if (romanNum == "XC"){
 			return 90;
 		}else if (romanNum == "C"){
