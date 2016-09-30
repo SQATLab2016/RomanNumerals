@@ -15,49 +15,32 @@ public class RomanNumerals {
 				return convertSingleRoman(romanNum.substring(1,0)) - convertSingleRoman(romanNum.substring(0,1));	
 			else if ((convertSingleRoman(romanNum.substring(0,1))) > convertSingleRoman((romanNum.substring(1))))
 				return convertSingleRoman(romanNum.substring(1,0)) + convertSingleRoman(romanNum.substring(0,1));	
-		}else if (romanNum == "II") {
-			return 1 + 1;
+
 		}else if (romanNum == "III"){
 			return 1 + 1 + 1;
-		}else if (romanNum ==  "IV"){
-			return 5 - 1;
-		}else if (romanNum == "VI"){
-			return 5 + 1;
+
+
 		}else if (romanNum == "VII"){
 			return 5 + 1 + 1;
 		}else if (romanNum == "VIII"){
 			return 5 + 1 + 1 + 1;
-		}else if (romanNum == "IX"){
-			return 10 - 1;
-		}else if (romanNum == "XX"){
-			return 10 + 10;
+
+
 		}else if (romanNum == "XXX"){
 			return 10 + 10 + 10;
-		}else if (romanNum == "XL"){
-			return 50 - 10;
-		}else if (romanNum == "LX"){
-			return 50 + 10;
+
 		}else if (romanNum == "LXX"){
 			return 50 + 10 + 10;
 		}else if (romanNum == "LXXX"){
 			return 50 + 10 + 10 + 10;
-		}else if (romanNum == "XC"){
-			return 100 - 10;
-		}else if (romanNum == "CC"){
-			return 100 + 100;
+
 		}else if (romanNum == "CCC"){
 			return 100 + 100 + 100;
-		}else if (romanNum == "CD"){
-			return 500 - 100;
-		}else if (romanNum == "DC"){
-			return 500 + 100;
+
 		}else if (romanNum == "DCC"){
 			return 500 + 100 + 100;
 		}else if (romanNum == "DCCC"){
 			return 500 + 100 + 100 + 100;
-		}else if (romanNum == "CM"){
-			return 1000 - 100;
-		}
 		return 0;
 	}
 	
