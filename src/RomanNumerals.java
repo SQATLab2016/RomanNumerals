@@ -7,9 +7,9 @@ public class RomanNumerals {
 		if (romanNum == "I"){
 			return 1;
 		}else if (romanNum == "II") {
-			return 2;
+			return 1 + 1;
 		}else if (romanNum == "III"){
-			return 3;
+			return 1 + 1 + 1;
 		}else if (romanNum ==  "IV"){
 			return 4;
 		}else if (romanNum == "V"){
