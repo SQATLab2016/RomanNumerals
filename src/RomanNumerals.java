@@ -21,7 +21,7 @@ public class RomanNumerals {
 		}else if (romanNum == "VIII"){
 			return 5 + 1 + 1 + 1;
 		}else if (romanNum == "IX"){
-			return 9;
+			return 10 - 1;
 		}else if (romanNum == "X"){
 			return convertSingleRoman(romanNum);
 		}else if (romanNum == "XX"){
