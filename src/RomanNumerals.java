@@ -5,7 +5,7 @@ public class RomanNumerals {
 	
 	public int convertToInteger(String romanNum) {
 		if (romanNum == "I"){
-			return 1;
+			return convertSingleRoman(romanNum);
 		}else if (romanNum == "II") {
 			return 1 + 1;
 		}else if (romanNum == "III"){
@@ -65,10 +65,16 @@ public class RomanNumerals {
 	}
 	
 	private int convertSingleRoman(String roman) {
-		if (romanNum == "I")
+		if (roman == "I")
 			return 1;
-		else if (romanNum == "V"){
+		else if (roman == "V")
 			return 5;
+		else if (roman == "X")
+			return 10;
+		else if (roman == "L")
+			return 50;
+		else if (roman == "C")
+			return 100;
 				
 	}
 	
