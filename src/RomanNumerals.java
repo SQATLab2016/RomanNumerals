@@ -49,7 +49,7 @@ public class RomanNumerals {
 		}else if (romanNum == "CD"){
 			return 400;
 		}else if (romanNum == "D"){
-			return 500;
+			return convertSingleRoman(romanNum);
 		}else if (romanNum == "DC"){
 			return 600;
 		}else if (romanNum == "DCC"){
