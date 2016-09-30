@@ -8,7 +8,7 @@ public class RomanNumerals {
 			return 1;
 		}else if (romanNum == "II") {
 			return 2;
-		}else if (romanNum.contains("III") == true){
+		}else if (romanNum == "III"){
 		return 3;
 		}else if (romanNum.contains("IV") == true){
 		return 4;
