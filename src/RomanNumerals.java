@@ -11,7 +11,7 @@ public class RomanNumerals {
 		else if (romanNum.length() == 2) {
 			if (romanNum.substring(0,1).equals(romanNum.substring(1)))	
 				return 2*convertSingleRoman(romanNum.substring(0, 1));
-			else if ((romanNum.substring(0,1)<(romanNum.substring(1))
+			else if ((convertSingleRoman(romanNum.substring(0,1))) < convertSingleRoman((romanNum.substring(1))))
 				return convertSingleRoman(romanNum.substring(1,0)) - convertSingleRoman(romanNum.substring(0,1));	
 		}else if (romanNum == "II") {
 			return 1 + 1;

@@ -163,3 +163,15 @@ EditAction 1475243724683 RomanNumerals.java 1821 2 3 0
 UnitTestCaseAction 1475243728136 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475243728137 TestRomanNumerals.java FAIL
 EditAction 1475244007188 RomanNumerals.java 1985 2 1 0
+CompilationAction 1475244007433 RomanNumerals.java
+CompilationAction 1475244007434 RomanNumerals.java
+CompilationAction 1475244007434 RomanNumerals.java
+CompilationAction 1475244038133 RomanNumerals.java
+CompilationAction 1475244038134 RomanNumerals.java
+CompilationAction 1475244038135 RomanNumerals.java
+CompilationAction 1475244038291 RomanNumerals.java
+CompilationAction 1475244038291 RomanNumerals.java
+CompilationAction 1475244055027 RomanNumerals.java
+CompilationAction 1475244055028 RomanNumerals.java
+CompilationAction 1475244055184 RomanNumerals.java
+EditAction 1475244064361 RomanNumerals.java 2029 2 3 0
