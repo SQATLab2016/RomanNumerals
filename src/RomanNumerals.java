@@ -31,7 +31,7 @@ public class RomanNumerals {
 		}else if (romanNum == "XL"){
 			return 40;
 		}else if (romanNum == "L"){
-			return 50;
+			return convertSingleRoman(romanNum);
 		}else if (romanNum == "LX"){
 			return 60;
 		}else if (romanNum == "LXX"){
