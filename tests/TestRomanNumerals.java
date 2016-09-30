@@ -8,6 +8,7 @@ public class TestRomanNumerals {
 	public void test() {
 		RomanNumerals roman = new RomanNumerals();
 		int result = roman.convertToInteger("I");
+		assertEquals(1, result);
 	}
 
 	
