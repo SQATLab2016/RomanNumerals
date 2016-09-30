@@ -19,7 +19,7 @@ public class RomanNumerals {
 		}else if (romanNum == "VII"){
 			return 5 + 1 + 1;
 		}else if (romanNum == "VIII"){
-			return 8;
+			return 5 + 1 + 1 + 1;
 		}else if (romanNum == "IX"){
 			return 9;
 		}else if (romanNum == "X"){
