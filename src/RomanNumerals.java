@@ -11,7 +11,7 @@ public class RomanNumerals {
 		roman = roman.toUpperCase();
 		
 		for (int i = 0; i < roman.length(); i++) {
-			char convertToDecimal = roman.charAt(i);
+			int convertToDecimal = roman.charAt(i);
 
 			switch (convertToDecimal) {
 			case 'M':
