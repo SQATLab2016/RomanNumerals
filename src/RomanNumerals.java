@@ -58,7 +58,7 @@ public class RomanNumerals {
 	}
 	
 	private int convertSingleRoman(String roman) {
-		if (roman == "I")
+		if (roman.equals("I"))
 			return 1;
 		else if (roman == "V")
 			return 5;
