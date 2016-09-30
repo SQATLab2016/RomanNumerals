@@ -70,7 +70,7 @@ public class RomanNumerals {
 			return 50;
 		else if (roman.equals("C")
 			return 100;
-		else if (roman == "D")
+		else if (roman.equals("D")
 			return 500;
 		else if (roman == "M")
 			return 1000;
