@@ -68,7 +68,7 @@ public class RomanNumerals {
 			return 10;
 		else if (roman.equals("L")
 			return 50;
-		else if (roman == "C")
+		else if (roman.equals("C")
 			return 100;
 		else if (roman == "D")
 			return 500;
