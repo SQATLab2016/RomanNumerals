@@ -12,9 +12,9 @@ public class RomanNumerals {
 			if (romanNum.substring(0,1).equals(romanNum.substring(1)))	
 				return 2*convertSingleRoman(romanNum.substring(0, 1));
 			else if ((convertSingleRoman(romanNum.substring(0,1))) < convertSingleRoman((romanNum.substring(1))))
-				return convertSingleRoman(romanNum.substring(1,0)) - convertSingleRoman(romanNum.substring(0,1));	
+				return convertSingleRoman(romanNum.substring(1)) - convertSingleRoman(romanNum.substring(0,1));	
 			else if ((convertSingleRoman(romanNum.substring(0,1))) > convertSingleRoman((romanNum.substring(1))))
-				return convertSingleRoman(romanNum.substring(1,0)) + convertSingleRoman(romanNum.substring(0,1));	
+				return convertSingleRoman(romanNum.substring(1)) + convertSingleRoman(romanNum.substring(0,1));	
 
 		}else if (romanNum == "III"){
 			return 1 + 1 + 1;
@@ -40,7 +40,7 @@ public class RomanNumerals {
 		}else if (romanNum == "DCC"){
 			return 500 + 100 + 100;
 		}else if (romanNum == "DCCC"){
-			return 500 + 100 + 100 + 100;
+			return 500 + 100 + 100 + 100;}
 		return 0;
 	}
 	
