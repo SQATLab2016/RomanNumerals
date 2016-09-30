@@ -25,9 +25,9 @@ public class RomanNumerals {
 		}else if (romanNum == "X"){
 			return convertSingleRoman(romanNum);
 		}else if (romanNum == "XX"){
-			return 20;
+			return 10 + 10;
 		}else if (romanNum == "XXX"){
-			return 30;
+			return 10 + 10 + 10;
 		}else if (romanNum == "XL"){
 			return 40;
 		}else if (romanNum == "L"){
