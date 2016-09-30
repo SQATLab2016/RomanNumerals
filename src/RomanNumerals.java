@@ -10,6 +10,7 @@ public class RomanNumerals {
 			return convertSingleRoman(romanNum);
 		else if (romanNum.length() == 2) {
 			if (romanNum.substring(0,1).equals(romanNum.substring(1)))	
+				return 2*convertSingleRoman(romanNum);
 		}else if (romanNum == "II") {
 			return 1 + 1;
 		}else if (romanNum == "III"){
