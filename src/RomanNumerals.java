@@ -65,7 +65,11 @@ public class RomanNumerals {
 	}
 	
 	private int convertSingleRoman(String roman) {
-		
+		if (romanNum == "I")
+			return 1;
+		else if (romanNum == "V"){
+			return 5;
+				
 	}
 	
 }
