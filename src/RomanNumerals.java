@@ -38,7 +38,10 @@ public class RomanNumerals {
 			return 70;
 		}else if (romanNum == "LXXX"){
 			return 80;
-		}
+		}else if (romanNum == "XC"){
+			return 90;
+		}else if (romanNum == "C")
+			return 100;
 		return 0;
 	}
 }
