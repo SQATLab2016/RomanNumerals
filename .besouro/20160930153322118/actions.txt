@@ -26,3 +26,6 @@ RefactoringAction 1475240787783 TestRomanNumerals.java RENAME testAddition()=>vo
 RefactoringAction 1475240790872 TestRomanNumerals.java RENAME test()=>void testIs() METHOD
 RefactoringAction 1475240791902 TestRomanNumerals.java RENAME testIs()=>void testIs1() METHOD
 EditAction 1475241849305 RomanNumerals.java 451 1 0 0
+CompilationAction 1475241849586 RomanNumerals.java
+CompilationAction 1475241849586 RomanNumerals.java
+EditAction 1475242214862 RomanNumerals.java 545 1 0 0

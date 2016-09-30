@@ -14,7 +14,14 @@ public class RomanNumerals {
 			
 			case 'I':
 				decimalNum = 1;
+				break;
 				
+			case 'V':
+				decimalNum = 1;
+				break;
+				
+			case 'X':
+				decimalNum = 10;
 				break;
 			
 			}
