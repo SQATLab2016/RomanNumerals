@@ -11,7 +11,7 @@ public class TestRomanNumerals {
 	RomanNumerals obj = new RomanNumerals();
 	int num = obj.convertToInteger("x");
 
-	assertEquals("", 0, num);
+	assertEquals("", 10, num);
 	
 	
 		
