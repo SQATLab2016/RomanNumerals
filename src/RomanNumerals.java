@@ -10,7 +10,7 @@ public class RomanNumerals {
 			return 2;
 		}else if (romanNum == "III"){
 			return 3;
-		}else if (romanNum.contains("IV") == true){
+		}else if (romanNum ==  "IV"){
 			return 4;
 		}
 		return 0;
