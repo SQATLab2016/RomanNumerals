@@ -44,3 +44,8 @@ UnitTestSessionAction 1475243555675 TestRomanNumerals.java OK
 RefactoringAction 1475243567170 RomanNumerals.java REMOVE convertToInteger(String) METHOD
 RefactoringAction 1475243572183 RomanNumerals.java RENAME romanConvert(String)=>int convertToInteger(String) METHOD
 EditAction 1475243655382 RomanNumerals.java 935 2 10 0
+CompilationAction 1475243656692 TestRomanNumerals.java
+CompilationAction 1475243679108 TestRomanNumerals.java
+UnitTestCaseAction 1475243682249 TestRomanNumerals.java OK
+UnitTestSessionAction 1475243682250 TestRomanNumerals.java OK
+EditAction 1475243704671 TestRomanNumerals.java 283 1 3 1
