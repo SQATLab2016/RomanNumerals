@@ -12,6 +12,7 @@ public class RomanNumerals {
 		return 3;
 		}else if (romanNum.contains("IV") == true){
 		return 4;
+		romanNum.
 		}
 		return 0;
 	}
