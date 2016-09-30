@@ -17,6 +17,13 @@ public class TestRomanNumerals {
 		assertEquals(2, result);
 	}
 
+	@Test
+	public void test_spike() {
+		RomanNumerals roman = new RomanNumerals();
+		String ii = "II";
+
+		assertEquals("I", ii.substring(0, 1));
+	}
 	
 	
 }

@@ -39,3 +39,8 @@ RefactoringAction 1475241063157 TestRomanNumerals.java RENAME test()/2=>void tes
 RefactoringAction 1475241064171 TestRomanNumerals.java RENAME test_()=>void test_I() METHOD
 RefactoringAction 1475241068184 TestRomanNumerals.java RENAME test()=>void test_II() METHOD
 EditAction 1475241075958 TestRomanNumerals.java 402 2 6 2
+UnitTestCaseAction 1475241077976 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475241077976 TestRomanNumerals.java FAIL
+RefactoringAction 1475241185733 TestRomanNumerals.java ADD void test_II()/2 METHOD
+RefactoringAction 1475241190247 TestRomanNumerals.java RENAME test_II()/2=>void test_spike() METHOD
+EditAction 1475241282883 TestRomanNumerals.java 547 3 9 3
