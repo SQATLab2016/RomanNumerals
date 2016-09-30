@@ -5,7 +5,7 @@ public class RomanNumerals {
 	
 	public int convertToInteger(String romanNum) {
 		if (romanNum == "") return 0;
-		if (romanNum.startsWith("M")) return 1000
+		if (romanNum.startsWith("M")) return 1000 + convertToInteger(romanNum.)
 		return 0;
 		
 	}
