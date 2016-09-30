@@ -29,7 +29,7 @@ public class RomanNumerals {
 		}else if (romanNum == "XXX"){
 			return 10 + 10 + 10;
 		}else if (romanNum == "XL"){
-			return 40;
+			return 50 - 10;
 		}else if (romanNum == "L"){
 			return convertSingleRoman(romanNum);
 		}else if (romanNum == "LX"){
