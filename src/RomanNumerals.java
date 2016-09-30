@@ -4,51 +4,13 @@ public class RomanNumerals {
 	public RomanNumerals() {
 	}
 
-	public int convertToInteger(String romanNum) {
-
-		romanNum = romanNum.toUpperCase();
-		romanNum = romanNum.substring(0);
-
-		if (romanNum.equals("I")) {
-			return 1;
-
-		} else if (romanNum.equals("II")) {
-
-			return 2;
-		} else if (romanNum == "III") {
-
-			return 3;
-		} else if (romanNum.equals("IV")) {
-
-			return 4;
-		} else if (romanNum.equals("V")) {
-
-			return 5;
-		} else if (romanNum.equals("VI")) {
-
-			return 6;
-		} else if (romanNum.equals("VII")) {
-
-			return 7;
-		} else if (romanNum.equals("VIII")) {
-
-			return 8;
-		} else if (romanNum.equals("IX")) {
-
-			return 9;
-		}
-
-		// To be Implemented
-		return 0;
-
-	}
-
-	public int romanConvert(String roman) {
+	public int convertToInteger(String roman) {
 
 		int decimal = 0;
 
-		String romanNumeral = roman.toUpperCase();
-		for (int i = 0; i < romanNumeral.length(); i++) {
+		roman = roman.toUpperCase();
+		
+		for (int i = 0; i < roman.length(); i++) {
 			char convertToDecimal = roman.charAt(i);
 
 			switch (convertToDecimal) {
@@ -81,22 +43,22 @@ public class RomanNumerals {
 				break;
 			}
 		}
-		if (romanNumeral.contains("IV")) {
+		if (roman.contains("IV")) {
 			decimal -= 2;
 		}
-		if (romanNumeral.contains("IX")) {
+		if (roman.contains("IX")) {
 			decimal -= 2;
 		}
-		if (romanNumeral.contains("XL")) {
+		if (roman.contains("XL")) {
 			decimal -= 10;
 		}
-		if (romanNumeral.contains("XC")) {
+		if (roman.contains("XC")) {
 			decimal -= 10;
 		}
-		if (romanNumeral.contains("CD")) {
+		if (roman.contains("CD")) {
 			decimal -= 100;
 		}
-		if (romanNumeral.contains("CM")) {
+		if (roman.contains("CM")) {
 			decimal -= 100;
 		}
 		return decimal;
