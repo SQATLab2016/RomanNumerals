@@ -17,7 +17,7 @@ public class RomanNumerals {
 				break;
 				
 			case 'V':
-				decimalNum = 1;
+				decimalNum = 5;
 				break;
 				
 			case 'X':

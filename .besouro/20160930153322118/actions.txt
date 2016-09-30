@@ -32,3 +32,9 @@ EditAction 1475242214862 RomanNumerals.java 545 1 0 0
 CompilationAction 1475242214940 RomanNumerals.java
 CompilationAction 1475242214940 RomanNumerals.java
 EditAction 1475242412266 TestRomanNumerals.java 319 3 2 0
+CompilationAction 1475242412360 TestRomanNumerals.java
+CompilationAction 1475242412360 TestRomanNumerals.java
+CompilationAction 1475242412360 TestRomanNumerals.java
+UnitTestCaseAction 1475242417682 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475242417682 TestRomanNumerals.java FAIL
+EditAction 1475242507102 RomanNumerals.java 545 1 0 0
