@@ -1,11 +1,16 @@
 
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
-		if(romanNum.length()>1 && (romanNum.charAt(0) == 'V'|| romanNum.charAt(0) == 'L'|| romanNum.charAt(0) == 'D')){
+		if (romanNum.length() > 1
+				&& (romanNum.charAt(0) == 'V' || romanNum.charAt(0) == 'L' || romanNum.charAt(0) == 'D')) {
 			return -1;
 		}
 
-		return romanNum.length() * getSingularValue(String.valueOf(romanNum.charAt(0)));
+		if (romanNum.length() < 4) {
+			return romanNum.length() * getSingularValue(String.valueOf(romanNum.charAt(0)));
+		}
+		
+		return -1;
 
 	}
 
