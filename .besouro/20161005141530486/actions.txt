@@ -215,3 +215,15 @@ RefactoringAction 1475674471150 TestRomanNumerals.java ADD void testConverter_Co
 RefactoringAction 1475674474664 TestRomanNumerals.java RENAME testConverter_ConvertVII_shouldBe_7()/2=>void testConverter_ConvertVIII_shouldBe_7() METHOD
 RefactoringAction 1475674477678 TestRomanNumerals.java RENAME testConverter_ConvertVIII_shouldBe_7()=>void testConverter_ConvertVIII_shouldBe_8() METHOD
 EditAction 1475674490502 TestRomanNumerals.java 3283 30 31 30
+UnitTestCaseAction 1475674494215 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475674494216 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475674531036 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475674531037 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475674562853 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475674562854 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475674666515 TestRomanNumerals.java OK
+UnitTestSessionAction 1475674666516 TestRomanNumerals.java OK
+RefactoringAction 1475674697236 TestRomanNumerals.java ADD void testConverter_ConvertVIII_shouldBe_8()/2 METHOD
+RefactoringAction 1475674701239 TestRomanNumerals.java RENAME testConverter_ConvertVIII_shouldBe_8()/2=>void testConverter_ConvertXL_shouldBe_8() METHOD
+RefactoringAction 1475674704244 TestRomanNumerals.java RENAME testConverter_ConvertXL_shouldBe_8()=>void testConverter_ConvertXL_shouldBe_40() METHOD
+EditAction 1475674712413 TestRomanNumerals.java 3383 31 32 31

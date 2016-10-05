@@ -9,8 +9,7 @@ public class RomanNumerals {
 			return -1;
 		}
 
-		if (romanNum.length() < 4) {
-			if (romanNum.length() == 2) {
+		if (romanNum.length() == 2) {
 				if (romanNum.charAt(0) != romanNum.charAt(1)) {
 					if (numeralOrder.indexOf(romanNum.charAt(1)) - numeralOrder.indexOf(romanNum.charAt(0)) < 3) {
 						if (getSingularValue(getStringCharAt(romanNum, 1)) > getSingularValue(
@@ -28,15 +27,14 @@ public class RomanNumerals {
 					return romanNum.length() * getSingularValue(getStringCharAt(romanNum, 0));
 				}
 			} else {
-				if (allCharactersAreSame(romanNum)) {
+				if (allCharactersAreSame(romanNum) && romanNum.length() < 4) {
 					return romanNum.length() * getSingularValue(getStringCharAt(romanNum, 0));
 				} else {
 					if (isInOrder(romanNum))
 						return addNumerals(romanNum);
 				}
 			}
-		}
-
+	
 		return -1;
 
 	}

@@ -151,6 +151,11 @@ public class TestRomanNumerals {
 		assertRomanNumebrEqual("VIII", 8);
 	}
 	
+	@Test
+	public void testConverter_ConvertXL_shouldBe_40(){
+		assertRomanNumebrEqual("XL", 40);
+	}
+	
 	private void assertRomanNumebrEqual(String romanNumeral, int expectedNumber){
 		int number = numeral.convertToInteger(romanNumeral);
 		
