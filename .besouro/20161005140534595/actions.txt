@@ -175,3 +175,35 @@ EditAction 1475666996279 RomanNumerals.java 1065 1 5 0
 UnitTestCaseAction 1475666998976 TestRomanNumerals.java OK
 UnitTestSessionAction 1475666998977 Rerun TestRomanNumerals (Failed Tests first) OK
 EditAction 1475667076558 RomanNumerals.java 1090 1 5 0
+UnitTestCaseAction 1475667079946 TestRomanNumerals.java OK
+UnitTestSessionAction 1475667079948 Rerun TestRomanNumerals (Failed Tests first) OK
+RefactoringAction 1475667258154 RomanNumerals.java RENAME convertToInteger(String)=>enum Numb null
+RefactoringAction 1475667260677 RomanNumerals.java RENAME Numb=>enum Numeral null
+FileOpenedAction 1475667266950 TennisGame.java 2180 6 14 0
+FileOpenedAction 1475667312428 SudokuVerifier.java 2266 1 8 0
+RefactoringAction 1475667410775 RomanNumerals.java ADD Numeral I FIELD
+RefactoringAction 1475667413292 RomanNumerals.java ADD Numeral V FIELD
+RefactoringAction 1475667440314 RomanNumerals.java ADD int number FIELD
+RefactoringAction 1475667452380 RomanNumerals.java ADD Numeral(int) METHOD
+RefactoringAction 1475667464950 RomanNumerals.java ADD Numeral X FIELD
+RefactoringAction 1475667473970 RomanNumerals.java ADD Numeral L FIELD
+RefactoringAction 1475667477488 RomanNumerals.java ADD Numeral C FIELD
+RefactoringAction 1475667482508 RomanNumerals.java ADD Numeral D FIELD
+RefactoringAction 1475667485529 RomanNumerals.java ADD Numeral M FIELD
+RefactoringAction 1475667572573 RomanNumerals.java ADD int value() METHOD
+RefactoringAction 1475668009742 RomanNumerals.java ADD Map<String,Integer> numerals FIELD
+RefactoringAction 1475668034494 RomanNumerals.java ADD import java.util.Map IMPORT
+RefactoringAction 1475668039917 RomanNumerals.java ADD import java.util.HashMap IMPORT
+CompilationAction 1475668271675 RomanNumerals.java
+CompilationAction 1475668271676 RomanNumerals.java
+CompilationAction 1475668271677 RomanNumerals.java
+CompilationAction 1475668271678 RomanNumerals.java
+CompilationAction 1475668271679 RomanNumerals.java
+CompilationAction 1475668271680 RomanNumerals.java
+CompilationAction 1475668271681 RomanNumerals.java
+RefactoringAction 1475668358598 RomanNumerals.java REMOVE numerals FIELD
+CompilationAction 1475668608897 RomanNumerals.java
+CompilationAction 1475668608898 RomanNumerals.java
+UnitTestCaseAction 1475668610989 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475668610993 Rerun TestRomanNumerals (Failed Tests first) FAIL
+EditAction 1475668876741 RomanNumerals.java 1857 3 7 0
