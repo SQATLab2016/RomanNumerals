@@ -34,3 +34,6 @@ UnitTestSessionAction 1475665787073 TestRomanNumerals.java OK
 RefactoringAction 1475665796887 TestRomanNumerals.java ADD void test_V_cannot_be_subtracted_from_C()/2 METHOD
 RefactoringAction 1475665798910 TestRomanNumerals.java RENAME test_V_cannot_be_subtracted_from_C()/2=>void test_V_cannot_be_subtracted_from_D() METHOD
 EditAction 1475665799668 TestRomanNumerals.java 2939 21 26 5
+UnitTestCaseAction 1475665805282 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475665805283 TestRomanNumerals.java FAIL
+EditAction 1475665814819 RomanNumerals.java 840 1 4 0
