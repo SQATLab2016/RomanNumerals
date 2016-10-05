@@ -112,5 +112,9 @@ public class TestRomanNumerals {
 	@Test(expected=Exception.class) public void testRomanNumerals_DD_err() throws Exception  {
 		rn.convertToInteger("DD");
 	}
+	
+	@Test(expected=Exception.class) public void testRomanNumerals_XM_err() throws Exception  {
+		rn.convertToInteger("XM");
+	}
 
 }
