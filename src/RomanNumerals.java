@@ -47,7 +47,6 @@ public class RomanNumerals {
 				if (checkSingleNumeral(rommanNumArray[loop]) < checkSingleNumeral(rommanNumArray[innerLoop]))
 					throw new RomanNumeralException();
 			}
-
 			if (rommanNumArray[loop] == 'V') {
 				countV++;
 				countI = 0;
