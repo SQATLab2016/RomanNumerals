@@ -14,7 +14,7 @@ public class RomanNumerals {
 							+ (checkSingleNumeral(rommanNumArray[loop]) - checkSingleNumeral(rommanNumArray[loop - 1]));
 					loop = loop - 2;
 				} else
-					throw new RomanNumeralException();
+					//throw new RomanNumeralException();
 			} else {
 				result = result + checkSingleNumeral(rommanNumArray[loop]);
 				loop--;
