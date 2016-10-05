@@ -10,9 +10,8 @@ public class RomanNumerals {
 
 	public int convertToInteger(String romanNum) {
 		int value = 0;
-		int stringLength = romanNum.length();
 		
-		for (int i = stringLength - 1; i >= 0; i--) {
+		for (int i = romanNum.length() - 1; i >= 0; i--) {
 			value += parseCharacterToValue(romanNum, i);
 		}
 		return value;
