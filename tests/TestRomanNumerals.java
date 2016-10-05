@@ -130,7 +130,7 @@ public class TestRomanNumerals {
 		rn.convertToInteger("DM");
 	}
 	
-	@Test public void testRomanNumerals_2014_2014() throws Exception  {
+	@Test public void testRomanNumerals_1_to_3999() throws Exception  {
 		RomanNumeral testValue;
 		for (int i = 1; i < 4000; i++) {
 			testValue = new RomanNumeral(i);
