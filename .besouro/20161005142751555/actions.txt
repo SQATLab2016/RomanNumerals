@@ -1,0 +1,12 @@
+FileOpenedAction 1475666871807 TestRomanNumerals.java 159 1 1 0
+RefactoringAction 1475667505999 TestRomanNumerals.java RENAME test()=>void atMosttest() METHOD
+RefactoringAction 1475667509521 TestRomanNumerals.java RENAME atMosttest()=>void atMost3test() METHOD
+RefactoringAction 1475667513038 TestRomanNumerals.java RENAME atMost3test()=>void atMost3chartest() METHOD
+RefactoringAction 1475667515554 TestRomanNumerals.java RENAME atMost3chartest()=>void atMost3charest() METHOD
+RefactoringAction 1475667516571 TestRomanNumerals.java RENAME atMost3charest()=>void atMost3charTest() METHOD
+RefactoringAction 1475667519592 TestRomanNumerals.java RENAME atMost3charTest()=>void atMost3CharTest() METHOD
+RefactoringAction 1475667594318 TestRomanNumerals.java MOVE <anonymous /1>=>class TestRomanNumerals METHOD
+RefactoringAction 1475667623953 TestRomanNumerals.java REMOVE atMost3Char() METHOD
+RefactoringAction 1475667626480 TestRomanNumerals.java ADD void atMost3Char() METHOD
+RefactoringAction 1475667627506 TestRomanNumerals.java REMOVE atMost3Char() METHOD
+EditAction 1475667829820 TestRomanNumerals.java 271 1 3 0
