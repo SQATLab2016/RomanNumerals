@@ -85,4 +85,7 @@ public class TestRomanNumerals {
 		assertRomanNumerals("IL", 49);
 	}
 	
+	@Test ( expected = RomanNumeralsException.class ) public void testRomanNumerals__X_subtractedFromD_exception() throws RomanNumeralsException {
+		assertRomanNumerals("XD", 490);
+	}
 }

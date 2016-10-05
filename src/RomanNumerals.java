@@ -108,6 +108,10 @@ public class RomanNumerals {
 		    	processTheChar('I', lastChar);
 		    	lastChar = 'I';
 		    	break;
+		    case 'X':
+		    	processTheChar('X', lastChar);
+		    	lastChar = 'X';
+		    	break;
 
 		}
 			}
@@ -115,7 +119,10 @@ public class RomanNumerals {
 
 	private void processTheChar(char c, char lastChar) throws RomanNumeralsException {
 		if( c == 'L' )
-			if( lastChar == 'I')
+			if( lastChar == 'I' )
+				throw new RomanNumeralsException();
+		if( c == 'D' )
+			if( lastChar == 'X' )
 				throw new RomanNumeralsException();
 	}
 }
