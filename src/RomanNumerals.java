@@ -24,7 +24,7 @@ public class RomanNumerals {
 	}
 
 	private int parseCharacterToValue(String romanNum, int i) {
-		int currentVal, nextval;
+		int currentVal, nextVal;
 		currentVal = getCharValue(romanNum.charAt(i));
 		try {
 			nextVal = getCharValue(romanNum.charAt(i + 1));
