@@ -8,7 +8,7 @@ public class RomanNumerals {
 
 		if (romanNum.length() < 4) {
 			if(romanNum.length()>1 && romanNum.charAt(0)!=romanNum.charAt(1)){
-				return getSingularValue(getStringCharAt(romanNum,0))-getSingularValue(getStringCharAt(romanNum, 1));
+				return getSingularValue(getStringCharAt(romanNum,1))-getSingularValue(getStringCharAt(romanNum, 0));
 			}
 			return romanNum.length() * getSingularValue(getStringCharAt(romanNum,0));
 		}
