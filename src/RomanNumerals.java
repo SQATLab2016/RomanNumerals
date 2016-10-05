@@ -10,9 +10,12 @@ public class RomanNumerals {
 		while (loop < rommanNumArray.length) {
 			if (loop + 1 < rommanNumArray.length
 					&& checkIfFirstIsSmall(rommanNumArray[loop], rommanNumArray[loop + 1])) {
-				result = result
-						+ (checkSingleNumeral(rommanNumArray[loop + 1]) - checkSingleNumeral(rommanNumArray[loop]));
-				loop = loop + 2;
+				if (checkIfSecondHightest(rommanNumArray[loop], rommanNumArray[loop + 1])) {
+					result = result
+							+ (checkSingleNumeral(rommanNumArray[loop + 1]) - checkSingleNumeral(rommanNumArray[loop]));
+					loop = loop + 2;
+				} else
+					throw new RomanNumeralException();
 			} else {
 				result = result + checkSingleNumeral(rommanNumArray[loop]);
 				loop++;
