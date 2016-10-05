@@ -22,17 +22,20 @@ public class RomanNumerals {
 
 	private void checkRepetition(String romanNum, int lastIndexOfNum, int i) throws Exception {
 		int repeated = 1;
-		if (i < lastIndexOfNum) {
-			for (int j = i + 1; j <= lastIndexOfNum; j++) {
-				if (romanNum.charAt(i) == romanNum.charAt(j)) {
-					repeated++;
+		char c = romanNum.charAt(i):
+		if (c == I || c == X || c == C || c == M) {
+			if (i < lastIndexOfNum) {
+				for (int j = i + 1; j <= lastIndexOfNum; j++) {
+					if (romanNum.charAt(i) == romanNum.charAt(j)) {
+						repeated++;
+					}
+					else {
+						break;
+					}
 				}
-				else {
-					break;
+				if (repeated > 3) {
+					throw new Exception("Symbol repeated too many times");
 				}
-			}
-			if (repeated > 3) {
-				throw new Exception("Symbol repeated too many times");
 			}
 		}
 	}
