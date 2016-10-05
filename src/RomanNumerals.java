@@ -14,9 +14,9 @@ public class RomanNumerals {
 		int duplicates = 0;
 		int subtractables = 0;
 		
-		// Refactoring: changing direction
-		for (int i = romanNum.length() - 1; i >= 0; i--) {
-			/*
+		int prev = 0;
+
+		for (int i = 01; i < romanNum.length(); i++) {
 			if (i > 0) {
 				if (romanNum.charAt(i - 1) == romanNum.charAt(i)) {
 					++duplicates;
@@ -24,7 +24,7 @@ public class RomanNumerals {
 					duplicates = 0;
 				}
 			}
-
+			
 			if (duplicates >= 1 && isOneTimeRepeatable(romanNum.charAt(i))) {
 				throw new NumberFormatException("Too many duplicate numeral characters.");
 			}
@@ -32,32 +32,10 @@ public class RomanNumerals {
 			if (duplicates >= 3 && isThreeTimesRepeatable(romanNum.charAt(i))) {
 				throw new NumberFormatException("Too many duplicate numeral characters.");
 			}
-
-			if ((i < romanNum.length()) &&
-				canBeSubtrahendElementaryValue(romanNum.charAt(i))) {
-				subtractables++;
-			} else {
-				subtractables = 0;
-			}
-			
-			if ((i + 1 < romanNum.length()) &&
-				canBeSubtrahendElementaryValue(romanNum.charAt(i)) &&
-				getElementaryValue(romanNum.charAt(i)) < getElementaryValue(romanNum.charAt(i + 1))) {
-
-				int diff = getElementaryIndex(romanNum.charAt(i + 1))
-						- getElementaryIndex(romanNum.charAt(i));
-				
-				if (diff > 2)
-					throw new NumberFormatException("Illegal subtraction format.");
-				
-				lastSub = getElementaryValue(romanNum.charAt(i));
-				
-			} else {
-				retValue += getElementaryValue(romanNum.charAt(i)) - lastSub;
-				lastSub = 0;
-			}
-			*/
-			
+		}
+		
+		// Refactoring: changing direction
+		for (int i = romanNum.length() - 1; i >= 0; i--) {
 			char c0 = romanNum.charAt(i);
 			
 			int subtrahend = 0;
