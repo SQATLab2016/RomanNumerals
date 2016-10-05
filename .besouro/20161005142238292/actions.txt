@@ -212,3 +212,4 @@ UnitTestCaseAction 1475669337545 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475669337545 TestRomanNumerals.java FAIL
 RefactoringAction 1475669372660 RomanNumerals.java ADD int getRepetition(String, int, int, int) METHOD
 EditAction 1475669372660 RomanNumerals.java 2440 6 17 0
+EditAction 1475669402222 RomanNumerals.java 2416 6 17 0

@@ -20,9 +20,8 @@ public class RomanNumerals {
 	}
 
 	private void checkRepetition(String romanNum, int lastIndexOfNum, int i) throws Exception {
-		int repeated = 1;
 		char c = romanNum.charAt(i);
-		repeated = getRepetition(romanNum, lastIndexOfNum, i, repeated);
+		int repeated = getRepetition(romanNum, lastIndexOfNum, i);
 		if ((c == I || c == X || c == C || c == M) && repeated > 3) {
 			throw new Exception("Symbol repeated too many times");
 		}
@@ -31,7 +30,8 @@ public class RomanNumerals {
 		}
 	}
 
-	private int getRepetition(String romanNum, int lastIndexOfNum, int i, int repeated) {
+	private int getRepetition(String romanNum, int lastIndexOfNum, int i) {
+		repeated = 1;
 		if (i < lastIndexOfNum) {
 			for (int j = i + 1; j <= lastIndexOfNum; j++) {
 				if (romanNum.charAt(i) == romanNum.charAt(j)) {
