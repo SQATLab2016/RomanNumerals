@@ -140,3 +140,7 @@ EditAction 1475673162130 RomanNumerals.java 3254 7 24 0
 UnitTestCaseAction 1475673165664 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475673165665 TestRomanNumerals.java FAIL
 EditAction 1475673198743 RomanNumerals.java 3349 7 24 0
+UnitTestCaseAction 1475673201082 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475673201082 TestRomanNumerals.java FAIL
+RefactoringAction 1475673252145 RomanNumerals.java ADD boolean x FIELD
+EditAction 1475673265552 RomanNumerals.java 3359 7 23 0

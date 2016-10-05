@@ -3,6 +3,7 @@ public class RomanNumerals {
 	
 	private int totalArabic;
 	private int lastNumber;
+	private boolean x = false;
 	
 	public RomanNumerals() {
         this.totalArabic = 0;
@@ -125,7 +126,7 @@ public class RomanNumerals {
     }
 
 	private void processTheChar(char c, char lastChar) throws RomanNumeralsException {
-		boolean x = false;
+
 		if( c == 'L' )
 			if( lastChar == 'I' )
 				throw new RomanNumeralsException();
@@ -134,7 +135,7 @@ public class RomanNumerals {
 				throw new RomanNumeralsException();
 		if ( c == 'X' )
 			if( lastChar == 'X' )
-				x=true;
+				x = true;
 		if( c == 'D' )
 			if( lastChar == 'X' )
 				throw new RomanNumeralsException();
