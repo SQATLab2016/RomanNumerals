@@ -62,3 +62,10 @@ EditAction 1475665906818 TestRomanNumerals.java 3365 24 29 5
 UnitTestCaseAction 1475665909508 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475665909509 TestRomanNumerals.java FAIL
 EditAction 1475665915671 RomanNumerals.java 840 1 4 0
+UnitTestCaseAction 1475665919638 TestRomanNumerals.java OK
+UnitTestSessionAction 1475665919639 TestRomanNumerals.java OK
+RefactoringAction 1475666004204 TestRomanNumerals.java RENAME test_I_cannot_be_subtracted_twice()=>void test_I_cannot_be_subtracted_twice_fromV() METHOD
+RefactoringAction 1475666005726 TestRomanNumerals.java RENAME test_I_cannot_be_subtracted_twice_fromV()=>void test_I_cannot_be_subtracted_twice_from_V() METHOD
+RefactoringAction 1475666010247 TestRomanNumerals.java ADD void test_I_cannot_be_subtracted_twice_from_V()/2 METHOD
+RefactoringAction 1475666011766 TestRomanNumerals.java RENAME test_I_cannot_be_subtracted_twice_from_V()/2=>void test_I_cannot_be_subtracted_twice_from_X() METHOD
+EditAction 1475666015898 TestRomanNumerals.java 3521 25 30 5

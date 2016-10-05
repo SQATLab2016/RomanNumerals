@@ -92,8 +92,13 @@ public class TestRomanNumerals {
 	}
 	
 	@Test (expected = IllegalArgumentException.class)
-	public void test_I_cannot_be_subtracted_twice() {
+	public void test_I_cannot_be_subtracted_twice_from_V() {
 		rn.convertToInteger("IIV");
+	}
+	
+	@Test (expected = IllegalArgumentException.class)
+	public void test_I_cannot_be_subtracted_twice_from_X() {
+		rn.convertToInteger("IIX");
 	}
 	
 	@Test (expected = IllegalArgumentException.class)
