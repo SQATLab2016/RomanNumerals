@@ -87,6 +87,16 @@ public class RomanNumerals {
 					break;
 				}
 			}
+			
+			String thirdNumeral = String.valueOf(romanNum.charAt(i + 1));
+			int thirdNumber = Numeral.valueOf(thirdNumeral).value();
+			
+			if (number == nextNumber && nextNumber == thirdNumber) {
+				sum += number + nextNumber + thirdNumber;
+				i++;
+				i++;
+				continue;
+			}
 		}
 		
 		return sum;
