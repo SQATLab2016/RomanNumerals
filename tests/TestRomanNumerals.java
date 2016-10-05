@@ -11,6 +11,15 @@ public class TestRomanNumerals {
 		mNumerals = new RomanNumerals();
 	}
 
+	@Test(expected=NumberFormatException.class)
+	public void testConvertInteger_IllegalSubtraction_DX_Throw_NumberFormatException() {
+		mNumerals.convertToInteger("DX");
+	}
+	
+	@Test(expected=NumberFormatException.class)
+	public void testConvertInteger_IllegalSubtraction_LX_Throw_NumberFormatException() {
+		mNumerals.convertToInteger("LX");
+	}
 	
 	@Test(expected=NumberFormatException.class)
 	public void testConvertInteger_IllegalSubtraction_VX_Throw_NumberFormatException() {

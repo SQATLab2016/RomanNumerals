@@ -122,3 +122,12 @@ RefactoringAction 1475671152126 RomanNumerals.java REMOVE i FIELD
 RefactoringAction 1475671156677 RomanNumerals.java ADD int i FIELD
 RefactoringAction 1475671182849 RomanNumerals.java REMOVE i FIELD
 EditAction 1475671184211 RomanNumerals.java 2902 6 18 0
+UnitTestCaseAction 1475671187047 TestRomanNumerals.java OK
+UnitTestSessionAction 1475671187048 TestRomanNumerals.java OK
+UnitTestCaseAction 1475671220424 TestRomanNumerals.java OK
+UnitTestSessionAction 1475671220425 TestRomanNumerals.java OK
+RefactoringAction 1475671301703 TestRomanNumerals.java ADD void testConvertInteger_IllegalSubtraction_VX_Throw_NumberFormatException()/2 METHOD
+RefactoringAction 1475671318254 TestRomanNumerals.java RENAME testConvertInteger_IllegalSubtraction_VX_Throw_NumberFormatException()/2=>void testConvertInteger_IllegalSubtraction_LX_Throw_NumberFormatException() METHOD
+RefactoringAction 1475671320273 TestRomanNumerals.java ADD void testConvertInteger_IllegalSubtraction_LX_Throw_NumberFormatException()/2 METHOD
+RefactoringAction 1475671323820 TestRomanNumerals.java RENAME testConvertInteger_IllegalSubtraction_LX_Throw_NumberFormatException()/2=>void testConvertInteger_IllegalSubtraction_DX_Throw_NumberFormatException() METHOD
+EditAction 1475671326195 TestRomanNumerals.java 8003 55 85 30

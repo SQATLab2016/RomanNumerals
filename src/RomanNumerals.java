@@ -1,20 +1,14 @@
 
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
-		if (romanNum == null) {
+		if (romanNum == null)
 			throw new NumberFormatException("Null roman numeral.");
-		}
 		
-		if (romanNum.isEmpty()) {
+		if (romanNum.isEmpty())
 			throw new NumberFormatException("Empty roman numeral.");
-		}
 		
 		int retValue = 0;
-		int lastSub = 0;
 		int duplicates = 0;
-		int subtractables = 0;
-		
-		int prev = 0;
 
 		for (int i = 01; i < romanNum.length(); i++) {
 			if (i > 0)
@@ -27,7 +21,6 @@ public class RomanNumerals {
 				throw new NumberFormatException("Too many duplicate numeral characters.");
 		}
 		
-		// Refactoring: changing direction
 		for (int i = romanNum.length() - 1; i >= 0; i--) {
 			char c0 = romanNum.charAt(i);
 			
