@@ -22,3 +22,6 @@ UnitTestSessionAction 1475666277635 TestRomanNumerals.testConverter_nonRomanNume
 UnitTestCaseAction 1475666320037 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475666320038 TestRomanNumerals.java FAIL
 EditAction 1475666385332 RomanNumerals.java 614 2 4 0
+UnitTestCaseAction 1475666389594 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475666389595 TestRomanNumerals.java FAIL
+EditAction 1475666425176 RomanNumerals.java 635 2 4 0

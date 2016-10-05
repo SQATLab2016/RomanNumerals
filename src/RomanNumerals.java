@@ -1,7 +1,7 @@
 
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
-		if (romanNum.equals("V")) {
+		if (romanNum.equals("V")&&romanNum.length()>1) {
 			return -1;
 		}
 
