@@ -137,10 +137,11 @@ public class TestRomanNumerals {
 	
 	@Test public void testRomanNumerals_1_to_3999() throws Exception  {
 		RomanNumeral testValue;
+		int converted;
 		for (int i = 1; i < 4000; i++) {
 			testValue = new RomanNumeral(i);
 			System.err.println(i);
-			int converted = rn.convertToInteger(testValue.toString());
+			converted = rn.convertToInteger(testValue.toString());
 			assertEquals(testValue.toInt(), converted);
 		}
 	}
