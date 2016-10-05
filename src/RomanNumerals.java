@@ -41,6 +41,9 @@ public class RomanNumerals {
 			if ((i + 1 < romanNum.length()) &&
 				canBeSubtrahendElementaryValue(romanNum.charAt(i)) &&
 				getElementaryValue(romanNum.charAt(i)) < getElementaryValue(romanNum.charAt(i + 1))) {
+
+				if (subtractables > 1)
+					throw new NumberFormatException("Illegal multiple subtractions.");
 				
 				int diff = getElementaryIndex(romanNum.charAt(i + 1))
 						- getElementaryIndex(romanNum.charAt(i));
@@ -51,8 +54,6 @@ public class RomanNumerals {
 				lastSub = getElementaryValue(romanNum.charAt(i));
 				
 			} else {
-				if (subtractables > 1)
-					throw new NumberFormatException("Illegal multiple subtractions.");
 				retValue += getElementaryValue(romanNum.charAt(i)) - lastSub;
 				lastSub = 0;
 			}
