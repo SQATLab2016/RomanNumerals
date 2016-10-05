@@ -386,3 +386,5 @@ RefactoringAction 1475670944061 TestRomanNumerals.java RENAME test_LXXXI_81()/2=
 RefactoringAction 1475670946079 TestRomanNumerals.java RENAME test_CCXX_81()=>void test_CCXXVI_81() METHOD
 RefactoringAction 1475670948596 TestRomanNumerals.java RENAME test_CCXXVI_81()=>void test_CCXXVI_226() METHOD
 EditAction 1475670952310 TestRomanNumerals.java 6847 51 72 21
+UnitTestCaseAction 1475670954852 TestRomanNumerals.java OK
+UnitTestSessionAction 1475670954853 Rerun TestRomanNumerals (Failed Tests first) OK
