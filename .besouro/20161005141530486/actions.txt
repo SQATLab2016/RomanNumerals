@@ -271,3 +271,9 @@ RefactoringAction 1475675263536 TestRomanNumerals.java ADD void testConverter_Co
 RefactoringAction 1475675272550 TestRomanNumerals.java RENAME testConverter_ConvertCD_shouldBe_400()/2=>void testConverter_ConvertDCCC_shouldBe_400() METHOD
 RefactoringAction 1475675279063 TestRomanNumerals.java RENAME testConverter_ConvertDCCC_shouldBe_400()=>void testConverter_ConvertDCCC_shouldBe_800() METHOD
 EditAction 1475675292692 TestRomanNumerals.java 3897 36 37 36
+UnitTestCaseAction 1475675301210 TestRomanNumerals.java OK
+UnitTestSessionAction 1475675301211 TestRomanNumerals.java OK
+RefactoringAction 1475675370123 TestRomanNumerals.java ADD void testConverter_ConvertDCCC_shouldBe_800()/2 METHOD
+RefactoringAction 1475675375639 TestRomanNumerals.java RENAME testConverter_ConvertDCCC_shouldBe_800()/2=>void testConverter_ConvertMCMLXXXIV_shouldBe_800() METHOD
+RefactoringAction 1475675386155 TestRomanNumerals.java RENAME testConverter_ConvertMCMLXXXIV_shouldBe_800()=>void testConverter_ConvertMCMLXXXIV_shouldBe_1984() METHOD
+EditAction 1475675397612 TestRomanNumerals.java 4024 37 38 37

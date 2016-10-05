@@ -180,6 +180,11 @@ public class TestRomanNumerals {
 	public void testConverter_ConvertDCCC_shouldBe_800(){
 		assertRomanNumebrEqual("DCCC", 800);
 	}
+	MCMLXXXIV
+	@Test
+	public void testConverter_ConvertMCMLXXXIV_shouldBe_1984(){
+		assertRomanNumebrEqual("MCMLXXXIV", 1984);
+	}
 	
 	private void assertRomanNumebrEqual(String romanNumeral, int expectedNumber){
 		int number = numeral.convertToInteger(romanNumeral);
