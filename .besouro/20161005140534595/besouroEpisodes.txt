@@ -5,3 +5,5 @@
 1475665725651 refactoring 2A 2 true
 1475665737992 regression 1 2 true
 1475665762409 refactoring 2A 2 true
+1475665787073 test-addition 2 16 true
+1475665787074 test-addition 1 16 true
