@@ -31,7 +31,7 @@ public class RomanNumerals {
 	}
 
 	private int getRepetition(String romanNum, int lastIndexOfNum, int i) {
-		repeated = 1;
+		int repeated = 1;
 		if (i < lastIndexOfNum) {
 			for (int j = i + 1; j <= lastIndexOfNum; j++) {
 				if (romanNum.charAt(i) == romanNum.charAt(j)) {

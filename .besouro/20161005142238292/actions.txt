@@ -213,3 +213,10 @@ UnitTestSessionAction 1475669337545 TestRomanNumerals.java FAIL
 RefactoringAction 1475669372660 RomanNumerals.java ADD int getRepetition(String, int, int, int) METHOD
 EditAction 1475669372660 RomanNumerals.java 2440 6 17 0
 EditAction 1475669402222 RomanNumerals.java 2416 6 17 0
+CompilationAction 1475669403658 RomanNumerals.java
+CompilationAction 1475669406325 RomanNumerals.java
+UnitTestCaseAction 1475669410057 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475669410057 TestRomanNumerals.java FAIL
+RefactoringAction 1475669435032 TestRomanNumerals.java ADD void testRomanNumerals_LC_err()/2 METHOD
+RefactoringAction 1475669437622 TestRomanNumerals.java RENAME testRomanNumerals_LC_err()/2=>void testRomanNumerals_VV_err() METHOD
+EditAction 1475669440680 TestRomanNumerals.java 3068 21 39 18
