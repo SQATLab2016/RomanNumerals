@@ -14,3 +14,12 @@ EditAction 1475667167201 RomanNumerals.java 2693 6 15 0
 UnitTestCaseAction 1475667170192 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475667170194 TestRomanNumerals.java FAIL
 EditAction 1475667457688 RomanNumerals.java 2778 6 15 0
+UnitTestCaseAction 1475667460294 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475667460297 TestRomanNumerals.java FAIL
+RefactoringAction 1475668263713 RomanNumerals.java REMOVE isOneTimeRepeatable(char) METHOD
+RefactoringAction 1475668263715 RomanNumerals.java REMOVE getElementaryIndex(char) METHOD
+RefactoringAction 1475668263717 RomanNumerals.java REMOVE isThreeTimesRepeatable(char) METHOD
+RefactoringAction 1475668268734 RomanNumerals.java ADD boolean isOneTimeRepeatable(char) METHOD
+RefactoringAction 1475668268736 RomanNumerals.java ADD boolean isThreeTimesRepeatable(char) METHOD
+RefactoringAction 1475668268738 RomanNumerals.java ADD int getElementaryIndex(char) METHOD
+EditAction 1475668278447 RomanNumerals.java 2554 6 15 0
