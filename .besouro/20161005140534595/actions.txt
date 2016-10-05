@@ -374,3 +374,8 @@ RefactoringAction 1475670720894 TestRomanNumerals.java RENAME test_XL_40()/2=>vo
 RefactoringAction 1475670721913 TestRomanNumerals.java RENAME test_L_40()=>void test_LXXX_40() METHOD
 RefactoringAction 1475670729422 TestRomanNumerals.java RENAME test_LXXX_40()=>void test_LXXXI_81() METHOD
 EditAction 1475670733425 TestRomanNumerals.java 6601 49 68 19
+UnitTestCaseAction 1475670735744 TestRomanNumerals.java OK
+UnitTestSessionAction 1475670735745 Rerun TestRomanNumerals (Failed Tests first) OK
+RefactoringAction 1475670916969 TestRomanNumerals.java ADD void test_XL_40()/2 METHOD
+RefactoringAction 1475670923487 TestRomanNumerals.java RENAME test_XL_40()/2=>void test_LXIV_64() METHOD
+EditAction 1475670927541 TestRomanNumerals.java 6721 50 70 20
