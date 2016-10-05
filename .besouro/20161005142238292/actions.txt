@@ -408,3 +408,6 @@ EditAction 1475671739087 TestRomanNumerals.java 4175 28 49 19
 UnitTestCaseAction 1475671740993 TestRomanNumerals.java OK
 UnitTestSessionAction 1475671740993 TestRomanNumerals.java OK
 EditAction 1475671906104 TestRomanNumerals.java 4175 28 49 19
+UnitTestCaseAction 1475671908416 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475671908416 TestRomanNumerals.java FAIL
+EditAction 1475671913657 TestRomanNumerals.java 4175 28 49 19
