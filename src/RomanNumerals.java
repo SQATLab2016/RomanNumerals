@@ -1,8 +1,128 @@
 
 public class RomanNumerals {
-	public int convertToInteger(String romanNum) {
-		// To be Implemented
-		return 0;
+	private static final char I = 'I';
+	private static final char V = 'V';
+	private static final char X = 'X';
+	private static final char L = 'L';
+	private static final char C = 'C';
+	private static final char D = 'D';
+	private static final char M = 'M';
+	
+	private boolean subd = false;
+
+	public int convertToInteger(String romanNum) throws Exception {
+		int value = 0;
+		int lastIndexOfNum = romanNum.length() - 1;
 		
+		for (int i = lastIndexOfNum; i >= 0; i--) {
+			checkRepetition(romanNum, lastIndexOfNum, i);
+			value += parseCharacterToValue(romanNum, i);
+		}
+		return value;
 	}
+
+	private void checkRepetition(String romanNum, int lastIndexOfNum, int i) throws Exception {
+		char c = romanNum.charAt(i);
+		int repeated = getRepetition(romanNum, lastIndexOfNum, i);
+		if ((c == I || c == X || c == C || c == M) && repeated > 3) {
+			throw new Exception("Symbol repeated too many times");
+		}
+		else if ((c == V || c == L || c == D) && repeated > 1) {
+			throw new Exception("Invalid symbol repeated");
+		}
+	}
+
+	private int getRepetition(String romanNum, int lastIndexOfNum, int i) {
+		int repeated = 1;
+		if (i < lastIndexOfNum) {
+			for (int j = i + 1; j <= lastIndexOfNum; j++) {
+				if (romanNum.charAt(i) == romanNum.charAt(j)) {
+					repeated++;
+				}
+				else {
+					break;
+				}
+			}
+		}
+		return repeated;
+	}
+
+	private int parseCharacterToValue(String romanNum, int i) throws Exception {
+		int currentVal, nextVal;
+		currentVal = getCharValue(romanNum.charAt(i));
+		try {
+			nextVal = getCharValue(romanNum.charAt(i + 1));
+			return getCurrentValue(currentVal, nextVal);
+		}
+		catch(Exception e) { // @hacks
+			if (e.getMessage() == "invalid substraction") {
+				throw e;
+			}
+			else {
+				subd = false;
+				return currentVal; // when trying to get next of last, it is intended to end up here
+			}
+		}
+	}
+
+	private int getCurrentValue(int currentVal, int nextVal) throws Exception {
+		if (currentVal == nextVal) {
+			if (subd) {
+				throw new Exception("invalid substraction");
+			}
+			subd = false;
+			return currentVal;
+		}
+		else if (currentVal < nextVal) {
+			validateSubstraction(currentVal, nextVal);
+			subd = true;
+			return -currentVal;
+		}
+		else if (currentVal > nextVal) {
+			subd = false;
+			return currentVal;
+		}
+		return 0;
+	}
+
+	private void validateSubstraction(int currentVal, int nextVal) throws Exception {
+		if (currentVal == 1 && nextVal > 10) {
+			throw new Exception("invalid substraction");
+		}
+		else if (currentVal == 10 && nextVal > 100) {
+			throw new Exception("invalid substraction");
+		}
+		else if (currentVal == 100 && nextVal > 1000) {
+			throw new Exception("invalid substraction");
+		}
+		else if (currentVal == 5 || currentVal == 50 || currentVal == 500) {
+			throw new Exception("invalid substraction");
+		}
+	}
+	
+	private int getCharValue(char romanNum) {
+		if (romanNum == I) {
+			return 1;
+		}
+		else if (romanNum == V) {
+			return 5;
+		}
+		else if (romanNum == X) {
+			return 10;
+		}
+		else if (romanNum == L) {
+			return 50;
+		}
+		else if (romanNum == C) {
+			return 100;
+		}
+		else if (romanNum == D) {
+			return 500;
+		}
+		else if (romanNum == M) {
+			return 1000;
+		}
+		return 0;
+	}
+
 }
