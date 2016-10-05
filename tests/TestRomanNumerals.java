@@ -6,7 +6,7 @@ public class TestRomanNumerals {
 
 	@Test
 	public void atMost3CharTest() {
-		RomanNumerals rm = new RomanNumerals("CCCXMMMIV");
+		RomanNumerals rm = new RomanNumerals("CCCXMMMIVM");
 		Boolean valid = false;
 		valid = rm.atMost3CharCheck(); 
 		
