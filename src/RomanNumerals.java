@@ -7,12 +7,14 @@ public class RomanNumerals {
 
 		while (loop < rommanNumArray.length) {
 
-			if (loop + 1 < rommanNumArray.length) {
+			if (loop + 1 < rommanNumArray.length
+					&& checkIfFirstIsSmall(rommanNumArray[loop], rommanNumArray[loop + 1])) {
 
 			} else {
 				result = result + checkSingleNumeral(rommanNumArray[loop]);
+				loop++;
 			}
-			loop++;
+
 		}
 
 		return result;
