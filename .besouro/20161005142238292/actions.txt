@@ -255,3 +255,5 @@ UnitTestCaseAction 1475670109461 TestRomanNumerals.java OK
 UnitTestSessionAction 1475670109461 TestRomanNumerals.java OK
 RefactoringAction 1475670151051 RomanNumerals.java ADD void validateSubstraction(int, int) METHOD
 EditAction 1475670151051 RomanNumerals.java 3111 7 18 0
+RefactoringAction 1475670231836 TestRomanNumerals.java ADD void testRomanNumerals_XM_err()/2 METHOD
+EditAction 1475670241087 TestRomanNumerals.java 3460 24 42 18
