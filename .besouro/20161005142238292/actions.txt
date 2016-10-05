@@ -176,3 +176,6 @@ UnitTestCaseAction 1475668907107 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475668907107 TestRomanNumerals.java FAIL
 RefactoringAction 1475668934750 TestRomanNumerals.java RENAME testRomanNumerals_CL_err()=>void testRomanNumerals_LC_err() METHOD
 EditAction 1475668935140 TestRomanNumerals.java 2986 20 39 19
+UnitTestCaseAction 1475668936812 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475668936812 TestRomanNumerals.testRomanNumerals_LC_err FAIL
+EditAction 1475668946282 TestRomanNumerals.java 2960 20 39 19
