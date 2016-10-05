@@ -3,22 +3,21 @@ public class RomanNumerals {
 	public int convertToInteger(String romanNum) throws RomanNumeralException {
 		char[] rommanNumArray = romanNum.toCharArray();
 		int result = 0;
-		int loop = 0;
+		int loop = (rommanNumArray.length - 1);
 
 		validateRomanString(rommanNumArray);
 
-		while (loop < rommanNumArray.length) {
-			if (loop + 1 < rommanNumArray.length
-					&& checkIfFirstIsSmall(rommanNumArray[loop], rommanNumArray[loop + 1])) {
-				if (checkIfSecondHightest(rommanNumArray[loop], rommanNumArray[loop + 1])) {
+		while (loop >= 0) {
+			if (loop - 1 >= 0 && checkIfFirstIsSmall(rommanNumArray[loop - 1], rommanNumArray[loop])) {
+				if (checkIfSecondHightest(rommanNumArray[loop - 1], rommanNumArray[loop])) {
 					result = result
-							+ (checkSingleNumeral(rommanNumArray[loop + 1]) - checkSingleNumeral(rommanNumArray[loop]));
-					loop = loop + 2;
+							+ (checkSingleNumeral(rommanNumArray[loop]) - checkSingleNumeral(rommanNumArray[loop - 1]));
+					loop = loop - 2;
 				} else
 					throw new RomanNumeralException();
 			} else {
 				result = result + checkSingleNumeral(rommanNumArray[loop]);
-				loop++;
+				loop--;
 			}
 		}
 		return result;
