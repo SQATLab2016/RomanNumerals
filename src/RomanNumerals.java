@@ -130,6 +130,8 @@ public class RomanNumerals {
 		if( c == 'L' )
 			if( lastChar == 'I' )
 				throw new RomanNumeralsException();
+			if ( lastChar == 'X' && x == true)
+				throw new RomanNumeralsException();
 		if ( c == 'C' )
 			if(lastChar == 'X' && x == true)
 				throw new RomanNumeralsException();

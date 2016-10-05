@@ -144,3 +144,6 @@ UnitTestCaseAction 1475673201082 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475673201082 TestRomanNumerals.java FAIL
 RefactoringAction 1475673252145 RomanNumerals.java ADD boolean x FIELD
 EditAction 1475673265552 RomanNumerals.java 3359 7 23 0
+UnitTestCaseAction 1475673268506 TestRomanNumerals.java OK
+UnitTestSessionAction 1475673268507 TestRomanNumerals.java OK
+EditAction 1475673345697 RomanNumerals.java 3437 7 24 0
