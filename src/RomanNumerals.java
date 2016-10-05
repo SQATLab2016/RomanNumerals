@@ -63,12 +63,17 @@ public class RomanNumerals {
 			int subtrahend = 0;
 			
 			for (int j = i - 1; j >= 0; j--) {
-				c1 = romanNum.charAt(j);
-				
-				if (canBeSubtrahendElementaryValue(c1))
-					subtrahend = 0;
+				char c1 = romanNum.charAt(j);
+				if (canBeSubtrahendElementaryValue(c1) &&
+						getElementaryValue(c0) > getElementaryValue(c1)) {
+					if (subtrahend != 0)
+						throw new NumberFormatException("Illegal multiple subtractions.");
+					subtrahend = getElementaryValue(c1);
+				}
+				break;
 			}
 			
+			retValue += getElementaryValue(c0) - subtrahend;
 		}
 		
 		return retValue;

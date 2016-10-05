@@ -75,3 +75,10 @@ RefactoringAction 1475670010112 RomanNumerals.java ADD boolean isThreeTimesRepea
 RefactoringAction 1475670010114 RomanNumerals.java ADD int getElementaryValue(char) METHOD
 RefactoringAction 1475670010116 RomanNumerals.java ADD int getElementaryIndex(char) METHOD
 EditAction 1475670148237 RomanNumerals.java 2990 6 16 0
+CompilationAction 1475670150255 RomanNumerals.java
+CompilationAction 1475670296909 RomanNumerals.java
+UnitTestCaseAction 1475670298220 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475670298221 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475670371307 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475670371308 TestRomanNumerals.java FAIL
+EditAction 1475670385728 RomanNumerals.java 3238 6 16 0
