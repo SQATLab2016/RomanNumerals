@@ -14,7 +14,7 @@ public class RomanNumerals {
 							+ (checkSingleNumeral(rommanNumArray[loop]) - checkSingleNumeral(rommanNumArray[loop - 1]));
 					loop = loop - 2;
 				} else
-					//throw new RomanNumeralException();
+					throw new RomanNumeralException();
 			} else {
 				result = result + checkSingleNumeral(rommanNumArray[loop]);
 				loop--;
@@ -28,7 +28,7 @@ public class RomanNumerals {
 		String orderString = "IVXLCDM";
 		int indexC = orderString.indexOf(c);
 		int indexD = orderString.indexOf(d);
-		if ((indexD - indexC) == 1)
+		if ((indexD - indexC) <= 2 && (c=='I' || c=='C' || c=='X') && (d=='I' || d=='C' || d=='X'))
 			result = true;
 		return result;
 	}
@@ -43,6 +43,10 @@ public class RomanNumerals {
 		int countD = 0;
 
 		for (int loop = 0; loop < rommanNumArray.length; loop++) {
+			for(int innerLoop = 0; innerLoop < rommanNumArray.length; innerLoop++){
+				
+			}
+			
 			if (rommanNumArray[loop] == 'V') {
 				countV++;
 				countI = 0;
