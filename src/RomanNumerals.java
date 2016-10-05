@@ -57,11 +57,14 @@ public class RomanNumerals {
 		}
 	}
 
-	private int getCurrentValue(int currentVal, int nextVal) {
+	private int getCurrentValue(int currentVal, int nextVal) throws Exception {
 		if (currentVal == nextVal) {
 			return currentVal;
 		}
 		else if (currentVal < nextVal) {
+			if (currentVal == 1 && nextVal > 10) {
+				throw new Exception("invalid substraction");
+			}
 			return -currentVal;
 		}
 		else if (currentVal > nextVal) {
