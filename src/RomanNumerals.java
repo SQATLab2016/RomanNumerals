@@ -17,10 +17,7 @@ public class RomanNumerals {
 				+ "IIV|IIX|XXL|XXC|CCD|CCM|"
 				
 				// can't subtract the '5' symbols
-				+ "VX|VL|VC|VD|VM|"
-				
-				// can't subtract the '50' symbols
-				+ "LC|LD|LM"
+				+ "VX|VL|VC|VD|VM|LC|LD|LM|DM"
 				);
 		Matcher m = p.matcher(romanNum);
 		if (m.find()) {
