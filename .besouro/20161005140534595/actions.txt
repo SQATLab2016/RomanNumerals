@@ -155,3 +155,9 @@ EditAction 1475666603612 RomanNumerals.java 952 1 4 0
 UnitTestCaseAction 1475666607332 TestRomanNumerals.java OK
 UnitTestSessionAction 1475666607333 Rerun TestRomanNumerals (Failed Tests first) OK
 EditAction 1475666633610 RomanNumerals.java 945 1 4 0
+UnitTestCaseAction 1475666636301 TestRomanNumerals.java OK
+UnitTestSessionAction 1475666636302 Rerun TestRomanNumerals (Failed Tests first) OK
+RefactoringAction 1475666645918 TestRomanNumerals.java ADD void test_numbers()/2 METHOD
+RefactoringAction 1475666648436 TestRomanNumerals.java RENAME test_numbers()/2=>void test_t() METHOD
+RefactoringAction 1475666651960 TestRomanNumerals.java RENAME test_t()=>void test_other_letters() METHOD
+EditAction 1475666670363 TestRomanNumerals.java 4935 35 40 5

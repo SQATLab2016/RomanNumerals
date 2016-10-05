@@ -180,5 +180,10 @@ public class TestRomanNumerals {
 	public void test_numbers() {
 		rn.convertToInteger("123");
 	}
+	
+	@Test (expected = IllegalArgumentException.class)
+	public void test_other_letters() {
+		rn.convertToInteger("ABEFG");
+	}
 
 }
