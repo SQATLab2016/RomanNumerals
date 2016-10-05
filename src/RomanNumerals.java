@@ -6,7 +6,12 @@ public class RomanNumerals {
 		int loop = 0;
 
 		while (loop < rommanNumArray.length) {
-			result = result + checkSingleNumeral(rommanNumArray[loop]);
+
+			if (loop + 1 < rommanNumArray.length) {
+
+			} else {
+				result = result + checkSingleNumeral(rommanNumArray[loop]);
+			}
 			loop++;
 		}
 

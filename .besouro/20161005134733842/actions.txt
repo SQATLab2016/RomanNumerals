@@ -18,3 +18,6 @@ RefactoringAction 1475664790322 RomanNumerals.java RENAME checkSingleNumeral=>vo
 RefactoringAction 1475664797862 RomanNumerals.java RENAME checkSingleNumeral()=>void checkSingleNumeral(char) METHOD
 EditAction 1475665036090 RomanNumerals.java 616 2 6 0
 EditAction 1475665076354 RomanNumerals.java 627 2 6 0
+UnitTestCaseAction 1475665078885 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475665078886 TestRomanNumerals.java FAIL
+EditAction 1475665162007 RomanNumerals.java 690 2 6 0
