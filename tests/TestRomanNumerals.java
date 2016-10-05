@@ -131,8 +131,8 @@ public class TestRomanNumerals {
 	}
 	
 	@Test public void testRomanNumerals_XLII_42() throws Exception  {
-		rn.convertToInteger("XLII");
-		assertEquals(42, num);
+		int num = rn.convertToInteger("XLIII");
+		assertEquals(43, num);
 	}
 	
 	/*

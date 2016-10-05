@@ -389,3 +389,8 @@ EditAction 1475671620480 TestRomanNumerals.java 4158 27 45 18
 UnitTestCaseAction 1475671623088 TestRomanNumerals.java OK
 UnitTestSessionAction 1475671623088 TestRomanNumerals.java OK
 EditAction 1475671632760 TestRomanNumerals.java 4184 27 46 19
+CompilationAction 1475671634242 TestRomanNumerals.java
+CompilationAction 1475671640232 TestRomanNumerals.java
+UnitTestCaseAction 1475671642139 TestRomanNumerals.java OK
+UnitTestSessionAction 1475671642139 TestRomanNumerals.java OK
+EditAction 1475671669267 TestRomanNumerals.java 4195 27 46 19
