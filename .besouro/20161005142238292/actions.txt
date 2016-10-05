@@ -308,3 +308,42 @@ UnitTestSessionAction 1475670902297 TestRomanNumerals.java FAIL
 RefactoringAction 1475670971218 TestRomanNumerals.java ADD static int decodeSingle(char) METHOD
 RefactoringAction 1475670971218 TestRomanNumerals.java ADD static int decode(String) METHOD
 EditAction 1475670976803 TestRomanNumerals.java 5069 29 55 19
+CompilationAction 1475670978394 TestRomanNumerals.java
+RefactoringAction 1475671006817 TestRomanNumerals.java REMOVE decode(String) METHOD
+RefactoringAction 1475671006817 TestRomanNumerals.java REMOVE decodeSingle(char) METHOD
+CompilationAction 1475671007067 TestRomanNumerals.java
+CompilationAction 1475671007223 TestRomanNumerals.java
+CompilationAction 1475671011216 TestRomanNumerals.java
+RefactoringAction 1475671038662 TestRomanNumerals.java ADD def to_roman() METHOD
+CompilationAction 1475671038911 TestRomanNumerals.java
+CompilationAction 1475671039083 TestRomanNumerals.java
+CompilationAction 1475671039083 TestRomanNumerals.java
+CompilationAction 1475671039083 TestRomanNumerals.java
+CompilationAction 1475671039083 TestRomanNumerals.java
+CompilationAction 1475671039083 TestRomanNumerals.java
+CompilationAction 1475671039083 TestRomanNumerals.java
+CompilationAction 1475671039083 TestRomanNumerals.java
+CompilationAction 1475671039083 TestRomanNumerals.java
+CompilationAction 1475671039083 TestRomanNumerals.java
+CompilationAction 1475671039083 TestRomanNumerals.java
+CompilationAction 1475671039083 TestRomanNumerals.java
+CompilationAction 1475671039083 TestRomanNumerals.java
+CompilationAction 1475671039083 TestRomanNumerals.java
+CompilationAction 1475671039083 TestRomanNumerals.java
+CompilationAction 1475671039083 TestRomanNumerals.java
+CompilationAction 1475671039083 TestRomanNumerals.java
+CompilationAction 1475671039083 TestRomanNumerals.java
+CompilationAction 1475671039099 TestRomanNumerals.java
+CompilationAction 1475671044122 TestRomanNumerals.java
+CompilationAction 1475671044262 TestRomanNumerals.java
+RefactoringAction 1475671143525 RomanNumeral.java ADD RomanNumeral.java CLASS
+FileOpenedAction 1475671143665 RomanNumeral.java 36 0 0 0
+RefactoringAction 1475671146255 RomanNumeral.java ADD int num FIELD
+RefactoringAction 1475671146255 RomanNumeral.java ADD int FIELD
+RefactoringAction 1475671146255 RomanNumeral.java ADD String FIELD
+RefactoringAction 1475671146255 RomanNumeral.java ADD RomanNumeral(int) METHOD
+RefactoringAction 1475671146255 RomanNumeral.java ADD RomanNumeral(String) METHOD
+RefactoringAction 1475671146255 RomanNumeral.java ADD int letterToNumber(char) METHOD
+RefactoringAction 1475671146270 RomanNumeral.java ADD String toString() METHOD
+RefactoringAction 1475671146270 RomanNumeral.java ADD int toInt() METHOD
+EditAction 1475671150966 RomanNumeral.java 5727 5 16 0
