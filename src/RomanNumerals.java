@@ -11,12 +11,13 @@ public class RomanNumerals {
 	private int[] occurencies;
 
 	public int convertToInteger(String romanNum) {
-		occurencies = [0,0,0,0,0,0,0];
+		occurencies = new int[] {0,0,0,0,0,0,0};
 		int value = 0;
 		
 		for (int i = romanNum.length() - 1; i >= 0; i--) {
 			value += parseCharacterToValue(romanNum, i);
 		}
+		System.out.println(occurencies);
 		return value;
 	}
 
