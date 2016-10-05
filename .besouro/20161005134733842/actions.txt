@@ -9,3 +9,11 @@ RefactoringAction 1475664548709 TestRomanNumerals.java RENAME testRomanNumeral_X
 RefactoringAction 1475664554733 TestRomanNumerals.java RENAME testRomanNumeral_IV_=>void testRomanNumeral_IV_4 FIELD
 RefactoringAction 1475664556258 TestRomanNumerals.java RENAME testRomanNumeral_IV_4=>void testRomanNumeral_IV_4() METHOD
 EditAction 1475664578483 TestRomanNumerals.java 1063 10 11 10
+UnitTestCaseAction 1475664609420 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475664609421 TestRomanNumerals.java FAIL
+RefactoringAction 1475664780259 RomanNumerals.java ADD voif check FIELD
+RefactoringAction 1475664786794 RomanNumerals.java RENAME check=>void checkSingle FIELD
+RefactoringAction 1475664789308 RomanNumerals.java RENAME checkSingle=>void checkSingleNumeral FIELD
+RefactoringAction 1475664790322 RomanNumerals.java RENAME checkSingleNumeral=>void checkSingleNumeral() METHOD
+RefactoringAction 1475664797862 RomanNumerals.java RENAME checkSingleNumeral()=>void checkSingleNumeral(char) METHOD
+EditAction 1475665036090 RomanNumerals.java 616 2 6 0
