@@ -121,3 +121,13 @@ EditAction 1475668407418 RomanNumerals.java 1200 3 6 0
 UnitTestCaseAction 1475668409472 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475668409473 TestRomanNumerals.java FAIL
 EditAction 1475668415968 RomanNumerals.java 1199 3 6 0
+UnitTestCaseAction 1475668830964 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475668830965 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475668901105 TestRomanNumerals.java OK
+UnitTestSessionAction 1475668901106 TestRomanNumerals.java OK
+RefactoringAction 1475668918549 TestRomanNumerals.java ADD void testConverter_ConvertIL_shouldBe_Minus1()/2 METHOD
+RefactoringAction 1475668923568 TestRomanNumerals.java RENAME testConverter_ConvertIL_shouldBe_Minus1()/2=>void testConverter_ConvertXL_shouldBe_Minus1() METHOD
+RefactoringAction 1475668959585 TestRomanNumerals.java RENAME testConverter_ConvertXL_shouldBe_Minus1()=>void testConverter_Convert_shouldBe_Minus1() METHOD
+RefactoringAction 1475668961097 TestRomanNumerals.java RENAME testConverter_Convert_shouldBe_Minus1()=>void testConverter_ConvertXC_shouldBe_Minus1() METHOD
+RefactoringAction 1475668976610 TestRomanNumerals.java RENAME testConverter_ConvertXC_shouldBe_Minus1()=>void testConverter_ConvertXC_shouldBe_90() METHOD
+EditAction 1475668987777 TestRomanNumerals.java 2569 23 24 23

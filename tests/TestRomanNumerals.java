@@ -111,6 +111,11 @@ public class TestRomanNumerals {
 		assertRomanNumebrEqual("IL", -1);
 	}
 	
+	@Test
+	public void testConverter_ConvertXC_shouldBe_90(){
+		assertRomanNumebrEqual("XC", 90);
+	}
+	
 	private void assertRomanNumebrEqual(String romanNumeral, int expectedNumber){
 		int number = numeral.convertToInteger(romanNumeral);
 		
