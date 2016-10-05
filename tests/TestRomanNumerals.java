@@ -171,6 +171,11 @@ public class TestRomanNumerals {
 		assertRomanNumebrEqual("LXXX", 80);
 	}
 	
+	@Test
+	public void testConverter_ConvertCD_shouldBe_400(){
+		assertRomanNumebrEqual("CD", 400);
+	}
+	
 	private void assertRomanNumebrEqual(String romanNumeral, int expectedNumber){
 		int number = numeral.convertToInteger(romanNumeral);
 		
