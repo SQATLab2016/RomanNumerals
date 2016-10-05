@@ -70,6 +70,10 @@ public class TestRomanNumerals {
 		romanNumerals.convertToInteger("VV");
 	}
 	
+	@Test (expected = RomanNumeralException.class)
+	public void RomanNumeral_InvalidInputWithXXC() throws RomanNumeralException {
+		romanNumerals.convertToInteger("XXC");
+	}
 	
 	public void assertRomanNumerals(int expectedOutput, String input) throws RomanNumeralException {
 		int result = romanNumerals.convertToInteger(input);
