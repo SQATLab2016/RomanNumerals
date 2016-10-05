@@ -28,7 +28,7 @@ public class RomanNumerals {
 		String orderString = "IVXLCDM";
 		int indexC = orderString.indexOf(c);
 		int indexD = orderString.indexOf(d);
-		if ((indexD - indexC) <= 2 && (c=='I' || c=='C' || c=='X') && (d=='I' || d=='C' || d=='X'))
+		if ((indexD - indexC) <= 2 && (c=='I' || c=='C' || c=='X'))
 			result = true;
 		return result;
 	}
