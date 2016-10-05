@@ -12,7 +12,7 @@ public class RomanNumerals {
 		if (romanNum.length > 2)
 			return false;
 		
-		if (convertToInteger(romanNum)) 
-		return ;
+		/*if (convertToInteger(romanNum)) 
+			return ;*/
 	}
 }
