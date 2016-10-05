@@ -109,3 +109,6 @@ RefactoringAction 1475670596755 TestRomanNumerals.java RENAME testRomanNumerals_
 UnitTestCaseAction 1475670616568 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475670616569 TestRomanNumerals.java FAIL
 EditAction 1475670683607 RomanNumerals.java 2975 7 21 0
+UnitTestCaseAction 1475670687247 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475670687248 TestRomanNumerals.java FAIL
+EditAction 1475670722735 RomanNumerals.java 3066 7 21 0
