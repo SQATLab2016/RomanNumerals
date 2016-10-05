@@ -6,10 +6,11 @@ public class TestRomanNumerals {
 
 	@Test
 	public void atMost3CharTest() {
-		RomanNumerals rm = new RomanNumerals("MMMMXIV");
-		Boolean valid = atMost3CharCheck("M"); 
+		RomanNumerals rm = new RomanNumerals("MMMXIV");
+		Boolean valid = false;
+		valid = rm.atMost3CharCheck('M'); 
 		
-		fail("Not yet implemented");
+		assertEquals(false, valid);
 	}
 	
 	

@@ -24,3 +24,10 @@ RefactoringAction 1475668169247 RomanNumerals.java RENAME atMost3CharCheck(char)
 RefactoringAction 1475668170763 RomanNumerals.java RENAME atMost3CharCheck(har)=>Boolean atMost3CharCheck(Char) METHOD
 RefactoringAction 1475668177278 RomanNumerals.java RENAME atMost3CharCheck(Char)=>Boolean atMost3CharCheck(char) METHOD
 EditAction 1475668511159 RomanNumerals.java 452 3 6 0
+CompilationAction 1475668512328 TestRomanNumerals.java
+CompilationAction 1475668679934 TestRomanNumerals.java
+UnitTestCaseAction 1475668680414 TestRomanNumerals.java OK
+UnitTestSessionAction 1475668680416 TestRomanNumerals.java OK
+UnitTestCaseAction 1475668687254 TestRomanNumerals.java OK
+UnitTestSessionAction 1475668687256 TestRomanNumerals.java OK
+EditAction 1475668707630 TestRomanNumerals.java 289 1 4 1
