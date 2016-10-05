@@ -41,3 +41,6 @@ EditAction 1475667017726 TestRomanNumerals.java 2476 19 38 19
 UnitTestCaseAction 1475667019491 TestRomanNumerals.java OK
 UnitTestSessionAction 1475667019491 TestRomanNumerals.java OK
 EditAction 1475667027619 TestRomanNumerals.java 2477 19 38 19
+UnitTestCaseAction 1475667028824 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475667028824 TestRomanNumerals.java FAIL
+EditAction 1475667041928 TestRomanNumerals.java 2485 19 38 19

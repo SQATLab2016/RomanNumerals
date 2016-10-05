@@ -97,7 +97,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test public void testRomanNumerals_IIII_err() {
-		int num = rn.convertToInteger("IIIII");
+		int num = rn.convertToInteger("IIIIIIIIIIIII");
 		assertEquals(4, num);
 	}
 
