@@ -12,31 +12,36 @@ public class RomanNumerals {
 		// To be Implemented
 		int value = 0;
 		int stringLength = romanNum.length();
-		char currentChar, nextChar;
+		int currentVal, nextVal;
 		
 		if (stringLength > 0)
 		{
 			for (int i = stringLength - 1; i >= 0; i--) {
-				currentChar = romanNum.charAt(i);
-				if (i < stringLength - 1) {
-					nextChar = romanNum.charAt(i + 1);
-					if (currentChar == nextChar) {
-						value += getCharValue(currentChar);
-					}
-					else if (getCharValue(currentChar) < getCharValue(nextChar)) {
-						value -= getCharValue(currentChar);
-					}
-					else if (getCharValue(currentChar) > getCharValue(nextChar)) {
-						value += getCharValue(currentChar);
-					}
+				currentVal = getCharValue(romanNum.charAt(i));
+				try {
+					nextVal = getCharValue(romanNum.charAt(i + 1));
+					value += getCurrentValue(currentVal, nextVal);
 				}
-				else {
-					value += getCharValue(currentChar);
+				catch(Exception e) { // when trying to get next of last, it's intended to end up here
+					value += currentVal;
 				}
 			}
 		}
 		return value;
 		
+	}
+
+	private int getCurrentValue(int currentVal, int nextVal) {
+		if (currentVal == nextVal) {
+			return currentVal;
+		}
+		else if (currentVal < nextVal) {
+			return -currentVal;
+		}
+		else if (currentVal > nextVal) {
+			return currentVal;
+		}
+		return 0;
 	}
 	
 	private int getCharValue(char romanNum) {
