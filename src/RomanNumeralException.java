@@ -1,4 +1,4 @@
 
-public class RomanNumeralException extends Exception  {
+public class RomanNumeralException extends Exception {
 
 }

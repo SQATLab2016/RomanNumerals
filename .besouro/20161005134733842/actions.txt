@@ -64,3 +64,4 @@ RefactoringAction 1475665948680 TestRomanNumerals.java RENAME RomanNumeral_Inval
 RefactoringAction 1475666178022 RomanNumeralException.java ADD RomanNumeralException.java CLASS
 FileOpenedAction 1475666178264 RomanNumeralException.java 45 0 0 0
 EditAction 1475666207462 RomanNumeralException.java 64 0 0 0
+EditAction 1475666212634 RomanNumeralException.java 63 0 0 0
