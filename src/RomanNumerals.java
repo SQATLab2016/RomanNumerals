@@ -38,8 +38,9 @@ public class RomanNumerals {
 						- getElementaryIndex(romanNum.charAt(i));
 				
 				if (lastSub == getElementaryValue(romanNum.charAt(i))) {
-					throw new NumberFormatException("Illegal subtraction format");
+					throw new NumberFormatException("Illegal multiple subtractions");
 				}
+				
 				if (diff > 2) {
 					throw new NumberFormatException("Illegal subtraction format");
 				}
