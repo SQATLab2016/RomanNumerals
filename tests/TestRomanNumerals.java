@@ -125,5 +125,10 @@ public class TestRomanNumerals {
 	public void test_X_cannot_be_subtracted_from_D() {
 		rn.convertToInteger("XD");
 	}
+	
+	@Test (expected = IllegalArgumentException.class)
+	public void test_X_cannot_be_subtracted_from_M() {
+		rn.convertToInteger("XM");
+	}
 
 }
