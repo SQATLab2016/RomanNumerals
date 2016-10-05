@@ -133,7 +133,7 @@ public class TestRomanNumerals {
 	@Test public void testRomanNumerals_2014_2014() throws Exception  {
 		RomanNumeral testValue = new RomanNumeral(2014);
 		int converted = rn.convertToInteger(testValue.toString());
-		assertEquals(testValue, converted);
+		assertEquals(testValue.toInt(), converted);
 	}
 
 }
