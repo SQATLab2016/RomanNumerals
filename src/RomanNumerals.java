@@ -17,18 +17,25 @@ public class RomanNumerals {
 		if (stringLength > 0)
 		{
 			for (int i = stringLength - 1; i >= 0; i--) {
-				currentVal = getCharValue(romanNum.charAt(i));
-				try {
-					nextVal = getCharValue(romanNum.charAt(i + 1));
-					value += getCurrentValue(currentVal, nextVal);
-				}
-				catch(Exception e) { // when trying to get next of last, it's intended to end up here
-					value += currentVal;
-				}
+				value = parseCharacterToValue(romanNum, value, i);
 			}
 		}
 		return value;
 		
+	}
+
+	private int parseCharacterToValue(String romanNum, int value, int i) {
+		int currentVal;
+		int nextVal;
+		currentVal = getCharValue(romanNum.charAt(i));
+		try {
+			nextVal = getCharValue(romanNum.charAt(i + 1));
+			value += getCurrentValue(currentVal, nextVal);
+		}
+		catch(Exception e) { // when trying to get next of last, it's intended to end up here
+			value += currentVal;
+		}
+		return value;
 	}
 
 	private int getCurrentValue(int currentVal, int nextVal) {

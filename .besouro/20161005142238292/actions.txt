@@ -1,2 +1,6 @@
 FileOpenedAction 1475666558557 RomanNumerals.java 1551 3 9 0
 EditAction 1475666589523 RomanNumerals.java 1553 3 9 0
+UnitTestCaseAction 1475666591102 TestRomanNumerals.java OK
+UnitTestSessionAction 1475666591102 TestRomanNumerals.java OK
+RefactoringAction 1475666632052 RomanNumerals.java ADD int parseCharacterToValue(String, int, int) METHOD
+EditAction 1475666632052 RomanNumerals.java 1724 4 14 0
