@@ -37,3 +37,8 @@ EditAction 1475666587316 TestRomanNumerals.java 1957 17 18 17
 UnitTestCaseAction 1475666591560 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475666591562 TestRomanNumerals.java FAIL
 EditAction 1475666623342 RomanNumerals.java 670 2 4 0
+UnitTestCaseAction 1475666627670 TestRomanNumerals.java OK
+UnitTestSessionAction 1475666627671 TestRomanNumerals.java OK
+RefactoringAction 1475666637912 TestRomanNumerals.java ADD void testConverter_ConvertLL_shouldBe_minus1()/2 METHOD
+RefactoringAction 1475666641427 TestRomanNumerals.java RENAME testConverter_ConvertLL_shouldBe_minus1()/2=>void testConverter_ConvertDD_shouldBe_minus1() METHOD
+EditAction 1475666645416 TestRomanNumerals.java 2061 18 19 18

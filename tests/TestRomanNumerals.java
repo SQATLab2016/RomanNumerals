@@ -86,6 +86,11 @@ public class TestRomanNumerals {
 		assertRomanNumebrEqual("LL", -1);
 	}
 	
+	@Test
+	public void testConverter_ConvertDD_shouldBe_minus1(){
+		assertRomanNumebrEqual("DD", -1);
+	}
+	
 	private void assertRomanNumebrEqual(String romanNumeral, int expectedNumber){
 		int number = numeral.convertToInteger(romanNumeral);
 		
