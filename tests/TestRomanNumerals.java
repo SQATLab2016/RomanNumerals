@@ -30,9 +30,24 @@ public class TestRomanNumerals {
 	}
 
 	@Test
-	public void findSubtraction() {
-		String[8] = {
-			" "	
+	public void subtractionOccurs() {
+		RomanNumerals romans = new RomanNumerals();
+		boolean caseFailed = false;
+		int i = 0;
+
+		String[] testCases = {
+			"IV", "y",
+			"CM", "y",
+			"II", "n",
 		};
+
+		for (i = 0; i < testCases.length; i = i + 2) {
+			if (romans.isSubtraction(testCases[i])) {
+				caseFailed = true;
+				break;
+			}
+		}
+		
+		assertTrue(false == caseFailed, "Subtraction not detected. Failed case: " + testCases[i], );
 	}
 }

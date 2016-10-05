@@ -28,3 +28,21 @@ RefactoringAction 1475670478138 TestRomanNumerals.java RENAME isSubtraction()=>v
 RefactoringAction 1475670481152 TestRomanNumerals.java RENAME sub()=>void subtraction() METHOD
 RefactoringAction 1475670489167 TestRomanNumerals.java RENAME subtraction()=>void findSubtraction() METHOD
 EditAction 1475670533560 TestRomanNumerals.java 756 2 3 1
+CompilationAction 1475670533798 TestRomanNumerals.java
+CompilationAction 1475670533799 TestRomanNumerals.java
+CompilationAction 1475670594345 TestRomanNumerals.java
+CompilationAction 1475670594510 TestRomanNumerals.java
+CompilationAction 1475670609518 TestRomanNumerals.java
+RefactoringAction 1475670759716 TestRomanNumerals.java RENAME findSubtraction()=>void subtractionOccurs() METHOD
+CompilationAction 1475671016290 TestRomanNumerals.java
+CompilationAction 1475671016452 TestRomanNumerals.java
+CompilationAction 1475671016452 TestRomanNumerals.java
+CompilationAction 1475671016452 TestRomanNumerals.java
+CompilationAction 1475671036851 TestRomanNumerals.java
+CompilationAction 1475671036851 TestRomanNumerals.java
+CompilationAction 1475671037013 TestRomanNumerals.java
+CompilationAction 1475671037014 TestRomanNumerals.java
+CompilationAction 1475671070421 TestRomanNumerals.java
+CompilationAction 1475671070421 TestRomanNumerals.java
+CompilationAction 1475671070580 TestRomanNumerals.java
+EditAction 1475671112065 TestRomanNumerals.java 1127 2 2 1
