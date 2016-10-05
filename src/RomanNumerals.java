@@ -21,8 +21,7 @@ public class RomanNumerals {
 	}
 
 	private void checkRepetition(String romanNum, int lastIndexOfNum, int i) throws Exception {
-		int repeated;
-		repeated = 1;
+		int repeated = 1;
 		if (i < lastIndexOfNum) {
 			for (int j = i + 1; j <= lastIndexOfNum; j++) {
 				if (romanNum.charAt(i) == romanNum.charAt(j)) {
