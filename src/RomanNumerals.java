@@ -17,21 +17,14 @@ public class RomanNumerals {
 		int prev = 0;
 
 		for (int i = 01; i < romanNum.length(); i++) {
-			if (i > 0) {
-				if (romanNum.charAt(i - 1) == romanNum.charAt(i)) {
-					++duplicates;
-				} else {
-					duplicates = 0;
-				}
-			}
+			if (i > 0)
+				duplicates = (romanNum.charAt(i - 1) == romanNum.charAt(i)) ? duplicates + 1 : 0;
 			
-			if (duplicates >= 1 && isOneTimeRepeatable(romanNum.charAt(i))) {
+			if (duplicates >= 1 && isOneTimeRepeatable(romanNum.charAt(i)))
 				throw new NumberFormatException("Too many duplicate numeral characters.");
-			}
 			
-			if (duplicates >= 3 && isThreeTimesRepeatable(romanNum.charAt(i))) {
+			if (duplicates >= 3 && isThreeTimesRepeatable(romanNum.charAt(i)))
 				throw new NumberFormatException("Too many duplicate numeral characters.");
-			}
 		}
 		
 		// Refactoring: changing direction
@@ -54,9 +47,8 @@ public class RomanNumerals {
 					subtrahend = getElementaryValue(c1);
 					i--;
 				} else if (!canBeSubtrahendElementaryValue(c1)) {
-					if (getElementaryValue(c1) < getElementaryValue(c0)) {
+					if (getElementaryValue(c1) < getElementaryValue(c0))
 						throw new NumberFormatException("Illegal subtraction format.");
-					}
 					
 					break;
 				}

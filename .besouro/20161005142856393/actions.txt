@@ -113,3 +113,12 @@ EditAction 1475671087365 RomanNumerals.java 2961 6 18 0
 UnitTestCaseAction 1475671090115 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475671090116 TestRomanNumerals.java FAIL
 EditAction 1475671098013 RomanNumerals.java 2961 6 18 0
+UnitTestCaseAction 1475671101951 TestRomanNumerals.java OK
+UnitTestSessionAction 1475671101952 TestRomanNumerals.java OK
+RefactoringAction 1475671142030 RomanNumerals.java ADD int i FIELD
+RefactoringAction 1475671143052 RomanNumerals.java REMOVE i FIELD
+RefactoringAction 1475671150603 RomanNumerals.java ADD int i FIELD
+RefactoringAction 1475671152126 RomanNumerals.java REMOVE i FIELD
+RefactoringAction 1475671156677 RomanNumerals.java ADD int i FIELD
+RefactoringAction 1475671182849 RomanNumerals.java REMOVE i FIELD
+EditAction 1475671184211 RomanNumerals.java 2902 6 18 0
