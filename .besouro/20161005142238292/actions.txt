@@ -348,3 +348,7 @@ RefactoringAction 1475671146270 RomanNumeral.java ADD String toString() METHOD
 RefactoringAction 1475671146270 RomanNumeral.java ADD int toInt() METHOD
 EditAction 1475671150966 RomanNumeral.java 5727 5 16 0
 EditAction 1475671159109 RomanNumeral.java 5283 5 16 0
+CompilationAction 1475671237359 TestRomanNumerals.java
+UnitTestCaseAction 1475671240466 TestRomanNumerals.java OK
+UnitTestSessionAction 1475671240466 TestRomanNumerals.java OK
+EditAction 1475671276830 TestRomanNumerals.java 4041 27 49 19

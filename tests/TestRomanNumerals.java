@@ -131,9 +131,10 @@ public class TestRomanNumerals {
 	}
 	
 	@Test public void testRomanNumerals_2014_2014() throws Exception  {
-		int testValue = 2014;
-		System.err.println(roman);
-		int converted = rn.convertToInteger(roman);
+		RomanNumeral testValue = new RomanNumeral(2014);
+		System.err.println(testValue.toInt());
+		System.err.println(testValue.toString());
+		int converted = rn.convertToInteger(testValue.toString());
 		assertEquals(testValue, converted);
 	}
 
