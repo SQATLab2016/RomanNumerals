@@ -10,7 +10,7 @@ public class RomanNumerals {
 	}
 	
 	public int convertToInteger(String romanNum) throws RomanNumeralsException {	
-			checkHowManySimilarRomanNums(romanNum)
+			checkHowManySimilarRomanNums(romanNum);
 	        for (int i = romanNum.length() - 1; i >= 0 ; i--) {
 	            handleRomanNumbers(romanNum, i);
 	        }
