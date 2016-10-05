@@ -10,3 +10,17 @@ RefactoringAction 1475667623953 TestRomanNumerals.java REMOVE atMost3Char() METH
 RefactoringAction 1475667626480 TestRomanNumerals.java ADD void atMost3Char() METHOD
 RefactoringAction 1475667627506 TestRomanNumerals.java REMOVE atMost3Char() METHOD
 EditAction 1475667829820 TestRomanNumerals.java 271 1 3 0
+CompilationAction 1475667831177 TestRomanNumerals.java
+CompilationAction 1475667831179 TestRomanNumerals.java
+RefactoringAction 1475667870445 RomanNumerals.java ADD Boolean atMost3CharCheck(String) METHOD
+RefactoringAction 1475667912544 RomanNumerals.java ADD RomanNumerals(String) METHOD
+RefactoringAction 1475667939184 RomanNumerals.java ADD string nu FIELD
+RefactoringAction 1475667940202 RomanNumerals.java RENAME nu=>string num FIELD
+RefactoringAction 1475667944218 RomanNumerals.java REMOVE num FIELD
+RefactoringAction 1475667979592 RomanNumerals.java ADD String number FIELD
+RefactoringAction 1475668161192 RomanNumerals.java RENAME atMost3CharCheck(String)=>Boolean atMost3CharCheck() METHOD
+RefactoringAction 1475668166221 RomanNumerals.java RENAME atMost3CharCheck()=>Boolean atMost3CharCheck(char) METHOD
+RefactoringAction 1475668169247 RomanNumerals.java RENAME atMost3CharCheck(char)=>Boolean atMost3CharCheck(har) METHOD
+RefactoringAction 1475668170763 RomanNumerals.java RENAME atMost3CharCheck(har)=>Boolean atMost3CharCheck(Char) METHOD
+RefactoringAction 1475668177278 RomanNumerals.java RENAME atMost3CharCheck(Char)=>Boolean atMost3CharCheck(char) METHOD
+EditAction 1475668511159 RomanNumerals.java 452 3 6 0
