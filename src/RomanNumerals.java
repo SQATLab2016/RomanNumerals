@@ -10,6 +10,7 @@ public class RomanNumerals {
 	}
 	
 	public int convertToInteger(String romanNum) {	
+		checkHowManySimilarRomanNums(romanNum);
         for (int i = romanNum.length() - 1; i >= 0 ; i--) {
             handleRomanNumbers(romanNum, i);
         }
@@ -55,6 +56,7 @@ public class RomanNumerals {
 		        break;
 		}
 	}
+	
 
     private void processtotalArabic(int arabic) {
         if (lastNumber > arabic) {
@@ -63,5 +65,42 @@ public class RomanNumerals {
           totalArabic += arabic;
         }
     }
+    
+    private void checkHowManySimilarRomanNums(String romanNum) throws RomanNumeralsException {
+ 		int romanD = 0;
+		int romanC = 0;
+		int romanL = 0;
+		int romanX = 0;
+		int romanV = 0;
+		int romanI = 0;
+		int romanM = 0;
+    	for( int i = 0 ; i <= romanNum.length() ; i++ ) {
+			switch (romanNum.charAt(i)) {
+		    	case 'M':
+		    		romanM++;
+		    		break;
+			    case 'D':
+			    	romanD++;
+			        break;
+			    case 'C':
+			    	romanC++;
+			        break;
+			    case 'L':
+			    	romanL++;
+			        break;
+			    case 'X':
+			    	romanX++;
+			        break;
+			    case 'V':
+			    	romanV++;
+			        break;
+	
+			    case 'I':
+			    	romanI++;
+			        break;	
+    		}
+    		if (romanI > 3 || romanX > 3 || romanC > 3 || romanM > 3 || romanV > 1 || romanL > 1 || romanD > 1) 
+    			throw new RomanNumeralsException();    			
+    	}
+   }
 }
-

@@ -14,3 +14,17 @@ RefactoringAction 1475666647806 TestRomanNumerals.java RENAME testRomanNumerals_
 RefactoringAction 1475666652824 TestRomanNumerals.java RENAME testRomanNumerals_I_repeated_four_times_III_=>void testRomanNumerals_I_repeated_four_times_IIII_ FIELD
 RefactoringAction 1475666655842 TestRomanNumerals.java RENAME testRomanNumerals_I_repeated_four_times_IIII_=>void testRomanNumerals_I_repeated_four_times_IIII_() METHOD
 EditAction 1475666811921 TestRomanNumerals.java 1654 16 16 16
+UnitTestCaseAction 1475666813747 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475666813747 TestRomanNumerals.java FAIL
+RefactoringAction 1475666876453 RomanNumerals.java ADD void check FIELD
+RefactoringAction 1475666877968 RomanNumerals.java RENAME check=>void checkThe FIELD
+RefactoringAction 1475666879985 RomanNumerals.java RENAME checkThe=>void checkTheRows FIELD
+RefactoringAction 1475666882001 RomanNumerals.java RENAME checkTheRows=>void checkThe FIELD
+RefactoringAction 1475666885010 RomanNumerals.java RENAME checkThe=>void checkTheRepetition() METHOD
+RefactoringAction 1475666894040 RomanNumerals.java RENAME checkTheRepetition()=>void checkHowMany() METHOD
+RefactoringAction 1475666902563 RomanNumerals.java RENAME checkHowMany()=>void checkHowManyRomanNums() METHOD
+RefactoringAction 1475666909578 RomanNumerals.java RENAME checkHowManyRomanNums()=>void checkHowManySimilarRomanNums() METHOD
+RefactoringAction 1475667044810 RomanNumerals.java RENAME checkHowManySimilarRomanNums()=>void checkHowManySimilarRomanNums(String) METHOD
+RefactoringAction 1475667182226 RomanNumerals.java ADD int i FIELD
+RefactoringAction 1475667184741 RomanNumerals.java REMOVE i FIELD
+EditAction 1475668199858 RomanNumerals.java 2220 5 15 0
