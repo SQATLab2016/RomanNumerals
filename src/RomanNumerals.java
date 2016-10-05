@@ -12,7 +12,6 @@ public class RomanNumerals {
 		// To be Implemented
 		int value = 0;
 		int stringLength = romanNum.length();
-		int currentVal, nextVal;
 		
 		if (stringLength > 0)
 		{
@@ -25,8 +24,7 @@ public class RomanNumerals {
 	}
 
 	private int parseCharacterToValue(String romanNum, int i) {
-		int currentVal;
-		int nextVal;
+		int currentVal, nextval;
 		currentVal = getCharValue(romanNum.charAt(i));
 		try {
 			nextVal = getCharValue(romanNum.charAt(i + 1));

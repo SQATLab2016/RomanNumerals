@@ -6,3 +6,8 @@ RefactoringAction 1475666632052 RomanNumerals.java ADD int parseCharacterToValue
 EditAction 1475666632052 RomanNumerals.java 1724 4 14 0
 RefactoringAction 1475666670553 RomanNumerals.java RENAME parseCharacterToValue(String, int, int)=>int parseCharacterToValue(String, int) METHOD
 EditAction 1475666670693 RomanNumerals.java 1686 4 13 0
+UnitTestCaseAction 1475666673317 TestRomanNumerals.java OK
+UnitTestSessionAction 1475666673317 TestRomanNumerals.java OK
+UnitTestCaseAction 1475666687610 TestRomanNumerals.java OK
+UnitTestSessionAction 1475666687610 TestRomanNumerals.java OK
+EditAction 1475666720619 RomanNumerals.java 1651 4 11 0
