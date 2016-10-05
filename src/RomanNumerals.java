@@ -37,6 +37,9 @@ public class RomanNumerals {
 				int diff = getElementaryIndex(romanNum.charAt(i + 1))
 						- getElementaryIndex(romanNum.charAt(i));
 				
+				if (lastSub == getElementaryValue(romanNum.charAt(i))) {
+					throw new NumberFormatException("Illegal subtraction format");
+				}
 				if (diff > 2) {
 					throw new NumberFormatException("Illegal subtraction format");
 				}
