@@ -17,3 +17,8 @@ RefactoringAction 1475666261219 TestRomanNumerals.java RENAME testConverter_nonR
 RefactoringAction 1475666263734 TestRomanNumerals.java RENAME testConverter_nonRomanNumeralJShouldBenegative()=>void testConverter_nonRomanNumeralJShouldBenegativeOne() METHOD
 EditAction 1475666271053 RomanNumerals.java 548 2 3 0
 EditAction 1475666273153 TestRomanNumerals.java 1853 16 17 16
+UnitTestCaseAction 1475666277633 TestRomanNumerals.java OK
+UnitTestSessionAction 1475666277635 TestRomanNumerals.testConverter_nonRomanNumeralJShouldBenegativeOne OK
+UnitTestCaseAction 1475666320037 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475666320038 TestRomanNumerals.java FAIL
+EditAction 1475666385332 RomanNumerals.java 614 2 4 0
