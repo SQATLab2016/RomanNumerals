@@ -257,3 +257,17 @@ UnitTestCaseAction 1475669851341 TestRomanNumerals.java OK
 UnitTestSessionAction 1475669851343 Rerun TestRomanNumerals (Failed Tests first) OK
 RefactoringAction 1475669943073 RomanNumerals.java ADD Map<String,Integer> numerals FIELD
 EditAction 1475669976347 RomanNumerals.java 2309 3 9 0
+CompilationAction 1475669978400 RomanNumerals.java
+CompilationAction 1475669978401 RomanNumerals.java
+CompilationAction 1475669978402 RomanNumerals.java
+CompilationAction 1475669978403 RomanNumerals.java
+CompilationAction 1475669978404 RomanNumerals.java
+CompilationAction 1475669990450 RomanNumerals.java
+CompilationAction 1475669990451 RomanNumerals.java
+CompilationAction 1475669990453 RomanNumerals.java
+CompilationAction 1475669990506 RomanNumerals.java
+CompilationAction 1475669990507 RomanNumerals.java
+CompilationAction 1475669990507 RomanNumerals.java
+CompilationAction 1475669990508 RomanNumerals.java
+CompilationAction 1475669990509 RomanNumerals.java
+EditAction 1475670011231 RomanNumerals.java 2313 3 9 0
