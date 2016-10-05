@@ -8,5 +8,7 @@ public class RomanNumerals {
 		throw new RomanNumeralException("No equivalent found for given roman number: " + romanNum);
 	}
 	
-	
+	public boolean isSubtraction(String) {
+		
+	}
 }

@@ -36,13 +36,19 @@ public class TestRomanNumerals {
 		int i = 0;
 
 		String[] testCases = {
-			"IV", "y",
-			"CM", "y",
-			"II", "n",
+			"IV",
+			"CM",
+			"II",
+		};
+		
+		boolean[] correctResults = {
+				true,
+				true,
+				false
 		};
 
-		for (i = 0; i < testCases.length; i = i + 2) {
-			if (romans.isSubtraction(testCases[i])) {
+		for (i = 0; i < testCases.length; i++) {
+			if (correctResults[i] == romans.isSubtraction(testCases[i])) {
 				caseFailed = true;
 				break;
 			}
