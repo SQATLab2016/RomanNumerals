@@ -23,6 +23,7 @@ public class RomanNumerals {
 				}
 			}
 			value += parseCharacterToValue(romanNum, i);
+			System.err.println(repeated);
 		}
 		return value;
 	}
