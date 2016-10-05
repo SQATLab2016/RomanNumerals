@@ -26,7 +26,6 @@ public class RomanNumerals {
 				throw new Exception("err");
 			}
 			value += parseCharacterToValue(romanNum, i);
-			System.err.println(repeated);
 		}
 		return value;
 	}
