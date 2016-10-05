@@ -54,6 +54,9 @@ public class RomanNumerals {
 					subtrahend = getElementaryValue(c1);
 					i--;
 				} else if (!canBeSubtrahendElementaryValue(c1)) {
+					if (getElementaryValue(c0) > getElementaryValue(c1)) {
+						throw new NumberFormatException("Illegal subtraction format.");
+					}
 					break;
 				}
 			}
@@ -84,7 +87,6 @@ public class RomanNumerals {
 		}
 		
 		return false;
-		
 	}
 	
 	private boolean isThreeTimesRepeatable(char character) {
