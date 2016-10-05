@@ -8,7 +8,7 @@ import org.junit.runners.Parameterized;
 public class TestRomanNumerals {
 	//private RomanNumerals = new RomanNumerals();
 	
-	private String romanTestNum;
+	/*private String romanTestNum;
 
 	public TestRomanNumerals(String parTestNum) {
 		romanTestNum = parTestNum;
@@ -21,7 +21,7 @@ public class TestRomanNumerals {
 			{"II"},
 			{"CM"},
 		});
-	}
+	}*/
 	
 	@Test
 	public void number_1_Generated() throws RomanNumeralException {
@@ -30,7 +30,9 @@ public class TestRomanNumerals {
 	}
 
 	@Test
-	public void isSubtraction() {
-		
+	public void findSubtraction() {
+		String[8] = {
+			" "	
+		};
 	}
 }

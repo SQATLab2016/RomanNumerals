@@ -15,3 +15,16 @@ RefactoringAction 1475670167359 TestRomanNumerals.java RENAME TestRomanNumerals(
 EditAction 1475670175862 TestRomanNumerals.java 578 3 3 1
 RefactoringAction 1475670267647 TestRomanNumerals.java ADD static Collection<Object METHOD
 EditAction 1475670347071 TestRomanNumerals.java 724 4 4 1
+CompilationAction 1475670347287 TestRomanNumerals.java
+CompilationAction 1475670347287 TestRomanNumerals.java
+CompilationAction 1475670347288 TestRomanNumerals.java
+RefactoringAction 1475670434533 TestRomanNumerals.java REMOVE testData() METHOD
+RefactoringAction 1475670445065 TestRomanNumerals.java REMOVE TestRomanNumerals(String) METHOD
+RefactoringAction 1475670445066 TestRomanNumerals.java REMOVE romanTestNum FIELD
+CompilationAction 1475670450238 TestRomanNumerals.java
+CompilationAction 1475670450239 TestRomanNumerals.java
+CompilationAction 1475670450240 TestRomanNumerals.java
+RefactoringAction 1475670478138 TestRomanNumerals.java RENAME isSubtraction()=>void sub() METHOD
+RefactoringAction 1475670481152 TestRomanNumerals.java RENAME sub()=>void subtraction() METHOD
+RefactoringAction 1475670489167 TestRomanNumerals.java RENAME subtraction()=>void findSubtraction() METHOD
+EditAction 1475670533560 TestRomanNumerals.java 756 2 3 1
