@@ -16,7 +16,7 @@ public class RomanNumerals {
 		for (int i = lastIndexOfNum; i >= 0; i--) {
 			repeated = 1;
 			if (i < lastIndexOfNum) {
-				for (int j = i; j < lastIndexOfNum; j++) {
+				for (int j = i + 1; j < lastIndexOfNum; j++) {
 					if (romanNum.charAt(i) == romanNum.charAt(j)) {
 						repeated++;
 					}
