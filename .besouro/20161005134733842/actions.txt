@@ -140,3 +140,5 @@ RefactoringAction 1475670790240 TestRomanNumerals.java RENAME testRomanNumeral_M
 RefactoringAction 1475670798752 TestRomanNumerals.java RENAME testRomanNumeral_MCMXCVIII_2014()=>void testRomanNumeral_MCMXCVIII_1998() METHOD
 RefactoringAction 1475670804258 TestRomanNumerals.java REMOVE testRomanNumeral_MMXIV_2014() METHOD
 EditAction 1475670804555 TestRomanNumerals.java 2102 15 16 12
+UnitTestCaseAction 1475670812874 TestRomanNumerals.java OK
+UnitTestSessionAction 1475670812876 TestRomanNumerals.java OK
