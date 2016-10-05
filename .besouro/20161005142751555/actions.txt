@@ -93,3 +93,5 @@ RefactoringAction 1475669508500 TestRomanNumerals.java RENAME CharTest()=>void r
 RefactoringAction 1475669619057 RomanNumerals.java ADD Boolean repetitionCharCheck() METHOD
 EditAction 1475669727087 RomanNumerals.java 1125 4 15 0
 EditAction 1475669731328 TestRomanNumerals.java 479 2 8 2
+RefactoringAction 1475669765666 TestRomanNumerals.java RENAME repeatCharTest()=>void repetitionCharTest() METHOD
+EditAction 1475669777345 TestRomanNumerals.java 483 2 8 2
