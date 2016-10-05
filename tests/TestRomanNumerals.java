@@ -12,8 +12,8 @@ public class TestRomanNumerals {
 	}
 
 	@Test(expected=NumberFormatException.class)
-	public void testConvertInteger_IllegalSubtraction_DX_Throw_NumberFormatException() {
-		mNumerals.convertToInteger("DX");
+	public void testConvertInteger_IllegalSubtraction_DM_Throw_NumberFormatException() {
+		mNumerals.convertToInteger("DM");
 	}
 	
 	@Test(expected=NumberFormatException.class)
