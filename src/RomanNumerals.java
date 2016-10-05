@@ -28,7 +28,7 @@ public class RomanNumerals {
 		String orderString = "IVXLCDM";
 		int indexC = orderString.indexOf(c);
 		int indexD = orderString.indexOf(d);
-		if ((indexD - indexC) <= 2 && (c=='I' || c=='C' || c=='X'))
+		if ((indexD - indexC) <= 2 && (c == 'I' || c == 'C' || c == 'X'))
 			result = true;
 		return result;
 	}
@@ -43,10 +43,10 @@ public class RomanNumerals {
 		int countD = 0;
 
 		for (int loop = 0; loop < rommanNumArray.length; loop++) {
-			for(int innerLoop = 0; innerLoop < rommanNumArray.length; innerLoop++){
-				
+			for (int innerLoop = (loop + 1); innerLoop < rommanNumArray.length; innerLoop++) {
+
 			}
-			
+
 			if (rommanNumArray[loop] == 'V') {
 				countV++;
 				countI = 0;
