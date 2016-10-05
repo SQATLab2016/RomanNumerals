@@ -20,7 +20,7 @@ public class RomanNumerals {
 				+ "VX|VL|VC|VD|VM|"
 				
 				// can't subtract the '50' symbols
-				+ "LC"
+				+ "LC|LD"
 				);
 		Matcher m = p.matcher(romanNum);
 		if (m.find()) {
