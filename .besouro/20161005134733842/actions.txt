@@ -89,3 +89,8 @@ RefactoringAction 1475667157889 TestRomanNumerals.java RENAME RomanNumeral_Inval
 RefactoringAction 1475667165894 TestRomanNumerals.java RENAME RomanNumeral_InvalidInputCheckException()=>void RomanNumeral_InvalidInputWith() METHOD
 RefactoringAction 1475667167898 TestRomanNumerals.java RENAME RomanNumeral_InvalidInputWith()=>void RomanNumeral_InvalidInputWith2V() METHOD
 EditAction 1475667169642 TestRomanNumerals.java 1925 14 15 12
+UnitTestCaseAction 1475667174071 TestRomanNumerals.java OK
+UnitTestSessionAction 1475667174072 TestRomanNumerals.RomanNumeral_InvalidInputWith2V OK
+RefactoringAction 1475667213905 TestRomanNumerals.java ADD void RomanNumeral_InvalidInputWith2V()/2 METHOD
+RefactoringAction 1475667221410 TestRomanNumerals.java RENAME RomanNumeral_InvalidInputWith2V()/2=>void testRomanNumeral_MMXIV_2014()/2 METHOD
+EditAction 1475667692327 TestRomanNumerals.java 1927 14 15 12
