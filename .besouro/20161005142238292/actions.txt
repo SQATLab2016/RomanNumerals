@@ -4,3 +4,5 @@ UnitTestCaseAction 1475666591102 TestRomanNumerals.java OK
 UnitTestSessionAction 1475666591102 TestRomanNumerals.java OK
 RefactoringAction 1475666632052 RomanNumerals.java ADD int parseCharacterToValue(String, int, int) METHOD
 EditAction 1475666632052 RomanNumerals.java 1724 4 14 0
+RefactoringAction 1475666670553 RomanNumerals.java RENAME parseCharacterToValue(String, int, int)=>int parseCharacterToValue(String, int) METHOD
+EditAction 1475666670693 RomanNumerals.java 1686 4 13 0
