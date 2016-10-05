@@ -54,12 +54,12 @@ public class RomanNumerals {
 			nextVal = getCharValue(romanNum.charAt(i + 1));
 			return getCurrentValue(currentVal, nextVal);
 		}
-		catch(Exception e) {
+		catch(Exception e) { // @hacks
 			if (e.getMessage() == "invalid substraction") {
 				throw e;
 			}
 			else {
-				return currentVal; // @hacks, when trying to get next of last, it is intended to end up here
+				return currentVal; // when trying to get next of last, it is intended to end up here
 			}
 		}
 	}
