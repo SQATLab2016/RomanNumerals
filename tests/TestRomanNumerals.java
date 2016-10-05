@@ -6,26 +6,40 @@ import org.junit.Test;
 
 public class TestRomanNumerals {
 	
-	enum Roman{
-	    i(1),iv(4),v(5), ix(9), x(10);
-	    int weight;
+    private static int decodeSingle(char letter) {
+        switch (letter) {
+            case 'M':
+                return 1000;
+            case 'D':
+                return 500;
+            case 'C':
+                return 100;
+            case 'L':
+                return 50;
+            case 'X':
+                return 10;
+            case 'V':
+                return 5;
+            case 'I':
+                return 1;
+            default:
+                return 0;
+        }
+    }
 
-	    private Roman(int weight) {
-	        this.weight = weight;
-	    }
-	};
-	
-	static String decToRoman(int dec){
-	    String roman="";
-	    Roman[] values=Roman.values();
-	    for (int i = values.length-1; i>=0; i--) {
-	       while(dec>=values[i].weight){
-	           roman+=values[i];
-	           dec=dec-values[i].weight;
-	       }            
-	    }
-	    return roman;
-	}
+    public static int decode(String roman) {
+        int result = 0;
+        String uRoman = roman.toUpperCase(); //case-insensitive
+        for (int i = 0; i < uRoman.length() - 1; i++) {//loop over all but the last character
+            if (decodeSingle(uRoman.charAt(i)) < decodeSingle(uRoman.charAt(i + 1))) {
+                result -= decodeSingle(uRoman.charAt(i));
+            } else {
+                result += decodeSingle(uRoman.charAt(i));
+            }
+        }
+        result += decodeSingle(uRoman.charAt(uRoman.length() - 1));
+        return result;
+    }
 	
 	private RomanNumerals rn = new RomanNumerals();
 
@@ -153,7 +167,7 @@ public class TestRomanNumerals {
 	
 	@Test public void testRomanNumerals_2014_2014() throws Exception  {
 		int testValue = 2014;
-		String roman = decToRoman(2014);
+		String roman = decode(2014);
 		System.err.println(roman);
 		int converted = rn.convertToInteger(roman);
 		assertEquals(testValue, converted);

@@ -303,3 +303,8 @@ EditAction 1475670882884 TestRomanNumerals.java 4414 29 53 19
 UnitTestCaseAction 1475670885617 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475670885617 TestRomanNumerals.java FAIL
 EditAction 1475670900531 TestRomanNumerals.java 4444 29 54 19
+UnitTestCaseAction 1475670902297 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475670902297 TestRomanNumerals.java FAIL
+RefactoringAction 1475670971218 TestRomanNumerals.java ADD static int decodeSingle(char) METHOD
+RefactoringAction 1475670971218 TestRomanNumerals.java ADD static int decode(String) METHOD
+EditAction 1475670976803 TestRomanNumerals.java 5069 29 55 19
