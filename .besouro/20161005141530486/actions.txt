@@ -45,3 +45,8 @@ EditAction 1475666645416 TestRomanNumerals.java 2061 18 19 18
 UnitTestCaseAction 1475666649165 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475666649166 TestRomanNumerals.java FAIL
 EditAction 1475666661517 RomanNumerals.java 698 2 4 0
+UnitTestCaseAction 1475666665091 TestRomanNumerals.java OK
+UnitTestSessionAction 1475666665092 TestRomanNumerals.java OK
+RefactoringAction 1475666708475 TestRomanNumerals.java ADD void testConverter_ConvertDD_shouldBe_minus1()/2 METHOD
+RefactoringAction 1475666713990 TestRomanNumerals.java RENAME testConverter_ConvertDD_shouldBe_minus1()/2=>void testConverter_ConvertXXXX_shouldBe_minus1() METHOD
+EditAction 1475666719847 TestRomanNumerals.java 2169 19 20 19
