@@ -11,10 +11,9 @@ public class TestRomanNumerals {
 		mNumerals = new RomanNumerals();
 	}
 	
-	@Test
+	@Test(expected=NumberFormatException.class)
 	public void testConvertInteger_IllegalSubtraction_XXC_Throw_NumberFormatException() {
-		
-		assertEquals(123431241, mNumerals.convertToInteger("XXC"));
+		mNumerals.convertToInteger("XXC");
 	}
 	
 	@Test(expected=NumberFormatException.class)
