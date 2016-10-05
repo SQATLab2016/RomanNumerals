@@ -140,7 +140,6 @@ public class TestRomanNumerals {
 		int converted;
 		for (int i = 1; i < 4000; i++) {
 			testValue = new RomanNumeral(i);
-			System.err.println(i);
 			converted = rn.convertToInteger(testValue.toString());
 			assertEquals(testValue.toInt(), converted);
 		}
