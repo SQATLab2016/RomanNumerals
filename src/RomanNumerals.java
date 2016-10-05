@@ -77,6 +77,12 @@ public class RomanNumerals {
 			
 			int thirdNumber = numerals.get(romanNum.charAt(i + 2));
 			
+			if (number == nextNumber && nextNumber != thirdNumber) {
+				sum += number + nextNumber;
+				i++;
+				continue;
+			}
+			
 			if (number == nextNumber && nextNumber == thirdNumber) {
 				sum += number + nextNumber + thirdNumber;
 				i++;
