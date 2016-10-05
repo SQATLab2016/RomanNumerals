@@ -4,7 +4,7 @@ public class RomanNumerals {
 	private String numeralOrder = "IVXLCDM";
 
 	public int convertToInteger(String romanNum) {
-		if (romanNum.length() > 1
+		if (romanNum.length() > 1 && allCharactersAreSame(romanNum)
 				&& (romanNum.charAt(0) == 'V' || romanNum.charAt(0) == 'L' || romanNum.charAt(0) == 'D')) {
 			return -1;
 		}
@@ -13,8 +13,16 @@ public class RomanNumerals {
 			if (romanNum.length() == 2) {
 				if (romanNum.charAt(0) != romanNum.charAt(1)) {
 					if (numeralOrder.indexOf(romanNum.charAt(1)) - numeralOrder.indexOf(romanNum.charAt(0)) < 3) {
-						return getSingularValue(getStringCharAt(romanNum, 1))
-								- getSingularValue(getStringCharAt(romanNum, 0));
+						if (getSingularValue(getStringCharAt(romanNum, 1)) > getSingularValue(
+								getStringCharAt(romanNum, 0))) {
+							if (!isAFiveNumber(romanNum.charAt(0))) {
+								return getSingularValue(getStringCharAt(romanNum, 1))
+										- getSingularValue(getStringCharAt(romanNum, 0));
+							}
+						} else {
+							return getSingularValue(getStringCharAt(romanNum, 1))
+									+ getSingularValue(getStringCharAt(romanNum, 0));
+						}
 					}
 				} else {
 					return romanNum.length() * getSingularValue(getStringCharAt(romanNum, 0));
@@ -30,6 +38,13 @@ public class RomanNumerals {
 
 		return -1;
 
+	}
+
+	private boolean isAFiveNumber(char c) {
+		if (c == 'V' || c == 'L' || c == 'D') {
+			return true;
+		}
+		return false;
 	}
 
 	private boolean allCharactersAreSame(String num) {

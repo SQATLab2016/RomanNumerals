@@ -167,3 +167,24 @@ RefactoringAction 1475669759030 TestRomanNumerals.java ADD void testConverter_Co
 RefactoringAction 1475669762544 TestRomanNumerals.java RENAME testConverter_ConvertVX_shouldBe_Minus1()/2=>void testConverter_ConvertVI_shouldBe_Minus1() METHOD
 RefactoringAction 1475669771056 TestRomanNumerals.java RENAME testConverter_ConvertVI_shouldBe_Minus1()=>void testConverter_ConvertVI_shouldBe_6() METHOD
 EditAction 1475669777945 TestRomanNumerals.java 2981 27 28 27
+UnitTestCaseAction 1475669780939 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475669780940 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475669821287 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475669821288 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475669974976 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475669974977 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475670092186 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475670092187 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475670376789 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475670376790 TestRomanNumerals.java FAIL
+RefactoringAction 1475670453103 RomanNumerals.java ADD boolean is FIELD
+RefactoringAction 1475670454615 RomanNumerals.java RENAME is=>boolean isA FIELD
+RefactoringAction 1475670458128 RomanNumerals.java RENAME isA=>boolean isAFiveNumber FIELD
+RefactoringAction 1475670459140 RomanNumerals.java RENAME isAFiveNumber=>boolean isAFiveNumber() METHOD
+RefactoringAction 1475670465673 RomanNumerals.java RENAME isAFiveNumber()=>boolean isAFiveNumber(char) METHOD
+UnitTestCaseAction 1475670599059 TestRomanNumerals.java OK
+UnitTestSessionAction 1475670599060 TestRomanNumerals.java OK
+RefactoringAction 1475670611158 TestRomanNumerals.java ADD void testConverter_ConvertVI_shouldBe_6()/2 METHOD
+RefactoringAction 1475670616174 TestRomanNumerals.java RENAME testConverter_ConvertVI_shouldBe_6()/2=>void testConverter_ConvertXI_shouldBe_6() METHOD
+RefactoringAction 1475670621188 TestRomanNumerals.java RENAME testConverter_ConvertXI_shouldBe_6()=>void testConverter_ConvertXI_shouldBe_11() METHOD
+EditAction 1475670627283 TestRomanNumerals.java 3081 28 29 28
