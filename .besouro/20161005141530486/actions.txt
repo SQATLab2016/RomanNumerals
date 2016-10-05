@@ -161,3 +161,9 @@ UnitTestSessionAction 1475669561476 TestRomanNumerals.java OK
 RefactoringAction 1475669596441 TestRomanNumerals.java ADD void testConverter_ConvertXXC_shouldBe_Minus1()/2 METHOD
 RefactoringAction 1475669601954 TestRomanNumerals.java RENAME testConverter_ConvertXXC_shouldBe_Minus1()/2=>void testConverter_ConvertVX_shouldBe_Minus1() METHOD
 EditAction 1475669606747 TestRomanNumerals.java 2883 26 27 26
+UnitTestCaseAction 1475669610667 TestRomanNumerals.java OK
+UnitTestSessionAction 1475669610669 TestRomanNumerals.java OK
+RefactoringAction 1475669759030 TestRomanNumerals.java ADD void testConverter_ConvertVX_shouldBe_Minus1()/2 METHOD
+RefactoringAction 1475669762544 TestRomanNumerals.java RENAME testConverter_ConvertVX_shouldBe_Minus1()/2=>void testConverter_ConvertVI_shouldBe_Minus1() METHOD
+RefactoringAction 1475669771056 TestRomanNumerals.java RENAME testConverter_ConvertVI_shouldBe_Minus1()=>void testConverter_ConvertVI_shouldBe_6() METHOD
+EditAction 1475669777945 TestRomanNumerals.java 2981 27 28 27
