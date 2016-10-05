@@ -70,11 +70,9 @@ public class RomanNumerals {
 			}
 			
 			// second last numeral
-			if (i + 2 == romanNum.length()) {
-				if (number == nextNumber) {
-					sum += number + nextNumber;
-					break;
-				}
+			if (i + 2 == romanNum.length() && number == nextNumber) {
+				sum += number + nextNumber;
+				break;
 			}
 			
 			int thirdNumber = numerals.get(romanNum.charAt(i + 2));
