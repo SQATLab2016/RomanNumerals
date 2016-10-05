@@ -19,8 +19,8 @@ public class RomanNumerals {
 			this.number = number;
 		}
 		
-		public int value() {
-			return this.number;
+		public static int getValue(char numeral) {
+			return Numeral.valueOf(String.valueOf(numeral)).number;
 		}
 	}
 	
@@ -57,8 +57,8 @@ public class RomanNumerals {
 		
 		int sum = 0;
 		for (int i = 0; i < romanNum.length(); i++) {
-			String numeral = String.valueOf(romanNum.charAt(i));
-			int number = Numeral.valueOf(numeral).value();
+			char numeral = romanNum.charAt(i);
+			int number = Numeral.getValue(numeral);
 			
 			// last numeral
 			if (i + 1 == romanNum.length()) {
@@ -66,8 +66,8 @@ public class RomanNumerals {
 				break;
 			}
 			
-			String nextNumeral = String.valueOf(romanNum.charAt(i + 1));
-			int nextNumber = Numeral.valueOf(nextNumeral).value();
+			char nextNumeral = romanNum.charAt(i + 1);
+			int nextNumber = Numeral.getValue(nextNumeral);
 
 			// subtract, e.g. IV
 			if (number < nextNumber) {
@@ -88,8 +88,8 @@ public class RomanNumerals {
 				}
 			}
 			
-			String thirdNumeral = String.valueOf(romanNum.charAt(i + 1));
-			int thirdNumber = Numeral.valueOf(thirdNumeral).value();
+			char thirdNumeral = romanNum.charAt(i + 1);
+			int thirdNumber = Numeral.getValue(thirdNumeral);
 			
 			if (number == nextNumber && nextNumber == thirdNumber) {
 				sum += number + nextNumber + thirdNumber;
