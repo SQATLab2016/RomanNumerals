@@ -188,3 +188,10 @@ RefactoringAction 1475670611158 TestRomanNumerals.java ADD void testConverter_Co
 RefactoringAction 1475670616174 TestRomanNumerals.java RENAME testConverter_ConvertVI_shouldBe_6()/2=>void testConverter_ConvertXI_shouldBe_6() METHOD
 RefactoringAction 1475670621188 TestRomanNumerals.java RENAME testConverter_ConvertXI_shouldBe_6()=>void testConverter_ConvertXI_shouldBe_11() METHOD
 EditAction 1475670627283 TestRomanNumerals.java 3081 28 29 28
+UnitTestCaseAction 1475670630850 TestRomanNumerals.java OK
+UnitTestSessionAction 1475670630852 TestRomanNumerals.java OK
+RefactoringAction 1475670649232 TestRomanNumerals.java ADD void testConverter_ConvertXI_shouldBe_11()/2 METHOD
+RefactoringAction 1475670652745 TestRomanNumerals.java RENAME testConverter_ConvertXI_shouldBe_11()/2=>void testConverter_ConvertVI_shouldBe_11() METHOD
+RefactoringAction 1475670654259 TestRomanNumerals.java RENAME testConverter_ConvertVI_shouldBe_11()=>void testConverter_ConvertVII_shouldBe_11() METHOD
+RefactoringAction 1475670657772 TestRomanNumerals.java RENAME testConverter_ConvertVII_shouldBe_11()=>void testConverter_ConvertVII_shouldBe_7() METHOD
+EditAction 1475670664862 TestRomanNumerals.java 3181 29 30 29
