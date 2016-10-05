@@ -45,7 +45,7 @@ public class RomanNumerals {
 		return repeated;
 	}
 
-	private int parseCharacterToValue(String romanNum, int i) {
+	private int parseCharacterToValue(String romanNum, int i) throws Exception {
 		int currentVal, nextVal;
 		currentVal = getCharValue(romanNum.charAt(i));
 		try {
@@ -53,7 +53,12 @@ public class RomanNumerals {
 			return getCurrentValue(currentVal, nextVal);
 		}
 		catch(Exception e) {
-			return currentVal; // when trying to get next of last, it is intended to end up here
+			if (e.getMessage() == "invalid substraction") {
+				throw e;
+			}
+			else {
+				return currentVal; // when trying to get next of last, it is intended to end up here
+			}
 		}
 	}
 
