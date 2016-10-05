@@ -44,3 +44,4 @@
 1475670537765 test-addition 1 7 false
 1475670567475 test-addition 1 15 true
 1475670604460 test-addition 1 27 true
+1475670698413 test-first 3 87 true

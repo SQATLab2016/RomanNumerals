@@ -367,3 +367,10 @@ EditAction 1475670624782 TestRomanNumerals.java 6479 48 66 18
 UnitTestCaseAction 1475670627072 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475670627073 Rerun TestRomanNumerals (Failed Tests first) FAIL
 EditAction 1475670695783 RomanNumerals.java 2154 1 7 0
+UnitTestCaseAction 1475670698412 TestRomanNumerals.java OK
+UnitTestSessionAction 1475670698413 Rerun TestRomanNumerals (Failed Tests first) OK
+RefactoringAction 1475670718877 TestRomanNumerals.java ADD void test_XL_40()/2 METHOD
+RefactoringAction 1475670720894 TestRomanNumerals.java RENAME test_XL_40()/2=>void test_L_40() METHOD
+RefactoringAction 1475670721913 TestRomanNumerals.java RENAME test_L_40()=>void test_LXXX_40() METHOD
+RefactoringAction 1475670729422 TestRomanNumerals.java RENAME test_LXXX_40()=>void test_LXXXI_81() METHOD
+EditAction 1475670733425 TestRomanNumerals.java 6601 49 68 19

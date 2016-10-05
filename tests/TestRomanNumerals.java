@@ -97,6 +97,12 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
+	public void test_LXXXI_81() {
+		int number = rn.convertToInteger("LXXXI");
+		assertEquals(81, number);
+	}
+	
+	@Test
 	public void test_DCCC_800() {
 		int number = rn.convertToInteger("DCCC");
 		assertEquals(800, number);
