@@ -315,3 +315,9 @@ RefactoringAction 1475670419194 TestRomanNumerals.java ADD void test_VIII_8()/2 
 RefactoringAction 1475670422209 TestRomanNumerals.java RENAME test_VIII_8()/2=>void test_I_8() METHOD
 RefactoringAction 1475670424226 TestRomanNumerals.java RENAME test_I_8()=>void test_IX_9() METHOD
 EditAction 1475670427654 TestRomanNumerals.java 5395 39 48 9
+UnitTestCaseAction 1475670429962 TestRomanNumerals.java OK
+UnitTestSessionAction 1475670429963 Rerun TestRomanNumerals (Failed Tests first) OK
+RefactoringAction 1475670434262 TestRomanNumerals.java ADD void test_IX_9()/2 METHOD
+RefactoringAction 1475670445779 TestRomanNumerals.java RENAME test_IX_9()/2=>void test_X_9() METHOD
+RefactoringAction 1475670447294 TestRomanNumerals.java RENAME test_X_9()=>void test_XV_15() METHOD
+EditAction 1475670451602 TestRomanNumerals.java 5511 40 50 10
