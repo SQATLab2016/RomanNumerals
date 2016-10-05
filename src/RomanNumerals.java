@@ -9,7 +9,6 @@ public class RomanNumerals {
 	private static final char M = 'M';
 
 	public int convertToInteger(String romanNum) throws Exception {
-		int repeated;
 		int value = 0;
 		int lastIndexOfNum = romanNum.length() - 1;
 		
@@ -22,21 +21,19 @@ public class RomanNumerals {
 
 	private void checkRepetition(String romanNum, int lastIndexOfNum, int i) throws Exception {
 		int repeated = 1;
-		char c = romanNum.charAt(i):
-		if (c == I || c == X || c == C || c == M) {
-			if (i < lastIndexOfNum) {
-				for (int j = i + 1; j <= lastIndexOfNum; j++) {
-					if (romanNum.charAt(i) == romanNum.charAt(j)) {
-						repeated++;
-					}
-					else {
-						break;
-					}
+		char c = romanNum.charAt(i);
+		if (i < lastIndexOfNum) {
+			for (int j = i + 1; j <= lastIndexOfNum; j++) {
+				if (romanNum.charAt(i) == romanNum.charAt(j)) {
+					repeated++;
 				}
-				if (repeated > 3) {
-					throw new Exception("Symbol repeated too many times");
+				else {
+					break;
 				}
 			}
+		}
+		if (c == I || c == X || c == C || c == M && repeated > 3) {
+			throw new Exception("Symbol repeated too many times");
 		}
 	}
 
