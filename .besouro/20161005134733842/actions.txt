@@ -133,3 +133,10 @@ UnitTestCaseAction 1475670416971 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475670416972 TestRomanNumerals.java FAIL
 EditAction 1475670465942 RomanNumerals.java 2891 5 25 0
 EditAction 1475670569847 RomanNumerals.java 3028 5 25 0
+UnitTestCaseAction 1475670573739 TestRomanNumerals.java OK
+UnitTestSessionAction 1475670573740 TestRomanNumerals.java OK
+RefactoringAction 1475670761706 TestRomanNumerals.java ADD void testRomanNumeral_MMXIV_2014()/2 METHOD
+RefactoringAction 1475670790240 TestRomanNumerals.java RENAME testRomanNumeral_MMXIV_2014()/2=>void testRomanNumeral_MCMXCVIII_2014() METHOD
+RefactoringAction 1475670798752 TestRomanNumerals.java RENAME testRomanNumeral_MCMXCVIII_2014()=>void testRomanNumeral_MCMXCVIII_1998() METHOD
+RefactoringAction 1475670804258 TestRomanNumerals.java REMOVE testRomanNumeral_MMXIV_2014() METHOD
+EditAction 1475670804555 TestRomanNumerals.java 2102 15 16 12

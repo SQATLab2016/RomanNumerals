@@ -56,8 +56,8 @@ public class TestRomanNumerals {
 	}
 
 	@Test
-	public void testRomanNumeral_MMXIV_2014() throws RomanNumeralException {
-		assertRomanNumerals(1984, "MCMLXXXIV");
+	public void testRomanNumeral_MCMXCVIII_1998() throws RomanNumeralException {
+		assertRomanNumerals(1998, "MCMXCVIII");
 	}
 	
 	@Test (expected = RomanNumeralException.class)
