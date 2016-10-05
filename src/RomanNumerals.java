@@ -83,7 +83,7 @@ public class RomanNumerals {
 			// second last numeral
 			if (i + 2 == romanNum.length()) {
 				if (number == nextNumber) {
-					sum += number + nextNumber;
+					sum += number * 2;
 				}
 			}
 		}
