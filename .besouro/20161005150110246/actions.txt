@@ -13,3 +13,5 @@ RefactoringAction 1475670138237 TestRomanNumerals.java RENAME test=>String roman
 RefactoringAction 1475670144264 TestRomanNumerals.java RENAME roman=>String romanTestNum FIELD
 RefactoringAction 1475670167359 TestRomanNumerals.java RENAME TestRomanNumerals()=>TestRomanNumerals(String) METHOD
 EditAction 1475670175862 TestRomanNumerals.java 578 3 3 1
+RefactoringAction 1475670267647 TestRomanNumerals.java ADD static Collection<Object METHOD
+EditAction 1475670347071 TestRomanNumerals.java 724 4 4 1

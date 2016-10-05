@@ -14,6 +14,15 @@ public class TestRomanNumerals {
 		romanTestNum = parTestNum;
 	}
 	
+	@Parameters
+	public static Collection<Object[]> testData() {
+		return Arrays.asList(new Object [][] {
+			{"I"},
+			{"II"},
+			{"CM"},
+		});
+	}
+	
 	@Test
 	public void number_1_Generated() throws RomanNumeralException {
 		RomanNumerals numerals = new RomanNumerals();
