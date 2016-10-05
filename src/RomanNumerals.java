@@ -67,24 +67,28 @@ public class RomanNumerals {
 			return currentVal;
 		}
 		else if (currentVal < nextVal) {
-			if (currentVal == 1 && nextVal > 10) {
-				throw new Exception("invalid substraction");
-			}
-			else if (currentVal == 10 && nextVal > 100) {
-				throw new Exception("invalid substraction");
-			}
-			else if (currentVal == 100 && nextVal > 1000) {
-				throw new Exception("invalid substraction");
-			}
-			else if (currentVal == 5 || currentVal == 50 || currentVal == 500) {
-				throw new Exception("invalid substraction");
-			}
+			validateSubstraction(currentVal, nextVal);
 			return -currentVal;
 		}
 		else if (currentVal > nextVal) {
 			return currentVal;
 		}
 		return 0;
+	}
+
+	private void validateSubstraction(int currentVal, int nextVal) throws Exception {
+		if (currentVal == 1 && nextVal > 10) {
+			throw new Exception("invalid substraction");
+		}
+		else if (currentVal == 10 && nextVal > 100) {
+			throw new Exception("invalid substraction");
+		}
+		else if (currentVal == 100 && nextVal > 1000) {
+			throw new Exception("invalid substraction");
+		}
+		else if (currentVal == 5 || currentVal == 50 || currentVal == 500) {
+			throw new Exception("invalid substraction");
+		}
 	}
 	
 	private int getCharValue(char romanNum) {

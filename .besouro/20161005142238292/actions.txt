@@ -251,3 +251,7 @@ RefactoringAction 1475670097508 TestRomanNumerals.java RENAME testRomanNumerals_
 RefactoringAction 1475670098538 TestRomanNumerals.java RENAME testRomanNumerals__err()=>void testRomanNumerals_XM_err() METHOD
 EditAction 1475670100129 TestRomanNumerals.java 3364 23 42 19
 EditAction 1475670104248 TestRomanNumerals.java 3338 23 41 18
+UnitTestCaseAction 1475670109461 TestRomanNumerals.java OK
+UnitTestSessionAction 1475670109461 TestRomanNumerals.java OK
+RefactoringAction 1475670151051 RomanNumerals.java ADD void validateSubstraction(int, int) METHOD
+EditAction 1475670151051 RomanNumerals.java 3111 7 18 0
