@@ -252,3 +252,9 @@ RefactoringAction 1475675176345 TestRomanNumerals.java ADD void testConverter_Co
 RefactoringAction 1475675178857 TestRomanNumerals.java RENAME testConverter_ConvertLX_shouldBe_60()/2=>void testConverter_ConvertLXX_shouldBe_60() METHOD
 RefactoringAction 1475675181369 TestRomanNumerals.java RENAME testConverter_ConvertLXX_shouldBe_60()=>void testConverter_ConvertLXX_shouldBe_70() METHOD
 EditAction 1475675184976 TestRomanNumerals.java 3585 33 34 33
+UnitTestCaseAction 1475675188218 TestRomanNumerals.java OK
+UnitTestSessionAction 1475675188219 TestRomanNumerals.java OK
+RefactoringAction 1475675201411 TestRomanNumerals.java ADD void testConverter_ConvertLXX_shouldBe_70()/2 METHOD
+RefactoringAction 1475675203924 TestRomanNumerals.java RENAME testConverter_ConvertLXX_shouldBe_70()/2=>void testConverter_ConvertLXXX_shouldBe_70() METHOD
+RefactoringAction 1475675205938 TestRomanNumerals.java RENAME testConverter_ConvertLXXX_shouldBe_70()=>void testConverter_ConvertLXXX_shouldBe_80() METHOD
+EditAction 1475675210044 TestRomanNumerals.java 3689 34 35 34
