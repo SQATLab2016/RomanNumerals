@@ -37,7 +37,7 @@ public class RomanNumerals {
 				int diff = getElementaryIndex(romanNum.charAt(i + 1))
 						- getElementaryIndex(romanNum.charAt(i));
 				
-				if (lastSub == 0 && (diff == 1 || diff == 2))
+				if (lastSub != 0)
 					throw new NumberFormatException("Illegal multiple subtractions.");
 				
 				if (diff > 2)
