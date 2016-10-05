@@ -96,3 +96,19 @@ RefactoringAction 1475667788769 TestRomanNumerals.java RENAME testConverter_Conv
 RefactoringAction 1475667790784 TestRomanNumerals.java RENAME testConverter_ConvertIC_shouldBe_9()=>void testConverter_ConvertIC_shouldBe_() METHOD
 RefactoringAction 1475667792301 TestRomanNumerals.java RENAME testConverter_ConvertIC_shouldBe_()=>void testConverter_ConvertIC_shouldBe_ FIELD
 EditAction 1475667799775 TestRomanNumerals.java 2465 21 22 21
+CompilationAction 1475667801071 TestRomanNumerals.java
+CompilationAction 1475667801072 TestRomanNumerals.java
+CompilationAction 1475667801073 TestRomanNumerals.java
+CompilationAction 1475667801074 TestRomanNumerals.java
+CompilationAction 1475667801075 TestRomanNumerals.java
+CompilationAction 1475667801076 TestRomanNumerals.java
+RefactoringAction 1475667808386 TestRomanNumerals.java RENAME testConverter_ConvertIC_shouldBe_1()=>void testConverter_ConvertIC_shouldBe_Minus1() METHOD
+CompilationAction 1475667808990 TestRomanNumerals.java
+CompilationAction 1475667808992 TestRomanNumerals.java
+CompilationAction 1475667808993 TestRomanNumerals.java
+UnitTestCaseAction 1475667811944 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475667811945 TestRomanNumerals.testConverter_ConvertIC_shouldBe_Minus1 FAIL
+UnitTestCaseAction 1475667819081 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475667819082 TestRomanNumerals.java FAIL
+RefactoringAction 1475667992919 TestRomanNumerals.java RENAME testConverter_ConvertIC_shouldBe_Minus1()=>void testConverter_ConvertIL_shouldBe_Minus1() METHOD
+EditAction 1475667997319 TestRomanNumerals.java 2469 22 23 22

@@ -107,8 +107,8 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void testConverter_ConvertIC_shouldBe_-1(){
-		assertRomanNumebrEqual("IC", -1);
+	public void testConverter_ConvertIL_shouldBe_Minus1(){
+		assertRomanNumebrEqual("IL", -1);
 	}
 	
 	private void assertRomanNumebrEqual(String romanNumeral, int expectedNumber){
