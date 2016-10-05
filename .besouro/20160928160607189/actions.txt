@@ -1,0 +1,161 @@
+FileOpenedAction 1475067967483 TestRomanNumerals.java 171 1 0 0
+RefactoringAction 1475067976324 TestRomanNumerals.java ADD RomanNumerals rn FIELD
+EditAction 1475068025092 TestRomanNumerals.java 258 1 2 1
+UnitTestCaseAction 1475068031067 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475068031071 TestRomanNumerals.java FAIL
+EditAction 1475068039268 RomanNumerals.java 101 1 1 0
+UnitTestCaseAction 1475068041612 TestRomanNumerals.java OK
+UnitTestSessionAction 1475068041613 TestRomanNumerals.java OK
+RefactoringAction 1475068049093 TestRomanNumerals.java ADD void test_I_1()/2 METHOD
+RefactoringAction 1475068052124 TestRomanNumerals.java RENAME test_I_1()/2=>void test_II_2() METHOD
+EditAction 1475068055372 TestRomanNumerals.java 372 2 4 2
+UnitTestCaseAction 1475068057582 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475068057583 TestRomanNumerals.java FAIL
+EditAction 1475068080575 RomanNumerals.java 164 1 1 0
+UnitTestCaseAction 1475068082713 TestRomanNumerals.java OK
+UnitTestSessionAction 1475068082714 TestRomanNumerals.java OK
+RefactoringAction 1475068088710 TestRomanNumerals.java ADD void test_II_2()/2 METHOD
+RefactoringAction 1475068090731 TestRomanNumerals.java RENAME test_II_2()/2=>void test_III_3() METHOD
+EditAction 1475068093948 TestRomanNumerals.java 488 3 6 3
+UnitTestCaseAction 1475068096253 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475068096254 TestRomanNumerals.java FAIL
+EditAction 1475068109491 RomanNumerals.java 217 1 1 0
+UnitTestCaseAction 1475068112052 TestRomanNumerals.java OK
+UnitTestSessionAction 1475068112053 TestRomanNumerals.java OK
+RefactoringAction 1475068123282 TestRomanNumerals.java ADD void test_III_3()/2 METHOD
+RefactoringAction 1475068146806 TestRomanNumerals.java RENAME test_III_3()/2=>void test_IV_4() METHOD
+EditAction 1475068150436 TestRomanNumerals.java 602 4 8 4
+UnitTestCaseAction 1475068153427 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475068153428 TestRomanNumerals.java FAIL
+EditAction 1475068237992 RomanNumerals.java 271 1 1 0
+UnitTestCaseAction 1475068240910 TestRomanNumerals.java OK
+UnitTestSessionAction 1475068240911 TestRomanNumerals.java OK
+RefactoringAction 1475068412969 TestRomanNumerals.java ADD void test_ FIELD
+RefactoringAction 1475068414987 TestRomanNumerals.java RENAME test_=>void test_V_ FIELD
+RefactoringAction 1475068419499 TestRomanNumerals.java RENAME test_V_=>void test_V_cannot_repeat() METHOD
+RefactoringAction 1475068481375 RomanNumerals.java ADD import java.util.regex.Pattern IMPORT
+RefactoringAction 1475068527395 RomanNumerals.java ADD import java.util.regex.Matcher IMPORT
+EditAction 1475068531137 RomanNumerals.java 484 1 4 0
+EditAction 1475068539209 TestRomanNumerals.java 742 5 9 4
+UnitTestCaseAction 1475068542345 TestRomanNumerals.java OK
+UnitTestSessionAction 1475068542346 TestRomanNumerals.java OK
+RefactoringAction 1475068580316 TestRomanNumerals.java ADD void test_I_cannot_repeat_ FIELD
+RefactoringAction 1475068586836 TestRomanNumerals.java RENAME test_I_cannot_repeat_=>void test_I_cannot_repeat_four_times() METHOD
+EditAction 1475068590244 TestRomanNumerals.java 896 6 10 4
+UnitTestCaseAction 1475068592806 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475068592807 TestRomanNumerals.java FAIL
+EditAction 1475068624254 RomanNumerals.java 490 1 4 0
+UnitTestCaseAction 1475068627249 TestRomanNumerals.java OK
+UnitTestSessionAction 1475068627250 TestRomanNumerals.java OK
+RefactoringAction 1475068770451 TestRomanNumerals.java ADD void test_I_cannot_be_subtracted_from FIELD
+RefactoringAction 1475068771469 TestRomanNumerals.java RENAME test_I_cannot_be_subtracted_from=>void test_I_cannot_be_subtracted_from_ FIELD
+RefactoringAction 1475068777486 TestRomanNumerals.java RENAME test_I_cannot_be_subtracted_from_=>void test_I_cannot_be_subtracted_from_L() METHOD
+EditAction 1475068785120 TestRomanNumerals.java 1051 7 11 4
+UnitTestCaseAction 1475068809545 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475068809546 TestRomanNumerals.java FAIL
+EditAction 1475068812974 RomanNumerals.java 493 1 4 0
+UnitTestCaseAction 1475068815072 TestRomanNumerals.java OK
+UnitTestSessionAction 1475068815073 TestRomanNumerals.java OK
+UnitTestCaseAction 1475068878168 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475068878169 TestRomanNumerals.java FAIL
+EditAction 1475068916349 RomanNumerals.java 546 1 4 0
+UnitTestCaseAction 1475068918396 TestRomanNumerals.java OK
+UnitTestSessionAction 1475068918398 TestRomanNumerals.java OK
+RefactoringAction 1475068966136 TestRomanNumerals.java ADD void test_I_cannot_be_subtracted_twice() METHOD
+UnitTestCaseAction 1475068982559 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475068982560 TestRomanNumerals.java FAIL
+EditAction 1475068996349 RomanNumerals.java 553 1 4 0
+UnitTestCaseAction 1475068998505 TestRomanNumerals.java OK
+UnitTestSessionAction 1475068998505 TestRomanNumerals.java OK
+RefactoringAction 1475069029255 TestRomanNumerals.java ADD void test_I_cannot_be_subtracted_twice()/2 METHOD
+RefactoringAction 1475069031772 TestRomanNumerals.java RENAME test_I_cannot_be_subtracted_twice()/2=>void test_V_cannot_be_subtracted_twice() METHOD
+RefactoringAction 1475069035287 TestRomanNumerals.java RENAME test_V_cannot_be_subtracted_twice()=>void test_V_cannot_be_subtracted_from_() METHOD
+RefactoringAction 1475069042804 TestRomanNumerals.java RENAME test_V_cannot_be_subtracted_from_()=>void test_V_cannot_be_subtracted_from_X() METHOD
+EditAction 1475069045779 TestRomanNumerals.java 1410 10 15 5
+UnitTestCaseAction 1475069047956 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475069047957 TestRomanNumerals.java FAIL
+EditAction 1475069056609 RomanNumerals.java 556 1 4 0
+UnitTestCaseAction 1475069058567 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069058568 TestRomanNumerals.java OK
+RefactoringAction 1475069080837 TestRomanNumerals.java ADD void test_V_cannot_repeat()/2 METHOD
+RefactoringAction 1475069083354 TestRomanNumerals.java RENAME test_V_cannot_repeat()/2=>void test_L_cannot_repeat() METHOD
+EditAction 1475069085328 TestRomanNumerals.java 1537 11 16 5
+UnitTestCaseAction 1475069086976 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475069086977 TestRomanNumerals.java FAIL
+EditAction 1475069101330 RomanNumerals.java 562 1 4 0
+UnitTestCaseAction 1475069104503 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069104504 TestRomanNumerals.java OK
+RefactoringAction 1475069113890 TestRomanNumerals.java ADD void test_L_cannot_repeat()/2 METHOD
+RefactoringAction 1475069116407 TestRomanNumerals.java RENAME test_L_cannot_repeat()/2=>void test_D_cannot_repeat() METHOD
+EditAction 1475069118369 TestRomanNumerals.java 1664 12 17 5
+UnitTestCaseAction 1475069120319 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475069120320 TestRomanNumerals.java FAIL
+EditAction 1475069125743 RomanNumerals.java 568 1 4 0
+UnitTestCaseAction 1475069127677 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069127678 TestRomanNumerals.java OK
+EditAction 1475069138277 RomanNumerals.java 565 1 4 0
+UnitTestCaseAction 1475069140559 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069140560 TestRomanNumerals.java OK
+EditAction 1475069180891 RomanNumerals.java 599 1 4 0
+UnitTestCaseAction 1475069182685 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069182686 TestRomanNumerals.java OK
+EditAction 1475069194864 RomanNumerals.java 635 1 4 0
+UnitTestCaseAction 1475069196584 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069196585 TestRomanNumerals.java OK
+RefactoringAction 1475069206435 TestRomanNumerals.java ADD void test_I_cannot_repeat_four_times()/2 METHOD
+RefactoringAction 1475069209961 TestRomanNumerals.java REMOVE test_I_cannot_repeat_four_times()/2 METHOD
+RefactoringAction 1475069212478 TestRomanNumerals.java ADD void test_I_cannot_repeat_four_times()/2 METHOD
+RefactoringAction 1475069216496 TestRomanNumerals.java RENAME test_I_cannot_repeat_four_times()/2=>void test_X_cannot_repeat_four_times() METHOD
+EditAction 1475069219632 TestRomanNumerals.java 1805 13 18 5
+UnitTestCaseAction 1475069221835 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475069221836 TestRomanNumerals.java FAIL
+EditAction 1475069229818 RomanNumerals.java 639 1 4 0
+UnitTestCaseAction 1475069231630 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069231631 TestRomanNumerals.java OK
+RefactoringAction 1475069237516 TestRomanNumerals.java ADD void test_X_cannot_repeat_four_times()/2 METHOD
+RefactoringAction 1475069240525 TestRomanNumerals.java RENAME test_X_cannot_repeat_four_times()/2=>void test_C_cannot_repeat_four_times() METHOD
+EditAction 1475069241151 TestRomanNumerals.java 1946 14 19 5
+UnitTestCaseAction 1475069243162 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475069243163 TestRomanNumerals.java FAIL
+EditAction 1475069249630 RomanNumerals.java 643 1 4 0
+UnitTestCaseAction 1475069251537 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069251538 TestRomanNumerals.java OK
+RefactoringAction 1475069258539 TestRomanNumerals.java ADD void test_C_cannot_repeat_four_times()/2 METHOD
+RefactoringAction 1475069260552 TestRomanNumerals.java RENAME test_C_cannot_repeat_four_times()/2=>void test_M_cannot_repeat_four_times() METHOD
+EditAction 1475069262553 TestRomanNumerals.java 2087 15 20 5
+UnitTestCaseAction 1475069264536 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475069264537 TestRomanNumerals.java FAIL
+EditAction 1475069272572 RomanNumerals.java 647 1 4 0
+UnitTestCaseAction 1475069274662 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069274663 TestRomanNumerals.java OK
+EditAction 1475069446211 RomanNumerals.java 652 1 4 0
+EditAction 1475069450477 RomanNumerals.java 651 1 4 0
+UnitTestCaseAction 1475069452265 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069452266 TestRomanNumerals.java OK
+EditAction 1475069526284 RomanNumerals.java 826 1 4 0
+UnitTestCaseAction 1475069529331 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069529331 TestRomanNumerals.java OK
+RefactoringAction 1475069557590 TestRomanNumerals.java ADD void test_I_cannot_be_subtracted_from_L()/2 METHOD
+RefactoringAction 1475069563105 TestRomanNumerals.java RENAME test_I_cannot_be_subtracted_from_L()/2=>void test_I_cannot_be_subtracted_from_C() METHOD
+EditAction 1475069565389 TestRomanNumerals.java 2229 16 21 5
+UnitTestCaseAction 1475069567627 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475069567628 TestRomanNumerals.java FAIL
+EditAction 1475069572046 RomanNumerals.java 829 1 4 0
+UnitTestCaseAction 1475069574040 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069574041 TestRomanNumerals.java OK
+RefactoringAction 1475069582137 TestRomanNumerals.java ADD void test_I_cannot_be_subtracted_from_C()/2 METHOD
+RefactoringAction 1475069584653 TestRomanNumerals.java RENAME test_I_cannot_be_subtracted_from_C()/2=>void test_I_cannot_be_subtracted_from_D() METHOD
+EditAction 1475069585292 TestRomanNumerals.java 2371 17 22 5
+UnitTestCaseAction 1475069587202 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475069587203 TestRomanNumerals.java FAIL
+EditAction 1475069593171 RomanNumerals.java 826 1 4 0
+UnitTestCaseAction 1475069594964 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069594965 TestRomanNumerals.java OK
+RefactoringAction 1475069602182 TestRomanNumerals.java ADD void test_I_cannot_be_subtracted_from_D()/2 METHOD
+RefactoringAction 1475069605209 TestRomanNumerals.java RENAME test_I_cannot_be_subtracted_from_D()/2=>void test_I_cannot_be_subtracted_from_M() METHOD
+EditAction 1475069605607 TestRomanNumerals.java 2513 18 23 5
+UnitTestCaseAction 1475069607551 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475069607552 TestRomanNumerals.java FAIL
+EditAction 1475069613124 RomanNumerals.java 826 1 4 0
+UnitTestCaseAction 1475069617105 TestRomanNumerals.java OK
+UnitTestSessionAction 1475069617106 TestRomanNumerals.java OK
