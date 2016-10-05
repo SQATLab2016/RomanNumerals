@@ -9,7 +9,8 @@ public class RomanNumerals {
 		
 		int retValue = 0;
 		int duplicates = 0;
-
+		
+		// Check illegal duplicate numerals
 		for (int i = 01; i < romanNum.length(); i++) {
 			if (i > 0)
 				duplicates = (romanNum.charAt(i - 1) == romanNum.charAt(i)) ? duplicates + 1 : 0;
@@ -21,6 +22,7 @@ public class RomanNumerals {
 				throw new NumberFormatException("Too many duplicate numeral characters.");
 		}
 		
+		// Process additions and subtractions
 		for (int i = romanNum.length() - 1; i >= 0; i--) {
 			char c0 = romanNum.charAt(i);
 			
@@ -38,9 +40,12 @@ public class RomanNumerals {
 						throw new NumberFormatException("Illegal multiple subtractions.");
 					
 					subtrahend = getElementaryValue(c1);
+					// Consume subtrahend(s)
 					i--;
 				} else if (!canBeSubtrahendElementaryValue(c1)) {
-					// V, L, D 
+					// V, L, D cannot be subtracted
+					if (getElementaryValue(c1) < getElementaryValue(c0))
+						throw new NumberFormatException("Illegal subtraction format.");
 					
 					break;
 				}
