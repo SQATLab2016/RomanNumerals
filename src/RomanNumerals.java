@@ -6,7 +6,6 @@ public class RomanNumerals {
 		int loop = 0;
 
 		while (loop < rommanNumArray.length) {
-
 			if (loop + 1 < rommanNumArray.length
 					&& checkIfFirstIsSmall(rommanNumArray[loop], rommanNumArray[loop + 1])) {
 				result = result
