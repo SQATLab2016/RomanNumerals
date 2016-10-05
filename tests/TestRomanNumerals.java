@@ -55,6 +55,11 @@ public class TestRomanNumerals {
 		assertRomanNumerals(1984, "MCMLXXXIV");
 	}
 
+	@Test
+	public void testRomanNumeral_MMXIV_2014() {
+		assertRomanNumerals(1984, "MCMLXXXIV");
+	}
+	
 	public void assertRomanNumerals(int expectedOutput, String input) {
 		int result = romanNumerals.convertToInteger(input);
 		assertEquals(expectedOutput, result);
