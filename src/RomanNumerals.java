@@ -17,7 +17,7 @@ public class RomanNumerals {
 		for (int i = romanNum.length() - 1; i >= 0; i--) {
 			value += parseCharacterToValue(romanNum, i);
 		}
-		System.out.println(occurencies);
+		System.out.println(occurencies[0]);
 		return value;
 	}
 
