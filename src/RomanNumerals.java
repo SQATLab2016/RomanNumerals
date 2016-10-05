@@ -72,13 +72,11 @@ public class RomanNumerals {
 			// subtract, e.g. IV
 			if (number < nextNumber) {
 				sum -= number;
-				i++;
 				continue;
 			}
 			
 			if (number > nextNumber) {
 				sum += number;
-				i++;
 				continue;
 			}
 			
