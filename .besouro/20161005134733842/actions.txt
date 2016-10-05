@@ -25,3 +25,18 @@ EditAction 1475665271094 RomanNumerals.java 768 2 6 0
 CompilationAction 1475665272303 RomanNumerals.java
 RefactoringAction 1475665276932 RomanNumerals.java ADD boolean checkIfFirstIsSmall(char, char) METHOD
 EditAction 1475665629913 RomanNumerals.java 1086 3 9 0
+UnitTestCaseAction 1475665640414 TestRomanNumerals.java OK
+UnitTestSessionAction 1475665640415 TestRomanNumerals.java OK
+RefactoringAction 1475665723434 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475665725449 TestRomanNumerals.java RENAME test=>void testRoman FIELD
+RefactoringAction 1475665727956 TestRomanNumerals.java RENAME testRoman=>void testRomanNumeral FIELD
+RefactoringAction 1475665729462 TestRomanNumerals.java RENAME testRomanNumeral=>void testRomanNumeral_ FIELD
+RefactoringAction 1475665730966 TestRomanNumerals.java RENAME testRomanNumeral_=>void testRomanNumeral_XC FIELD
+RefactoringAction 1475665733971 TestRomanNumerals.java RENAME testRomanNumeral_XC=>void testRomanNumeral_ FIELD
+RefactoringAction 1475665741978 TestRomanNumerals.java RENAME testRomanNumeral_=>void testRomanNumeral_MCMLXXXIV FIELD
+RefactoringAction 1475665743487 TestRomanNumerals.java RENAME testRomanNumeral_MCMLXXXIV=>void testRomanNumeral_MCMLXXXIV_ FIELD
+RefactoringAction 1475665749492 TestRomanNumerals.java RENAME testRomanNumeral_MCMLXXXIV_=>void testRomanNumeral_MCMLXXXIV_1984 FIELD
+RefactoringAction 1475665753999 TestRomanNumerals.java RENAME testRomanNumeral_MCMLXXXIV_1984=>void testRomanNumeral_MCMLXXXIV_1984() METHOD
+RefactoringAction 1475665779523 TestRomanNumerals.java RENAME testRomanNumeral_MCMLXXXIV_1984()=><initializer /1> null
+RefactoringAction 1475665780527 TestRomanNumerals.java RENAME <initializer /1>=>void testRomanNumeral_MCMLXXXIV_1984() METHOD
+EditAction 1475665786453 TestRomanNumerals.java 1164 11 12 11
