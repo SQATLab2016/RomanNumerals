@@ -13,6 +13,14 @@ public class TestRomanNumerals {
 		assertEquals(true, valid);
 	}
 	
+	@Test
+	public void repeatCharTest() {
+		RomanNumerals rm = new RomanNumerals("XXXMMMIIIV");
+		Boolean valid = false;
+		valid = rm.repetitionCharCheck(); 
+		
+		assertEquals(true, valid);
+	}
 	
 	
 }
