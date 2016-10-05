@@ -8,7 +8,7 @@ public class RomanNumerals {
 				+ "VV|LL|DD|"            // can't repeat these symbols
 				+ "IL|IC|ID|IM|"         // can't subtract from too big numbers
 				+ "IIV|"                 // can't subtract more than once
-				+ "VX|VL"                // can't subtract the '5' symbols
+				+ "VX|VL|VC"             // can't subtract the '5' symbols
 				);
 		Matcher m = p.matcher(romanNum);
 		if (m.find()) {
