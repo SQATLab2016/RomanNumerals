@@ -175,5 +175,10 @@ public class TestRomanNumerals {
 	public void test_D_cannot_be_subtracted_from_M() {
 		rn.convertToInteger("DM");
 	}
+	
+	@Test (expected = IllegalArgumentException.class)
+	public void test_numbers() {
+		rn.convertToInteger("123");
+	}
 
 }
