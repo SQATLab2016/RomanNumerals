@@ -240,3 +240,6 @@ CompilationAction 1475669781474 TestRomanNumerals.java
 UnitTestCaseAction 1475669783178 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475669783178 TestRomanNumerals.java FAIL
 EditAction 1475669924623 RomanNumerals.java 2772 6 17 0
+UnitTestCaseAction 1475669926607 TestRomanNumerals.java OK
+UnitTestSessionAction 1475669926607 TestRomanNumerals.java OK
+EditAction 1475670068692 RomanNumerals.java 2986 6 17 0

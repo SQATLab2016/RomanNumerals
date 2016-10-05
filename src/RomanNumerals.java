@@ -70,6 +70,12 @@ public class RomanNumerals {
 			if (currentVal == 1 && nextVal > 10) {
 				throw new Exception("invalid substraction");
 			}
+			else if (currentVal == 10 && nextVal > 100) {
+				throw new Exception("invalid substraction");
+			}
+			else if (currentVal == 100 && nextVal > 1000) {
+				throw new Exception("invalid substraction");
+			}
 			else if (currentVal == 5 || currentVal == 50 || currentVal == 500) {
 				throw new Exception("invalid substraction");
 			}
