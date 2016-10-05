@@ -154,6 +154,7 @@ public class TestRomanNumerals {
 	@Test public void testRomanNumerals_2014_2014() throws Exception  {
 		int testValue = 2014;
 		String roman = decToRoman(2014);
+		System.err.println(roman);
 		int converted = rn.convertToInteger(roman);
 		assertEquals(testValue, converted);
 	}
