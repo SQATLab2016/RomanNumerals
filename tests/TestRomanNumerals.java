@@ -56,6 +56,26 @@ public class TestRomanNumerals {
 		assertRomanNumebrEqual("XXX", 30);
 	}
 	
+	@Test
+	public void testConverter_ConvertCCC_shouldBe300() {
+		assertRomanNumebrEqual("CCC", 300);
+	}
+	
+	@Test
+	public void testConverter_ConvertMMM_shouldBe3000() {
+		assertRomanNumebrEqual("MMM", 3000);
+	}
+	
+	@Test
+	public void testConverter_ConvertII_shouldBe2() {
+		assertRomanNumebrEqual("II", 2);
+	}
+	
+	@Test
+	public void testConverter_ConvertMM_shouldBe2000() {
+		assertRomanNumebrEqual("MM", 2000);
+	}
+	
 	private void assertRomanNumebrEqual(String romanNumeral, int expectedNumber){
 		int number = numeral.convertToInteger(romanNumeral);
 		
