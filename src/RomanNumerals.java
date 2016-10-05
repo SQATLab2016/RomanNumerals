@@ -1,10 +1,12 @@
 
 public class RomanNumerals {
-	public int convertToInteger(String romanNum) {
+	public int convertToInteger(String romanNum) throws RomanNumeralException {
 		char[] rommanNumArray = romanNum.toCharArray();
 		int result = 0;
 		int loop = 0;
 
+		validateRomanString(rommanNumArray);
+		
 		while (loop < rommanNumArray.length) {
 			if (loop + 1 < rommanNumArray.length
 					&& checkIfFirstIsSmall(rommanNumArray[loop], rommanNumArray[loop + 1])) {
@@ -17,6 +19,10 @@ public class RomanNumerals {
 			}
 		}
 		return result;
+	}
+
+	private void validateRomanString(char[] rommanNumArray) throws RomanNumeralException{
+		
 	}
 
 	private boolean checkIfFirstIsSmall(char c, char d) {
