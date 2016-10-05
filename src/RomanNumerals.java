@@ -7,11 +7,18 @@ public class RomanNumerals {
 		}
 
 		if (romanNum.length() < 4) {
+			if(romanNum.charAt(0)!=romanNum.charAt(1)){
+				return getSingularValue(getStringCharAt(romanNum,0))-getSingularValue(getStringCharAt(romanNum, 1));
+			}
 			return romanNum.length() * getSingularValue(String.valueOf(romanNum.charAt(0)));
 		}
 		
 		return -1;
 
+	}
+	
+	private String getStringCharAt(String theString, int index){
+		return String.valueOf(theString.charAt(index));
 	}
 
 	private int getSingularValue(String roman) {
