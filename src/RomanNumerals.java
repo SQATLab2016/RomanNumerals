@@ -17,7 +17,6 @@ public class RomanNumerals {
 			value += parseCharacterToValue(romanNum, i);
 		}
 		return value;
-		
 	}
 
 	private int parseCharacterToValue(String romanNum, int i) {
@@ -27,7 +26,7 @@ public class RomanNumerals {
 			nextVal = getCharValue(romanNum.charAt(i + 1));
 			return getCurrentValue(currentVal, nextVal);
 		}
-		catch(Exception e) { // when trying to get next of last, it's intended to end up here
+		catch(Exception e) { // when trying to get next of last, it is intended to end up here
 			return currentVal;
 		}
 	}
