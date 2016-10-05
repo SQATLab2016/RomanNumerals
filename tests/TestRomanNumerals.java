@@ -97,7 +97,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test(expected=Exception.class) public void testRomanNumerals_IIII_err() throws Exception  {
-		int num = rn.convertToInteger("IIIII");
+		int num = rn.convertToInteger("IIII");
 	}
 
 }

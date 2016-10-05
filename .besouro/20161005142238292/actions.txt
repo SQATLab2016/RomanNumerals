@@ -141,3 +141,6 @@ UnitTestSessionAction 1475668442259 TestRomanNumerals.testRomanNumerals_MCMLXXXI
 UnitTestCaseAction 1475668445351 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475668445351 TestRomanNumerals.java FAIL
 EditAction 1475668480045 TestRomanNumerals.java 2819 19 37 18
+UnitTestCaseAction 1475668482482 TestRomanNumerals.java OK
+UnitTestSessionAction 1475668482482 TestRomanNumerals.java OK
+EditAction 1475668489080 TestRomanNumerals.java 2818 19 37 18
