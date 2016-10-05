@@ -30,7 +30,7 @@ public class TestRomanNumerals {
 	}
 
 	@Test
-	public void subtractionOccurs() {
+	public void subtractionOccurs() throws RomanNumeralException {
 		RomanNumerals romans = new RomanNumerals();
 		boolean caseFailed = false;
 		int i = 0;

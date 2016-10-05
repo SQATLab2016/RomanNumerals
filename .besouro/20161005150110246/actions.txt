@@ -60,3 +60,15 @@ CompilationAction 1475674188709 TestRomanNumerals.java
 RefactoringAction 1475674274498 RomanNumerals.java ADD boolean isSubtraction FIELD
 RefactoringAction 1475674280504 RomanNumerals.java RENAME isSubtraction=>boolean isSubtraction() METHOD
 EditAction 1475674285604 RomanNumerals.java 321 2 2 0
+CompilationAction 1475674285815 RomanNumerals.java
+CompilationAction 1475674285816 RomanNumerals.java
+CompilationAction 1475674285816 RomanNumerals.java
+CompilationAction 1475674285816 TestRomanNumerals.java
+RefactoringAction 1475674326020 RomanNumerals.java RENAME isSubtraction()=>boolean isSubtraction(String) METHOD
+CompilationAction 1475674348253 TestRomanNumerals.java
+CompilationAction 1475674348411 TestRomanNumerals.java
+CompilationAction 1475674456357 RomanNumerals.java
+CompilationAction 1475674456357 RomanNumerals.java
+CompilationAction 1475674456357 RomanNumerals.java
+CompilationAction 1475674456524 RomanNumerals.java
+EditAction 1475674697270 RomanNumerals.java 476 2 4 0
