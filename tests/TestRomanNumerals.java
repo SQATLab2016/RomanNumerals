@@ -15,7 +15,7 @@ public class TestRomanNumerals {
 	
 	@Test
 	public void repetitionCharTest() {
-		RomanNumerals rm = new RomanNumerals("XXXMMMDIIIV");
+		RomanNumerals rm = new RomanNumerals("XXXDMMMDIIIV");
 		Boolean valid = false;
 		valid = rm.repetitionCharCheck(); 
 		
