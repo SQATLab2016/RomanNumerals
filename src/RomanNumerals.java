@@ -64,13 +64,20 @@ public class RomanNumerals {
 			
 			for (int j = i - 1; j >= 0; j--) {
 				char c1 = romanNum.charAt(j);
-				if (canBeSubtrahendElementaryValue(c1) &&
-						getElementaryValue(c0) > getElementaryValue(c1)) {
+				if (canBeSubtrahendElementaryValue(c1) && getElementaryValue(c0) > getElementaryValue(c1)) {
+					int diff = getElementaryIndex(c0) - getElementaryIndex(c1);
+					
+					if (diff > 2)
+						throw new NumberFormatException("Illegal subtraction format.");
+					
 					if (subtrahend != 0)
 						throw new NumberFormatException("Illegal multiple subtractions.");
+					
 					subtrahend = getElementaryValue(c1);
+					i--;
+				} else if (!canBeSubtrahendElementaryValue(c1)) {
+					break;
 				}
-				break;
 			}
 			
 			retValue += getElementaryValue(c0) - subtrahend;
