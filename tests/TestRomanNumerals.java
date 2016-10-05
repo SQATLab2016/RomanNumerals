@@ -96,6 +96,12 @@ public class TestRomanNumerals {
 		assertEquals(40, number);
 	}
 	
+	@Test
+	public void test_DCCC_800() {
+		int number = rn.convertToInteger("DCCC");
+		assertEquals(800, number);
+	}
+	
 	@Test (expected = IllegalArgumentException.class)
 	public void test_I_cannot_repeat_four_times() {
 		rn.convertToInteger("IIII");
