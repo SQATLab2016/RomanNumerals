@@ -81,3 +81,11 @@ EditAction 1475667270963 RomanNumerals.java 1050 3 6 0
 UnitTestCaseAction 1475667273222 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475667273223 TestRomanNumerals.java FAIL
 EditAction 1475667299321 RomanNumerals.java 1050 3 6 0
+UnitTestCaseAction 1475667301638 TestRomanNumerals.java OK
+UnitTestSessionAction 1475667301639 TestRomanNumerals.java OK
+RefactoringAction 1475667717680 TestRomanNumerals.java ADD void testConverter_ConvertIV_shouldBe_4()/2 METHOD
+RefactoringAction 1475667739695 TestRomanNumerals.java RENAME testConverter_ConvertIV_shouldBe_4()/2=>void testConverter_ConvertI_shouldBe_4() METHOD
+RefactoringAction 1475667740709 TestRomanNumerals.java RENAME testConverter_ConvertI_shouldBe_4()=>void testConverter_ConvertIX_shouldBe_4() METHOD
+RefactoringAction 1475667743223 TestRomanNumerals.java RENAME testConverter_ConvertIX_shouldBe_4()=>void testConverter_ConvertIX_shouldBe_() METHOD
+RefactoringAction 1475667746236 TestRomanNumerals.java RENAME testConverter_ConvertIX_shouldBe_()=>void testConverter_ConvertIX_shouldBe_9() METHOD
+EditAction 1475667746831 TestRomanNumerals.java 2365 21 22 21
