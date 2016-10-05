@@ -30,16 +30,16 @@ public class RomanNumerals {
 				throw new NumberFormatException("Too many duplicate numeral characters.");
 			}
 			
+			if (lastSub == getElementaryValue(romanNum.charAt(i))) {
+				throw new NumberFormatException("Illegal multiple subtractions");
+			}
+			
 			if ((i + 1 < romanNum.length()) &&
 				canBeSubtrahendElementaryValue(romanNum.charAt(i)) &&
 				getElementaryValue(romanNum.charAt(i)) < getElementaryValue(romanNum.charAt(i + 1))) {
 				
 				int diff = getElementaryIndex(romanNum.charAt(i + 1))
 						- getElementaryIndex(romanNum.charAt(i));
-				
-				if (lastSub == getElementaryValue(romanNum.charAt(i))) {
-					throw new NumberFormatException("Illegal multiple subtractions");
-				}
 				
 				if (diff > 2) {
 					throw new NumberFormatException("Illegal subtraction format");
