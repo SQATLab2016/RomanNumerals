@@ -8,7 +8,7 @@ public class RomanNumerals {
 	private static final char D = 'D';
 	private static final char M = 'M';
 
-	public int convertToInteger(String romanNum) {
+	public int convertToInteger(String romanNum) throws Exception {
 		int repeated;
 		int value = 0;
 		int lastIndexOfNum = romanNum.length() - 1;
@@ -21,6 +21,9 @@ public class RomanNumerals {
 						repeated++;
 					}
 				}
+			}
+			if (repeated < 3) {
+				throw new Exception("err");
 			}
 			value += parseCharacterToValue(romanNum, i);
 			System.err.println(repeated);
