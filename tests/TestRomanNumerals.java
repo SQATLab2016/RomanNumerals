@@ -81,6 +81,11 @@ public class TestRomanNumerals {
 		assertRomanNumebrEqual("VV", -1);
 	}
 	
+	@Test
+	public void testConverter_ConvertLL_shouldBe_minus1(){
+		assertRomanNumebrEqual("LL", -1);
+	}
+	
 	private void assertRomanNumebrEqual(String romanNumeral, int expectedNumber){
 		int number = numeral.convertToInteger(romanNumeral);
 		
