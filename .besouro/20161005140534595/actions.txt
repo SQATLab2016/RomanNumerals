@@ -253,3 +253,7 @@ RefactoringAction 1475669711686 RomanNumerals.java MOVE convertToInteger(String)
 RefactoringAction 1475669753738 RomanNumerals.java REMOVE value() METHOD
 RefactoringAction 1475669803834 RomanNumerals.java RENAME get(char)=>static int getValue(char) METHOD
 EditAction 1475669848644 RomanNumerals.java 2195 3 9 0
+UnitTestCaseAction 1475669851341 TestRomanNumerals.java OK
+UnitTestSessionAction 1475669851343 Rerun TestRomanNumerals (Failed Tests first) OK
+RefactoringAction 1475669943073 RomanNumerals.java ADD Map<String,Integer> numerals FIELD
+EditAction 1475669976347 RomanNumerals.java 2309 3 9 0

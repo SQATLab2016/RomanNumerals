@@ -24,6 +24,9 @@ public class RomanNumerals {
 		}
 	}
 	
+	private Map<String, Integer> numerals = new HashMap<String, Integer>();
+	numerals.put("I", new Integer(1));
+	
 	public int convertToInteger(String romanNum) {
 		String patternString = String.join("|",
 				// repeat limit
