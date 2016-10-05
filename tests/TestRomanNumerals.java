@@ -103,7 +103,7 @@ public class TestRomanNumerals {
 	
 	@Test
 	public void testConverter_ConvertIX_shouldBe_9(){
-		assertRomanNumebrEqual("IV", 4);
+		assertRomanNumebrEqual("IX", 9);
 	}
 	
 	@Test

@@ -131,3 +131,4 @@ RefactoringAction 1475668959585 TestRomanNumerals.java RENAME testConverter_Conv
 RefactoringAction 1475668961097 TestRomanNumerals.java RENAME testConverter_Convert_shouldBe_Minus1()=>void testConverter_ConvertXC_shouldBe_Minus1() METHOD
 RefactoringAction 1475668976610 TestRomanNumerals.java RENAME testConverter_ConvertXC_shouldBe_Minus1()=>void testConverter_ConvertXC_shouldBe_90() METHOD
 EditAction 1475668987777 TestRomanNumerals.java 2569 23 24 23
+EditAction 1475669000118 TestRomanNumerals.java 2569 23 24 23
