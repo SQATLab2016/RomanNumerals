@@ -7,7 +7,7 @@ public class RomanNumerals {
 				+ "I{4}|X{4}|C{4}|M{4}|" // repeat limit
 				+ "VV|LL|DD|"            // can't repeat these symbols
 				+ "IL|IC|ID|IM|XD|XM|"   // can't subtract from too big numbers
-				+ "IIV|"                 // can't subtract more than once
+				+ "IIV|IIX|"             // can't subtract more than once
 				+ "VX|VL|VC|VD|VM"       // can't subtract the '5' symbols
 				);
 		Matcher m = p.matcher(romanNum);
