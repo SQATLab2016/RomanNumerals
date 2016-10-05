@@ -88,4 +88,13 @@ public class TestRomanNumerals {
 	@Test ( expected = RomanNumeralsException.class ) public void testRomanNumerals__X_subtractedFromD_exception() throws RomanNumeralsException {
 		assertRomanNumerals("XD", 490);
 	}
+	
+	@Test public void testRomanNumerals_CM_900() throws RomanNumeralsException {
+		assertRomanNumerals("CM", 900);
+	}
+	
+	@Test ( expected = RomanNumeralsException.class ) public void testRomanNumerals_subtractionMultipleTimes_XXC_exception() throws RomanNumeralsException {
+		assertRomanNumerals("XXC", 80);
+	}
+	
 }

@@ -112,3 +112,27 @@ EditAction 1475670683607 RomanNumerals.java 2975 7 21 0
 UnitTestCaseAction 1475670687247 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475670687248 TestRomanNumerals.java FAIL
 EditAction 1475670722735 RomanNumerals.java 3066 7 21 0
+UnitTestCaseAction 1475670729189 TestRomanNumerals.java OK
+UnitTestSessionAction 1475670729189 TestRomanNumerals.java OK
+RefactoringAction 1475670741855 TestRomanNumerals.java ADD void testRomanNumerals__X_subtractedFromD_exception()/2 METHOD
+RefactoringAction 1475670752868 TestRomanNumerals.java RENAME testRomanNumerals__X_subtractedFromD_exception()/2=>void testRomanNumerals__C_subtractedFromD_exception() METHOD
+RefactoringAction 1475670755380 TestRomanNumerals.java RENAME testRomanNumerals__C_subtractedFromD_exception()=>void testRomanNumerals__C_subtractedFrom_exception() METHOD
+RefactoringAction 1475670769393 TestRomanNumerals.java RENAME testRomanNumerals__C_subtractedFrom_exception()=>void testRomanNumerals__C_subtractedFromM_exception() METHOD
+RefactoringAction 1475670772907 TestRomanNumerals.java RENAME testRomanNumerals__C_subtractedFromM_exception()=>void testRomanNumerals__C_subtractedFromM_() METHOD
+RefactoringAction 1475670777418 TestRomanNumerals.java RENAME testRomanNumerals__C_subtractedFromM_()=>void testRomanNumerals__C_subtractedFromM_900() METHOD
+RefactoringAction 1475670800443 TestRomanNumerals.java RENAME testRomanNumerals__C_subtractedFromM_900()=>void testRomanNumerals__CM_900() METHOD
+UnitTestCaseAction 1475670810502 TestRomanNumerals.java OK
+UnitTestSessionAction 1475670810503 TestRomanNumerals.java OK
+RefactoringAction 1475670831478 TestRomanNumerals.java ADD void testRomanNumerals__CM_900()/2 METHOD
+RefactoringAction 1475670836490 TestRomanNumerals.java RENAME testRomanNumerals__CM_900()/2=>void testRomanNumerals__XCC_900() METHOD
+RefactoringAction 1475670842509 TestRomanNumerals.java RENAME testRomanNumerals__XCC_900()=>void testRomanNumerals__XXC_900() METHOD
+RefactoringAction 1475670846520 TestRomanNumerals.java RENAME testRomanNumerals__XXC_900()=>void testRomanNumerals__XXC_exception() METHOD
+RefactoringAction 1475670852533 TestRomanNumerals.java RENAME testRomanNumerals__XXC_exception()=>void testRomanNumerals_multip_XXC_exception() METHOD
+RefactoringAction 1475670854545 TestRomanNumerals.java RENAME testRomanNumerals_multip_XXC_exception()=>void testRomanNumerals_multiple_XXC_exception() METHOD
+RefactoringAction 1475670856557 TestRomanNumerals.java RENAME testRomanNumerals_multiple_XXC_exception()=>void testRomanNumerals_multipleTimes_XXC_exception() METHOD
+RefactoringAction 1475670862071 TestRomanNumerals.java RENAME testRomanNumerals_multipleTimes_XXC_exception()=>void testRomanNumerals_subtractionultipleTimes_XXC_exception() METHOD
+RefactoringAction 1475670863082 TestRomanNumerals.java RENAME testRomanNumerals_subtractionultipleTimes_XXC_exception()=>void testRomanNumerals_subtractionMultipleTimes_XXC_exception() METHOD
+RefactoringAction 1475670867095 TestRomanNumerals.java RENAME testRomanNumerals__CM_900()=>void testRomanNumerals_CM_900() METHOD
+UnitTestCaseAction 1475670899819 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475670899819 TestRomanNumerals.java FAIL
+EditAction 1475671065081 RomanNumerals.java 3084 7 21 0

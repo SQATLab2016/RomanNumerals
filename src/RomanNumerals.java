@@ -100,25 +100,24 @@ public class RomanNumerals {
     	char lastChar = 0;
     	for(int i=0; i<romanNum.length(); i++) {
     		switch (romanNum.charAt(i)) {
-		    case 'L':
-		    	processTheChar('L', lastChar);
-		        lastChar = 'L';
-		        break;
-		    case 'I':
-		    	processTheChar('I', lastChar);
-		    	lastChar = 'I';
-		    	break;
-		    case 'X':
-		    	processTheChar('X', lastChar);
-		    	lastChar = 'X';
-		    	break;
-		    case 'D':
-		    	processTheChar('D', lastChar);
-		    	lastChar = 'D';
-		    	break;
-
+			    case 'L':
+			    	processTheChar('L', lastChar);
+			        lastChar = 'L';
+			        break;
+			    case 'I':
+			    	processTheChar('I', lastChar);
+			    	lastChar = 'I';
+			    	break;
+			    case 'X':
+			    	processTheChar('X', lastChar);
+			    	lastChar = 'X';
+			    	break;
+			    case 'D':
+			    	processTheChar('D', lastChar);
+			    	lastChar = 'D';
+			    	break;
+    		}
 		}
-			}
     }
 
 	private void processTheChar(char c, char lastChar) throws RomanNumeralsException {
