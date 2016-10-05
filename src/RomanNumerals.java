@@ -121,9 +121,16 @@ public class RomanNumerals {
     }
 
 	private void processTheChar(char c, char lastChar) throws RomanNumeralsException {
+		boolean x = false;
 		if( c == 'L' )
 			if( lastChar == 'I' )
 				throw new RomanNumeralsException();
+		if ( c == 'C' )
+			if(lastChar == 'X' && x == true)
+				throw new RomanNumeralsException();
+		if ( c == 'X' )
+			if( lastChar == 'X' )
+				x=true;
 		if( c == 'D' )
 			if( lastChar == 'X' )
 				throw new RomanNumeralsException();
