@@ -11,13 +11,18 @@ public class RomanNumerals {
 				"VV", "LL", "DD",
 				
 				// can't subtract from too big numbers
-				"IL", "IC", "ID", "IM", "XD", "XM",
+				"IL", "IC", "ID", "IM",
+				"XD", "XM",
 				
 				// can't subtract more than once
-				"IIV", "IIX", "XXL", "XXC", "CCD", "CCM",
+				"IIV", "IIX",
+				"XXL", "XXC",
+				"CCD", "CCM",
 				
 				// can't subtract the '5' symbols
-				"VX", "VL", "VC", "VD", "VM", "LC", "LD", "LM", "DM",
+				"VX", "VL", "VC", "VD", "VM",
+				"LC", "LD", "LM",
+				"DM",
 				
 				// other than the allowed symbols
 				"[^IVXLCDM]"
