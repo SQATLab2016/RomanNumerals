@@ -351,3 +351,10 @@ UnitTestSessionAction 1475670537765 Rerun TestRomanNumerals (Failed Tests first)
 RefactoringAction 1475670552141 TestRomanNumerals.java ADD void test_XL_40()/2 METHOD
 RefactoringAction 1475670556157 TestRomanNumerals.java RENAME test_XL_40()/2=>void test_DCCC_800() METHOD
 EditAction 1475670564883 TestRomanNumerals.java 6219 46 62 16
+UnitTestCaseAction 1475670567474 TestRomanNumerals.java OK
+UnitTestSessionAction 1475670567475 Rerun TestRomanNumerals (Failed Tests first) OK
+RefactoringAction 1475670577202 TestRomanNumerals.java ADD void test_DCCC_800()/2 METHOD
+RefactoringAction 1475670587231 TestRomanNumerals.java RENAME test_DCCC_800()/2=>void test_MCMLXXX_800() METHOD
+RefactoringAction 1475670590247 TestRomanNumerals.java RENAME test_MCMLXXX_800()=>void test_MCMLXXXIV_() METHOD
+RefactoringAction 1475670592763 TestRomanNumerals.java RENAME test_MCMLXXXIV_()=>void test_MCMLXXXIV_1984() METHOD
+EditAction 1475670601757 TestRomanNumerals.java 6353 47 64 17
