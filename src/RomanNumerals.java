@@ -30,7 +30,8 @@ public class RomanNumerals {
 				throw new NumberFormatException("Too many duplicate numeral characters.");
 			}
 			
-			if (lastSub == getElementaryValue(romanNum.charAt(i))) {
+			if ((i + 1 < romanNum.length()) && canBeSubtrahendElementaryValue(romanNum.charAt(i)) &&
+					romanNum.charAt(i) == romanNum.charAt(i + 1)) {
 				throw new NumberFormatException("Illegal multiple subtractions");
 			}
 			
