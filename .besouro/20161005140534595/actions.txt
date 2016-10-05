@@ -303,3 +303,9 @@ EditAction 1475670376880 RomanNumerals.java 2042 1 7 0
 UnitTestCaseAction 1475670379439 TestRomanNumerals.java OK
 UnitTestSessionAction 1475670379440 Rerun TestRomanNumerals (Failed Tests first) OK
 EditAction 1475670394438 RomanNumerals.java 2024 1 7 0
+UnitTestCaseAction 1475670397126 TestRomanNumerals.java OK
+UnitTestSessionAction 1475670397127 Rerun TestRomanNumerals (Failed Tests first) OK
+RefactoringAction 1475670406619 TestRomanNumerals.java ADD void test_VII_7()/2 METHOD
+RefactoringAction 1475670408640 TestRomanNumerals.java RENAME test_VII_7()/2=>void test_VIII_() METHOD
+RefactoringAction 1475670409657 TestRomanNumerals.java RENAME test_VIII_()=>void test_VIII_8() METHOD
+EditAction 1475670412897 TestRomanNumerals.java 5281 38 46 8
