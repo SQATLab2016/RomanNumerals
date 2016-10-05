@@ -97,7 +97,7 @@ public class RomanNumerals {
 		
     }
     
-    private void checkIfValidSubtraction(String romanNum) throws RomanNumeralsException {
+    public void checkIfValidSubtraction(String romanNum) throws RomanNumeralsException {
     	char lastChar = 0;
     	for(int i = romanNum.length() - 1; i >= 0 ; i--) {
     		switch (romanNum.charAt(i)) {
@@ -126,7 +126,6 @@ public class RomanNumerals {
     }
 
 	private void processTheChar(char c, char lastChar) throws RomanNumeralsException {
-
 		if( c == 'I' )
 			if( lastChar == 'L' )
 				throw new RomanNumeralsException();
