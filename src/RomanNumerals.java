@@ -9,7 +9,6 @@ public class RomanNumerals {
 	private static final char M = 'M';
 
 	public int convertToInteger(String romanNum) {
-		// To be Implemented
 		int value = 0;
 		int stringLength = romanNum.length();
 		
