@@ -158,7 +158,7 @@ public class TestRomanNumerals {
 	
 	@Test
 	public void testConverter_ConvertLX_shouldBe_60(){
-		assertRomanNumebrEqual("LX", 40);
+		assertRomanNumebrEqual("LX", 60);
 	}
 	
 	private void assertRomanNumebrEqual(String romanNumeral, int expectedNumber){

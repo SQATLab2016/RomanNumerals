@@ -11,6 +11,9 @@ public class RomanNumerals {
 
 		if (romanNum.length() == 2) {
 				if (romanNum.charAt(0) != romanNum.charAt(1)) {
+					if(numeralOrder.indexOf(romanNum.charAt(0)) > numeralOrder.indexOf(romanNum.charAt(1))){
+						return addNumerals(romanNum);
+					}
 					if (numeralOrder.indexOf(romanNum.charAt(1)) - numeralOrder.indexOf(romanNum.charAt(0)) < 3) {
 						if (getSingularValue(getStringCharAt(romanNum, 1)) > getSingularValue(
 								getStringCharAt(romanNum, 0))) {
