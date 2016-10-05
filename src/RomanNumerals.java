@@ -7,6 +7,7 @@ public class RomanNumerals {
 
 		while (loop < rommanNumArray.length) {
 			result = result + checkSingleNumeral(rommanNumArray[loop]);
+			loop++;
 		}
 
 		return result;
