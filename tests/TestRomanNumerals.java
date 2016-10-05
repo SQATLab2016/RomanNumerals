@@ -76,6 +76,11 @@ public class TestRomanNumerals {
 		assertRomanNumebrEqual("MM", 2000);
 	}
 	
+	@Test
+	public void testConverter_ConvertVV_shouldBe_minus1(){
+		assertRomanNumebrEqual("VV", -1);
+	}
+	
 	private void assertRomanNumebrEqual(String romanNumeral, int expectedNumber){
 		int number = numeral.convertToInteger(romanNumeral);
 		

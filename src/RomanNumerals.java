@@ -1,35 +1,26 @@
 
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
-		if(romanNum.equals("I")){
+			return romanNum.length()*getSingularValue(String.valueOf(romanNum.charAt(0)));		
+		
+	}
+	
+	private int getSingularValue(String roman){
+		if(roman.equals("I")){
 			return 1;
-		}else if(romanNum.equals("V")){
+		}else if(roman.equals("V")){
 			return 5;
-		}else if(romanNum.equals("X")){
+		}else if(roman.equals("X")){
 			return 10;
-		}else if(romanNum.equals("L")){
+		}else if(roman.equals("L")){
 			return 50;
-		}else if(romanNum.equals("C")){
+		}else if(roman.equals("C")){
 			return 100;
-		}else if(romanNum.equals("D")){
+		}else if(roman.equals("D")){
 			return 500;
-		}else if(romanNum.equals("M")){
+		}else if(roman.equals("M")){
 			return 1000;
-		}else if(romanNum.equals("II")){
-			return 2;
-		}else if(romanNum.equals("III")){
-			return 3;
-		}else if(romanNum.equals("XXX")){
-			return 30;
-		}else if(romanNum.equals("CCC")){
-			return 300;
-		}else if(romanNum.equals("MM")){
-			return 2000;
-		}else if(romanNum.equals("MMM")){
-			return 3000;
 		}
-		
 		return 0;
-		
 	}
 }
