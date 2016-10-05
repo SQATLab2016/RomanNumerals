@@ -65,8 +65,24 @@ public class TestRomanNumerals {
 		assertRomanNumerals("DCCC", 800);
 	}
 	
-	@Test (expected = IndexOutOfBoundsException.class) public void testRomanNumerals_I_repeated_four_times_IIII_() throws RomanNumeralsException {
+	@Test (expected = RomanNumeralsException.class) public void testRomanNumerals_I_repeated_four_times_IIII_exception() throws RomanNumeralsException {
 		assertRomanNumerals("IIII", 4);
+	}
+	
+	@Test ( expected = RomanNumeralsException.class ) public void testRomanNumerals_X_repeated_five_times_XXXXX_exception() throws RomanNumeralsException {
+		assertRomanNumerals("XXXXX", 50);
+	}
+	
+	@Test ( expected = RomanNumeralsException.class ) public void testRomanNumerals_V_repeated_three_times_VVVVV_exception() throws RomanNumeralsException {
+		assertRomanNumerals("VVVVV", 25);
+	}
+	
+	@Test ( expected = RomanNumeralsException.class ) public void testRomanNumerals_D_repeated_two_times_DD_exception() throws RomanNumeralsException {
+		assertRomanNumerals("DD", 1000);
+	}
+	
+	@Test ( expected = RomanNumeralsException.class ) public void testRomanNumerals__I_subtractedFromL_exception() throws RomanNumeralsException {
+		assertRomanNumerals("IL", 49);
 	}
 	
 }

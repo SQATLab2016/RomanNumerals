@@ -11,6 +11,7 @@ public class RomanNumerals {
 	
 	public int convertToInteger(String romanNum) throws RomanNumeralsException {	
 			checkHowManySimilarRomanNums(romanNum);
+			checkIfValidSubtraction(romanNum);
 	        for (int i = romanNum.length() - 1; i >= 0 ; i--) {
 	            handleRomanNumbers(romanNum, i);
 	        }
@@ -93,5 +94,26 @@ public class RomanNumerals {
 		if(romanI > 3 || romanX > 3 || romanC > 3 || romanM > 3 || romanV > 1 || romanL > 1 || romanD > 1)
 			throw new RomanNumeralsException();
 		
-   }
+    }
+    
+    private void checkIfValidSubtraction(String romanNum) throws RomanNumeralsException {
+    	char lastChar = 0;
+    	for(int i=0; i<romanNum.length(); i++) {
+    		switch (romanNum.charAt(i)) {
+		    case 'L':
+		    	processTheChar('L', lastChar);
+		        lastNumber = 50;
+		        break;
+		    default:
+		    	break;
+
+		}
+			}
+    }
+
+	private void processTheChar(char c, char lastChar) throws RomanNumeralsException {
+		if( c == 'L' )
+			if( lastChar != 'I')
+				throw new RomanNumeralsException();
+	}
 }
