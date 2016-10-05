@@ -13,11 +13,8 @@ public class RomanNumerals {
 		int value = 0;
 		int stringLength = romanNum.length();
 		
-		if (stringLength > 0)
-		{
-			for (int i = stringLength - 1; i >= 0; i--) {
-				value += parseCharacterToValue(romanNum, i);
-			}
+		for (int i = stringLength - 1; i >= 0; i--) {
+			value += parseCharacterToValue(romanNum, i);
 		}
 		return value;
 		
