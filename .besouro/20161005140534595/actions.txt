@@ -21,3 +21,8 @@ EditAction 1475665735325 RomanNumerals.java 826 1 4 0
 UnitTestCaseAction 1475665737991 TestRomanNumerals.java OK
 UnitTestSessionAction 1475665737992 TestRomanNumerals.java OK
 EditAction 1475665760148 RomanNumerals.java 840 1 4 0
+UnitTestCaseAction 1475665762408 TestRomanNumerals.java OK
+UnitTestSessionAction 1475665762409 TestRomanNumerals.java OK
+RefactoringAction 1475665770238 TestRomanNumerals.java ADD void test_V_cannot_be_subtracted_from_L()/2 METHOD
+RefactoringAction 1475665772296 TestRomanNumerals.java RENAME test_V_cannot_be_subtracted_from_L()/2=>void test_V_cannot_be_subtracted_from_C() METHOD
+EditAction 1475665773889 TestRomanNumerals.java 2797 20 25 5
