@@ -257,3 +257,6 @@ RefactoringAction 1475670151051 RomanNumerals.java ADD void validateSubstraction
 EditAction 1475670151051 RomanNumerals.java 3111 7 18 0
 RefactoringAction 1475670231836 TestRomanNumerals.java ADD void testRomanNumerals_XM_err()/2 METHOD
 EditAction 1475670241087 TestRomanNumerals.java 3460 24 42 18
+UnitTestCaseAction 1475670251760 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475670251760 TestRomanNumerals.java FAIL
+EditAction 1475670360024 RomanNumerals.java 3183 7 18 0

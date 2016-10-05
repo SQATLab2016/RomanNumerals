@@ -64,6 +64,9 @@ public class RomanNumerals {
 
 	private int getCurrentValue(int currentVal, int nextVal) throws Exception {
 		if (currentVal == nextVal) {
+			if (true) {
+				throw new Exception("invalid substraction");
+			}
 			return currentVal;
 		}
 		else if (currentVal < nextVal) {
