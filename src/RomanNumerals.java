@@ -7,12 +7,14 @@ public class RomanNumerals {
 		throw new RomanNumeralException("No equivalent found for given roman number: " + romanNum);
 	}
 	
-	public boolean isSubtraction(String romanNum) throws RomanNumeralException {
+	public boolean isSubtraction(String romanNum) {
 		// Only one subtraction can be made per numeral
-		if (romanNum.length > 2)
+		if (romanNum.length() > 2)
 			return false;
 		
 		/*if (convertToInteger(romanNum)) 
 			return ;*/
+		
+		return true; // this ok or something else?
 	}
 }
