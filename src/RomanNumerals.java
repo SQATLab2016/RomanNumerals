@@ -8,9 +8,10 @@ public class RomanNumerals {
 	private static final char D = 'D';
 	private static final char M = 'M';
 	
-	private int[] occurencies = {0,0,0,0,0,0,0};
+	private int[] occurencies;
 
 	public int convertToInteger(String romanNum) {
+		occurencies = [0,0,0,0,0,0,0];
 		int value = 0;
 		
 		for (int i = romanNum.length() - 1; i >= 0; i--) {
