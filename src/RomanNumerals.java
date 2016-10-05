@@ -14,7 +14,9 @@ public class RomanNumerals {
 		int duplicates = 0;
 		int subtractables = 0;
 		
-		for (int i = 0; i < romanNum.length(); i++) {
+		// Refactoring: changing direction
+		for (int i = romanNum.length() - 1; i >= 0; i--) {
+			/*
 			if (i > 0) {
 				if (romanNum.charAt(i - 1) == romanNum.charAt(i)) {
 					++duplicates;
@@ -42,9 +44,6 @@ public class RomanNumerals {
 				canBeSubtrahendElementaryValue(romanNum.charAt(i)) &&
 				getElementaryValue(romanNum.charAt(i)) < getElementaryValue(romanNum.charAt(i + 1))) {
 
-				if (subtractables > 1)
-					throw new NumberFormatException("Illegal multiple subtractions.");
-				
 				int diff = getElementaryIndex(romanNum.charAt(i + 1))
 						- getElementaryIndex(romanNum.charAt(i));
 				
@@ -57,6 +56,19 @@ public class RomanNumerals {
 				retValue += getElementaryValue(romanNum.charAt(i)) - lastSub;
 				lastSub = 0;
 			}
+			*/
+			
+			char c0 = romanNum.charAt(i);
+			
+			int subtrahend = 0;
+			
+			for (int j = i - 1; j >= 0; j--) {
+				c1 = romanNum.charAt(j);
+				
+				if (canBeSubtrahendElementaryValue(c1))
+					subtrahend = 0;
+			}
+			
 		}
 		
 		return retValue;
