@@ -109,3 +109,4 @@ RefactoringAction 1475670944723 RomanNumerals.java ADD boolean isOneTimeRepeatab
 RefactoringAction 1475670948238 RomanNumerals.java RENAME isOneTimeRepeatable(char)/2=>boolean canBe(char) METHOD
 RefactoringAction 1475670958754 RomanNumerals.java REMOVE canBe(char) METHOD
 EditAction 1475671077114 RomanNumerals.java 2955 6 18 0
+EditAction 1475671087365 RomanNumerals.java 2961 6 18 0
