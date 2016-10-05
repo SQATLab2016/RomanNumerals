@@ -16,9 +16,7 @@ public class RomanNumerals {
 				result = result + checkSingleNumeral(rommanNumArray[loop]);
 				loop++;
 			}
-
 		}
-
 		return result;
 	}
 
