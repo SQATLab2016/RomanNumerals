@@ -8,7 +8,7 @@ public class RomanNumerals {
 	private static final char D = 'D';
 	private static final char M = 'M';
 	
-	private int[] occurencies = {0};
+	private int[] occurencies = {0,0,0,0,0,0,0};
 
 	public int convertToInteger(String romanNum) {
 		int value = 0;

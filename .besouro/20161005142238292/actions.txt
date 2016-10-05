@@ -57,3 +57,6 @@ RefactoringAction 1475667260462 RomanNumerals.java RENAME <initializer /1>=>int 
 RefactoringAction 1475667274378 RomanNumerals.java RENAME occurencies=><initializer /1> null
 RefactoringAction 1475667278496 RomanNumerals.java RENAME <initializer /1>=>int FIELD
 EditAction 1475667339789 RomanNumerals.java 1742 4 10 0
+UnitTestCaseAction 1475667342194 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475667342194 TestRomanNumerals.java FAIL
+EditAction 1475667366031 RomanNumerals.java 1754 4 10 0
