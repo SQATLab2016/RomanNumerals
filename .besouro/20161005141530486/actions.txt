@@ -145,3 +145,19 @@ RefactoringAction 1475669061331 TestRomanNumerals.java ADD void testConverter_Co
 RefactoringAction 1475669065853 TestRomanNumerals.java RENAME testConverter_ConvertXD_shouldBe_Minus1()/2=>void testConverter_ConvertX_shouldBe_Minus1() METHOD
 RefactoringAction 1475669066871 TestRomanNumerals.java RENAME testConverter_ConvertX_shouldBe_Minus1()=>void testConverter_ConvertXXC_shouldBe_Minus1() METHOD
 EditAction 1475669072079 TestRomanNumerals.java 2779 25 26 25
+UnitTestCaseAction 1475669074141 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475669074142 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475669264808 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475669264809 TestRomanNumerals.java FAIL
+RefactoringAction 1475669308636 RomanNumerals.java ADD boolean allCharacters FIELD
+RefactoringAction 1475669310650 RomanNumerals.java RENAME allCharacters=>boolean allCharactersAre FIELD
+RefactoringAction 1475669312663 RomanNumerals.java RENAME allCharactersAre=>boolean allCharactersAreSame FIELD
+RefactoringAction 1475669313676 RomanNumerals.java RENAME allCharactersAreSame=>boolean allCharactersAreSame() METHOD
+RefactoringAction 1475669320188 RomanNumerals.java RENAME allCharactersAreSame()=>boolean allCharactersAreSame(String) METHOD
+CompilationAction 1475669498034 RomanNumerals.java
+CompilationAction 1475669561092 RomanNumerals.java
+UnitTestCaseAction 1475669561475 TestRomanNumerals.java OK
+UnitTestSessionAction 1475669561476 TestRomanNumerals.java OK
+RefactoringAction 1475669596441 TestRomanNumerals.java ADD void testConverter_ConvertXXC_shouldBe_Minus1()/2 METHOD
+RefactoringAction 1475669601954 TestRomanNumerals.java RENAME testConverter_ConvertXXC_shouldBe_Minus1()/2=>void testConverter_ConvertVX_shouldBe_Minus1() METHOD
+EditAction 1475669606747 TestRomanNumerals.java 2883 26 27 26

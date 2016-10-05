@@ -10,7 +10,7 @@ public class RomanNumerals {
 		}
 
 		if (romanNum.length() < 4) {
-			if (romanNum.length() > 1) {
+			if (romanNum.length() == 2) {
 				if (romanNum.charAt(0) != romanNum.charAt(1)) {
 					if (numeralOrder.indexOf(romanNum.charAt(1)) - numeralOrder.indexOf(romanNum.charAt(0)) < 3) {
 						return getSingularValue(getStringCharAt(romanNum, 1))
@@ -20,12 +20,25 @@ public class RomanNumerals {
 					return romanNum.length() * getSingularValue(getStringCharAt(romanNum, 0));
 				}
 			} else {
-				return romanNum.length() * getSingularValue(getStringCharAt(romanNum, 0));
+				if (allCharactersAreSame(romanNum)) {
+					return romanNum.length() * getSingularValue(getStringCharAt(romanNum, 0));
+				} else {
+					return -1;
+				}
 			}
 		}
 
 		return -1;
 
+	}
+
+	private boolean allCharactersAreSame(String num) {
+		for (int i = 1; i < num.toCharArray().length; i++) {
+			if (num.charAt(i) != num.charAt(i - 1)) {
+				return false;
+			}
+		}
+		return true;
 	}
 
 	private String getStringCharAt(String theString, int index) {

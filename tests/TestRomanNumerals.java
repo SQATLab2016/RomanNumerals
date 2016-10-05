@@ -126,6 +126,11 @@ public class TestRomanNumerals {
 		assertRomanNumebrEqual("XXC", -1);
 	}
 	
+	@Test
+	public void testConverter_ConvertVX_shouldBe_Minus1(){
+		assertRomanNumebrEqual("VX", -1);
+	}
+	
 	private void assertRomanNumebrEqual(String romanNumeral, int expectedNumber){
 		int number = numeral.convertToInteger(romanNumeral);
 		
