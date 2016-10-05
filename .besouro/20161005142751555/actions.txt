@@ -1,0 +1,118 @@
+FileOpenedAction 1475666871807 TestRomanNumerals.java 159 1 1 0
+RefactoringAction 1475667505999 TestRomanNumerals.java RENAME test()=>void atMosttest() METHOD
+RefactoringAction 1475667509521 TestRomanNumerals.java RENAME atMosttest()=>void atMost3test() METHOD
+RefactoringAction 1475667513038 TestRomanNumerals.java RENAME atMost3test()=>void atMost3chartest() METHOD
+RefactoringAction 1475667515554 TestRomanNumerals.java RENAME atMost3chartest()=>void atMost3charest() METHOD
+RefactoringAction 1475667516571 TestRomanNumerals.java RENAME atMost3charest()=>void atMost3charTest() METHOD
+RefactoringAction 1475667519592 TestRomanNumerals.java RENAME atMost3charTest()=>void atMost3CharTest() METHOD
+RefactoringAction 1475667594318 TestRomanNumerals.java MOVE <anonymous /1>=>class TestRomanNumerals METHOD
+RefactoringAction 1475667623953 TestRomanNumerals.java REMOVE atMost3Char() METHOD
+RefactoringAction 1475667626480 TestRomanNumerals.java ADD void atMost3Char() METHOD
+RefactoringAction 1475667627506 TestRomanNumerals.java REMOVE atMost3Char() METHOD
+EditAction 1475667829820 TestRomanNumerals.java 271 1 3 0
+CompilationAction 1475667831177 TestRomanNumerals.java
+CompilationAction 1475667831179 TestRomanNumerals.java
+RefactoringAction 1475667870445 RomanNumerals.java ADD Boolean atMost3CharCheck(String) METHOD
+RefactoringAction 1475667912544 RomanNumerals.java ADD RomanNumerals(String) METHOD
+RefactoringAction 1475667939184 RomanNumerals.java ADD string nu FIELD
+RefactoringAction 1475667940202 RomanNumerals.java RENAME nu=>string num FIELD
+RefactoringAction 1475667944218 RomanNumerals.java REMOVE num FIELD
+RefactoringAction 1475667979592 RomanNumerals.java ADD String number FIELD
+RefactoringAction 1475668161192 RomanNumerals.java RENAME atMost3CharCheck(String)=>Boolean atMost3CharCheck() METHOD
+RefactoringAction 1475668166221 RomanNumerals.java RENAME atMost3CharCheck()=>Boolean atMost3CharCheck(char) METHOD
+RefactoringAction 1475668169247 RomanNumerals.java RENAME atMost3CharCheck(char)=>Boolean atMost3CharCheck(har) METHOD
+RefactoringAction 1475668170763 RomanNumerals.java RENAME atMost3CharCheck(har)=>Boolean atMost3CharCheck(Char) METHOD
+RefactoringAction 1475668177278 RomanNumerals.java RENAME atMost3CharCheck(Char)=>Boolean atMost3CharCheck(char) METHOD
+EditAction 1475668511159 RomanNumerals.java 452 3 6 0
+CompilationAction 1475668512328 TestRomanNumerals.java
+CompilationAction 1475668679934 TestRomanNumerals.java
+UnitTestCaseAction 1475668680414 TestRomanNumerals.java OK
+UnitTestSessionAction 1475668680416 TestRomanNumerals.java OK
+UnitTestCaseAction 1475668687254 TestRomanNumerals.java OK
+UnitTestSessionAction 1475668687256 TestRomanNumerals.java OK
+EditAction 1475668707630 TestRomanNumerals.java 289 1 4 1
+UnitTestCaseAction 1475668708979 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475668708980 TestRomanNumerals.java FAIL
+EditAction 1475668724669 TestRomanNumerals.java 290 1 4 1
+UnitTestCaseAction 1475668726103 TestRomanNumerals.java OK
+UnitTestSessionAction 1475668726104 TestRomanNumerals.java OK
+EditAction 1475668730903 TestRomanNumerals.java 289 1 4 1
+UnitTestCaseAction 1475668732291 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475668732292 TestRomanNumerals.java FAIL
+EditAction 1475668743639 TestRomanNumerals.java 289 1 4 1
+UnitTestCaseAction 1475668745063 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475668745065 TestRomanNumerals.java FAIL
+EditAction 1475668750499 TestRomanNumerals.java 290 1 4 1
+UnitTestCaseAction 1475668751843 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475668751845 TestRomanNumerals.java FAIL
+EditAction 1475668770872 TestRomanNumerals.java 290 1 4 1
+UnitTestCaseAction 1475668772322 TestRomanNumerals.java OK
+UnitTestSessionAction 1475668772323 TestRomanNumerals.java OK
+EditAction 1475668779831 TestRomanNumerals.java 289 1 4 1
+UnitTestCaseAction 1475668781059 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475668781060 TestRomanNumerals.java FAIL
+EditAction 1475668828188 TestRomanNumerals.java 286 1 4 1
+CompilationAction 1475668829492 TestRomanNumerals.java
+RefactoringAction 1475668846250 RomanNumerals.java RENAME atMost3CharCheck(char)=>Boolean atMost3CharCheck() METHOD
+EditAction 1475669218683 RomanNumerals.java 712 3 9 0
+CompilationAction 1475669219875 RomanNumerals.java
+CompilationAction 1475669238550 RomanNumerals.java
+CompilationAction 1475669238728 RomanNumerals.java
+EditAction 1475669244527 RomanNumerals.java 713 3 9 0
+EditAction 1475669276652 TestRomanNumerals.java 285 1 4 1
+UnitTestCaseAction 1475669278282 TestRomanNumerals.java OK
+UnitTestSessionAction 1475669278283 TestRomanNumerals.java OK
+EditAction 1475669290798 TestRomanNumerals.java 286 1 4 1
+UnitTestCaseAction 1475669292319 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475669292320 TestRomanNumerals.java FAIL
+EditAction 1475669302783 TestRomanNumerals.java 288 1 4 1
+UnitTestCaseAction 1475669304221 TestRomanNumerals.java OK
+UnitTestSessionAction 1475669304222 TestRomanNumerals.java OK
+EditAction 1475669308613 TestRomanNumerals.java 289 1 4 1
+UnitTestCaseAction 1475669310492 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475669310493 TestRomanNumerals.java FAIL
+EditAction 1475669327190 TestRomanNumerals.java 287 1 4 1
+UnitTestCaseAction 1475669328713 TestRomanNumerals.java OK
+UnitTestSessionAction 1475669328714 TestRomanNumerals.java OK
+EditAction 1475669336905 TestRomanNumerals.java 288 1 4 1
+UnitTestCaseAction 1475669338353 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475669338354 TestRomanNumerals.java FAIL
+EditAction 1475669368389 TestRomanNumerals.java 289 1 4 1
+UnitTestCaseAction 1475669369764 TestRomanNumerals.java OK
+UnitTestSessionAction 1475669369765 TestRomanNumerals.java OK
+EditAction 1475669375003 TestRomanNumerals.java 290 1 4 1
+UnitTestCaseAction 1475669376470 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475669376471 TestRomanNumerals.java FAIL
+EditAction 1475669385325 TestRomanNumerals.java 292 1 4 1
+UnitTestCaseAction 1475669386517 TestRomanNumerals.java OK
+UnitTestSessionAction 1475669386518 TestRomanNumerals.java OK
+EditAction 1475669403039 TestRomanNumerals.java 289 1 4 1
+RefactoringAction 1475669492971 TestRomanNumerals.java ADD void atMost3CharTest()/2 METHOD
+RefactoringAction 1475669502986 TestRomanNumerals.java RENAME atMost3CharTest()/2=>void CharTest() METHOD
+RefactoringAction 1475669508500 TestRomanNumerals.java RENAME CharTest()=>void repeatCharTest() METHOD
+RefactoringAction 1475669619057 RomanNumerals.java ADD Boolean repetitionCharCheck() METHOD
+EditAction 1475669727087 RomanNumerals.java 1125 4 15 0
+EditAction 1475669731328 TestRomanNumerals.java 479 2 8 2
+RefactoringAction 1475669765666 TestRomanNumerals.java RENAME repeatCharTest()=>void repetitionCharTest() METHOD
+EditAction 1475669777345 TestRomanNumerals.java 483 2 8 2
+UnitTestCaseAction 1475669778715 TestRomanNumerals.java OK
+UnitTestSessionAction 1475669778716 TestRomanNumerals.java OK
+EditAction 1475669784990 TestRomanNumerals.java 484 2 8 2
+UnitTestCaseAction 1475669786318 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475669786319 TestRomanNumerals.java FAIL
+EditAction 1475669792643 TestRomanNumerals.java 484 2 8 2
+UnitTestCaseAction 1475669794098 TestRomanNumerals.java OK
+UnitTestSessionAction 1475669794099 TestRomanNumerals.java OK
+EditAction 1475669800345 TestRomanNumerals.java 485 2 8 2
+UnitTestCaseAction 1475669801824 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475669801825 TestRomanNumerals.java FAIL
+EditAction 1475669808200 TestRomanNumerals.java 485 2 8 2
+UnitTestCaseAction 1475669809666 TestRomanNumerals.java OK
+UnitTestSessionAction 1475669809668 TestRomanNumerals.java OK
+EditAction 1475669814300 TestRomanNumerals.java 486 2 8 2
+UnitTestCaseAction 1475669815582 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475669815583 TestRomanNumerals.java FAIL
+EditAction 1475669820590 TestRomanNumerals.java 485 2 8 2
+EditAction 1475669843539 TestRomanNumerals.java 497 2 8 2
+UnitTestCaseAction 1475669993461 TestRomanNumerals.java OK
+UnitTestSessionAction 1475669993462 TestRomanNumerals.java OK
