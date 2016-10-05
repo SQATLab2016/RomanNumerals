@@ -1,0 +1,9 @@
+FileOpenedAction 1475668870473 TestRomanNumerals.java 318 1 2 1
+RefactoringAction 1475669518241 TestRomanNumerals.java ADD void is FIELD
+RefactoringAction 1475669527273 TestRomanNumerals.java RENAME is=>void is_subtraction FIELD
+RefactoringAction 1475669532803 TestRomanNumerals.java RENAME is_subtraction=>void issubtraction FIELD
+RefactoringAction 1475669534332 TestRomanNumerals.java RENAME issubtraction=>void isSubtraction FIELD
+RefactoringAction 1475669536361 TestRomanNumerals.java RENAME isSubtraction=>void isSubtraction() METHOD
+RefactoringAction 1475669814220 TestRomanNumerals.java ADD import org.junit.runner.RunWith IMPORT
+RefactoringAction 1475669822533 TestRomanNumerals.java ADD import org.junit.runners.Parameterized IMPORT
+EditAction 1475669828562 TestRomanNumerals.java 465 2 2 1

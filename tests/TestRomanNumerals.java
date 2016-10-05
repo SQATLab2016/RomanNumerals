@@ -1,7 +1,10 @@
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
 
+@RunWith(Parameterized.class)
 public class TestRomanNumerals {
 	//private RomanNumerals = new RomanNumerals();
 
@@ -11,4 +14,8 @@ public class TestRomanNumerals {
 		assertTrue(1 == numerals.convertToInteger("I"));
 	}
 
+	@Test
+	public void isSubtraction() {
+		
+	}
 }
