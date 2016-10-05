@@ -179,3 +179,6 @@ EditAction 1475668935140 TestRomanNumerals.java 2986 20 39 19
 UnitTestCaseAction 1475668936812 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475668936812 TestRomanNumerals.testRomanNumerals_LC_err FAIL
 EditAction 1475668946282 TestRomanNumerals.java 2960 20 39 19
+UnitTestCaseAction 1475668948047 TestRomanNumerals.java OK
+UnitTestSessionAction 1475668948047 TestRomanNumerals.java OK
+EditAction 1475668953071 TestRomanNumerals.java 2986 20 39 19
