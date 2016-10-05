@@ -13,3 +13,6 @@ RefactoringAction 1475666208086 TestRomanNumerals.java RENAME testConverter_Conv
 RefactoringAction 1475666209103 TestRomanNumerals.java RENAME testConverter_ConvertVV_shouldBe_minus=>void testConverter_ConvertVV_shouldBe_minus1 FIELD
 RefactoringAction 1475666211120 TestRomanNumerals.java RENAME testConverter_ConvertVV_shouldBe_minus1=>void testConverter_ConvertVV_shouldBe_minus1() METHOD
 EditAction 1475666229542 TestRomanNumerals.java 1842 16 17 16
+RefactoringAction 1475666261219 TestRomanNumerals.java RENAME testConverter_nonRomanNumeralJShouldBe0()=>void testConverter_nonRomanNumeralJShouldBenegative() METHOD
+RefactoringAction 1475666263734 TestRomanNumerals.java RENAME testConverter_nonRomanNumeralJShouldBenegative()=>void testConverter_nonRomanNumeralJShouldBenegativeOne() METHOD
+EditAction 1475666271053 RomanNumerals.java 548 2 3 0
