@@ -126,3 +126,10 @@ EditAction 1475666388624 TestRomanNumerals.java 4394 31 36 5
 UnitTestCaseAction 1475666391103 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475666391104 TestRomanNumerals.java FAIL
 EditAction 1475666402462 RomanNumerals.java 935 1 4 0
+UnitTestCaseAction 1475666405907 TestRomanNumerals.java OK
+UnitTestSessionAction 1475666405910 TestRomanNumerals (Failed Tests first) OK
+UnitTestCaseAction 1475666406831 TestRomanNumerals.java OK
+UnitTestSessionAction 1475666406834 Rerun TestRomanNumerals (Failed Tests first) OK
+RefactoringAction 1475666414221 TestRomanNumerals.java ADD void test_C_cannot_be_subtracted_twice_from_D()/2 METHOD
+RefactoringAction 1475666417740 TestRomanNumerals.java RENAME test_C_cannot_be_subtracted_twice_from_D()/2=>void test_C_cannot_be_subtracted_twice_from_M() METHOD
+EditAction 1475666418936 TestRomanNumerals.java 4543 32 37 5
