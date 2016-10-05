@@ -7,7 +7,13 @@ import org.junit.runners.Parameterized;
 @RunWith(Parameterized.class)
 public class TestRomanNumerals {
 	//private RomanNumerals = new RomanNumerals();
+	
+	private String romanTestNum;
 
+	public TestRomanNumerals(String parTestNum) {
+		romanTestNum = parTestNum;
+	}
+	
 	@Test
 	public void number_1_Generated() throws RomanNumeralException {
 		RomanNumerals numerals = new RomanNumerals();

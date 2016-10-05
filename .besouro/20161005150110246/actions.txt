@@ -7,3 +7,9 @@ RefactoringAction 1475669536361 TestRomanNumerals.java RENAME isSubtraction=>voi
 RefactoringAction 1475669814220 TestRomanNumerals.java ADD import org.junit.runner.RunWith IMPORT
 RefactoringAction 1475669822533 TestRomanNumerals.java ADD import org.junit.runners.Parameterized IMPORT
 EditAction 1475669828562 TestRomanNumerals.java 465 2 2 1
+RefactoringAction 1475670082177 TestRomanNumerals.java ADD TestRomanNumerals() METHOD
+RefactoringAction 1475670131215 TestRomanNumerals.java ADD String test FIELD
+RefactoringAction 1475670138237 TestRomanNumerals.java RENAME test=>String roman FIELD
+RefactoringAction 1475670144264 TestRomanNumerals.java RENAME roman=>String romanTestNum FIELD
+RefactoringAction 1475670167359 TestRomanNumerals.java RENAME TestRomanNumerals()=>TestRomanNumerals(String) METHOD
+EditAction 1475670175862 TestRomanNumerals.java 578 3 3 1
