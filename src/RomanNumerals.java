@@ -7,6 +7,8 @@ public class RomanNumerals {
 	private static final char C = 'C';
 	private static final char D = 'D';
 	private static final char M = 'M';
+	
+	private boolean subd = false;
 
 	public int convertToInteger(String romanNum) throws Exception {
 		int value = 0;
@@ -64,13 +66,14 @@ public class RomanNumerals {
 
 	private int getCurrentValue(int currentVal, int nextVal) throws Exception {
 		if (currentVal == nextVal) {
-			if (true) {
+			if (subd) {
 				throw new Exception("invalid substraction");
 			}
 			return currentVal;
 		}
 		else if (currentVal < nextVal) {
 			validateSubstraction(currentVal, nextVal);
+			subd = true;
 			return -currentVal;
 		}
 		else if (currentVal > nextVal) {
