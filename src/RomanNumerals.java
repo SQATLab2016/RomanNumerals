@@ -12,6 +12,7 @@ public class RomanNumerals {
 		int retValue = 0;
 		int lastSub = 0;
 		int duplicates = 0;
+		int subtractables = 0;
 		
 		for (int i = 0; i < romanNum.length(); i++) {
 			if (i > 0) {
@@ -29,6 +30,13 @@ public class RomanNumerals {
 			if (duplicates >= 3 && isThreeTimesRepeatable(romanNum.charAt(i))) {
 				throw new NumberFormatException("Too many duplicate numeral characters.");
 			}
+
+			if ((i < romanNum.length()) &&
+				canBeSubtrahendElementaryValue(romanNum.charAt(i))) {
+				subtractables++;
+			} else {
+				subtractables = 0;
+			}
 			
 			if ((i + 1 < romanNum.length()) &&
 				canBeSubtrahendElementaryValue(romanNum.charAt(i)) &&
@@ -37,15 +45,15 @@ public class RomanNumerals {
 				int diff = getElementaryIndex(romanNum.charAt(i + 1))
 						- getElementaryIndex(romanNum.charAt(i));
 				
-				if (lastSub != 0)
-					throw new NumberFormatException("Illegal multiple subtractions.");
-				
 				if (diff > 2)
 					throw new NumberFormatException("Illegal subtraction format.");
 				
 				lastSub = getElementaryValue(romanNum.charAt(i));
 				
 			} else {
+				if (subtractables > 1)
+					throw new NumberFormatException("Illegal multiple subtractions.");
+					
 				retValue += getElementaryValue(romanNum.charAt(i)) - lastSub;
 				lastSub = 0;
 			}
