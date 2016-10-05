@@ -54,6 +54,12 @@ public class TestRomanNumerals {
 		assertEquals(8, number);
 	}
 	
+	@Test
+	public void test_IX_9() {
+		int number = rn.convertToInteger("IX");
+		assertEquals(9, number);
+	}
+	
 	@Test (expected = IllegalArgumentException.class)
 	public void test_I_cannot_repeat_four_times() {
 		rn.convertToInteger("IIII");
