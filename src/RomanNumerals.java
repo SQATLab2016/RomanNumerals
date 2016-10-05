@@ -20,6 +20,9 @@ public class RomanNumerals {
 					if (romanNum.charAt(i) == romanNum.charAt(j)) {
 						repeated++;
 					}
+					else {
+						break;
+					}
 				}
 			}
 			if (repeated > 3) {
