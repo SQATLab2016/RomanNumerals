@@ -55,3 +55,7 @@ EditAction 1475668828188 TestRomanNumerals.java 286 1 4 1
 CompilationAction 1475668829492 TestRomanNumerals.java
 RefactoringAction 1475668846250 RomanNumerals.java RENAME atMost3CharCheck(char)=>Boolean atMost3CharCheck() METHOD
 EditAction 1475669218683 RomanNumerals.java 712 3 9 0
+CompilationAction 1475669219875 RomanNumerals.java
+CompilationAction 1475669238550 RomanNumerals.java
+CompilationAction 1475669238728 RomanNumerals.java
+EditAction 1475669244527 RomanNumerals.java 713 3 9 0

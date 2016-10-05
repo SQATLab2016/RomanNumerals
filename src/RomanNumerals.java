@@ -28,7 +28,7 @@ public class RomanNumerals {
 				++counter2;
 			}
 			if('C' == number.charAt(i)) {
-				++counte3;
+				++counter3;
 			}
 			if('M' == number.charAt(i)) {
 				++counter4;
