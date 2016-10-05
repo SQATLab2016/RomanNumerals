@@ -69,6 +69,7 @@ public class RomanNumerals {
 			if (subd) {
 				throw new Exception("invalid substraction");
 			}
+			subd = false;
 			return currentVal;
 		}
 		else if (currentVal < nextVal) {
@@ -77,6 +78,7 @@ public class RomanNumerals {
 			return -currentVal;
 		}
 		else if (currentVal > nextVal) {
+			subd = false;
 			return currentVal;
 		}
 		return 0;
