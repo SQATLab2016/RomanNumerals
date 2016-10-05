@@ -35,6 +35,9 @@ public class RomanNumerals {
 		if ((c == I || c == X || c == C || c == M) && repeated > 3) {
 			throw new Exception("Symbol repeated too many times");
 		}
+		else if ((c == V || c == L || c == D) && repeated > 1) {
+			throw new Exception("Invalid symbol repeated");
+		}
 	}
 
 	private int parseCharacterToValue(String romanNum, int i) {
