@@ -19,8 +19,7 @@ public class RomanNumerals {
 				} else {
 					return romanNum.length() * getSingularValue(getStringCharAt(romanNum, 0));
 				}
-
-			}else{
+			} else {
 				return romanNum.length() * getSingularValue(getStringCharAt(romanNum, 0));
 			}
 		}

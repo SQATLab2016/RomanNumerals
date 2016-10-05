@@ -132,3 +132,10 @@ RefactoringAction 1475668961097 TestRomanNumerals.java RENAME testConverter_Conv
 RefactoringAction 1475668976610 TestRomanNumerals.java RENAME testConverter_ConvertXC_shouldBe_Minus1()=>void testConverter_ConvertXC_shouldBe_90() METHOD
 EditAction 1475668987777 TestRomanNumerals.java 2569 23 24 23
 EditAction 1475669000118 TestRomanNumerals.java 2569 23 24 23
+UnitTestCaseAction 1475669005278 TestRomanNumerals.java OK
+UnitTestSessionAction 1475669005279 TestRomanNumerals.java OK
+RefactoringAction 1475669014199 TestRomanNumerals.java ADD void testConverter_ConvertXC_shouldBe_90()/2 METHOD
+RefactoringAction 1475669017713 TestRomanNumerals.java RENAME testConverter_ConvertXC_shouldBe_90()/2=>void testConverter_ConvertXD_shouldBe_90() METHOD
+RefactoringAction 1475669022227 TestRomanNumerals.java RENAME testConverter_ConvertXD_shouldBe_90()=>void testConverter_ConvertXD_shouldBe_Minus() METHOD
+RefactoringAction 1475669023740 TestRomanNumerals.java RENAME testConverter_ConvertXD_shouldBe_Minus()=>void testConverter_ConvertXD_shouldBe_Minus1() METHOD
+EditAction 1475669030678 TestRomanNumerals.java 2673 24 25 24
