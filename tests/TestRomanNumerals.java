@@ -123,5 +123,9 @@ public class TestRomanNumerals {
 	@Test(expected=Exception.class) public void testRomanNumerals_VX_err() throws Exception  {
 		rn.convertToInteger("VX");
 	}
+	
+	@Test(expected=Exception.class) public void testRomanNumerals_LC_err() throws Exception  {
+		rn.convertToInteger("LC");
+	}
 
 }

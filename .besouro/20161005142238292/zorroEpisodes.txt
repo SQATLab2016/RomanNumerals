@@ -23,3 +23,5 @@
 1475670455331 test-first 3 345 true
 1475670530371 regression 1 75 true
 1475670543197 refactoring 2A 12 true
+1475670590110 test-last 1 46 false
+1475670593155 regression 1 3 false

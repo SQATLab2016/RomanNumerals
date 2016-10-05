@@ -279,3 +279,10 @@ UnitTestSessionAction 1475670543197 TestRomanNumerals.java OK
 EditAction 1475670550997 RomanNumerals.java 3281 7 18 0
 RefactoringAction 1475670580840 TestRomanNumerals.java ADD void testRomanNumerals_XXC_err()/2 METHOD
 EditAction 1475670587673 TestRomanNumerals.java 3590 25 43 18
+UnitTestCaseAction 1475670590110 TestRomanNumerals.java OK
+UnitTestSessionAction 1475670590110 TestRomanNumerals.testRomanNumerals_VX_err OK
+UnitTestCaseAction 1475670593155 TestRomanNumerals.java OK
+UnitTestSessionAction 1475670593155 TestRomanNumerals.java OK
+RefactoringAction 1475670608614 TestRomanNumerals.java ADD void testRomanNumerals_VX_err()/2 METHOD
+RefactoringAction 1475670610674 TestRomanNumerals.java RENAME testRomanNumerals_VX_err()/2=>void testRomanNumerals_LC_err()/2 METHOD
+EditAction 1475670612780 TestRomanNumerals.java 3720 26 44 18
