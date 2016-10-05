@@ -31,20 +31,45 @@ public class RomanNumerals {
 		int countD = 0;
 
 		for (int loop = 0; loop < rommanNumArray.length; loop++) {
-			if (rommanNumArray[loop] == 'V')
+			if (rommanNumArray[loop] == 'V') {
 				countV++;
-			else if (rommanNumArray[loop] == 'X')
+				countI = 0;
+				countX = 0;
+				countM = 0;
+				countC = 0;
+			} else if (rommanNumArray[loop] == 'X') {
 				countX++;
-			else if (rommanNumArray[loop] == 'I')
+				countI = 0;
+				countM = 0;
+				countC = 0;
+			} else if (rommanNumArray[loop] == 'I') {
 				countI++;
-			else if (rommanNumArray[loop] == 'M')
+				countX = 0;
+				countM = 0;
+				countC = 0;
+			} else if (rommanNumArray[loop] == 'M') {
 				countM++;
-			else if (rommanNumArray[loop] == 'C')
+				countI = 0;
+				countX = 0;
+				countC = 0;
+			} else if (rommanNumArray[loop] == 'C') {
 				countC++;
-			else if (rommanNumArray[loop] == 'L')
+				countI = 0;
+				countX = 0;
+				countM = 0;
+			} else if (rommanNumArray[loop] == 'L') {
 				countL++;
-			else if (rommanNumArray[loop] == 'D')
+				countI = 0;
+				countX = 0;
+				countM = 0;
+				countC = 0;
+			} else if (rommanNumArray[loop] == 'D') {
 				countD++;
+				countI = 0;
+				countX = 0;
+				countM = 0;
+				countC = 0;
+			}
 		}
 
 		if (countI > 3 || countX > 3 || countM > 3 || countC > 3 || countV > 1 || countL > 1 || countD > 1) {
