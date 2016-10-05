@@ -55,23 +55,31 @@ public class RomanNumerals {
 			throw new IllegalArgumentException();
 		}
 		
+		int sum = 0;
 		for (int i = 0; i < romanNum.length(); i++) {
 			String numeral = String.valueOf(romanNum.charAt(i));
 			int number = Numeral.valueOf(numeral).value();
 			
 			// last numeral
 			if (i + 1 == romanNum.length()) {
-				return number;
+				sum += number;
+				break;
 			}
 			
 			String nextNumeral = String.valueOf(romanNum.charAt(i + 1));
 			int nextNumber = Numeral.valueOf(nextNumeral).value();
 
-			// subtract or add
+			// subtract, e.g. IV
 			if (number < nextNumber) {
-				return nextNumber - number;
-			} else if (number > nextNumber) {
-				return number + nextNumber;
+				sum -= number;
+				i++;
+				continue;
+			}
+			
+			if (number > nextNumber) {
+				sum += number;
+				i++;
+				continue;
 			}
 			
 			// second last numeral
@@ -84,6 +92,6 @@ public class RomanNumerals {
 			return 3;
 		}
 		
-		return 0;
+		return sum;
 	}
 }
