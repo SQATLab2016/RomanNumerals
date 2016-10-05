@@ -44,6 +44,11 @@ public class TestRomanNumerals {
 		assertRomanNumerals(1000, "M");
 	}
 	
+	@Test
+	public void testRomanNumeral_IV_4(){
+		assertRomanNumerals(4, "IV");
+	}
+	
 	public void assertRomanNumerals(int expectedOutput, String input){
 		int result = romanNumerals.convertToInteger(input);
 		assertEquals(expectedOutput, result);
