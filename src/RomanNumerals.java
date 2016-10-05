@@ -5,7 +5,7 @@ public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
 		String patternString = String.join("|",
 				// repeat limit
-				"I{4}", "X{4}", "C{4}", "M{4}",
+				"IIII", "XXXX", "CCCC", "MMMM",
 				
 				// can't repeat these symbols
 				"VV", "LL", "DD",
