@@ -108,6 +108,12 @@ public class TestRomanNumerals {
 		assertEquals(1984, number);
 	}
 	
+	@Test
+	public void test_MMXIV_2014() {
+		int number = rn.convertToInteger("MMXIV");
+		assertEquals(2014, number);
+	}
+	
 	@Test (expected = IllegalArgumentException.class)
 	public void test_I_cannot_repeat_four_times() {
 		rn.convertToInteger("IIII");
