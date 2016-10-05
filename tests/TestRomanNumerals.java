@@ -48,6 +48,7 @@ public class TestRomanNumerals {
 			}
 		}
 		
-		assertTrue(false == caseFailed, "Subtraction not detected. Failed case: " + testCases[i], );
+		assertTrue("Subtraction not detected. Failed case: " + testCases[i],
+					false == caseFailed);
 	}
 }
