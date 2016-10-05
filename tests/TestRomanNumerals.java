@@ -10,7 +10,7 @@ public class TestRomanNumerals {
 		Boolean valid = false;
 		valid = rm.atMost3CharCheck(); 
 		
-		assertEquals(false, valid);
+		assertEquals(true, valid);
 	}
 	
 	
