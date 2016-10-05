@@ -111,7 +111,7 @@ public class RomanNumerals {
 
 	private void processTheChar(char c, char lastChar) throws RomanNumeralsException {
 		if( c == 'L' )
-			if( lastChar != 'I')
+			if( lastChar == 'I')
 				throw new RomanNumeralsException();
 	}
 }
