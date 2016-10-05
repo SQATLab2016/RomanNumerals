@@ -10,6 +10,12 @@ public class TestRomanNumerals {
 	public void initialize() {
 		mNumerals = new RomanNumerals();
 	}
+
+	
+	@Test(expected=NumberFormatException.class)
+	public void testConvertInteger_IllegalSubtraction_VX_Throw_NumberFormatException() {
+		mNumerals.convertToInteger("VX");
+	}
 	
 	@Test(expected=NumberFormatException.class)
 	public void testConvertInteger_IllegalSubtraction_XXC_Throw_NumberFormatException() {
