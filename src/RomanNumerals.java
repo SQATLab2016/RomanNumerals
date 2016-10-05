@@ -10,10 +10,10 @@ public class RomanNumerals {
 	}
 	
 	public int convertToInteger(String romanNum) throws RomanNumeralsException {	
-		checkHowManySimilarRomanNums(romanNum);
-        for (int i = romanNum.length() - 1; i >= 0 ; i--) {
-            handleRomanNumbers(romanNum, i);
-        }
+			checkHowManySimilarRomanNums(romanNum)
+	        for (int i = romanNum.length() - 1; i >= 0 ; i--) {
+	            handleRomanNumbers(romanNum, i);
+	        }
        return totalArabic;
 		 
     }
@@ -74,33 +74,24 @@ public class RomanNumerals {
 		int romanV = 0;
 		int romanI = 0;
 		int romanM = 0;
-    	for( int i = 1 ; i <= romanNum.length() ; i++ ) {
-			switch (romanNum.charAt(i)) {
-		    	case 'M':
-		    		romanM++;
-		    		break;
-			    case 'D':
-			    	romanD++;
-			        break;
-			    case 'C':
-			    	romanC++;
-			        break;
-			    case 'L':
-			    	romanL++;
-			        break;
-			    case 'X':
-			    	romanX++;
-			        break;
-			    case 'V':
-			    	romanV++;
-			        break;
-	
-			    case 'I':
-			    	romanI++;
-			        break;	
-    		}
-    		if (romanI > 3 || romanX > 3 || romanC > 3 || romanM > 3 || romanV > 1 || romanL > 1 || romanD > 1) 
-    			throw new RomanNumeralsException();    			
-    	}
+		for(int i=0; i<romanNum.length(); i++) {
+			   if(romanNum.charAt(i) == 'I')
+			      romanI++;
+			   if(romanNum.charAt(i) == 'V')
+				   romanV++;
+			   if(romanNum.charAt(i) == 'X')
+				   romanX++;
+			   if(romanNum.charAt(i) == 'L')
+				   romanL++;
+			   if(romanNum.charAt(i) == 'C')
+				   romanC++;
+			   if(romanNum.charAt(i) == 'D')
+				   romanD++;
+			   if(romanNum.charAt(i) == 'M')
+				   romanM++; 
+			}
+		if(romanI > 3 || romanX > 3 || romanC > 3 || romanM > 3 || romanV > 1 || romanL > 1 || romanD > 1)
+			throw new RomanNumeralsException();
+		
    }
 }
