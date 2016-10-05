@@ -43,5 +43,31 @@ public class RomanNumerals {
 		return true;
 		
 	}
+
+	public Boolean repetitionCharCheck() {
+		int counter1 = 0;
+		int counter2 = 0;
+		int counter3 = 0;
+
+		for(int i = 0; i<number.length(); ++i) {
+			
+			if('V' == number.charAt(i)) {
+				++counter1;
+			}
+			if('L' == number.charAt(i)) {
+				++counter2;
+			}
+			if('D' == number.charAt(i)) {
+				++counter3;
+			}
+			
+		}
+		
+		if(counter1>1 || counter2>1 || counter3>1 ) {
+			return false;
+		}
+		
+		return true;
+	}
 	
 }

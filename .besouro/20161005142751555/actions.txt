@@ -87,3 +87,8 @@ EditAction 1475669385325 TestRomanNumerals.java 292 1 4 1
 UnitTestCaseAction 1475669386517 TestRomanNumerals.java OK
 UnitTestSessionAction 1475669386518 TestRomanNumerals.java OK
 EditAction 1475669403039 TestRomanNumerals.java 289 1 4 1
+RefactoringAction 1475669492971 TestRomanNumerals.java ADD void atMost3CharTest()/2 METHOD
+RefactoringAction 1475669502986 TestRomanNumerals.java RENAME atMost3CharTest()/2=>void CharTest() METHOD
+RefactoringAction 1475669508500 TestRomanNumerals.java RENAME CharTest()=>void repeatCharTest() METHOD
+RefactoringAction 1475669619057 RomanNumerals.java ADD Boolean repetitionCharCheck() METHOD
+EditAction 1475669727087 RomanNumerals.java 1125 4 15 0
