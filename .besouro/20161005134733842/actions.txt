@@ -22,3 +22,6 @@ UnitTestCaseAction 1475665078885 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475665078886 TestRomanNumerals.java FAIL
 EditAction 1475665162007 RomanNumerals.java 690 2 6 0
 EditAction 1475665271094 RomanNumerals.java 768 2 6 0
+CompilationAction 1475665272303 RomanNumerals.java
+RefactoringAction 1475665276932 RomanNumerals.java ADD boolean checkIfFirstIsSmall(char, char) METHOD
+EditAction 1475665629913 RomanNumerals.java 1086 3 9 0

@@ -9,7 +9,9 @@ public class RomanNumerals {
 
 			if (loop + 1 < rommanNumArray.length
 					&& checkIfFirstIsSmall(rommanNumArray[loop], rommanNumArray[loop + 1])) {
-
+				result = result
+						+ (checkSingleNumeral(rommanNumArray[loop + 1]) - checkSingleNumeral(rommanNumArray[loop]));
+				loop = loop + 2;
 			} else {
 				result = result + checkSingleNumeral(rommanNumArray[loop]);
 				loop++;
@@ -17,6 +19,14 @@ public class RomanNumerals {
 
 		}
 
+		return result;
+	}
+
+	private boolean checkIfFirstIsSmall(char c, char d) {
+		boolean result = false;
+		if (checkSingleNumeral(c) < checkSingleNumeral(d)) {
+			result = true;
+		}
 		return result;
 	}
 
