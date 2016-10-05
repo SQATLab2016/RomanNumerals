@@ -1,0 +1,7 @@
+FileOpenedAction 1475665534813 RomanNumerals.java 826 1 4 0
+FileOpenedAction 1475665545962 TestRomanNumerals.java 2513 18 23 5
+UnitTestCaseAction 1475665548852 TestRomanNumerals.java OK
+UnitTestSessionAction 1475665548853 TestRomanNumerals.test_I_cannot_be_subtracted_from_M OK
+RefactoringAction 1475665672032 TestRomanNumerals.java ADD void test_V_cannot_be_subtracted_from_X()/2 METHOD
+RefactoringAction 1475665674573 TestRomanNumerals.java RENAME test_V_cannot_be_subtracted_from_X()/2=>void test_V_cannot_be_subtracted_from_L() METHOD
+EditAction 1475665676832 TestRomanNumerals.java 2655 19 24 5
