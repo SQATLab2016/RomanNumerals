@@ -22,7 +22,7 @@ public class RomanNumerals {
 					}
 				}
 			}
-			if (repeated < 3) {
+			if (repeated > 3) {
 				throw new Exception("err");
 			}
 			value += parseCharacterToValue(romanNum, i);
