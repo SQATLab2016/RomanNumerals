@@ -132,9 +132,11 @@ public class RomanNumerals {
 				throw new RomanNumeralsException();
 			if ( lastChar == 'X' && x == true)
 				throw new RomanNumeralsException();
+				x = false;
 		if ( c == 'C' )
 			if(lastChar == 'X' && x == true)
 				throw new RomanNumeralsException();
+				x = false;
 		if ( c == 'X' )
 			if( lastChar == 'X' )
 				x = true;

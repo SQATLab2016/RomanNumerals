@@ -97,4 +97,8 @@ public class TestRomanNumerals {
 		assertRomanNumerals("XXC", 80);
 	}
 	
+	@Test ( expected = RomanNumeralsException.class ) public void testRomanNumerals_subtractionMultipleTimes_XXL_exception() throws RomanNumeralsException {
+		assertRomanNumerals("XXL", 30);
+	}
+	
 }

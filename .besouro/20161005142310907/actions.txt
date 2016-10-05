@@ -147,3 +147,8 @@ EditAction 1475673265552 RomanNumerals.java 3359 7 23 0
 UnitTestCaseAction 1475673268506 TestRomanNumerals.java OK
 UnitTestSessionAction 1475673268507 TestRomanNumerals.java OK
 EditAction 1475673345697 RomanNumerals.java 3437 7 24 0
+RefactoringAction 1475673352857 TestRomanNumerals.java ADD void testRomanNumerals_subtractionMultipleTimes_XXC_exception()/2 METHOD
+RefactoringAction 1475673367380 TestRomanNumerals.java RENAME testRomanNumerals_subtractionMultipleTimes_XXC_exception()/2=>void testRomanNumerals_subtractionMultipleTimes_XXL_exception() METHOD
+UnitTestCaseAction 1475673378233 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475673378233 TestRomanNumerals.java FAIL
+EditAction 1475673450520 RomanNumerals.java 3467 7 26 0
