@@ -30,3 +30,11 @@ EditAction 1475666833610 RomanNumerals.java 1550 4 10 0
 UnitTestCaseAction 1475666835282 TestRomanNumerals.java OK
 UnitTestSessionAction 1475666835282 TestRomanNumerals.java OK
 EditAction 1475666855234 RomanNumerals.java 1550 4 10 0
+UnitTestCaseAction 1475666857136 TestRomanNumerals.java OK
+UnitTestSessionAction 1475666857136 TestRomanNumerals.java OK
+UnitTestCaseAction 1475666864175 TestRomanNumerals.java OK
+UnitTestSessionAction 1475666864175 TestRomanNumerals.java OK
+RefactoringAction 1475667005246 TestRomanNumerals.java ADD void testRomanNumerals_MMXIV_2014()/2 METHOD
+RefactoringAction 1475667008849 TestRomanNumerals.java RENAME testRomanNumerals_MMXIV_2014()/2=>void testRomanNumerals_IIII_2014() METHOD
+RefactoringAction 1475667011439 TestRomanNumerals.java RENAME testRomanNumerals_IIII_2014()=>void testRomanNumerals_IIII_err() METHOD
+EditAction 1475667017726 TestRomanNumerals.java 2476 19 38 19

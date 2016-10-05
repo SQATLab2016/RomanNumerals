@@ -7,3 +7,5 @@
 1475666798475 refactoring 2A 2 true
 1475666821208 refactoring 2A 3 false
 1475666835282 refactoring 2A 1 true
+1475666857136 regression 1 1 false
+1475666864175 regression 1 0 false

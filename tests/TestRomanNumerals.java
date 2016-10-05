@@ -95,5 +95,10 @@ public class TestRomanNumerals {
 		int num = rn.convertToInteger("MMXIV");
 		assertEquals(2014, num);
 	}
+	
+	@Test public void testRomanNumerals_IIII_err() {
+		int num = rn.convertToInteger("IIII");
+		assertEquals(4, num);
+	}
 
 }
