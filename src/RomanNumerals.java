@@ -51,7 +51,7 @@ public class RomanNumerals {
 				lastSub = getElementaryValue(romanNum.charAt(i));
 				
 			} else {
-				if (subtractables > 1 && lastSub != 0)
+				if (subtractables > 1)
 					throw new NumberFormatException("Illegal multiple subtractions.");
 				retValue += getElementaryValue(romanNum.charAt(i)) - lastSub;
 				lastSub = 0;
