@@ -53,3 +53,10 @@ EditAction 1475666719847 TestRomanNumerals.java 2169 19 20 19
 UnitTestCaseAction 1475666723537 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475666723538 TestRomanNumerals.java FAIL
 EditAction 1475666789534 RomanNumerals.java 760 2 5 0
+UnitTestCaseAction 1475666792255 TestRomanNumerals.java OK
+UnitTestSessionAction 1475666792256 TestRomanNumerals.java OK
+RefactoringAction 1475666845527 TestRomanNumerals.java ADD void testConverter_ConvertXXXX_shouldBe_minus1()/2 METHOD
+RefactoringAction 1475666852041 TestRomanNumerals.java RENAME testConverter_ConvertXXXX_shouldBe_minus1()/2=>void testConverter_ConvertIV_shouldBe_minus1() METHOD
+RefactoringAction 1475666856056 TestRomanNumerals.java RENAME testConverter_ConvertIV_shouldBe_minus1()=>void testConverter_ConvertIV_shouldBe_() METHOD
+RefactoringAction 1475666857071 TestRomanNumerals.java RENAME testConverter_ConvertIV_shouldBe_()=>void testConverter_ConvertIV_shouldBe_4() METHOD
+EditAction 1475666863812 TestRomanNumerals.java 2267 20 21 20

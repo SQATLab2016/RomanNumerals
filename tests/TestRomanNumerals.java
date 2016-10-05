@@ -96,6 +96,11 @@ public class TestRomanNumerals {
 		assertRomanNumebrEqual("XXXX", -1);
 	}
 	
+	@Test
+	public void testConverter_ConvertIV_shouldBe_4(){
+		assertRomanNumebrEqual("IV", 4);
+	}
+	
 	private void assertRomanNumebrEqual(String romanNumeral, int expectedNumber){
 		int number = numeral.convertToInteger(romanNumeral);
 		
