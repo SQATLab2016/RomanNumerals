@@ -106,6 +106,11 @@ public class TestRomanNumerals {
 		assertRomanNumebrEqual("IV", 4);
 	}
 	
+	@Test
+	public void testConverter_ConvertIC_shouldBe_-1(){
+		assertRomanNumebrEqual("IC", -1);
+	}
+	
 	private void assertRomanNumebrEqual(String romanNumeral, int expectedNumber){
 		int number = numeral.convertToInteger(romanNumeral);
 		

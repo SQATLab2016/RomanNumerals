@@ -17,3 +17,5 @@
 1475667301646 test-first 3 456 true
 1475667301647 test-first 3 456 true
 1475667301648 test-first 3 456 true
+1475667750243 test-addition 1 32 true
+1475667750244 test-addition 1 32 true

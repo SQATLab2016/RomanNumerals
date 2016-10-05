@@ -89,3 +89,10 @@ RefactoringAction 1475667740709 TestRomanNumerals.java RENAME testConverter_Conv
 RefactoringAction 1475667743223 TestRomanNumerals.java RENAME testConverter_ConvertIX_shouldBe_4()=>void testConverter_ConvertIX_shouldBe_() METHOD
 RefactoringAction 1475667746236 TestRomanNumerals.java RENAME testConverter_ConvertIX_shouldBe_()=>void testConverter_ConvertIX_shouldBe_9() METHOD
 EditAction 1475667746831 TestRomanNumerals.java 2365 21 22 21
+UnitTestCaseAction 1475667750241 TestRomanNumerals.java OK
+UnitTestSessionAction 1475667750243 TestRomanNumerals.testConverter_ConvertIX_shouldBe_9 OK
+RefactoringAction 1475667757752 TestRomanNumerals.java ADD void testConverter_ConvertIX_shouldBe_9()/2 METHOD
+RefactoringAction 1475667788769 TestRomanNumerals.java RENAME testConverter_ConvertIX_shouldBe_9()/2=>void testConverter_ConvertIC_shouldBe_9() METHOD
+RefactoringAction 1475667790784 TestRomanNumerals.java RENAME testConverter_ConvertIC_shouldBe_9()=>void testConverter_ConvertIC_shouldBe_() METHOD
+RefactoringAction 1475667792301 TestRomanNumerals.java RENAME testConverter_ConvertIC_shouldBe_()=>void testConverter_ConvertIC_shouldBe_ FIELD
+EditAction 1475667799775 TestRomanNumerals.java 2465 21 22 21
