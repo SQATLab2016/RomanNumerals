@@ -60,5 +60,13 @@ public class TestRomanNumerals {
 	@Test public void testRomanNumerals_MMXIV_2014() {
 		assertRomanNumerals("MMXIV", 2014);
 	}
-	 
+	
+	@Test public void testRomanNumerals_DCCC_800() {
+		assertRomanNumerals("DCCC", 800);
+	}
+	
+	@Test (expected = IndexOutOfBoundsException.class) public void testRomanNumerals_I_repeated_four_times_IIII_() {
+		assertRomanNumerals("IIII", 4);
+	}
+	
 }

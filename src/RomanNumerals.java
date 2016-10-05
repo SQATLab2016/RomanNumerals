@@ -14,6 +14,7 @@ public class RomanNumerals {
             handleRomanNumbers(romanNum, i);
         }
        return totalArabic;
+		 
     }
 
 	private void handleRomanNumbers(String romanNum, int i) {
