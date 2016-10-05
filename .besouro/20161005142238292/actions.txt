@@ -347,3 +347,4 @@ RefactoringAction 1475671146255 RomanNumeral.java ADD int letterToNumber(char) M
 RefactoringAction 1475671146270 RomanNumeral.java ADD String toString() METHOD
 RefactoringAction 1475671146270 RomanNumeral.java ADD int toInt() METHOD
 EditAction 1475671150966 RomanNumeral.java 5727 5 16 0
+EditAction 1475671159109 RomanNumeral.java 5283 5 16 0
