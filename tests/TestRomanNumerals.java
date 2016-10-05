@@ -60,6 +60,11 @@ public class TestRomanNumerals {
 		assertRomanNumerals(1984, "MCMLXXXIV");
 	}
 	
+	@Test (expected = RomanNumeralException.class)
+	public void RomanNumeral_InvalidInputCheckException() {
+		int result = romanNumerals.convertToInteger("MMMM");
+	}
+
 	public void assertRomanNumerals(int expectedOutput, String input) {
 		int result = romanNumerals.convertToInteger(input);
 		assertEquals(expectedOutput, result);
