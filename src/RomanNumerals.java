@@ -3,25 +3,26 @@ import java.util.regex.Pattern;
 
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
-		Pattern p = Pattern.compile(""
+		String patternString = String.join("|",
 				// repeat limit
-				+ "I{4}|X{4}|C{4}|M{4}|"
+				"I{4}", "X{4}", "C{4}", "M{4}",
 				
 				// can't repeat these symbols
-				+ "VV|LL|DD|"
+				"VV", "LL", "DD",
 				
 				// can't subtract from too big numbers
-				+ "IL|IC|ID|IM|XD|XM|"
+				"IL", "IC", "ID", "IM", "XD", "XM",
 				
 				// can't subtract more than once
-				+ "IIV|IIX|XXL|XXC|CCD|CCM|"
+				"IIV", "IIX", "XXL", "XXC", "CCD", "CCM",
 				
 				// can't subtract the '5' symbols
-				+ "VX|VL|VC|VD|VM|LC|LD|LM|DM|"
+				"VX", "VL", "VC", "VD", "VM", "LC", "LD", "LM", "DM",
 				
 				// other than the allowed symbols
-				+ "[^IVXLCDM]"
+				"[^IVXLCDM]"
 				);
+		Pattern p = Pattern.compile(patternString);
 		Matcher m = p.matcher(romanNum);
 		if (m.find()) {
 			throw new IllegalArgumentException();

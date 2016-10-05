@@ -164,3 +164,8 @@ EditAction 1475666670363 TestRomanNumerals.java 4935 35 40 5
 UnitTestCaseAction 1475666689062 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475666689063 Rerun TestRomanNumerals (Failed Tests first) FAIL
 EditAction 1475666691644 RomanNumerals.java 952 1 4 0
+UnitTestCaseAction 1475666694158 TestRomanNumerals.java OK
+UnitTestSessionAction 1475666694159 Rerun TestRomanNumerals (Failed Tests first) OK
+RefactoringAction 1475666764389 RomanNumerals.java ADD import java.lang.reflect.Array IMPORT
+RefactoringAction 1475666770783 RomanNumerals.java REMOVE import java.lang.reflect.Array IMPORT
+EditAction 1475666959484 RomanNumerals.java 1065 1 5 0
