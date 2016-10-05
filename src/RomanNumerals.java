@@ -9,9 +9,19 @@ public class RomanNumerals {
 	private static final char M = 'M';
 
 	public int convertToInteger(String romanNum) {
+		int repeated;
 		int value = 0;
+		int lastIndexOfNum = romanNum.length() - 1;
 		
-		for (int i = romanNum.length() - 1; i >= 0; i--) {
+		for (int i = lastIndexOfNum; i >= 0; i--) {
+			repeated = 0;
+			if (i < lastIndexOfNum) {
+				for (int j = i; j < lastIndexOfNum; j++) {
+					if (romanNum.charAt(i) == romanNum.charAt(j)) {
+						repeated++;
+					}
+				}
+			}
 			value += parseCharacterToValue(romanNum, i);
 		}
 		return value;
