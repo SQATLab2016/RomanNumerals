@@ -99,5 +99,11 @@ public class TestRomanNumerals {
 	@Test(expected=Exception.class) public void testRomanNumerals_IIII_err() throws Exception  {
 		int num = rn.convertToInteger("IIII");
 	}
+	
+	@Test(expected=Exception.class) public void testRomanNumerals_CL_err() throws Exception  {
+		int num = rn.convertToInteger("CL");
+		assertEquals(50, num);
+
+	}
 
 }

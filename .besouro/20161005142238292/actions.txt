@@ -158,3 +158,14 @@ EditAction 1475668763366 RomanNumerals.java 1980 4 12 0
 UnitTestCaseAction 1475668764976 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475668764976 TestRomanNumerals.testRomanNumerals_IIII_err FAIL
 EditAction 1475668816783 RomanNumerals.java 1981 4 12 0
+UnitTestCaseAction 1475668818799 TestRomanNumerals.java OK
+UnitTestSessionAction 1475668818799 TestRomanNumerals.testRomanNumerals_IIII_err OK
+UnitTestCaseAction 1475668826789 TestRomanNumerals.java OK
+UnitTestSessionAction 1475668826789 TestRomanNumerals.java OK
+RefactoringAction 1475668845618 TestRomanNumerals.java ADD void testRomanNumerals_IIII_err()/2 METHOD
+RefactoringAction 1475668861078 TestRomanNumerals.java RENAME testRomanNumerals_IIII_err()/2=>void testRomanNumerals__err() METHOD
+RefactoringAction 1475668863153 TestRomanNumerals.java RENAME testRomanNumerals__err()=>void testRomanNumerals_LX_err() METHOD
+RefactoringAction 1475668864713 TestRomanNumerals.java RENAME testRomanNumerals_LX_err()=>void testRomanNumerals_LX_60() METHOD
+RefactoringAction 1475668878628 TestRomanNumerals.java RENAME testRomanNumerals_LX_60()=>void testRomanNumerals_CL_60() METHOD
+RefactoringAction 1475668887395 TestRomanNumerals.java RENAME testRomanNumerals_CL_60()=>void testRomanNumerals_CL_err() METHOD
+EditAction 1475668897832 TestRomanNumerals.java 2986 20 39 19
