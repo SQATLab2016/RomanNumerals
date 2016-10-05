@@ -151,3 +151,6 @@ UnitTestSessionAction 1475668593297 TestRomanNumerals.java FAIL
 UnitTestCaseAction 1475668636730 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475668636730 TestRomanNumerals.java FAIL
 EditAction 1475668656496 RomanNumerals.java 1980 4 12 0
+UnitTestCaseAction 1475668659681 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475668659681 TestRomanNumerals.testRomanNumerals_IIII_err FAIL
+EditAction 1475668734608 RomanNumerals.java 1980 4 12 0
