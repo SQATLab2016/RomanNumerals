@@ -145,5 +145,10 @@ public class TestRomanNumerals {
 	public void test_X_cannot_be_subtracted_twice_from_C() {
 		rn.convertToInteger("XXC");
 	}
+	
+	@Test (expected = IllegalArgumentException.class)
+	public void test_L_cannot_be_subtracted_from_C() {
+		rn.convertToInteger("LC");
+	}
 
 }

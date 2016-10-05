@@ -89,3 +89,9 @@ EditAction 1475666100161 TestRomanNumerals.java 3819 27 32 5
 UnitTestCaseAction 1475666103475 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475666103476 TestRomanNumerals.java FAIL
 EditAction 1475666108982 RomanNumerals.java 840 1 4 0
+UnitTestCaseAction 1475666111262 TestRomanNumerals.java OK
+UnitTestSessionAction 1475666111263 TestRomanNumerals.java OK
+RefactoringAction 1475666223448 TestRomanNumerals.java ADD void test_V_cannot_be_subtracted_from_X()/2 METHOD
+RefactoringAction 1475666226465 TestRomanNumerals.java RENAME test_V_cannot_be_subtracted_from_X()/2=>void test_L_cannot_be_subtracted_from_X() METHOD
+RefactoringAction 1475666229984 TestRomanNumerals.java RENAME test_L_cannot_be_subtracted_from_X()=>void test_L_cannot_be_subtracted_from_C() METHOD
+EditAction 1475666231536 TestRomanNumerals.java 3961 28 33 5
