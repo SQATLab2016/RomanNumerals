@@ -289,3 +289,8 @@ EditAction 1475670612780 TestRomanNumerals.java 3720 26 44 18
 CompilationAction 1475670614277 TestRomanNumerals.java
 RefactoringAction 1475670630751 TestRomanNumerals.java RENAME testRomanNumerals_LC_err()/2=>void testRomanNumerals_DM_err() METHOD
 EditAction 1475670630954 TestRomanNumerals.java 3720 26 44 18
+UnitTestCaseAction 1475670633203 TestRomanNumerals.java OK
+UnitTestSessionAction 1475670633203 TestRomanNumerals.testRomanNumerals_DM_err OK
+UnitTestCaseAction 1475670636950 TestRomanNumerals.java OK
+UnitTestSessionAction 1475670636950 TestRomanNumerals.java OK
+EditAction 1475670769269 TestRomanNumerals.java 3877 27 45 18

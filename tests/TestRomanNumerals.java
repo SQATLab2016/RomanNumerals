@@ -1,8 +1,19 @@
 import static org.junit.Assert.*;
 
+
+
 import org.junit.Test;
 
 public class TestRomanNumerals {
+	
+	enum Roman{
+	    i(1),iv(4),v(5), ix(9), x(10);
+	    int weight;
+
+	    private Roman(int weight) {
+	        this.weight = weight;
+	    }
+	};
 	
 	private RomanNumerals rn = new RomanNumerals();
 
