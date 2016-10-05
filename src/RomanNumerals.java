@@ -49,10 +49,11 @@ public class RomanNumerals {
 					throw new NumberFormatException("Illegal subtraction format.");
 				
 				lastSub = getElementaryValue(romanNum.charAt(i));
-				
-			} else {
+
 				if (subtractables > 1)
 					throw new NumberFormatException("Illegal multiple subtractions.");
+				
+			} else {
 					
 				retValue += getElementaryValue(romanNum.charAt(i)) - lastSub;
 				lastSub = 0;
