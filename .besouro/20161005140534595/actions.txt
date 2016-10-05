@@ -149,3 +149,6 @@ UnitTestSessionAction 1475666485067 Rerun TestRomanNumerals (Failed Tests first)
 RefactoringAction 1475666553822 TestRomanNumerals.java ADD void test_D_cannot_be_subtracted_from_M()/2 METHOD
 RefactoringAction 1475666560840 TestRomanNumerals.java RENAME test_D_cannot_be_subtracted_from_M()/2=>void test_numbers() METHOD
 EditAction 1475666564253 TestRomanNumerals.java 4806 34 39 5
+UnitTestCaseAction 1475666567057 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475666567058 Rerun TestRomanNumerals (Failed Tests first) FAIL
+EditAction 1475666603612 RomanNumerals.java 952 1 4 0
