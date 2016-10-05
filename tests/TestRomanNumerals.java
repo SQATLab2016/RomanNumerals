@@ -13,7 +13,8 @@ public class TestRomanNumerals {
 	
 	@Test
 	public void testConvertInteger_IllegalSubtraction_XXC_Throw_NumberFormatException() {
-		mNumerals.convertToInteger("XXC");
+		
+		assertEquals(123431241, mNumerals.convertToInteger("XXC"));
 	}
 	
 	@Test(expected=NumberFormatException.class)
