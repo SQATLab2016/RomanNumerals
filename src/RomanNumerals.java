@@ -24,6 +24,11 @@ public class RomanNumerals {
 		return result;
 	}
 
+	private boolean checkIfSecondHightest(char c, char d) {
+		boolean result = true;
+		return result;
+	}
+
 	private void validateRomanString(char[] rommanNumArray) throws RomanNumeralException {
 		int countI = 0;
 		int countX = 0;
