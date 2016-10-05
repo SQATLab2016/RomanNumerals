@@ -31,13 +31,31 @@ public class RomanNumerals {
 				if (allCharactersAreSame(romanNum)) {
 					return romanNum.length() * getSingularValue(getStringCharAt(romanNum, 0));
 				} else {
-					return -1;
+					if (isInOrder(romanNum))
+						return addNumerals(romanNum);
 				}
 			}
 		}
 
 		return -1;
 
+	}
+
+	private boolean isInOrder(String romanNum) {
+		if (romanNum.length() > 2) {
+			if (numeralOrder.indexOf(romanNum.charAt(0)) > numeralOrder.indexOf(romanNum.charAt(2))) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	private int addNumerals(String romanNum) {
+		int total = 0;
+		for (int i = 0; i < romanNum.length(); i++) {
+			total = total + getSingularValue(getStringCharAt(romanNum, i));
+		}
+		return total;
 	}
 
 	private boolean isAFiveNumber(char c) {

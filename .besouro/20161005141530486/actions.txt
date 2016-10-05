@@ -195,3 +195,23 @@ RefactoringAction 1475670652745 TestRomanNumerals.java RENAME testConverter_Conv
 RefactoringAction 1475670654259 TestRomanNumerals.java RENAME testConverter_ConvertVI_shouldBe_11()=>void testConverter_ConvertVII_shouldBe_11() METHOD
 RefactoringAction 1475670657772 TestRomanNumerals.java RENAME testConverter_ConvertVII_shouldBe_11()=>void testConverter_ConvertVII_shouldBe_7() METHOD
 EditAction 1475670664862 TestRomanNumerals.java 3181 29 30 29
+UnitTestCaseAction 1475670669253 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475670669254 TestRomanNumerals.java FAIL
+RefactoringAction 1475673639626 RomanNumerals.java ADD int add FIELD
+RefactoringAction 1475673642639 RomanNumerals.java RENAME add=>int addNumerals FIELD
+RefactoringAction 1475673643652 RomanNumerals.java RENAME addNumerals=>int addNumerals() METHOD
+RefactoringAction 1475673657190 RomanNumerals.java RENAME addNumerals()=>int addNumerals(String) METHOD
+UnitTestCaseAction 1475673911914 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475673911914 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475674120621 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475674120622 TestRomanNumerals.java FAIL
+RefactoringAction 1475674277198 RomanNumerals.java ADD boolean is FIELD
+RefactoringAction 1475674278213 RomanNumerals.java RENAME is=>boolean isIn FIELD
+RefactoringAction 1475674280727 RomanNumerals.java RENAME isIn=>boolean isInOrder() METHOD
+RefactoringAction 1475674287245 RomanNumerals.java RENAME isInOrder()=>boolean isInOrder(String) METHOD
+UnitTestCaseAction 1475674448956 TestRomanNumerals.java OK
+UnitTestSessionAction 1475674448957 TestRomanNumerals.java OK
+RefactoringAction 1475674471150 TestRomanNumerals.java ADD void testConverter_ConvertVII_shouldBe_7()/2 METHOD
+RefactoringAction 1475674474664 TestRomanNumerals.java RENAME testConverter_ConvertVII_shouldBe_7()/2=>void testConverter_ConvertVIII_shouldBe_7() METHOD
+RefactoringAction 1475674477678 TestRomanNumerals.java RENAME testConverter_ConvertVIII_shouldBe_7()=>void testConverter_ConvertVIII_shouldBe_8() METHOD
+EditAction 1475674490502 TestRomanNumerals.java 3283 30 31 30

@@ -12,3 +12,4 @@
 1475669610669 test-addition 1 14 false
 1475670599060 test-addition 2 840 false
 1475670630852 test-addition 1 19 false
+1475674448957 test-addition 2 3799 true
