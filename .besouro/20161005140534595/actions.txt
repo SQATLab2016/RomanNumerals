@@ -86,3 +86,6 @@ UnitTestSessionAction 1475666081487 TestRomanNumerals.java OK
 RefactoringAction 1475666095381 TestRomanNumerals.java ADD void test_X_cannot_be_subtracted_twice_from_L()/2 METHOD
 RefactoringAction 1475666097899 TestRomanNumerals.java RENAME test_X_cannot_be_subtracted_twice_from_L()/2=>void test_X_cannot_be_subtracted_twice_from_C() METHOD
 EditAction 1475666100161 TestRomanNumerals.java 3819 27 32 5
+UnitTestCaseAction 1475666103475 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475666103476 TestRomanNumerals.java FAIL
+EditAction 1475666108982 RomanNumerals.java 840 1 4 0
