@@ -59,6 +59,7 @@ public class RomanNumerals {
 				throw e;
 			}
 			else {
+				subd = false;
 				return currentVal; // when trying to get next of last, it is intended to end up here
 			}
 		}

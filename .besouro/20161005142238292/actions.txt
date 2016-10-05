@@ -399,3 +399,6 @@ UnitTestSessionAction 1475671671159 TestRomanNumerals.java OK
 RefactoringAction 1475671679099 TestRomanNumerals.java ADD void testRomanNumerals_1_to_3999() METHOD
 EditAction 1475671679442 TestRomanNumerals.java 4188 28 48 19
 EditAction 1475671690549 TestRomanNumerals.java 4202 28 49 19
+UnitTestCaseAction 1475671692534 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475671692534 TestRomanNumerals.java FAIL
+EditAction 1475671727322 RomanNumerals.java 3300 7 18 0
