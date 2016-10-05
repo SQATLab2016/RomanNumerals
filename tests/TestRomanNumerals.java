@@ -11,7 +11,7 @@ public class TestRomanNumerals {
 		mNumerals = new RomanNumerals();
 	}
 	
-	@Test
+	@Test(expected=NumberFormatException.class)
 	public void testConvertInteger_IllegalSubtraction_XXC_NumberFormatException() {
 		mNumerals.convertToInteger("XCC");
 	}
