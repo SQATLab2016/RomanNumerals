@@ -24,9 +24,9 @@ public class RomanNumerals {
 						break;
 					}
 				}
-			}
-			if (repeated > 3) {
-				throw new Exception("Symbol repeated too many times");
+				if (repeated > 3) {
+					throw new Exception("Symbol repeated too many times");
+				}
 			}
 			value += parseCharacterToValue(romanNum, i);
 		}
