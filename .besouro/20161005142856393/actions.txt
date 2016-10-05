@@ -134,3 +134,7 @@ EditAction 1475671326195 TestRomanNumerals.java 8003 55 85 30
 UnitTestCaseAction 1475671332570 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475671332570 TestRomanNumerals.java FAIL
 EditAction 1475671347720 TestRomanNumerals.java 8003 55 85 30
+UnitTestCaseAction 1475671350155 TestRomanNumerals.java OK
+UnitTestSessionAction 1475671350156 TestRomanNumerals.testConvertInteger_IllegalSubtraction_DM_Throw_NumberFormatException OK
+RefactoringAction 1475671370369 TestRomanNumerals.java RENAME testConvertInteger_IllegalSubtraction_LX_Throw_NumberFormatException()=>void testConvertInteger_IllegalSubtraction_LC_Throw_NumberFormatException() METHOD
+EditAction 1475671371660 TestRomanNumerals.java 8003 55 85 30
