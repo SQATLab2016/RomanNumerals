@@ -104,8 +104,6 @@ public class RomanNumerals {
 		    	processTheChar('L', lastChar);
 		        lastNumber = 50;
 		        break;
-		    default:
-		    	break;
 
 		}
 			}

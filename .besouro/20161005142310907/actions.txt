@@ -90,3 +90,6 @@ RefactoringAction 1475669541375 RomanNumerals.java RENAME checkIfValidSubtractio
 RefactoringAction 1475669979311 RomanNumerals.java ADD void processTheChar(char) METHOD
 RefactoringAction 1475670080684 RomanNumerals.java RENAME processTheChar(char)=>void processTheChar(char, char) METHOD
 EditAction 1475670370080 RomanNumerals.java 2740 7 20 0
+UnitTestCaseAction 1475670374460 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475670374460 TestRomanNumerals.java FAIL
+EditAction 1475670396268 RomanNumerals.java 2711 7 20 0
