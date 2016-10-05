@@ -124,8 +124,8 @@ public class TestRomanNumerals {
 		rn.convertToInteger("VX");
 	}
 	
-	@Test(expected=Exception.class) public void testRomanNumerals_LC_err() throws Exception  {
-		rn.convertToInteger("LC");
+	@Test(expected=Exception.class) public void testRomanNumerals_DM_err() throws Exception  {
+		rn.convertToInteger("DM");
 	}
 
 }
