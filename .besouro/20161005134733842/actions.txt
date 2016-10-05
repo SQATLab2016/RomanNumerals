@@ -72,3 +72,20 @@ RefactoringAction 1475666338112 RomanNumerals.java ADD void validateRomanString(
 EditAction 1475666360922 RomanNumerals.java 1248 4 10 0
 CompilationAction 1475666362136 TestRomanNumerals.java
 EditAction 1475666986537 RomanNumerals.java 1963 4 19 0
+UnitTestCaseAction 1475666997925 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475666997926 TestRomanNumerals.java FAIL
+CompilationAction 1475667082752 TestRomanNumerals.java
+UnitTestCaseAction 1475667084952 TestRomanNumerals.java OK
+UnitTestSessionAction 1475667084953 TestRomanNumerals.java OK
+RefactoringAction 1475667107848 TestRomanNumerals.java ADD void RomanNumeral_InvalidInputCheckException()/2 METHOD
+RefactoringAction 1475667140857 TestRomanNumerals.java RENAME RomanNumeral_InvalidInputCheckException()/2=>void RomanNumeral_InvalidInputMultiple() METHOD
+RefactoringAction 1475667144862 TestRomanNumerals.java RENAME RomanNumeral_InvalidInputMultiple()=>void RomanNumeral_InvalidInput() METHOD
+RefactoringAction 1475667146366 TestRomanNumerals.java RENAME RomanNumeral_InvalidInput()=>void RomanNumeral_InvalidInputM() METHOD
+RefactoringAction 1475667150870 TestRomanNumerals.java RENAME RomanNumeral_InvalidInputM()=>void RomanNumeral_InvalidInput() METHOD
+RefactoringAction 1475667152875 TestRomanNumerals.java RENAME RomanNumeral_InvalidInput()=>void RomanNumeral_InvalidInputWith() METHOD
+RefactoringAction 1475667155381 TestRomanNumerals.java RENAME RomanNumeral_InvalidInputWith()=>void RomanNumeral_InvalidInputWith¤() METHOD
+RefactoringAction 1475667156385 TestRomanNumerals.java RENAME RomanNumeral_InvalidInputWith¤()=>void RomanNumeral_InvalidInputWith4() METHOD
+RefactoringAction 1475667157889 TestRomanNumerals.java RENAME RomanNumeral_InvalidInputWith4()=>void RomanNumeral_InvalidInputWith4M() METHOD
+RefactoringAction 1475667165894 TestRomanNumerals.java RENAME RomanNumeral_InvalidInputCheckException()=>void RomanNumeral_InvalidInputWith() METHOD
+RefactoringAction 1475667167898 TestRomanNumerals.java RENAME RomanNumeral_InvalidInputWith()=>void RomanNumeral_InvalidInputWith2V() METHOD
+EditAction 1475667169642 TestRomanNumerals.java 1925 14 15 12
