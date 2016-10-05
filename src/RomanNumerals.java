@@ -20,7 +20,7 @@ public class RomanNumerals {
 				+ "VX|VL|VC|VD|VM|LC|LD|LM|DM|"
 				
 				// other than the allowed symbols
-				+ "\\d"
+				+ "[^IVXLCDM]"
 				);
 		Matcher m = p.matcher(romanNum);
 		if (m.find()) {

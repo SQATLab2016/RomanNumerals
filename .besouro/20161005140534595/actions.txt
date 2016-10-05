@@ -161,3 +161,6 @@ RefactoringAction 1475666645918 TestRomanNumerals.java ADD void test_numbers()/2
 RefactoringAction 1475666648436 TestRomanNumerals.java RENAME test_numbers()/2=>void test_t() METHOD
 RefactoringAction 1475666651960 TestRomanNumerals.java RENAME test_t()=>void test_other_letters() METHOD
 EditAction 1475666670363 TestRomanNumerals.java 4935 35 40 5
+UnitTestCaseAction 1475666689062 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475666689063 Rerun TestRomanNumerals (Failed Tests first) FAIL
+EditAction 1475666691644 RomanNumerals.java 952 1 4 0
