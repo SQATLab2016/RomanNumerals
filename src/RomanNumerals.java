@@ -9,7 +9,7 @@ public class RomanNumerals {
         this.lastNumber = 0;
 	}
 	
-	public int convertToInteger(String romanNum) {	
+	public int convertToInteger(String romanNum) throws RomanNumeralsException {	
 		checkHowManySimilarRomanNums(romanNum);
         for (int i = romanNum.length() - 1; i >= 0 ; i--) {
             handleRomanNumbers(romanNum, i);
@@ -74,7 +74,7 @@ public class RomanNumerals {
 		int romanV = 0;
 		int romanI = 0;
 		int romanM = 0;
-    	for( int i = 0 ; i <= romanNum.length() ; i++ ) {
+    	for( int i = 1 ; i <= romanNum.length() ; i++ ) {
 			switch (romanNum.charAt(i)) {
 		    	case 'M':
 		    		romanM++;
