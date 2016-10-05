@@ -53,3 +53,14 @@ EditAction 1475665865538 RomanNumerals.java 1084 3 9 0
 UnitTestCaseAction 1475665872887 TestRomanNumerals.java OK
 UnitTestSessionAction 1475665872888 TestRomanNumerals.java OK
 EditAction 1475665879321 RomanNumerals.java 1083 3 9 0
+RefactoringAction 1475665916628 TestRomanNumerals.java ADD void RomanNumeral_MMXIV_2014() METHOD
+RefactoringAction 1475665927146 TestRomanNumerals.java RENAME RomanNumeral_MMXIV_2014()=>void RomanNumeral FIELD
+RefactoringAction 1475665934153 TestRomanNumerals.java RENAME RomanNumeral()=>void RomanNumeralInvalidInput() METHOD
+RefactoringAction 1475665938663 TestRomanNumerals.java RENAME RomanNumeralInvalidInput()=>void RomanNumeral_InvalidInput() METHOD
+RefactoringAction 1475665943167 TestRomanNumerals.java RENAME RomanNumeral_InvalidInput()=>void RomanNumeral_InvalidInputChec() METHOD
+RefactoringAction 1475665944171 TestRomanNumerals.java RENAME RomanNumeral_InvalidInputChec()=>void RomanNumeral_InvalidInputCheck() METHOD
+RefactoringAction 1475665945176 TestRomanNumerals.java RENAME RomanNumeral_InvalidInputCheck()=>void RomanNumeral_InvalidInputCheckEx() METHOD
+RefactoringAction 1475665948680 TestRomanNumerals.java RENAME RomanNumeral_InvalidInputCheckEx()=>void RomanNumeral_InvalidInputCheckException() METHOD
+RefactoringAction 1475666178022 RomanNumeralException.java ADD RomanNumeralException.java CLASS
+FileOpenedAction 1475666178264 RomanNumeralException.java 45 0 0 0
+EditAction 1475666207462 RomanNumeralException.java 64 0 0 0
