@@ -14,23 +14,28 @@ public class RomanNumerals {
 		int lastIndexOfNum = romanNum.length() - 1;
 		
 		for (int i = lastIndexOfNum; i >= 0; i--) {
-			repeated = 1;
-			if (i < lastIndexOfNum) {
-				for (int j = i + 1; j <= lastIndexOfNum; j++) {
-					if (romanNum.charAt(i) == romanNum.charAt(j)) {
-						repeated++;
-					}
-					else {
-						break;
-					}
-				}
-				if (repeated > 3) {
-					throw new Exception("Symbol repeated too many times");
-				}
-			}
+			checkRepetition(romanNum, lastIndexOfNum, i);
 			value += parseCharacterToValue(romanNum, i);
 		}
 		return value;
+	}
+
+	private void checkRepetition(String romanNum, int lastIndexOfNum, int i) throws Exception {
+		int repeated;
+		repeated = 1;
+		if (i < lastIndexOfNum) {
+			for (int j = i + 1; j <= lastIndexOfNum; j++) {
+				if (romanNum.charAt(i) == romanNum.charAt(j)) {
+					repeated++;
+				}
+				else {
+					break;
+				}
+			}
+			if (repeated > 3) {
+				throw new Exception("Symbol repeated too many times");
+			}
+		}
 	}
 
 	private int parseCharacterToValue(String romanNum, int i) {

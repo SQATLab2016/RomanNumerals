@@ -97,11 +97,11 @@ public class TestRomanNumerals {
 	}
 	
 	@Test(expected=Exception.class) public void testRomanNumerals_IIII_err() throws Exception  {
-		int num = rn.convertToInteger("IIII");
+		rn.convertToInteger("IIII");
 	}
 	
 	@Test(expected=Exception.class) public void testRomanNumerals_LC_err() throws Exception  {
-		int num = rn.convertToInteger("LC");
+		rn.convertToInteger("LC");
 	}
 
 }
