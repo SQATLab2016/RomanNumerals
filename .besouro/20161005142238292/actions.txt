@@ -47,3 +47,13 @@ EditAction 1475667041928 TestRomanNumerals.java 2485 19 38 19
 UnitTestCaseAction 1475667042867 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475667042867 TestRomanNumerals.java FAIL
 EditAction 1475667065051 TestRomanNumerals.java 2477 19 37 18
+UnitTestCaseAction 1475667067082 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475667067082 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475667075602 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475667075602 TestRomanNumerals.java FAIL
+RefactoringAction 1475667239293 RomanNumerals.java ADD int occurencies FIELD
+RefactoringAction 1475667253754 RomanNumerals.java RENAME occurencies=><initializer /1> null
+RefactoringAction 1475667260462 RomanNumerals.java RENAME <initializer /1>=>int occurencies FIELD
+RefactoringAction 1475667274378 RomanNumerals.java RENAME occurencies=><initializer /1> null
+RefactoringAction 1475667278496 RomanNumerals.java RENAME <initializer /1>=>int FIELD
+EditAction 1475667339789 RomanNumerals.java 1742 4 10 0

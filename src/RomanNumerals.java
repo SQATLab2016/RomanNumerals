@@ -7,6 +7,8 @@ public class RomanNumerals {
 	private static final char C = 'C';
 	private static final char D = 'D';
 	private static final char M = 'M';
+	
+	private int[] occurencies = {0};
 
 	public int convertToInteger(String romanNum) {
 		int value = 0;
@@ -44,24 +46,31 @@ public class RomanNumerals {
 	
 	private int getCharValue(char romanNum) {
 		if (romanNum == I) {
+			occurencies[0]++;
 			return 1;
 		}
 		else if (romanNum == V) {
+			occurencies[1]++;
 			return 5;
 		}
 		else if (romanNum == X) {
+			occurencies[2]++;
 			return 10;
 		}
 		else if (romanNum == L) {
+			occurencies[3]++;
 			return 50;
 		}
 		else if (romanNum == C) {
+			occurencies[4]++;
 			return 100;
 		}
 		else if (romanNum == D) {
+			occurencies[5]++;
 			return 500;
 		}
 		else if (romanNum == M) {
+			occurencies[6]++;
 			return 1000;
 		}
 		return 0;
