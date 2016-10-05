@@ -25,7 +25,12 @@ public class RomanNumerals {
 	}
 
 	private boolean checkIfSecondHightest(char c, char d) {
-		boolean result = true;
+		boolean result = false;
+		String orderString = "IVXLCDM";
+		int indexC = orderString.indexOf(c);
+		int indexD = orderString.indexOf(d);
+		if ((indexD - indexC) == 1)
+			result = true;
 		return result;
 	}
 

@@ -108,3 +108,4 @@ EditAction 1475668449132 RomanNumerals.java 2513 4 19 0
 CompilationAction 1475668450500 RomanNumerals.java
 RefactoringAction 1475668454567 RomanNumerals.java ADD boolean checkIfSecondHightest(char, char) METHOD
 EditAction 1475668476282 RomanNumerals.java 2616 5 21 0
+EditAction 1475668714300 RomanNumerals.java 2777 5 25 0
