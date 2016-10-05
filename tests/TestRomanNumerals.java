@@ -42,8 +42,8 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void testConverter_nonRomanNumeralJShouldBe0() {
-		assertRomanNumebrEqual("J", 0);
+	public void testConverter_nonRomanNumeralJShouldBenegativeOne() {
+		assertRomanNumebrEqual("J", -1);
 	}
 	
 	@Test
