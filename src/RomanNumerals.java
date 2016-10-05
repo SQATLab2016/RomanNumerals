@@ -40,8 +40,7 @@ public class RomanNumerals {
 					subtrahend = getElementaryValue(c1);
 					i--;
 				} else if (!canBeSubtrahendElementaryValue(c1)) {
-					if (getElementaryValue(c1) < getElementaryValue(c0))
-						throw new NumberFormatException("Illegal subtraction format.");
+					// V, L, D 
 					
 					break;
 				}
