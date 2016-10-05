@@ -102,8 +102,12 @@ public class RomanNumerals {
     		switch (romanNum.charAt(i)) {
 		    case 'L':
 		    	processTheChar('L', lastChar);
-		        lastChar = 50;
+		        lastChar = 'L';
 		        break;
+		    case 'I':
+		    	processTheChar('I', lastChar);
+		    	lastChar = 'I';
+		    	break;
 
 		}
 			}
