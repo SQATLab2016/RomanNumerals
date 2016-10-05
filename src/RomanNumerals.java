@@ -4,28 +4,16 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class RomanNumerals {
-	private enum Numeral {
-		I(1),
-		V(5),
-		X(10),
-		L(50),
-		C(100),
-		D(500),
-		M(1000);
-		
-		private int number;
-		
-		private Numeral(int number) {
-			this.number = number;
-		}
-		
-		public static int getValue(char numeral) {
-			return Numeral.valueOf(String.valueOf(numeral)).number;
-		}
-	}
-	
 	private Map<Character, Integer> numerals = new HashMap<Character, Integer>();
-	numerals.put('I', 1);
+	{
+		numerals.put('I', 1);
+		numerals.put('V', 5);
+		numerals.put('X', 10);
+		numerals.put('L', 50);
+		numerals.put('C', 100);
+		numerals.put('D', 500);
+		numerals.put('M', 1000);
+	}
 	
 	public int convertToInteger(String romanNum) {
 		String patternString = String.join("|",
@@ -60,8 +48,7 @@ public class RomanNumerals {
 		
 		int sum = 0;
 		for (int i = 0; i < romanNum.length(); i++) {
-			char numeral = romanNum.charAt(i);
-			int number = Numeral.getValue(numeral);
+			int number = numerals.get(romanNum.charAt(i));
 			
 			// last numeral
 			if (i + 1 == romanNum.length()) {
@@ -69,8 +56,7 @@ public class RomanNumerals {
 				break;
 			}
 			
-			char nextNumeral = romanNum.charAt(i + 1);
-			int nextNumber = Numeral.getValue(nextNumeral);
+			int nextNumber = numerals.get(romanNum.charAt(i + 1));
 
 			// subtract, e.g. IV
 			if (number < nextNumber) {
@@ -91,8 +77,7 @@ public class RomanNumerals {
 				}
 			}
 			
-			char thirdNumeral = romanNum.charAt(i + 1);
-			int thirdNumber = Numeral.getValue(thirdNumeral);
+			int thirdNumber = numerals.get(romanNum.charAt(i + 2));
 			
 			if (number == nextNumber && nextNumber == thirdNumber) {
 				sum += number + nextNumber + thirdNumber;
