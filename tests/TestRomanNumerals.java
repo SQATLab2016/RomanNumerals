@@ -96,9 +96,8 @@ public class TestRomanNumerals {
 		assertEquals(2014, num);
 	}
 	
-	@Test public void testRomanNumerals_IIII_err() {
-		int num = rn.convertToInteger("IIIIIIIIIIIII");
-		assertEquals(4, num);
+	@Test(expected=Exception.class) public void testRomanNumerals_IIII_err() {
+		int num = rn.convertToInteger("IIII");
 	}
 
 }
