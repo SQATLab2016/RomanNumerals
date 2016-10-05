@@ -10,7 +10,7 @@ public class RomanNumerals {
 			if(romanNum.charAt(0)!=romanNum.charAt(1)){
 				return getSingularValue(getStringCharAt(romanNum,0))-getSingularValue(getStringCharAt(romanNum, 1));
 			}
-			return romanNum.length() * getSingularValue(String.valueOf(romanNum.charAt(0)));
+			return romanNum.length() * getSingularValue(getStringCharAt(romanNum,0));
 		}
 		
 		return -1;

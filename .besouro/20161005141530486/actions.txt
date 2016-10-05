@@ -72,3 +72,4 @@ RefactoringAction 1475667056979 RomanNumerals.java RENAME getStringCharAT()=>Str
 RefactoringAction 1475667058494 RomanNumerals.java RENAME getStringCharAT(String)=>String getStringCharAT(String, int) METHOD
 RefactoringAction 1475667096569 RomanNumerals.java RENAME getStringCharAT(String, int)=>String getStringCharAt(String, int) METHOD
 EditAction 1475667142233 RomanNumerals.java 1034 3 6 0
+EditAction 1475667173078 RomanNumerals.java 1027 3 6 0
