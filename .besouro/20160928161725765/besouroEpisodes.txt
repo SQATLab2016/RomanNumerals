@@ -1,0 +1,15 @@
+1475068791038 test-first 3 144 true
+1475068986319 test-first 3 178 true
+1475069005012 refactoring 1A 7 true
+1475069005013 refactoring 3 7 true
+1475069005014 refactoring 3 7 true
+1475069038195 refactoring 1A 3 true
+1475069150024 test-first 3 85 true
+1475069287037 test-first 3 118 true
+1475069459826 test-first 3 93 true
+1475069600809 test-first 3 71 true
+1475069761989 test-addition 1 106 true
+1475069808878 refactoring 1A 18 true
+1475069826198 refactoring 1A 3 true
+1475069875859 refactoring 1A 3 true
+1475070053094 test-first 3 71 true
