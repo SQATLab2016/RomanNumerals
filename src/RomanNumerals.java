@@ -84,6 +84,7 @@ public class RomanNumerals {
 			if (i + 2 == romanNum.length()) {
 				if (number == nextNumber) {
 					sum += number + nextNumber;
+					break;
 				}
 			}
 		}
