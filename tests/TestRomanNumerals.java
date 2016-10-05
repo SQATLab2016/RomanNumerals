@@ -8,7 +8,7 @@ public class TestRomanNumerals {
 	public void atMost3CharTest() {
 		RomanNumerals rm = new RomanNumerals("CCCCXIV");
 		Boolean valid = false;
-		valid = rm.atMost3CharCheck('M'); 
+		valid = rm.atMost3CharCheck('C'); 
 		
 		assertEquals(false, valid);
 	}
