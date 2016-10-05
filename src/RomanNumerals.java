@@ -65,6 +65,7 @@ public class RomanNumerals {
 			if (currentVal == 1 && nextVal > 10) {
 				throw new Exception("invalid substraction");
 			}
+			else if (currentVal == 5 || currentVal == 50 || currentVal == 500)
 			return -currentVal;
 		}
 		else if (currentVal > nextVal) {
