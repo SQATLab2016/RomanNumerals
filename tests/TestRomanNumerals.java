@@ -15,6 +15,18 @@ public class TestRomanNumerals {
 	    }
 	};
 	
+	static String decToRoman(int dec){
+	    String roman="";
+	    Roman[] values=Roman.values();
+	    for (int i = values.length-1; i>=0; i--) {
+	       while(dec>=values[i].weight){
+	           roman+=values[i];
+	           dec=dec-values[i].weight;
+	       }            
+	    }
+	    return roman;
+	}
+	
 	private RomanNumerals rn = new RomanNumerals();
 
 	@Test public void testRomanNumerals_emptyString() throws Exception {
@@ -137,6 +149,13 @@ public class TestRomanNumerals {
 	
 	@Test(expected=Exception.class) public void testRomanNumerals_DM_err() throws Exception  {
 		rn.convertToInteger("DM");
+	}
+	
+	@Test public void testRomanNumerals_2014_2014() throws Exception  {
+		int testValue = 2014;
+		String roman = decToRoman(2014);
+		int converted = rn.convertToInteger(roman);
+		assertEquals(testValue, converted);
 	}
 
 }

@@ -294,3 +294,9 @@ UnitTestSessionAction 1475670633203 TestRomanNumerals.testRomanNumerals_DM_err O
 UnitTestCaseAction 1475670636950 TestRomanNumerals.java OK
 UnitTestSessionAction 1475670636950 TestRomanNumerals.java OK
 EditAction 1475670769269 TestRomanNumerals.java 3877 27 45 18
+RefactoringAction 1475670784994 TestRomanNumerals.java ADD static String decToRoman(int) METHOD
+RefactoringAction 1475670799424 TestRomanNumerals.java ADD void testRomanNumerals_DM_err()/2 METHOD
+RefactoringAction 1475670811358 TestRomanNumerals.java RENAME testRomanNumerals_DM_err()/2=>void testRomanNumerals_2014_err() METHOD
+RefactoringAction 1475670813433 TestRomanNumerals.java RENAME testRomanNumerals_2014_err()=>void testRomanNumerals_2014_() METHOD
+RefactoringAction 1475670814525 TestRomanNumerals.java RENAME testRomanNumerals_2014_()=>void testRomanNumerals_2014_2014() METHOD
+EditAction 1475670882884 TestRomanNumerals.java 4414 29 53 19
