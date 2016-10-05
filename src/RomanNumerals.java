@@ -23,7 +23,7 @@ public class RomanNumerals {
 				}
 			}
 			if (repeated > 3) {
-				throw new Exception("err");
+				throw new Exception("Symbol repeated too many times");
 			}
 			System.err.println(repeated);
 			value += parseCharacterToValue(romanNum, i);
