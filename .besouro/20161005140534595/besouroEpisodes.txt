@@ -129,3 +129,5 @@
 1475670429964 test-addition 1 10 true
 1475670454184 test-addition 1 19 true
 1475670454185 test-addition 1 19 true
+1475670469080 test-addition 1 8 true
+1475670469081 test-addition 1 8 true

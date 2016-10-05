@@ -61,6 +61,12 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
+	public void test_XIV_14() {
+		int number = rn.convertToInteger("XIV");
+		assertEquals(14, number);
+	}
+	
+	@Test
 	public void test_XV_15() {
 		int number = rn.convertToInteger("XV");
 		assertEquals(15, number);
