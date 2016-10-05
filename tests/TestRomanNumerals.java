@@ -107,5 +107,9 @@ public class TestRomanNumerals {
 	@Test(expected=Exception.class) public void testRomanNumerals_VV_err() throws Exception  {
 		rn.convertToInteger("VV");
 	}
+	
+	@Test(expected=Exception.class) public void testRomanNumerals_DD_err() throws Exception  {
+		rn.convertToInteger("DD");
+	}
 
 }

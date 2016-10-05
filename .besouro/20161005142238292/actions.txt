@@ -220,3 +220,8 @@ UnitTestSessionAction 1475669410057 TestRomanNumerals.java FAIL
 RefactoringAction 1475669435032 TestRomanNumerals.java ADD void testRomanNumerals_LC_err()/2 METHOD
 RefactoringAction 1475669437622 TestRomanNumerals.java RENAME testRomanNumerals_LC_err()/2=>void testRomanNumerals_VV_err() METHOD
 EditAction 1475669440680 TestRomanNumerals.java 3068 21 39 18
+UnitTestCaseAction 1475669442742 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475669442742 TestRomanNumerals.java FAIL
+RefactoringAction 1475669482912 TestRomanNumerals.java ADD void testRomanNumerals_VV_err()/2 METHOD
+RefactoringAction 1475669485486 TestRomanNumerals.java RENAME testRomanNumerals_VV_err()/2=>void testRomanNumerals_DD_err() METHOD
+EditAction 1475669487498 TestRomanNumerals.java 3198 22 40 18
