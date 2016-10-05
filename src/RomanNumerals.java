@@ -43,8 +43,9 @@ public class RomanNumerals {
 		int countD = 0;
 
 		for (int loop = 0; loop < rommanNumArray.length; loop++) {
-			for (int innerLoop = (loop + 1); innerLoop < rommanNumArray.length; innerLoop++) {
-
+			for (int innerLoop = (loop + 2); innerLoop < rommanNumArray.length; innerLoop++) {
+				if (checkSingleNumeral(rommanNumArray[loop]) < checkSingleNumeral(rommanNumArray[innerLoop]))
+					throw new RomanNumeralException();
 			}
 
 			if (rommanNumArray[loop] == 'V') {
