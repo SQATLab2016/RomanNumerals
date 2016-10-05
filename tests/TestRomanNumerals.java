@@ -134,6 +134,7 @@ public class TestRomanNumerals {
 		RomanNumeral testValue;
 		for (int i = 1; i < 4000; i++) {
 			testValue = new RomanNumeral(i);
+			System.err.println(i);
 			int converted = rn.convertToInteger(testValue.toString());
 			assertEquals(testValue.toInt(), converted);
 		}
