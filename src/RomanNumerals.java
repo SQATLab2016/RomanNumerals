@@ -4,12 +4,23 @@ import java.util.regex.Pattern;
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
 		Pattern p = Pattern.compile(""
-				+ "I{4}|X{4}|C{4}|M{4}|" // repeat limit
-				+ "VV|LL|DD|"            // can't repeat these symbols
-				+ "IL|IC|ID|IM|XD|XM|"   // can't subtract from too big numbers
-				+ "IIV|IIX|XXL|XXC|"     // can't subtract more than once
-				+ "VX|VL|VC|VD|VM|"      // can't subtract the '5' symbols
-				+ "LC"                   // can't subtract the '50' symbols
+				// repeat limit
+				+ "I{4}|X{4}|C{4}|M{4}|"
+				
+				// can't repeat these symbols
+				+ "VV|LL|DD|"
+				
+				// can't subtract from too big numbers
+				+ "IL|IC|ID|IM|XD|XM|"
+				
+				// can't subtract more than once
+				+ "IIV|IIX|XXL|XXC|"
+				
+				// can't subtract the '5' symbols
+				+ "VX|VL|VC|VD|VM|"
+				
+				// can't subtract the '50' symbols
+				+ "LC"
 				);
 		Matcher m = p.matcher(romanNum);
 		if (m.find()) {
