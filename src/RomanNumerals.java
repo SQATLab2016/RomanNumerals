@@ -116,6 +116,10 @@ public class RomanNumerals {
 			    	processTheChar('D', lastChar);
 			    	lastChar = 'D';
 			    	break;
+			    case 'C':
+			    	processTheChar('C', lastChar);
+			    	lastChar = 'C';
+			    	break;
     		}
 		}
     }
