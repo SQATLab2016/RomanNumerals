@@ -1,7 +1,7 @@
 
 public class RomanNumerals {
 	
-	private String numeralOrder="IVXLCDM";
+	private String numeralOrder="0IVXLCDM";
 	
 	public int convertToInteger(String romanNum) {
 		if (romanNum.length() > 1
