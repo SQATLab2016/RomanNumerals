@@ -60,7 +60,7 @@ public class RomanNumerals {
 			if('D' == number.charAt(i)) {
 				++counter3;
 			}
-			
+		
 		}
 		
 		if(counter1>1 || counter2>1 || counter3>1 ) {
