@@ -5,7 +5,7 @@ public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
 		Pattern p = Pattern.compile(""
 				+ "I{4}|X{4}|C{4}|M{4}|" // repeat limit
-				+ "VV|LL|DD|"            // can't repeat
+				+ "VV|LL|DD|"            // can't repeat these symbols
 				+ "IL|IC|ID|IM|"         // can't subtract from too big numbers
 				+ "IIV|"                 // can't subtract more than once
 				+ "VX|VL"                // can't subtract the '5' symbols
