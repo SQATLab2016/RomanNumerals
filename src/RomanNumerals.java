@@ -76,7 +76,7 @@ public class RomanNumerals {
 		int romanV = 0;
 		int romanI = 0;
 		int romanM = 0;
-		for(int i=0; i<romanNum.length(); i++) {
+		for(int i = romanNum.length() - 1; i >= 0 ; i--) {
 			   if(romanNum.charAt(i) == 'I')
 			      romanI++;
 			   if(romanNum.charAt(i) == 'V')
@@ -99,7 +99,7 @@ public class RomanNumerals {
     
     private void checkIfValidSubtraction(String romanNum) throws RomanNumeralsException {
     	char lastChar = 0;
-    	for(int i=0; i<romanNum.length(); i++) {
+    	for(int i = romanNum.length() - 1; i >= 0 ; i--) {
     		switch (romanNum.charAt(i)) {
 			    case 'L':
 			    	processTheChar('L', lastChar);
@@ -127,21 +127,21 @@ public class RomanNumerals {
 
 	private void processTheChar(char c, char lastChar) throws RomanNumeralsException {
 
-		if( c == 'L' )
-			if( lastChar == 'I' )
+		if( c == 'I' )
+			if( lastChar == 'L' )
 				throw new RomanNumeralsException();
-			if ( lastChar == 'X' && x == true)
-				throw new RomanNumeralsException();
-				x = false;
-		if ( c == 'C' )
+		if ( c == 'X' )
 			if(lastChar == 'X' && x == true)
 				throw new RomanNumeralsException();
 				x = false;
-		if ( c == 'X' )
-			if( lastChar == 'X' )
-				x = true;
-		if( c == 'D' )
-			if( lastChar == 'X' )
+		if ( c == 'C' )
+			if( lastChar == 'X' && x == true)
 				throw new RomanNumeralsException();
+				x = false;
+		if( c == 'X' )
+			if( lastChar == 'D' )
+				throw new RomanNumeralsException();
+			if( lastChar == 'X')
+				x = true;
 	}
 }
