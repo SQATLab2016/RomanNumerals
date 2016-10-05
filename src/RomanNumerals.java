@@ -28,7 +28,6 @@ public class RomanNumerals {
 					throw new Exception("Symbol repeated too many times");
 				}
 			}
-			System.err.println(repeated);
 			value += parseCharacterToValue(romanNum, i);
 		}
 		return value;
