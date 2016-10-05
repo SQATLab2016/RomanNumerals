@@ -1,0 +1,7 @@
+FileOpenedAction 1475671433467 RomanNumerals.java 2790 6 15 0
+EditAction 1475671547447 RomanNumerals.java 2679 6 15 0
+UnitTestCaseAction 1475671550180 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475671550182 TestRomanNumerals.java FAIL
+EditAction 1475671650813 RomanNumerals.java 2937 6 15 0
+UnitTestCaseAction 1475671659600 TestRomanNumerals.java OK
+UnitTestSessionAction 1475671659601 TestRomanNumerals.java OK

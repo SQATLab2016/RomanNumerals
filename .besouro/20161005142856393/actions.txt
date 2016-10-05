@@ -1,0 +1,146 @@
+FileOpenedAction 1475666936652 TestRomanNumerals.java 7314 51 81 30
+RefactoringAction 1475666986284 TestRomanNumerals.java ADD void testConvertInteger_IllegalSubtraction_XXC_NumberFormatException() METHOD
+EditAction 1475666997832 TestRomanNumerals.java 7444 52 82 30
+EditAction 1475667003237 TestRomanNumerals.java 7482 52 82 30
+EditAction 1475667008153 TestRomanNumerals.java 7488 52 82 30
+EditAction 1475667012640 TestRomanNumerals.java 7488 52 82 30
+UnitTestCaseAction 1475667016570 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475667016571 TestRomanNumerals.java FAIL
+EditAction 1475667096912 RomanNumerals.java 2689 6 15 0
+UnitTestCaseAction 1475667102036 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475667102037 TestRomanNumerals.java FAIL
+EditAction 1475667135844 RomanNumerals.java 2697 6 15 0
+EditAction 1475667167201 RomanNumerals.java 2693 6 15 0
+UnitTestCaseAction 1475667170192 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475667170194 TestRomanNumerals.java FAIL
+EditAction 1475667457688 RomanNumerals.java 2778 6 15 0
+UnitTestCaseAction 1475667460294 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475667460297 TestRomanNumerals.java FAIL
+RefactoringAction 1475668263713 RomanNumerals.java REMOVE isOneTimeRepeatable(char) METHOD
+RefactoringAction 1475668263715 RomanNumerals.java REMOVE getElementaryIndex(char) METHOD
+RefactoringAction 1475668263717 RomanNumerals.java REMOVE isThreeTimesRepeatable(char) METHOD
+RefactoringAction 1475668268734 RomanNumerals.java ADD boolean isOneTimeRepeatable(char) METHOD
+RefactoringAction 1475668268736 RomanNumerals.java ADD boolean isThreeTimesRepeatable(char) METHOD
+RefactoringAction 1475668268738 RomanNumerals.java ADD int getElementaryIndex(char) METHOD
+EditAction 1475668278447 RomanNumerals.java 2554 6 15 0
+UnitTestCaseAction 1475668281756 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475668281757 TestRomanNumerals.java FAIL
+EditAction 1475668294424 TestRomanNumerals.java 7450 52 82 30
+UnitTestCaseAction 1475668297772 TestRomanNumerals.java OK
+UnitTestSessionAction 1475668297773 TestRomanNumerals.java OK
+EditAction 1475668318164 TestRomanNumerals.java 7478 52 82 31
+UnitTestCaseAction 1475668320985 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475668320986 TestRomanNumerals.java FAIL
+EditAction 1475668327029 TestRomanNumerals.java 7488 52 82 30
+EditAction 1475668529706 RomanNumerals.java 2649 6 15 0
+UnitTestCaseAction 1475668532334 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475668532335 TestRomanNumerals.java FAIL
+EditAction 1475668569817 RomanNumerals.java 2646 6 15 0
+EditAction 1475668652898 RomanNumerals.java 2674 6 15 0
+UnitTestCaseAction 1475668655357 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475668655358 TestRomanNumerals.java FAIL
+EditAction 1475668670065 RomanNumerals.java 2674 6 15 0
+UnitTestCaseAction 1475668672843 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475668672845 TestRomanNumerals.java FAIL
+EditAction 1475668733811 RomanNumerals.java 2646 6 15 0
+UnitTestCaseAction 1475668736456 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475668736457 TestRomanNumerals.java FAIL
+EditAction 1475669318054 RomanNumerals.java 2831 6 16 0
+UnitTestCaseAction 1475669320861 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475669320862 TestRomanNumerals.java FAIL
+EditAction 1475669381136 RomanNumerals.java 2832 6 16 0
+UnitTestCaseAction 1475669386278 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475669386279 TestRomanNumerals.java FAIL
+EditAction 1475669404679 RomanNumerals.java 2832 6 16 0
+UnitTestCaseAction 1475669407835 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475669407836 TestRomanNumerals.java FAIL
+EditAction 1475669461835 RomanNumerals.java 2841 6 16 0
+EditAction 1475669472439 RomanNumerals.java 2825 6 16 0
+UnitTestCaseAction 1475669475064 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475669475065 TestRomanNumerals.java FAIL
+EditAction 1475669492952 RomanNumerals.java 2826 6 16 0
+UnitTestCaseAction 1475669495572 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475669495573 TestRomanNumerals.java FAIL
+EditAction 1475669701395 RomanNumerals.java 2826 6 16 0
+UnitTestCaseAction 1475669704985 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475669704987 TestRomanNumerals.java FAIL
+RefactoringAction 1475670007575 RomanNumerals.java REMOVE isOneTimeRepeatable(char) METHOD
+RefactoringAction 1475670007577 RomanNumerals.java REMOVE canBeSubtrahendElementaryValue(char) METHOD
+RefactoringAction 1475670007579 RomanNumerals.java REMOVE getElementaryIndex(char) METHOD
+RefactoringAction 1475670007580 RomanNumerals.java REMOVE isThreeTimesRepeatable(char) METHOD
+RefactoringAction 1475670007582 RomanNumerals.java REMOVE getElementaryValue(char) METHOD
+RefactoringAction 1475670010109 RomanNumerals.java ADD boolean canBeSubtrahendElementaryValue(char) METHOD
+RefactoringAction 1475670010111 RomanNumerals.java ADD boolean isOneTimeRepeatable(char) METHOD
+RefactoringAction 1475670010112 RomanNumerals.java ADD boolean isThreeTimesRepeatable(char) METHOD
+RefactoringAction 1475670010114 RomanNumerals.java ADD int getElementaryValue(char) METHOD
+RefactoringAction 1475670010116 RomanNumerals.java ADD int getElementaryIndex(char) METHOD
+EditAction 1475670148237 RomanNumerals.java 2990 6 16 0
+CompilationAction 1475670150255 RomanNumerals.java
+CompilationAction 1475670296909 RomanNumerals.java
+UnitTestCaseAction 1475670298220 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475670298221 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475670371307 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475670371308 TestRomanNumerals.java FAIL
+EditAction 1475670385728 RomanNumerals.java 3238 6 16 0
+UnitTestCaseAction 1475670388479 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475670388480 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475670417904 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475670417906 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475670424803 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475670424804 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475670455148 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475670455150 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475670579540 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475670579541 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475670646665 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475670646666 TestRomanNumerals.java FAIL
+EditAction 1475670708634 RomanNumerals.java 3469 6 16 0
+UnitTestCaseAction 1475670847428 TestRomanNumerals.java OK
+UnitTestSessionAction 1475670847429 TestRomanNumerals.java OK
+EditAction 1475670854590 RomanNumerals.java 2821 6 18 0
+RefactoringAction 1475670888079 TestRomanNumerals.java ADD void testConvertInteger_IllegalSubtraction_XXC_Throw_NumberFormatException()/2 METHOD
+RefactoringAction 1475670892100 TestRomanNumerals.java RENAME testConvertInteger_IllegalSubtraction_XXC_Throw_NumberFormatException()/2=>void testConvertInteger_IllegalSubtraction_VX_Throw_NumberFormatException() METHOD
+RefactoringAction 1475670895622 TestRomanNumerals.java RENAME testConvertInteger_IllegalSubtraction_VX_Throw_NumberFormatException()=>void testConvertInteger_IllegalSubtraction_V_Throw_NumberFormatException() METHOD
+RefactoringAction 1475670918647 TestRomanNumerals.java RENAME testConvertInteger_IllegalSubtraction_V_Throw_NumberFormatException()=>void testConvertInteger_IllegalSubtraction_VX_Throw_NumberFormatException() METHOD
+EditAction 1475670919650 TestRomanNumerals.java 7661 53 83 30
+UnitTestCaseAction 1475670922911 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475670922912 TestRomanNumerals.java FAIL
+RefactoringAction 1475670944723 RomanNumerals.java ADD boolean isOneTimeRepeatable(char)/2 METHOD
+RefactoringAction 1475670948238 RomanNumerals.java RENAME isOneTimeRepeatable(char)/2=>boolean canBe(char) METHOD
+RefactoringAction 1475670958754 RomanNumerals.java REMOVE canBe(char) METHOD
+EditAction 1475671077114 RomanNumerals.java 2955 6 18 0
+EditAction 1475671087365 RomanNumerals.java 2961 6 18 0
+UnitTestCaseAction 1475671090115 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475671090116 TestRomanNumerals.java FAIL
+EditAction 1475671098013 RomanNumerals.java 2961 6 18 0
+UnitTestCaseAction 1475671101951 TestRomanNumerals.java OK
+UnitTestSessionAction 1475671101952 TestRomanNumerals.java OK
+RefactoringAction 1475671142030 RomanNumerals.java ADD int i FIELD
+RefactoringAction 1475671143052 RomanNumerals.java REMOVE i FIELD
+RefactoringAction 1475671150603 RomanNumerals.java ADD int i FIELD
+RefactoringAction 1475671152126 RomanNumerals.java REMOVE i FIELD
+RefactoringAction 1475671156677 RomanNumerals.java ADD int i FIELD
+RefactoringAction 1475671182849 RomanNumerals.java REMOVE i FIELD
+EditAction 1475671184211 RomanNumerals.java 2902 6 18 0
+UnitTestCaseAction 1475671187047 TestRomanNumerals.java OK
+UnitTestSessionAction 1475671187048 TestRomanNumerals.java OK
+UnitTestCaseAction 1475671220424 TestRomanNumerals.java OK
+UnitTestSessionAction 1475671220425 TestRomanNumerals.java OK
+RefactoringAction 1475671301703 TestRomanNumerals.java ADD void testConvertInteger_IllegalSubtraction_VX_Throw_NumberFormatException()/2 METHOD
+RefactoringAction 1475671318254 TestRomanNumerals.java RENAME testConvertInteger_IllegalSubtraction_VX_Throw_NumberFormatException()/2=>void testConvertInteger_IllegalSubtraction_LX_Throw_NumberFormatException() METHOD
+RefactoringAction 1475671320273 TestRomanNumerals.java ADD void testConvertInteger_IllegalSubtraction_LX_Throw_NumberFormatException()/2 METHOD
+RefactoringAction 1475671323820 TestRomanNumerals.java RENAME testConvertInteger_IllegalSubtraction_LX_Throw_NumberFormatException()/2=>void testConvertInteger_IllegalSubtraction_DX_Throw_NumberFormatException() METHOD
+EditAction 1475671326195 TestRomanNumerals.java 8003 55 85 30
+UnitTestCaseAction 1475671332570 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475671332570 TestRomanNumerals.java FAIL
+EditAction 1475671347720 TestRomanNumerals.java 8003 55 85 30
+UnitTestCaseAction 1475671350155 TestRomanNumerals.java OK
+UnitTestSessionAction 1475671350156 TestRomanNumerals.testConvertInteger_IllegalSubtraction_DM_Throw_NumberFormatException OK
+RefactoringAction 1475671370369 TestRomanNumerals.java RENAME testConvertInteger_IllegalSubtraction_LX_Throw_NumberFormatException()=>void testConvertInteger_IllegalSubtraction_LC_Throw_NumberFormatException() METHOD
+EditAction 1475671371660 TestRomanNumerals.java 8003 55 85 30
+UnitTestCaseAction 1475671373909 TestRomanNumerals.java OK
+UnitTestSessionAction 1475671373910 TestRomanNumerals.java OK
+EditAction 1475671377579 TestRomanNumerals.java 8003 55 85 30
+UnitTestCaseAction 1475671379817 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475671379818 TestRomanNumerals.java FAIL
+EditAction 1475671381748 TestRomanNumerals.java 8003 55 85 30
