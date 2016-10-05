@@ -1,5 +1,8 @@
 
 public class RomanNumerals {
+	
+	private String numeralOrder="IVXLCDM";
+	
 	public int convertToInteger(String romanNum) {
 		if (romanNum.length() > 1
 				&& (romanNum.charAt(0) == 'V' || romanNum.charAt(0) == 'L' || romanNum.charAt(0) == 'D')) {
@@ -8,7 +11,10 @@ public class RomanNumerals {
 
 		if (romanNum.length() < 4) {
 			if(romanNum.length()>1 && romanNum.charAt(0)!=romanNum.charAt(1)){
-				return getSingularValue(getStringCharAt(romanNum,1))-getSingularValue(getStringCharAt(romanNum, 0));
+				if(numeralOrder.indexOf(romanNum.charAt(1))-numeralOrder.indexOf(romanNum.charAt(0))<3){
+					return getSingularValue(getStringCharAt(romanNum,1))-getSingularValue(getStringCharAt(romanNum, 0));
+				}
+				
 			}
 			return romanNum.length() * getSingularValue(getStringCharAt(romanNum,0));
 		}
