@@ -18,7 +18,7 @@ public class TestRomanNumerals {
 	
 	@Test(expected=NumberFormatException.class)
 	public void testConvertInteger_IllegalSubtraction_LC_Throw_NumberFormatException() {
-		mNumerals.convertToInteger("LC");
+		mNumerals.convertToInteger("CL");
 	}
 	
 	@Test(expected=NumberFormatException.class)

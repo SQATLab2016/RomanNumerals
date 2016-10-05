@@ -138,3 +138,6 @@ UnitTestCaseAction 1475671350155 TestRomanNumerals.java OK
 UnitTestSessionAction 1475671350156 TestRomanNumerals.testConvertInteger_IllegalSubtraction_DM_Throw_NumberFormatException OK
 RefactoringAction 1475671370369 TestRomanNumerals.java RENAME testConvertInteger_IllegalSubtraction_LX_Throw_NumberFormatException()=>void testConvertInteger_IllegalSubtraction_LC_Throw_NumberFormatException() METHOD
 EditAction 1475671371660 TestRomanNumerals.java 8003 55 85 30
+UnitTestCaseAction 1475671373909 TestRomanNumerals.java OK
+UnitTestSessionAction 1475671373910 TestRomanNumerals.java OK
+EditAction 1475671377579 TestRomanNumerals.java 8003 55 85 30
