@@ -24,8 +24,8 @@ public class RomanNumerals {
 			nextVal = getCharValue(romanNum.charAt(i + 1));
 			return getCurrentValue(currentVal, nextVal);
 		}
-		catch(Exception e) { // when trying to get next of last, it is intended to end up here
-			return currentVal;
+		catch(Exception e) {
+			return currentVal; // when trying to get next of last, it is intended to end up here
 		}
 	}
 
