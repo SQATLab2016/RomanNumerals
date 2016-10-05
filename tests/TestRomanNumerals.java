@@ -102,6 +102,7 @@ public class TestRomanNumerals {
 	
 	@Test(expected=Exception.class) public void testRomanNumerals_LC_err() throws Exception  {
 		rn.convertToInteger("LC");
+		assertEquals(50, num);
 	}
 	
 	@Test(expected=Exception.class) public void testRomanNumerals_VV_err() throws Exception  {
