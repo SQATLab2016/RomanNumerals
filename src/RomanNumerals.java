@@ -14,7 +14,7 @@ public class RomanNumerals {
 				+ "IL|IC|ID|IM|XD|XM|"
 				
 				// can't subtract more than once
-				+ "IIV|IIX|XXL|XXC|"
+				+ "IIV|IIX|XXL|XXC|CCD|"
 				
 				// can't subtract the '5' symbols
 				+ "VX|VL|VC|VD|VM|"

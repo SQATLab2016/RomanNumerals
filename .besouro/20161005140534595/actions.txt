@@ -123,3 +123,6 @@ RefactoringAction 1475666378649 TestRomanNumerals.java ADD void test_X_cannot_be
 RefactoringAction 1475666381167 TestRomanNumerals.java RENAME test_X_cannot_be_subtracted_twice_from_L()/2=>void test_C_cannot_be_subtracted_twice_from_L() METHOD
 RefactoringAction 1475666384188 TestRomanNumerals.java RENAME test_C_cannot_be_subtracted_twice_from_L()=>void test_C_cannot_be_subtracted_twice_from_D() METHOD
 EditAction 1475666388624 TestRomanNumerals.java 4394 31 36 5
+UnitTestCaseAction 1475666391103 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475666391104 TestRomanNumerals.java FAIL
+EditAction 1475666402462 RomanNumerals.java 935 1 4 0
