@@ -1,14 +1,14 @@
 
 public class RomanNumerals {
-	static int counterI = 0;
-	static int counterX = 0;
-	static int counterC = 0;
-	static int counterM = 0;
-	static int counterV = 0;
-	static int counterL = 0;
-	static int counterD = 0;
+	int counterI = 0;
+	int counterX = 0;
+	int counterC = 0;
+	int counterM = 0;
+	int counterV = 0;
+	int counterL = 0;
+	int counterD = 0;
 	
-	public static int convertToInteger(String romanNum) {
+	public int convertToInteger(String romanNum) {
 		int num = 0;
 		int sum  = 0;
 		int prevNum = 0;
@@ -42,7 +42,11 @@ public class RomanNumerals {
 		
 	}
 	
-	private static void restartCounters(){
+	public RomanNumerals() {
+	
+	}
+
+	private void restartCounters(){
 		counterI = 0;
 		counterX = 0;
 		counterC = 0;
@@ -52,7 +56,7 @@ public class RomanNumerals {
 		counterD = 0;
 	}
 	
-	private static int check1NumbersAmount(int num){
+	private int check1NumbersAmount(int num){
 		switch(num){
 		case 1: 
 			counterI++;
@@ -76,7 +80,7 @@ public class RomanNumerals {
 		return 0;
 	}
 	
-	private static int check5NumbersAmount(int num){
+	private int check5NumbersAmount(int num){
 		switch(num){
 		case 5: 
 			counterV++;
