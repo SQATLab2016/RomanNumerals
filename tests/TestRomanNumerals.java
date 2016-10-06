@@ -81,11 +81,20 @@ public class TestRomanNumerals {
 		assertRomanValue(1984, "MCMLXXXIV");
 	}
 	
-	@Test()
+	@Test
 	public void test_ConvertToIntegerInvalidRomanNumberABC() {
 		assertRomanValue(-1, "ABC");
 	}
-
+	
+	@Test
+	public void test_ConvertToIntegerValueMMXIV() {
+		assertRomanValue(2014, "MMXIV");
+	}
+	
+	@Test
+	public void test_ConvertToIntegerInvalidRomanNumberMMMM() {
+		assertRomanValue(-1, "MMMM");
+	}
 	private void assertRomanValue(int expected, String testValue) {
 		int value = numerals.convertToInteger(testValue);
 		assertEquals(expected, value);

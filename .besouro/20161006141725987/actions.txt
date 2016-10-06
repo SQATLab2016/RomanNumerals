@@ -67,3 +67,20 @@ EditAction 1475754973628 RomanNumerals.java 1558 5 8 0
 UnitTestCaseAction 1475754976909 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475754976910 TestRomanNumerals.java FAIL
 EditAction 1475755025914 RomanNumerals.java 1567 5 8 0
+CompilationAction 1475755027472 RomanNumerals.java
+CompilationAction 1475755109040 RomanNumerals.java
+UnitTestCaseAction 1475755110749 TestRomanNumerals.java OK
+UnitTestSessionAction 1475755110750 TestRomanNumerals.java OK
+RefactoringAction 1475755134268 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475755139282 TestRomanNumerals.java RENAME test=>void test_ConvertToInteger FIELD
+RefactoringAction 1475755141794 TestRomanNumerals.java RENAME test_ConvertToInteger=>void test_ConvertToIntegerValueMMXIV FIELD
+RefactoringAction 1475755143807 TestRomanNumerals.java RENAME test_ConvertToIntegerValueMMXIV=>void test_ConvertToIntegerValueMMXIV() METHOD
+UnitTestCaseAction 1475755158071 TestRomanNumerals.java OK
+UnitTestSessionAction 1475755158072 TestRomanNumerals.java OK
+RefactoringAction 1475755213943 TestRomanNumerals.java ADD void test_ConvertToInteger FIELD
+RefactoringAction 1475755220957 TestRomanNumerals.java RENAME test_ConvertToInteger=>void test_ConvertToIntegerInvalidRomanNumber FIELD
+RefactoringAction 1475755222970 TestRomanNumerals.java RENAME test_ConvertToIntegerInvalidRomanNumber=>void test_ConvertToIntegerInvalidRomanNumberMMMM FIELD
+RefactoringAction 1475755224983 TestRomanNumerals.java RENAME test_ConvertToIntegerInvalidRomanNumberMMMM=>void test_ConvertToIntegerInvalidRomanNumberMMMM() METHOD
+UnitTestCaseAction 1475755240512 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755240513 TestRomanNumerals.java FAIL
+EditAction 1475755287339 RomanNumerals.java 1697 5 10 0

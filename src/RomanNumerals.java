@@ -19,7 +19,8 @@ public class RomanNumerals {
 	}
 
 	private boolean checkIfValidRomanNumeral(String romanNum) {
-		if(romanNum)
+		if (romanNum.length() == 0) return false;
+		if (!romanNum.matches("^(M{0,3})(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$")) return false;
 		return true;
 	}
 
