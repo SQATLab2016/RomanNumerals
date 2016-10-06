@@ -10,6 +10,7 @@ public class RomanNumerals {
 	private static final int M_VALUE = 1000;
 	
 	public int convertToInteger(String romanNum) {
+		romanNum.toUpperCase();
 		if (!checkIfValidRomanNumeral(romanNum)) {
 			return -1;
 		}

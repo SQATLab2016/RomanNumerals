@@ -95,6 +95,17 @@ public class TestRomanNumerals {
 	public void test_ConvertToIntegerInvalidRomanNumberMMMM() {
 		assertRomanValue(-1, "MMMM");
 	}
+	
+	@Test
+	public void test_ConvertToIntegerInvalidRomanNumberVVI() {
+		assertRomanValue(-1, "VVI");
+	}
+	
+	@Test
+	public void test_ConvertToIntegerLowerCaseValueMCMLXXXIV() {
+		assertRomanValue(1984, "mcmlxxxiv");
+	}
+	
 	private void assertRomanValue(int expected, String testValue) {
 		int value = numerals.convertToInteger(testValue);
 		assertEquals(expected, value);
