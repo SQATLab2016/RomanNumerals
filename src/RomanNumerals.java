@@ -71,10 +71,9 @@ public class RomanNumerals {
 			}
 			
 			if(((value == 5 || value == 10) && lastValue == 1)) {
-				value = value - lastValue;
+				value = value - lastValue - lastValue;
 				sum = sum + value;
 				lastValue = value;
-				
 			}
 
 			else {
