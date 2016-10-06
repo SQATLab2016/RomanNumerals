@@ -8,6 +8,9 @@ public class RomanNumerals {
 		if (checkFor3C(romanNum)&&checkFor3I(romanNum)&&checkFor3M(romanNum)&&checkFor3X(romanNum)) {
 			if (checkForNorepeatD(romanNum)&&checkForNorepeatL(romanNum)&&checkForNorepeatV(romanNum)) {
 				for (int i = romanNum.length()-1; i>=0 ; i--) {
+					tempNum=0;
+					tempNum2=0;
+					tempNum3=0;
 					if(sigNum==0){
 						System.out.println("iep sumo");
 
@@ -33,12 +36,14 @@ public class RomanNumerals {
 						}else if(i!=0 && i !=1){
 							tempNum2=convertCharToNum(romanNum.charAt(i-1));
 							tempNum3=convertCharToNum(romanNum.charAt(i-2));
+							System.out.println("elnorma"+ tempNum+','+tempNum2+','+tempNum3);
+							
 							if (tempNum>tempNum2&&tempNum<tempNum3) {
 								System.out.println(tempNum + "el sig es menor"+tempNum2);
-
 								num= num+(tempNum-tempNum2);
 								sigNum=-1;
-							} else if (tempNum>tempNum&&tempNum>tempNum3) {
+								System.out.println("sig"+sigNum);
+							} else if (tempNum>tempNum2&&tempNum>tempNum3) {
 								System.out.println(tempNum + "el sig y el sig es menor"+tempNum2+','+tempNum3);
 
 								num= num+(tempNum-tempNum2-tempNum3);
