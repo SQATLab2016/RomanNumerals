@@ -60,6 +60,12 @@ public class TestRomanNumerals {
 		RomanNumerals romanNumerals = new RomanNumerals();
 		assertEquals("9", 9, romanNumerals.convertToInteger("IX"));
 	}
+	
+	@Test
+	public void convertIV() {
+		RomanNumerals romanNumerals = new RomanNumerals();
+		assertEquals("4", 4, romanNumerals.convertToInteger("IV"));
+	}
 
 	
 	

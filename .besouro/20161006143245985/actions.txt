@@ -5,3 +5,8 @@ EditAction 1475754051533 RomanNumerals.java 1673 1 7 0
 UnitTestCaseAction 1475754053861 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475754053861 TestRomanNumerals.java FAIL
 EditAction 1475754160830 RomanNumerals.java 1680 1 7 0
+UnitTestCaseAction 1475754162538 TestRomanNumerals.java OK
+UnitTestSessionAction 1475754162538 TestRomanNumerals.java OK
+RefactoringAction 1475754207482 TestRomanNumerals.java ADD void convertIX()/2 METHOD
+RefactoringAction 1475754210087 TestRomanNumerals.java RENAME convertIX()/2=>void convertIV() METHOD
+EditAction 1475754221007 TestRomanNumerals.java 1931 9 22 7
