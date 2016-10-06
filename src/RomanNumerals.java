@@ -4,12 +4,12 @@ public class RomanNumerals {
 		int result = 0;
 		for (int i = 0; i < romanNum.length(); i++) {
 			// Check last character seperately
-			if(i == romanNum.length()-1){
-				String s = romanNum.substring(i, i+1);				
-				if(s.equals("M"))
-					result+=1000;
+			if (i == romanNum.length() - 1) {
+				String s = romanNum.substring(i, i + 1);
+				if (s.equals("M"))
+					result += 1000;
 				else if (s.equals("D"))
-					result+=500;
+					result += 500;
 				else if (s.equals("C"))
 					result += 100;
 				else if (s.equals("L"))
@@ -18,62 +18,49 @@ public class RomanNumerals {
 					result += 10;
 				else if (s.equals("I"))
 					result += 1;
-			}
-			else{
-				String s = romanNum.substring(i, i+1);
-				if(s.equals("M")){
+			} else {
+				String s = romanNum.substring(i, i + 1);
+				if (s.equals("M")) {
 					result += 1000;
-				} 
-				else if(s.equals("D")){
+				} else if (s.equals("D")) {
 					result += 500;
-				}
-				else if (s.equals("C")){
-					String next = romanNum.substring(i+1,i+2);
+				} else if (s.equals("C")) {
+					String next = romanNum.substring(i + 1, i + 2);
 					// Check special case.
-					if (next.equals("M")){
+					if (next.equals("M")) {
 						result += 900;
 						i++;
-					}
-					else if(next.equals("D")){
+					} else if (next.equals("D")) {
 						result += 400;
 						i++;
-					}
-					else {
+					} else {
 						result += 100;
 					}
-				} 
-				else if(s.equals("L")){
+				} else if (s.equals("L")) {
 					result += 50;
-				}
-				else if(s.equals("X")){
+				} else if (s.equals("X")) {
 					// Check special case.
-					String next = romanNum.substring(i+1,i+2);
-					if (next.equals("C")){
+					String next = romanNum.substring(i + 1, i + 2);
+					if (next.equals("C")) {
 						result += 90;
 						i++;
-					}
-					else if(next.equals("L")){
+					} else if (next.equals("L")) {
 						result += 40;
 						i++;
-					}
-					else {
+					} else {
 						result += 10;
 					}
-				}
-				else if(s.equals("V")){
+				} else if (s.equals("V")) {
 					result += 5;
-				}
-				else if(s.equals("I")){
-					String next = romanNum.substring(i+1,i+2);
-					if (next.equals("X")){
+				} else if (s.equals("I")) {
+					String next = romanNum.substring(i + 1, i + 2);
+					if (next.equals("X")) {
 						result += 9;
 						i++;
-					}
-					else if (next.equals("V")){
+					} else if (next.equals("V")) {
 						result += 4;
 						i++;
-					}
-					else {
+					} else {
 						result += 1;
 					}
 				}
