@@ -1,2 +1,8 @@
 1475752705970 regression 1 59 true
 1475753412789 regression 2 375 true
+1475753768904 refactoring 2A 310 true
+1475753768905 refactoring 3 310 true
+1475753768906 refactoring 3 310 true
+1475753768907 refactoring 3 310 true
+1475753768908 refactoring 3 310 true
+1475753768909 refactoring 3 310 true

@@ -26,3 +26,10 @@ RefactoringAction 1475753675637 RomanNumerals.java REMOVE parseRomanNumStringToT
 RefactoringAction 1475753681178 RomanNumerals.java REMOVE getSubstractiveRomanNumberValue(String) METHOD
 RefactoringAction 1475753681180 RomanNumerals.java REMOVE hasSubstractiveNumber(String) METHOD
 EditAction 1475753763497 RomanNumerals.java 1439 4 7 0
+UnitTestCaseAction 1475753768903 TestRomanNumerals.java OK
+UnitTestSessionAction 1475753768904 TestRomanNumerals.java OK
+RefactoringAction 1475753878310 TestRomanNumerals.java ADD void test_ConvertToIntegerValueMCMLXXXIV FIELD
+RefactoringAction 1475753879831 TestRomanNumerals.java RENAME test_ConvertToIntegerValueMCMLXXXIV=>void test_ConvertToIntegerValueMCMLXXXIV() METHOD
+UnitTestCaseAction 1475753911751 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475753911752 TestRomanNumerals.java FAIL
+EditAction 1475753988746 RomanNumerals.java 1459 4 8 0

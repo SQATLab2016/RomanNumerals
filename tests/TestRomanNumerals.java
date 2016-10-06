@@ -75,6 +75,11 @@ public class TestRomanNumerals {
 	public void test_ConvertToIntegerValueIX() {
 		assertRomanValue(9, "IX");
 	}
+	
+	@Test
+	public void test_ConvertToIntegerValueMCMLXXXIV() {
+		assertRomanValue(1984, "MCMLXXXIV");
+	}
 
 	private void assertRomanValue(int expected, String testValue) {
 		int value = numerals.convertToInteger(testValue);

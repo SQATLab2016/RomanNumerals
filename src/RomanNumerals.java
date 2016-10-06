@@ -17,8 +17,9 @@ public class RomanNumerals {
 
 	private int getRomanNumberValue(String romanNum) {
 		int value = 0;
-		for (int i = romanNum.length() - 1; i > 0; i--) {
-			if (getRomanCharValue(getCharFromRomanNum(romanNum, i-1)) >= getRomanCharValue(getCharFromRomanNum(romanNum, i))) {
+		int index = romanNum.length() - 1;
+		for (int i = index - 1; i > 0; i--) {
+			if (getRomanCharValue(getCharFromRomanNum(romanNum, i)) >= getRomanCharValue(getCharFromRomanNum(romanNum))) {
 				value += getRomanCharValue(getCharFromRomanNum(romanNum, i));
 			}
 			else
