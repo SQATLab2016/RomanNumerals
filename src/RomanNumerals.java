@@ -58,6 +58,8 @@ public class RomanNumerals {
 			break;
 			case "D": subStringValues.add(500);
 			break;
+			case "M": subStringValues.add(1000);
+			break;
 			default: subStringValues.add(0);
 			}
 		}
