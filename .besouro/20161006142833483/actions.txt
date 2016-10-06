@@ -198,3 +198,6 @@ RefactoringAction 1475758525803 TestRomanNumerals.java ADD void testConvertingLC
 RefactoringAction 1475758529821 TestRomanNumerals.java RENAME testConvertingLC()/2=>void testConvertingDM() METHOD
 EditAction 1475758544567 TestRomanNumerals.java 5311 23 66 10
 EditAction 1475758558530 RomanNumerals.java 3269 1 7 0
+UnitTestCaseAction 1475758560535 TestRomanNumerals.java OK
+UnitTestSessionAction 1475758560535 TestRomanNumerals.java OK
+EditAction 1475758570160 RomanNumerals.java 3271 1 6 0
