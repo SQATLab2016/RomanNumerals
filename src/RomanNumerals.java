@@ -74,6 +74,12 @@ public class RomanNumerals {
 				throw new IllegalArgumentException("This roman number can't be repeated");
 			}
 			
+			
+			System.out.println("Sum: " + sum);
+			System.out.println("Value: " + value);
+			//System.out.println("Counter: " + counter);
+			System.out.println("LastValue: " + lastValue);
+			
 			if(((value == 5 || value == 10) && lastValue == 1) 
 					|| ((value == 50 || value == 100) && lastValue == 10) 
 					|| ((value == 500 || value == 1000) && lastValue == 100)) {
@@ -90,9 +96,7 @@ public class RomanNumerals {
 			}
 			counter++;
 			
-			System.out.println("Sum: " + sum);
-			System.out.println("Value: " + value);
-			System.out.println("Counter: " + counter);
+
 			
 		}
 		
