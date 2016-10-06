@@ -76,3 +76,9 @@ EditAction 1475755193200 RomanNumerals.java 2695 1 6 0
 UnitTestCaseAction 1475755194782 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475755194783 TestRomanNumerals.java FAIL
 EditAction 1475755322840 RomanNumerals.java 2738 1 6 0
+UnitTestCaseAction 1475755325720 TestRomanNumerals.java OK
+UnitTestSessionAction 1475755325720 TestRomanNumerals.java OK
+RefactoringAction 1475755431790 TestRomanNumerals.java ADD void testConvertingDD()/2 METHOD
+RefactoringAction 1475755437308 TestRomanNumerals.java RENAME testConvertingDD()/2=>void testConvertingV() METHOD
+RefactoringAction 1475755438327 TestRomanNumerals.java RENAME testConvertingV()=>void testConvertingVX() METHOD
+EditAction 1475755443408 TestRomanNumerals.java 4823 21 58 8

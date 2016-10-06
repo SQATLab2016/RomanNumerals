@@ -240,4 +240,17 @@ public class TestRomanNumerals {
 		}
 	}
 	
+	@Test
+	public void testConvertingVX() {
+		RomanNumerals rn = new RomanNumerals();
+		boolean thrown = false;
+		try {
+			rn.convertToInteger("VX");
+		}
+		catch(RomanNumeralsException e) {
+			thrown = true;
+		}
+		assertEquals(true, thrown);
+	}
+	
 }
