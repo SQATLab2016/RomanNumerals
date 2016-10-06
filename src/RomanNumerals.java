@@ -57,7 +57,7 @@ public class RomanNumerals {
 						result += 9;
 						i++;
 					}
-					else if (s.equals("V")){
+					else if (next.equals("V")){
 						result += 4;
 						i++;
 					}
