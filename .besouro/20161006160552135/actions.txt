@@ -6,3 +6,6 @@ UnitTestSessionAction 1475760812760 RomanNumerals.java OK
 EditAction 1475760857210 TestRomanNumerals.java 4446 14 26 13
 CompilationAction 1475760857541 TestRomanNumerals.java
 EditAction 1475760863070 TestRomanNumerals.java 4445 14 28 14
+UnitTestCaseAction 1475760863897 TestRomanNumerals.java OK
+UnitTestSessionAction 1475760863897 TestRomanNumerals.java OK
+EditAction 1475760876284 TestRomanNumerals.java 4449 14 28 14
