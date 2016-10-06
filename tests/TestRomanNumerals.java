@@ -81,6 +81,11 @@ public class TestRomanNumerals {
 		romanNumerals.convertToInteger("XXC");
 	}
 	
+	@Test
+	public void convertMCMLXXXIV() {
+		RomanNumerals romanNumerals = new RomanNumerals();
+		assertEquals("1984", 1984, romanNumerals.convertToInteger("MCMLXXXIV"));
+	}
 
 	
 	
