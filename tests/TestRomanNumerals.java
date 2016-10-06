@@ -72,6 +72,15 @@ public class TestRomanNumerals {
 		RomanNumerals romanNumerals = new RomanNumerals();
 		assertEquals("400", 400, romanNumerals.convertToInteger("CD"));
 	}
+	
+	@Test
+	public void convertXXC() throws IllegalArgumentException {
+		expectedEx.expect(IllegalArgumentException.class);
+		expectedEx.expectMessage("Can't be subtstracted twice");
+		RomanNumerals romanNumerals = new RomanNumerals();
+		romanNumerals.convertToInteger("XXC");
+	}
+	
 
 	
 	

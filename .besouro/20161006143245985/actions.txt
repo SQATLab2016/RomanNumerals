@@ -18,3 +18,10 @@ RefactoringAction 1475754619591 TestRomanNumerals.java RENAME convertIV()=>void 
 RefactoringAction 1475754632477 TestRomanNumerals.java RENAME convert()=>void convertCD() METHOD
 EditAction 1475754646674 RomanNumerals.java 1804 1 7 0
 EditAction 1475754648296 TestRomanNumerals.java 2091 10 24 8
+UnitTestCaseAction 1475754650171 TestRomanNumerals.java OK
+UnitTestSessionAction 1475754650171 TestRomanNumerals.java OK
+RefactoringAction 1475754761676 TestRomanNumerals.java ADD void convertCD()/2 METHOD
+RefactoringAction 1475754773193 TestRomanNumerals.java REMOVE convertCD()/2 METHOD
+RefactoringAction 1475754805217 TestRomanNumerals.java ADD void convertIIII()/2 METHOD
+RefactoringAction 1475754809769 TestRomanNumerals.java RENAME convertIIII()/2=>void convertXXC() METHOD
+EditAction 1475755280497 TestRomanNumerals.java 2371 11 28 8
