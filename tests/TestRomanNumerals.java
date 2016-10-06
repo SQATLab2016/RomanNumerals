@@ -38,5 +38,17 @@ public class TestRomanNumerals {
 		
 		assertEquals("Check",'I',RomanNumerals.checkSubstraction("IX"));
 	}
+	
+	@Test
+	public void testOneSubstraction(){
+		
+		assertFalse("Check",RomanNumerals.oneSubstraction("XXC"));
+	}
+	
+	@Test
+	public void test5Symbols(){
+		
+		assertEquals("Check",' ',RomanNumerals.checkSubstraction("LX"));
+	}
 
 }

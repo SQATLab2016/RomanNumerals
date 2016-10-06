@@ -90,4 +90,15 @@ public class RomanNumerals {
 		}
 		return ' ';
 	}
+
+	public static boolean oneSubstraction(String string) {
+		// TODO Auto-generated method stub
+		for(int i=0; i<string.length()-1; i++){
+			char ch = string.charAt(i);
+			char ch2 = string.charAt(i+1);
+			if((ch == ch2) & (string.charAt(i+2) != '\u0000'))
+				return false;
+		}
+		return true;
+	}
 }
