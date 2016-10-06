@@ -7,7 +7,7 @@ public class RomanNumerals {
 		char tempChar;
 		if (checkFor3C(romanNum)&&checkFor3I(romanNum)&&checkFor3M(romanNum)&&checkFor3X(romanNum)) {
 			if (checkForNorepeatD(romanNum)&&checkForNorepeatL(romanNum)&&checkForNorepeatV(romanNum)) {
-				for (int i = romanNum.length(); i<0 ; i--) {
+				for (int i = romanNum.length(); i>0 ; i--) {
 					System.out.println("iep");
 
 					tempChar= romanNum.charAt(i);
