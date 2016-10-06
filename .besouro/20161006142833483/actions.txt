@@ -29,3 +29,6 @@ RefactoringAction 1475753864152 TestRomanNumerals.java RENAME testConvertingX()/
 RefactoringAction 1475753867173 TestRomanNumerals.java RENAME testConvertingXX()/2=>void testConvertingC()/2 METHOD
 RefactoringAction 1475753868193 TestRomanNumerals.java RENAME testConvertingC()/2=>void testConvertingCC() METHOD
 EditAction 1475753882459 TestRomanNumerals.java 3460 15 42 6
+UnitTestCaseAction 1475753886496 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475753886496 TestRomanNumerals.java FAIL
+EditAction 1475753901514 RomanNumerals.java 2027 1 6 0
