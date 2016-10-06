@@ -93,6 +93,7 @@ public class RomanNumerals {
 
 			else {
 			sum = sum + value;
+			lastValue = value;
 			}
 			counter++;
 			
