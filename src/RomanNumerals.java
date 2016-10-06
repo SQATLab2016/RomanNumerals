@@ -19,7 +19,7 @@ public class RomanNumerals {
 	}
 
 	private boolean checkIfValidRomanNumeral(String romanNum) {
-		
+		if(romanNum)
 		return true;
 	}
 
@@ -30,8 +30,7 @@ public class RomanNumerals {
 			if (getRomanCharValue(getCharFromRomanNum(romanNum, i)) >= getRomanCharValue(getCharFromRomanNum(romanNum, i + 1))) {
 				value += getRomanCharValue(getCharFromRomanNum(romanNum, i));
 			}
-			else
-			{
+			else {
 				value -= getRomanCharValue(getCharFromRomanNum(romanNum, i));
 			}
 		}
