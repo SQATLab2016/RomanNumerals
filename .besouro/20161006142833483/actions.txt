@@ -1,0 +1,203 @@
+FileOpenedAction 1475753313805 TestRomanNumerals.java 2130 9 28 5
+RefactoringAction 1475753317063 TestRomanNumerals.java ADD void testConvertingVV()/2 METHOD
+RefactoringAction 1475753321086 TestRomanNumerals.java RENAME testConvertingVV()/2=>void testConvertingX() METHOD
+RefactoringAction 1475753378237 TestRomanNumerals.java ADD void testConvertingX()/2 METHOD
+RefactoringAction 1475753380747 TestRomanNumerals.java RENAME testConvertingX()/2=>void testConvertingXX() METHOD
+EditAction 1475753387230 TestRomanNumerals.java 2564 11 32 5
+UnitTestCaseAction 1475753389767 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475753389768 TestRomanNumerals.java FAIL
+EditAction 1475753488293 RomanNumerals.java 1857 1 6 0
+UnitTestCaseAction 1475753490182 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475753490183 TestRomanNumerals.java FAIL
+EditAction 1475753732790 RomanNumerals.java 1930 1 6 0
+UnitTestCaseAction 1475753735875 TestRomanNumerals.java OK
+UnitTestSessionAction 1475753735875 TestRomanNumerals.java OK
+RefactoringAction 1475753767877 TestRomanNumerals.java ADD void testConvertingX()/2 METHOD
+RefactoringAction 1475753770902 TestRomanNumerals.java RENAME testConvertingX()/2=>void testConvertingL() METHOD
+RefactoringAction 1475753792508 TestRomanNumerals.java ADD void testConvertingVV()/2 METHOD
+RefactoringAction 1475753795529 TestRomanNumerals.java RENAME testConvertingVV()/2=>void testConverting() METHOD
+RefactoringAction 1475753796554 TestRomanNumerals.java RENAME testConverting()=>void testConvertingLL() METHOD
+EditAction 1475753804105 TestRomanNumerals.java 3024 13 38 6
+UnitTestCaseAction 1475753805828 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475753805829 TestRomanNumerals.java FAIL
+EditAction 1475753838298 RomanNumerals.java 1978 1 6 0
+UnitTestCaseAction 1475753841367 TestRomanNumerals.java OK
+UnitTestSessionAction 1475753841367 TestRomanNumerals.java OK
+RefactoringAction 1475753860608 TestRomanNumerals.java ADD void testConvertingX()/2 METHOD
+RefactoringAction 1475753860608 TestRomanNumerals.java ADD void testConvertingXX()/2 METHOD
+RefactoringAction 1475753864152 TestRomanNumerals.java RENAME testConvertingX()/2=>void testConvertingC() METHOD
+RefactoringAction 1475753867173 TestRomanNumerals.java RENAME testConvertingXX()/2=>void testConvertingC()/2 METHOD
+RefactoringAction 1475753868193 TestRomanNumerals.java RENAME testConvertingC()/2=>void testConvertingCC() METHOD
+EditAction 1475753882459 TestRomanNumerals.java 3460 15 42 6
+UnitTestCaseAction 1475753886496 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475753886496 TestRomanNumerals.java FAIL
+EditAction 1475753901514 RomanNumerals.java 2027 1 6 0
+UnitTestCaseAction 1475753902746 TestRomanNumerals.java OK
+UnitTestSessionAction 1475753902746 TestRomanNumerals.java OK
+RefactoringAction 1475753921775 TestRomanNumerals.java ADD void testConvertingL()/2 METHOD
+RefactoringAction 1475753921776 TestRomanNumerals.java ADD void testConvertingLL()/2 METHOD
+RefactoringAction 1475753926797 TestRomanNumerals.java RENAME testConvertingL()/2=>void testConvertingD() METHOD
+RefactoringAction 1475753934855 TestRomanNumerals.java RENAME testConvertingLL()/2=>void testConvertingDD() METHOD
+EditAction 1475753939624 TestRomanNumerals.java 3921 17 48 7
+UnitTestCaseAction 1475753941077 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475753941077 TestRomanNumerals.java FAIL
+EditAction 1475753958864 RomanNumerals.java 2076 1 6 0
+UnitTestCaseAction 1475753961692 TestRomanNumerals.java OK
+UnitTestSessionAction 1475753961693 TestRomanNumerals.java OK
+RefactoringAction 1475753977906 TestRomanNumerals.java ADD void testConvertingC()/2 METHOD
+RefactoringAction 1475753977907 TestRomanNumerals.java ADD void testConvertingCC()/2 METHOD
+RefactoringAction 1475753981928 TestRomanNumerals.java RENAME testConvertingC()/2=>void testConvertingM() METHOD
+RefactoringAction 1475753990498 TestRomanNumerals.java RENAME testConvertingCC()/2=>void testConverting() METHOD
+RefactoringAction 1475753991516 TestRomanNumerals.java RENAME testConverting()=>void testConvertingMM() METHOD
+EditAction 1475753999661 TestRomanNumerals.java 4359 19 52 7
+UnitTestCaseAction 1475754001891 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475754001891 TestRomanNumerals.java FAIL
+EditAction 1475754017041 RomanNumerals.java 2126 1 6 0
+UnitTestCaseAction 1475754018479 TestRomanNumerals.java OK
+UnitTestSessionAction 1475754018479 TestRomanNumerals.java OK
+RefactoringAction 1475754061109 TestRomanNumerals.java ADD void testConvertingXX()/2 METHOD
+RefactoringAction 1475754063634 TestRomanNumerals.java RENAME testConvertingXX()/2=>void testConvertingXIX() METHOD
+EditAction 1475754075143 TestRomanNumerals.java 4579 20 54 7
+UnitTestCaseAction 1475754076803 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475754076803 TestRomanNumerals.java FAIL
+EditAction 1475754521009 RomanNumerals.java 2420 1 6 0
+UnitTestCaseAction 1475754523739 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475754523739 TestRomanNumerals.java FAIL
+EditAction 1475754567603 RomanNumerals.java 2420 1 6 0
+UnitTestCaseAction 1475754569517 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475754569518 TestRomanNumerals.java FAIL
+EditAction 1475754648927 RomanNumerals.java 2557 1 6 0
+UnitTestCaseAction 1475754652153 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475754652154 TestRomanNumerals.java FAIL
+EditAction 1475754687805 RomanNumerals.java 2559 1 6 0
+UnitTestCaseAction 1475754693357 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475754693358 TestRomanNumerals.java FAIL
+EditAction 1475755193200 RomanNumerals.java 2695 1 6 0
+UnitTestCaseAction 1475755194782 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755194783 TestRomanNumerals.java FAIL
+EditAction 1475755322840 RomanNumerals.java 2738 1 6 0
+UnitTestCaseAction 1475755325720 TestRomanNumerals.java OK
+UnitTestSessionAction 1475755325720 TestRomanNumerals.java OK
+RefactoringAction 1475755431790 TestRomanNumerals.java ADD void testConvertingDD()/2 METHOD
+RefactoringAction 1475755437308 TestRomanNumerals.java RENAME testConvertingDD()/2=>void testConvertingV() METHOD
+RefactoringAction 1475755438327 TestRomanNumerals.java RENAME testConvertingV()=>void testConvertingVX() METHOD
+EditAction 1475755443408 TestRomanNumerals.java 4823 21 58 8
+UnitTestCaseAction 1475755445804 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755445805 TestRomanNumerals.java FAIL
+EditAction 1475755518213 RomanNumerals.java 2858 1 6 0
+UnitTestCaseAction 1475755523875 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755523875 TestRomanNumerals.java FAIL
+EditAction 1475755619867 RomanNumerals.java 2983 1 6 0
+UnitTestCaseAction 1475755621086 TestRomanNumerals.java OK
+UnitTestSessionAction 1475755621087 TestRomanNumerals.java OK
+EditAction 1475755634005 RomanNumerals.java 2637 1 6 0
+UnitTestCaseAction 1475755635897 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755635898 TestRomanNumerals.java FAIL
+EditAction 1475755660616 RomanNumerals.java 2983 1 6 0
+UnitTestCaseAction 1475755691341 TestRomanNumerals.java OK
+UnitTestSessionAction 1475755691342 TestRomanNumerals.java OK
+EditAction 1475755814024 RomanNumerals.java 3055 1 6 0
+UnitTestCaseAction 1475755815637 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755815638 TestRomanNumerals.java FAIL
+EditAction 1475755920240 RomanNumerals.java 3162 1 6 0
+UnitTestCaseAction 1475755922076 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755922076 TestRomanNumerals.java FAIL
+EditAction 1475755930701 RomanNumerals.java 3113 1 6 0
+UnitTestCaseAction 1475755933596 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755933596 TestRomanNumerals.java FAIL
+EditAction 1475755946268 RomanNumerals.java 2767 1 6 0
+UnitTestCaseAction 1475755948923 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755948923 TestRomanNumerals.java FAIL
+EditAction 1475756016620 RomanNumerals.java 3118 1 6 0
+UnitTestCaseAction 1475756019140 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475756019140 TestRomanNumerals.java FAIL
+EditAction 1475756568179 RomanNumerals.java 3116 1 6 0
+UnitTestCaseAction 1475756571083 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475756571083 TestRomanNumerals.java FAIL
+EditAction 1475756688272 RomanNumerals.java 3042 1 6 0
+UnitTestCaseAction 1475756690172 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475756690172 TestRomanNumerals.java FAIL
+EditAction 1475756763536 RomanNumerals.java 3062 1 6 0
+UnitTestCaseAction 1475756765637 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475756765637 TestRomanNumerals.java FAIL
+EditAction 1475756819989 RomanNumerals.java 3107 1 7 0
+UnitTestCaseAction 1475756821466 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475756821466 TestRomanNumerals.java FAIL
+EditAction 1475756978120 RomanNumerals.java 3173 1 7 0
+UnitTestCaseAction 1475756982946 TestRomanNumerals.java OK
+UnitTestSessionAction 1475756982946 TestRomanNumerals.java OK
+EditAction 1475757007242 RomanNumerals.java 2827 1 7 0
+UnitTestCaseAction 1475757010085 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475757010086 TestRomanNumerals.java FAIL
+EditAction 1475757098408 RomanNumerals.java 2859 1 7 0
+UnitTestCaseAction 1475757102028 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475757102028 TestRomanNumerals.java FAIL
+EditAction 1475757199519 RomanNumerals.java 3001 1 0 0
+CompilationAction 1475757199681 RomanNumerals.java
+EditAction 1475757211269 RomanNumerals.java 3002 1 7 0
+UnitTestCaseAction 1475757213401 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475757213402 TestRomanNumerals.java FAIL
+EditAction 1475757319017 RomanNumerals.java 3032 1 7 0
+UnitTestCaseAction 1475757320455 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475757320455 TestRomanNumerals.java FAIL
+EditAction 1475757342549 RomanNumerals.java 3063 1 7 0
+UnitTestCaseAction 1475757343953 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475757343953 TestRomanNumerals.java FAIL
+EditAction 1475757437666 RomanNumerals.java 3116 1 7 0
+UnitTestCaseAction 1475757439802 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475757439802 TestRomanNumerals.java FAIL
+EditAction 1475757537261 RomanNumerals.java 3167 1 7 0
+UnitTestCaseAction 1475757539099 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475757539099 TestRomanNumerals.java FAIL
+EditAction 1475757649074 RomanNumerals.java 3197 1 7 0
+UnitTestCaseAction 1475757650958 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475757650958 TestRomanNumerals.java FAIL
+EditAction 1475757664273 RomanNumerals.java 3195 1 7 0
+UnitTestCaseAction 1475757667443 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475757667443 TestRomanNumerals.java FAIL
+EditAction 1475757734023 RomanNumerals.java 3167 1 7 0
+UnitTestCaseAction 1475757736774 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475757736774 TestRomanNumerals.java FAIL
+EditAction 1475757953294 RomanNumerals.java 3211 1 7 0
+UnitTestCaseAction 1475757954963 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475757954963 TestRomanNumerals.java FAIL
+EditAction 1475758056354 RomanNumerals.java 3185 1 7 0
+UnitTestCaseAction 1475758059592 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475758059593 TestRomanNumerals.java FAIL
+EditAction 1475758116914 RomanNumerals.java 3134 1 7 0
+UnitTestCaseAction 1475758118130 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475758118130 TestRomanNumerals.java FAIL
+EditAction 1475758239587 RomanNumerals.java 3167 1 7 0
+UnitTestCaseAction 1475758240790 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475758240791 TestRomanNumerals.java FAIL
+EditAction 1475758282860 RomanNumerals.java 3189 1 7 0
+UnitTestCaseAction 1475758284658 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475758284659 TestRomanNumerals.java FAIL
+EditAction 1475758352335 RomanNumerals.java 3269 1 7 0
+UnitTestCaseAction 1475758354149 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475758354150 TestRomanNumerals.java FAIL
+EditAction 1475758421159 RomanNumerals.java 3343 1 7 0
+UnitTestCaseAction 1475758423108 TestRomanNumerals.java OK
+UnitTestSessionAction 1475758423108 TestRomanNumerals.java OK
+EditAction 1475758434260 RomanNumerals.java 3241 1 7 0
+UnitTestCaseAction 1475758435690 TestRomanNumerals.java OK
+UnitTestSessionAction 1475758435690 TestRomanNumerals.java OK
+EditAction 1475758445118 RomanNumerals.java 3208 1 7 0
+UnitTestCaseAction 1475758448278 TestRomanNumerals.java OK
+UnitTestSessionAction 1475758448278 TestRomanNumerals.java OK
+RefactoringAction 1475758460219 TestRomanNumerals.java ADD void testConvertingVX()/2 METHOD
+RefactoringAction 1475758474735 TestRomanNumerals.java RENAME testConvertingVX()/2=>void testConvertingL()/2 METHOD
+RefactoringAction 1475758479253 TestRomanNumerals.java RENAME testConvertingL()/2=>void testConvertingLC() METHOD
+EditAction 1475758484409 TestRomanNumerals.java 5067 22 62 9
+UnitTestCaseAction 1475758485848 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475758485848 TestRomanNumerals.java FAIL
+EditAction 1475758514875 RomanNumerals.java 3238 1 7 0
+UnitTestCaseAction 1475758517994 TestRomanNumerals.java OK
+UnitTestSessionAction 1475758517994 TestRomanNumerals.java OK
+RefactoringAction 1475758525803 TestRomanNumerals.java ADD void testConvertingLC()/2 METHOD
+RefactoringAction 1475758529821 TestRomanNumerals.java RENAME testConvertingLC()/2=>void testConvertingDM() METHOD
+EditAction 1475758544567 TestRomanNumerals.java 5311 23 66 10
+EditAction 1475758558530 RomanNumerals.java 3269 1 7 0
+UnitTestCaseAction 1475758560535 TestRomanNumerals.java OK
+UnitTestSessionAction 1475758560535 TestRomanNumerals.java OK
+EditAction 1475758570160 RomanNumerals.java 3271 1 6 0
