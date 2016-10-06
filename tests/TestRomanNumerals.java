@@ -115,4 +115,26 @@ public class TestRomanNumerals {
 		assertEquals(true, thrown);
 	}
 	
+	@Test
+	public void testConvertingX() {
+		RomanNumerals rn = new RomanNumerals();
+		try {
+			int converted = rn.convertToInteger("X");
+			assertEquals(10, converted);
+		}
+		catch(RomanNumeralsException e) {
+		}
+	}
+	
+	@Test
+	public void testConvertingXX() {
+		RomanNumerals rn = new RomanNumerals();
+		try {
+			int converted = rn.convertToInteger("XX");
+			assertEquals(20, converted);
+		}
+		catch(RomanNumeralsException e) {
+		}
+	}
+	
 }

@@ -1,0 +1,6 @@
+FileOpenedAction 1475753313805 TestRomanNumerals.java 2130 9 28 5
+RefactoringAction 1475753317063 TestRomanNumerals.java ADD void testConvertingVV()/2 METHOD
+RefactoringAction 1475753321086 TestRomanNumerals.java RENAME testConvertingVV()/2=>void testConvertingX() METHOD
+RefactoringAction 1475753378237 TestRomanNumerals.java ADD void testConvertingX()/2 METHOD
+RefactoringAction 1475753380747 TestRomanNumerals.java RENAME testConvertingX()/2=>void testConvertingXX() METHOD
+EditAction 1475753387230 TestRomanNumerals.java 2564 11 32 5
