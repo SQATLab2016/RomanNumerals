@@ -61,4 +61,46 @@ public class TestRomanNumerals {
 		int value = rn.convertToInteger("IV");
 		assertEquals(4, value);
 	}
+
+	@Test
+	public void testNine() {
+		RomanNumerals rn = new RomanNumerals();
+		int value = rn.convertToInteger("IX");
+		assertEquals(9, value);
+	}
+
+	@Test
+	public void testThree() {
+		RomanNumerals rn = new RomanNumerals();
+		int value = rn.convertToInteger("III");
+		assertEquals(3, value);
+	}
+
+	@Test
+	public void testHundredNine() {
+		RomanNumerals rn = new RomanNumerals();
+		int value = rn.convertToInteger("CIX");
+		assertEquals(109, value);
+	}
+
+	@Test
+	public void testTwoThousandSixteen() {
+		RomanNumerals rn = new RomanNumerals();
+		int value = rn.convertToInteger("MMXVI");
+		assertEquals(2016, value);
+	}
+
+	@Test
+	public void testNineHundredEightyEight() {
+		RomanNumerals rn = new RomanNumerals();
+		int value = rn.convertToInteger("DCCCCLXXXVIII");
+		assertEquals(988, value);
+	}
+
+	@Test
+	public void testNineThousandNineHundredNinetyNine() {
+		RomanNumerals rn = new RomanNumerals();
+		int value = rn.convertToInteger("MMMMMMMMMIM");
+		assertEquals(9999, value);
+	}
 }
