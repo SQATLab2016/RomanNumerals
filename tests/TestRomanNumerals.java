@@ -161,4 +161,26 @@ public class TestRomanNumerals {
 		assertEquals(true, thrown);
 	}
 	
+	@Test
+	public void testConvertingC() {
+		RomanNumerals rn = new RomanNumerals();
+		try {
+			int converted = rn.convertToInteger("C");
+			assertEquals(100, converted);
+		}
+		catch(RomanNumeralsException e) {
+		}
+	}
+	
+	@Test
+	public void testConvertingCC() {
+		RomanNumerals rn = new RomanNumerals();
+		try {
+			int converted = rn.convertToInteger("CC");
+			assertEquals(200, converted);
+		}
+		catch(RomanNumeralsException e) {
+		}
+	}
+	
 }
