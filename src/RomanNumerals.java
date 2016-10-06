@@ -13,13 +13,7 @@ public class RomanNumerals {
 	
 	public int convertToInteger(String romanNum) {
 
-		if (hasSubstractiveNumber(romanNum)) {
-			return getSubstractiveRomanNumberValue(romanNum);
-		}
-		else if (romanNum == "IX") {
-			return getRomanCharValue(getCharFromRomanNum(romanNum, 1)) - getRomanCharValue(getCharFromRomanNum(romanNum, 0));
-		}
-		else return getRomanNumberValue(romanNum);
+		return getRomanNumberValue(romanNum);
 		
 	}
 
@@ -37,9 +31,17 @@ public class RomanNumerals {
 
 	private int getRomanNumberValue(String romanNum) {
 		int value = 0;
-		for (int i = 0; i < romanNum.length(); i++) {
-			value += getRomanCharValue(getCharFromRomanNum(romanNum, i));
+		for (int i = romanNum.length() - 1; i > 0; i--) {
+			if (getRomanCharValue(getCharFromRomanNum(romanNum, i-1)) >= getRomanCharValue(getCharFromRomanNum(romanNum, i))) {
+				value += getRomanCharValue(getCharFromRomanNum(romanNum, i));
+			}
+			else
+			{
+				value -= getRomanCharValue(getCharFromRomanNum(romanNum, i));
+			}
 		}
+		
+		value += getRomanCharValue(getCharFromRomanNum(romanNum, 0));
 		return value;
 	}
 
