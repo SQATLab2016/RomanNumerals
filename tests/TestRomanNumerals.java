@@ -137,4 +137,28 @@ public class TestRomanNumerals {
 		}
 	}
 	
+	@Test
+	public void testConvertingL() {
+		RomanNumerals rn = new RomanNumerals();
+		try {
+			int converted = rn.convertToInteger("L");
+			assertEquals(50, converted);
+		}
+		catch(RomanNumeralsException e) {
+		}
+	}
+	
+	@Test
+	public void testConvertingLL() {
+		RomanNumerals rn = new RomanNumerals();
+		boolean thrown = false;
+		try {
+			rn.convertToInteger("LL");
+		}
+		catch(RomanNumeralsException e) {
+			thrown = true;
+		}
+		assertEquals(true, thrown);
+	}
+	
 }
