@@ -8,8 +8,9 @@ public class TestRomanNumerals {
 
 	@Test
 	public void test() {
-		int num= romanNumerals.convertToInteger("MCMLXXXIV");
-		assertEquals(1984, num);
+		int num= romanNumerals.convertToInteger("MMXIV
+");
+		assertEquals(2014, num);
 
 	}
 

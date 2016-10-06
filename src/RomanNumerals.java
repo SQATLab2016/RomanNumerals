@@ -38,7 +38,7 @@ public class RomanNumerals {
 							tempNum3=convertCharToNum(romanNum.charAt(i-2));
 							System.out.println("elnorma"+ tempNum+','+tempNum2+','+tempNum3);
 							
-							if (tempNum>tempNum2&&tempNum<tempNum3) {
+							if (tempNum>tempNum2&&tempNum<=tempNum3) {
 								System.out.println(tempNum + "el sig es menor"+tempNum2);
 								num= num+(tempNum-tempNum2);
 								sigNum=-1;
