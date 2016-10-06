@@ -22,6 +22,10 @@ public class RomanNumerals {
 						result += 900;
 						i++;
 					}
+					else if(next.equals("D")){
+						result += 400;
+						i++;
+					}
 					else {
 						result += 100;
 					}
