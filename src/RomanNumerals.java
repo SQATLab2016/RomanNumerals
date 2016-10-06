@@ -40,6 +40,19 @@ public class RomanNumerals {
 						result += 10;
 					}
 				}
+				else if(s.equals("V")){
+					result += 5;
+				}
+				else if(s.equals("I")){
+					String next = romanNum.substring(i+1,i+2);
+					if (next.equals("X")){
+						result += 9;
+						i++;
+					}
+					else {
+						result += 1;
+					}
+				}
 			}
 		}
 		return 1994;
