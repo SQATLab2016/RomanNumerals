@@ -78,7 +78,7 @@ public class RomanNumerals {
 					i++;
 				}
 				else if(subStringValues.get(i)<subStringValues.get(i+1)) {
-					if(subStringValues.get(i)==5 || subStringValues.get(i)==50)
+					if(subStringValues.get(i)==5 || subStringValues.get(i)==50 || subStringValues.get(i)==500)
 						throw new RomanNumeralsException("Roman Numeral to be converted isn't valid");
 					sum += subStringValues.get(i+1)-subStringValues.get(i);
 					i++;
