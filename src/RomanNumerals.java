@@ -44,8 +44,6 @@ public class RomanNumerals {
 			switch(s) {
 			case "I": subStringValues.add(1);
 			break;
-			case "II": subStringValues.add(2);
-			break;
 			case "III": subStringValues.add(3);
 			break;
 			case "V": subStringValues.add(5);
@@ -78,6 +76,8 @@ public class RomanNumerals {
 			int sum = 0;
 			int size = subStringValues.size();
 			for(int i = 0;i<size-1;i++) {
+				if(subStringValues.get(i)==subStringValues.get(i+1))
+					sum += subStringValues.get(i) + subStringValues.get(i+1);
 				if(subStringValues.get(i)<subStringValues.get(i+1)) {
 					if(subStringValues.get(i)==5)
 						throw new RomanNumeralsException("Roman Numeral to be converted isn't valid");
