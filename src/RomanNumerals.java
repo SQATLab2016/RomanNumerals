@@ -65,9 +65,22 @@ public class RomanNumerals {
 		}
 		if(subStringValues.size() == 1)
 			return subStringValues.get(0);
-		else if(subStringValues.get(0)<subStringValues.get(1))
-			return subStringValues.get(1)-subStringValues.get(0);
-		else
-			return subStringValues.get(1)+subStringValues.get(0);
+		else if(subStringValues.size() == 1){
+			if(subStringValues.get(0)<subStringValues.get(1))
+				return subStringValues.get(1)-subStringValues.get(0);
+			else
+				return subStringValues.get(1)+subStringValues.get(0);
+		}
+		else {
+			int sum = 0;
+			int size = subStringValues.size();
+			for(int i = 0;i<size;i++) {
+				if(subStringValues.get(i)<subStringValues.get(i+1)) {
+					sum += subStringValues.get(1)-subStringValues.get(0);
+					i++;
+				}
+			}
+			return sum;
+		}
 	}
 }
