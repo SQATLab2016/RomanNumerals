@@ -62,9 +62,15 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void convertIV() {
+	public void convertXC() {
 		RomanNumerals romanNumerals = new RomanNumerals();
-		assertEquals("4", 4, romanNumerals.convertToInteger("IV"));
+		assertEquals("90", 90, romanNumerals.convertToInteger("XC"));
+	}
+	
+	@Test
+	public void convertCD() {
+		RomanNumerals romanNumerals = new RomanNumerals();
+		assertEquals("400", 400, romanNumerals.convertToInteger("CD"));
 	}
 
 	
