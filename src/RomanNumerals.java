@@ -15,11 +15,7 @@ public class RomanNumerals {
 		int value = 0;	
 		
 		for(int i = 0; i < romanNum.length(); i++) {
-			char roman = romanNum.charAt(i);
-				
-			
-			
-								
+			char roman = romanNum.charAt(i);		
 				switch(roman) {
 			
 					case 'I':
@@ -54,7 +50,6 @@ public class RomanNumerals {
 						throw new IllegalArgumentException("Something went horribly wrong");
 					
 			}
-
 			
 			if(i == 0) {
 				lastValue = value;
@@ -76,7 +71,10 @@ public class RomanNumerals {
 			}
 			
 			if(((value == 5 || value == 10) && lastValue == 1)) {
-				sum = sum + (value - lastValue);
+				value = value - lastValue;
+				sum = sum + value;
+				lastValue = value;
+				
 			}
 
 			else {
