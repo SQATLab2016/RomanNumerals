@@ -3,28 +3,69 @@ public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
 		// To be Implemented
 		//1984	=	MCMLXXXIV
-		int num=0, tempNum=0, tempNum2=0, tempNum3=0;
+		int num=0, tempNum=0, tempNum2=0, tempNum3=0, sigNum=0;
 		char tempChar;
 		if (checkFor3C(romanNum)&&checkFor3I(romanNum)&&checkFor3M(romanNum)&&checkFor3X(romanNum)) {
 			if (checkForNorepeatD(romanNum)&&checkForNorepeatL(romanNum)&&checkForNorepeatV(romanNum)) {
-				for (int i = romanNum.length(); i>0 ; i--) {
-					System.out.println("iep");
+				for (int i = romanNum.length()-1; i>=0 ; i--) {
+					if(sigNum==0){
+						System.out.println("iep sumo");
 
-					tempChar= romanNum.charAt(i);
-					tempNum= convertCharToNum(tempChar);
-					tempNum2=convertCharToNum(romanNum.charAt(i-1));
-					tempNum3=convertCharToNum(romanNum.charAt(i-2));
-					if (tempNum>tempNum2&&tempNum<tempNum3) {
-						num= num+(tempNum-tempNum2);
-					} else if (tempNum>tempNum&&tempNum>tempNum3) {
-						num= num+(tempNum-tempNum2-tempNum3);
+						tempChar= romanNum.charAt(i);
+						tempNum= convertCharToNum(tempChar);
+						if(i==1) {
+
+							tempNum2=convertCharToNum(romanNum.charAt(i-1));
+							if (tempNum>tempNum2) {
+								System.out.println(tempNum + "el sig es menor"+tempNum2);
+
+								num= num+(tempNum-tempNum2);
+								sigNum=-1;
+							} else{
+								num= num+tempNum;
+							}
+
+						}else if(i==0){
+
+							num= num+tempNum;
+
+
+						}else if(i!=0 && i !=1){
+							tempNum2=convertCharToNum(romanNum.charAt(i-1));
+							tempNum3=convertCharToNum(romanNum.charAt(i-2));
+							if (tempNum>tempNum2&&tempNum<tempNum3) {
+								System.out.println(tempNum + "el sig es menor"+tempNum2);
+
+								num= num+(tempNum-tempNum2);
+								sigNum=-1;
+							} else if (tempNum>tempNum&&tempNum>tempNum3) {
+								System.out.println(tempNum + "el sig y el sig es menor"+tempNum2+','+tempNum3);
+
+								num= num+(tempNum-tempNum2-tempNum3);
+								sigNum=-2;
+							}else {
+								num= num+tempNum;
+							}
+
+
+						}
+					}else if (sigNum==-1) {
+						sigNum=0;
+						System.out.println("iep No sumo 1");
+
+
+					}else if (sigNum==-2) {
+						sigNum=-1;
+						System.out.println("iep No sumo2");
+
 					}
+					System.out.println(num +" y "+sigNum);
 				}
 			}
 		}
 		return num;
-			
-		
+
+
 	}
 
 	public int convertCharToNum(Character a){
