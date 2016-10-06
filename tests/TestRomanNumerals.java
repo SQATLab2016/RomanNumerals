@@ -266,4 +266,17 @@ public class TestRomanNumerals {
 		assertEquals(true, thrown);
 	}
 	
+	@Test
+	public void testConvertingDM() {
+		RomanNumerals rn = new RomanNumerals();
+		boolean thrown = false;
+		try {
+			rn.convertToInteger("DM");
+		}
+		catch(RomanNumeralsException e) {
+			thrown = true;
+		}
+		assertEquals(true, thrown);
+	}
+	
 }
