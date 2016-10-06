@@ -10,3 +10,13 @@ UnitTestSessionAction 1475755871700 TestRomanNumerals.java FAIL
 UnitTestCaseAction 1475755884541 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475755884542 TestRomanNumerals.java FAIL
 EditAction 1475755911201 RomanNumerals.java 5017 19 48 0
+UnitTestCaseAction 1475755912205 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755912206 TestRomanNumerals.java FAIL
+CompilationAction 1475755945334 RomanNumerals.java
+CompilationAction 1475755945335 RomanNumerals.java
+CompilationAction 1475755952198 RomanNumerals.java
+CompilationAction 1475755952313 RomanNumerals.java
+CompilationAction 1475755964261 RomanNumerals.java
+UnitTestCaseAction 1475755966108 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755966109 TestRomanNumerals.java FAIL
+EditAction 1475755984363 RomanNumerals.java 5025 19 48 0
