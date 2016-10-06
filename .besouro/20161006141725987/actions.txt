@@ -109,3 +109,14 @@ UnitTestSessionAction 1475755452563 TestRomanNumerals.java FAIL
 EditAction 1475755494391 RomanNumerals.java 1723 5 11 0
 RefactoringAction 1475755568518 RomanNumerals.java ADD String convertRomanNumToUpperCase(String) METHOD
 EditAction 1475755573742 RomanNumerals.java 1870 6 13 0
+UnitTestCaseAction 1475755579110 TestRomanNumerals.java OK
+UnitTestSessionAction 1475755579111 TestRomanNumerals.java OK
+RefactoringAction 1475755624077 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475755627590 TestRomanNumerals.java RENAME test=>void test_ConvertT FIELD
+RefactoringAction 1475755630105 TestRomanNumerals.java RENAME test_ConvertT=>void test_ConvertToInteger FIELD
+RefactoringAction 1475755636624 TestRomanNumerals.java RENAME test_ConvertToInteger=>void test_ConvertToIntegerInvalidSu FIELD
+RefactoringAction 1475755639137 TestRomanNumerals.java RENAME test_ConvertToIntegerInvalidSu=>void test_ConvertToIntegerInvalidSubstraction FIELD
+RefactoringAction 1475755647159 TestRomanNumerals.java RENAME test_ConvertToIntegerInvalidSubstraction=>void test_ConvertToIntegerInvalidSubstractionXXC() METHOD
+UnitTestCaseAction 1475755663593 TestRomanNumerals.java OK
+UnitTestSessionAction 1475755663595 TestRomanNumerals.java OK
+EditAction 1475755717752 RomanNumerals.java 1897 6 13 0

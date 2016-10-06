@@ -106,6 +106,11 @@ public class TestRomanNumerals {
 		assertRomanValue(1984, "mcmlxxxiv");
 	}
 	
+	@Test
+	public void test_ConvertToIntegerInvalidSubstractionXXC() {
+		assertRomanValue(-1, "XXC");
+	}
+	
 	private void assertRomanValue(int expected, String testValue) {
 		int value = numerals.convertToInteger(testValue);
 		assertEquals(expected, value);
