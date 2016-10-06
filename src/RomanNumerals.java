@@ -15,6 +15,7 @@ public class RomanNumerals {
 					String next = romanNum.substring(i+1,i+2);
 					if (next.equals("M")){
 						result += 900;
+						i++;
 					}
 				}
 			}
