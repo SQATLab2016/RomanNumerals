@@ -44,8 +44,6 @@ public class RomanNumerals {
 			switch(s) {
 			case "I": subStringValues.add(1);
 			break;
-			case "III": subStringValues.add(3);
-			break;
 			case "V": subStringValues.add(5);
 			break;
 			case "X": subStringValues.add(10);
