@@ -65,7 +65,7 @@ public class RomanNumerals {
 		}
 		if(subStringValues.size() == 1)
 			return subStringValues.get(0);
-		else if(subStringValues.size() == 1){
+		else if(subStringValues.size() == 2){
 			if(subStringValues.get(0)<subStringValues.get(1))
 				return subStringValues.get(1)-subStringValues.get(0);
 			else
