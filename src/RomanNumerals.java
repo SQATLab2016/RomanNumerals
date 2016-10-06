@@ -17,6 +17,9 @@ public class RomanNumerals {
 						result += 900;
 						i++;
 					}
+					else {
+						result += 100;
+					}
 				}
 			}
 		}
