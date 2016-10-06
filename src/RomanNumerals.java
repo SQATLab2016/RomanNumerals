@@ -44,12 +44,10 @@ public class RomanNumerals {
 		for(String s: subStrings) {
 			switch(s) {
 			case "I": subStringValues.add(1);
-			System.out.println(subStringValues.toString());
 			break;
 			case "V": subStringValues.add(5);
 			break;
 			case "X": subStringValues.add(10);
-			System.out.println(subStringValues.toString());
 			break;
 			case "L": subStringValues.add(50);
 			break;
