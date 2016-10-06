@@ -40,6 +40,10 @@ public class RomanNumerals {
 						result += 90;
 						i++;
 					}
+					else if(next.equals("L")){
+						result += 40;
+						i++;
+					}
 					else {
 						result += 10;
 					}
