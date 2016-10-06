@@ -59,3 +59,8 @@ RefactoringAction 1475754521072 TestRomanNumerals.java RENAME test_ConvertToInte
 RefactoringAction 1475754523087 TestRomanNumerals.java RENAME test_ConvertToIntegerInvalidRomanNumberABC=>void test_ConvertToIntegerInvalidRomanNumberABC() METHOD
 CompilationAction 1475754843081 TestRomanNumerals.java
 EditAction 1475754913995 RomanNumerals.java 1559 5 8 0
+CompilationAction 1475754917393 TestRomanNumerals.java
+CompilationAction 1475754935854 TestRomanNumerals.java
+UnitTestCaseAction 1475754962472 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475754962474 TestRomanNumerals.java FAIL
+EditAction 1475754973628 RomanNumerals.java 1558 5 8 0

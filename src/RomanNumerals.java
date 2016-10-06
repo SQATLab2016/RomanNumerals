@@ -20,7 +20,7 @@ public class RomanNumerals {
 
 	private boolean checkIfValidRomanNumeral(String romanNum) {
 		
-		return false;
+		return true;
 	}
 
 	private int getRomanNumberValue(String romanNum) {
