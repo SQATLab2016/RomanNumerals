@@ -35,7 +35,8 @@ public class RomanNumerals {
 			}
 			
 			subStrings.add(romanNum.substring(oldPos, oldPos+1));
-			c += counter;
+			if(counter>1)
+				c += counter-1;
 			counter = 1;
 		}
 		
