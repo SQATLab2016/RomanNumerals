@@ -35,7 +35,7 @@ public class RomanNumerals {
 			}
 			
 			subStrings.add(romanNum.substring(oldPos, oldPos+1));
-			if(counter>1)
+			if(counter>1 && currentChar == 'V' || currentChar == 'L' || currentChar == 'D')
 				c += counter-1;
 			counter = 1;
 		}
