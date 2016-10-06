@@ -36,6 +36,9 @@ public class RomanNumerals {
 						result += 90;
 						i++;
 					}
+					else {
+						result += 10;
+					}
 				}
 			}
 		}
