@@ -1,0 +1,10 @@
+1475752705970 regression 1 59 true
+1475753412789 regression 2 375 false
+1475753768904 refactoring 2A 310 true
+1475754175451 refactoring 3 297 true
+1475755110750 refactoring 3 812 true
+1475755158072 refactoring 3 23 true
+1475755291273 production 1 77 true
+1475755361895 refactoring 2B 40 true
+1475755579111 refactoring 3 204 true
+1475755663595 refactoring 3 39 false
