@@ -12,8 +12,12 @@ public class RomanNumerals {
 				if(s.equals("M")){
 					result += 1000;
 				} 
+				else if(s.equals("D")){
+					result += 500;
+				}
 				else if (s.equals("C")){
 					String next = romanNum.substring(i+1,i+2);
+					// Check special case.
 					if (next.equals("M")){
 						result += 900;
 						i++;
@@ -22,8 +26,11 @@ public class RomanNumerals {
 						result += 100;
 					}
 				} 
-				else if(s.equals("D")){
-					result += 500;
+				else if(s.equals("L")){
+					result += 50;
+				}
+				else if(s.equals("X")){
+					
 				}
 			}
 		}
