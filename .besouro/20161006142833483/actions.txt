@@ -53,3 +53,8 @@ EditAction 1475753999661 TestRomanNumerals.java 4359 19 52 7
 UnitTestCaseAction 1475754001891 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475754001891 TestRomanNumerals.java FAIL
 EditAction 1475754017041 RomanNumerals.java 2126 1 6 0
+UnitTestCaseAction 1475754018479 TestRomanNumerals.java OK
+UnitTestSessionAction 1475754018479 TestRomanNumerals.java OK
+RefactoringAction 1475754061109 TestRomanNumerals.java ADD void testConvertingXX()/2 METHOD
+RefactoringAction 1475754063634 TestRomanNumerals.java RENAME testConvertingXX()/2=>void testConvertingXIX() METHOD
+EditAction 1475754075143 TestRomanNumerals.java 4579 20 54 7

@@ -229,4 +229,15 @@ public class TestRomanNumerals {
 		}
 	}
 	
+	@Test
+	public void testConvertingXIX() {
+		RomanNumerals rn = new RomanNumerals();
+		try {
+			int converted = rn.convertToInteger("XIX");
+			assertEquals(19, converted);
+		}
+		catch(RomanNumeralsException e) {
+		}
+	}
+	
 }
