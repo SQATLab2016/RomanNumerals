@@ -39,6 +39,7 @@ public class RomanNumerals {
 				c += counter-1;
 			counter = 1;
 		}
+		System.out.println(subStrings.toString());
 		
 		for(String s: subStrings) {
 			switch(s) {
