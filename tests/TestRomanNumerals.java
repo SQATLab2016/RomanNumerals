@@ -11,5 +11,17 @@ public class TestRomanNumerals {
 
 		assertEquals(1994, arabicNum);
 	}
+	@Test
+	public void testConvertToInteger_MCMLXXXIV_1984() {
+		int arabicNum = converter.convertToInteger("MCMLXXXIV");
+
+		assertEquals(1984, arabicNum);
+	}
+	@Test
+	public void testConvertToInteger_MMXIV_2014() {
+		int arabicNum = converter.convertToInteger("MMXIV");
+
+		assertEquals(2014, arabicNum);
+	}
 
 }
