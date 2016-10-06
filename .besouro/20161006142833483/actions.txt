@@ -42,3 +42,11 @@ EditAction 1475753939624 TestRomanNumerals.java 3921 17 48 7
 UnitTestCaseAction 1475753941077 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475753941077 TestRomanNumerals.java FAIL
 EditAction 1475753958864 RomanNumerals.java 2076 1 6 0
+UnitTestCaseAction 1475753961692 TestRomanNumerals.java OK
+UnitTestSessionAction 1475753961693 TestRomanNumerals.java OK
+RefactoringAction 1475753977906 TestRomanNumerals.java ADD void testConvertingC()/2 METHOD
+RefactoringAction 1475753977907 TestRomanNumerals.java ADD void testConvertingCC()/2 METHOD
+RefactoringAction 1475753981928 TestRomanNumerals.java RENAME testConvertingC()/2=>void testConvertingM() METHOD
+RefactoringAction 1475753990498 TestRomanNumerals.java RENAME testConvertingCC()/2=>void testConverting() METHOD
+RefactoringAction 1475753991516 TestRomanNumerals.java RENAME testConverting()=>void testConvertingMM() METHOD
+EditAction 1475753999661 TestRomanNumerals.java 4359 19 52 7

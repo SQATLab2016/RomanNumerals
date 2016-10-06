@@ -207,4 +207,26 @@ public class TestRomanNumerals {
 		assertEquals(true, thrown);
 	}
 	
+	@Test
+	public void testConvertingM() {
+		RomanNumerals rn = new RomanNumerals();
+		try {
+			int converted = rn.convertToInteger("M");
+			assertEquals(1000, converted);
+		}
+		catch(RomanNumeralsException e) {
+		}
+	}
+	
+	@Test
+	public void testConvertingMM() {
+		RomanNumerals rn = new RomanNumerals();
+		try {
+			int converted = rn.convertToInteger("MM");
+			assertEquals(2000, converted);
+		}
+		catch(RomanNumeralsException e) {
+		}
+	}
+	
 }
