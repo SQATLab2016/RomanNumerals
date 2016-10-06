@@ -12,7 +12,8 @@ public class RomanNumerals {
 		int sum = 0;
 		int counter = 0;
 		int lastValue = 0;
-		int value = 0;	
+		int value = 0;
+		boolean subtracted = false;
 		
 		for(int i = 0; i < romanNum.length(); i++) {
 			char roman = romanNum.charAt(i);		
@@ -73,9 +74,13 @@ public class RomanNumerals {
 			if(((value == 5 || value == 10) && lastValue == 1) 
 					|| ((value == 50 || value == 100) && lastValue == 10) 
 					|| ((value == 500 || value == 1000) && lastValue == 100)) {
+				if(subtracted) {
+					throw new IllegalArgumentException("Can't be subtstracted twice");
+				}
 				value = value - lastValue - lastValue;
 				sum = sum + value;
 				lastValue = value;
+				subtracted = true;
 			} 
 
 			else {

@@ -25,3 +25,6 @@ RefactoringAction 1475754773193 TestRomanNumerals.java REMOVE convertCD()/2 METH
 RefactoringAction 1475754805217 TestRomanNumerals.java ADD void convertIIII()/2 METHOD
 RefactoringAction 1475754809769 TestRomanNumerals.java RENAME convertIIII()/2=>void convertXXC() METHOD
 EditAction 1475755280497 TestRomanNumerals.java 2371 11 28 8
+UnitTestCaseAction 1475755281958 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755281959 TestRomanNumerals.java FAIL
+EditAction 1475755394217 RomanNumerals.java 1955 1 8 0
