@@ -97,7 +97,6 @@ public class RomanNumerals {
 					i++;
 				}
 			}
-			System.out.println(sum);
 			return sum;
 		}
 	}
