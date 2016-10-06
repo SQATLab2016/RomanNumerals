@@ -76,7 +76,10 @@ public class RomanNumerals {
 			int size = subStringValues.size();
 			for(int i = 0;i<size-1;i++) {
 				if(subStringValues.get(i)<subStringValues.get(i+1)) {
-					sum += subStringValues.get(1)-subStringValues.get(0);
+					if(subStringValues.get(i+1)<subStringValues.get(i+2))
+						sum += subStringValues.get(i+2)-subStringValues.get(i+1);
+					else
+						sum += subStringValues.get(i+1)-subStringValues.get(i);
 					i++;
 				}
 				else if(subStringValues.get(i)>subStringValues.get(i+1)){
