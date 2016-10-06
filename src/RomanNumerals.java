@@ -28,8 +28,7 @@ public class RomanNumerals {
 			}
 		}
 		
-		value += getRomanCharValue(getCharFromRomanNum(romanNum, 0));
-		return Math.abs(value);
+		return value;
 	}
 
 	private char getCharFromRomanNum(String romanNum, int index) {
