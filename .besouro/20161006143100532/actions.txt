@@ -74,3 +74,9 @@ RefactoringAction 1475755178043 TestRomanNumerals.java ADD void testConvertToInt
 RefactoringAction 1475755181556 TestRomanNumerals.java RENAME testConvertToInteger_XXIV_24()/2=>void testConvertToInteger_I_24() METHOD
 RefactoringAction 1475755182571 TestRomanNumerals.java RENAME testConvertToInteger_I_24()=>void testConvertToInteger_I_1() METHOD
 EditAction 1475755186054 TestRomanNumerals.java 1171 7 14 7
+UnitTestCaseAction 1475755186974 TestRomanNumerals.java OK
+UnitTestSessionAction 1475755186974 TestRomanNumerals.java OK
+RefactoringAction 1475755190604 TestRomanNumerals.java ADD void testConvertToInteger_I_1()/2 METHOD
+RefactoringAction 1475755193118 TestRomanNumerals.java RENAME testConvertToInteger_I_1()/2=>void testConvertToInteger_IV_1() METHOD
+RefactoringAction 1475755194131 TestRomanNumerals.java RENAME testConvertToInteger_IV_1()=>void testConvertToInteger_IV_4() METHOD
+EditAction 1475755197674 TestRomanNumerals.java 1307 8 16 8
