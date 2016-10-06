@@ -1,0 +1,53 @@
+FileOpenedAction 1475755364932 RomanNumerals.java 4224 19 47 0
+EditAction 1475755810552 TestRomanNumerals.java 4449 14 28 14
+UnitTestCaseAction 1475755814154 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755814155 TestRomanNumerals.java FAIL
+EditAction 1475755837577 RomanNumerals.java 4985 19 48 0
+UnitTestCaseAction 1475755838548 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755838549 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475755871700 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755871700 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475755884541 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755884542 TestRomanNumerals.java FAIL
+EditAction 1475755911201 RomanNumerals.java 5017 19 48 0
+UnitTestCaseAction 1475755912205 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755912206 TestRomanNumerals.java FAIL
+CompilationAction 1475755945334 RomanNumerals.java
+CompilationAction 1475755945335 RomanNumerals.java
+CompilationAction 1475755952198 RomanNumerals.java
+CompilationAction 1475755952313 RomanNumerals.java
+CompilationAction 1475755964261 RomanNumerals.java
+UnitTestCaseAction 1475755966108 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755966109 TestRomanNumerals.java FAIL
+EditAction 1475755984363 RomanNumerals.java 5025 19 48 0
+UnitTestCaseAction 1475755985232 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755985232 TestRomanNumerals.java FAIL
+EditAction 1475755998614 RomanNumerals.java 5025 19 48 0
+UnitTestCaseAction 1475755999543 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755999543 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475756079607 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475756079607 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475756106045 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475756106046 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475756111503 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475756111503 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475756370589 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475756370589 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475756466555 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475756466556 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475756505917 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475756505918 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475756945365 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475756945366 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475756993610 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475756993610 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475757046048 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475757046049 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475757122310 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475757122311 TestRomanNumerals.java FAIL
+CompilationAction 1475757204489 RomanNumerals.java
+CompilationAction 1475757214645 RomanNumerals.java
+CompilationAction 1475757214730 RomanNumerals.java
+CompilationAction 1475757222140 RomanNumerals.java
+UnitTestCaseAction 1475757222780 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475757222780 TestRomanNumerals.java FAIL

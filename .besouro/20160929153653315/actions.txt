@@ -1,0 +1,198 @@
+FileOpenedAction 1475152613817 TestRomanNumerals.java 329 2 2 0
+EditAction 1475152622422 TestRomanNumerals.java 335 2 2 0
+EditAction 1475152622955 RomanNumerals.java 126 1 1 0
+RefactoringAction 1475152646342 TestRomanNumerals.java RENAME test_FirstRule()=>void test_Cher() METHOD
+RefactoringAction 1475152647853 TestRomanNumerals.java RENAME test_Cher()=>void test_CherFor() METHOD
+RefactoringAction 1475152659379 TestRomanNumerals.java RENAME test_CherFor()=>void test_CherFore() METHOD
+RefactoringAction 1475152660407 TestRomanNumerals.java RENAME test_CherFore()=>void test_CherFor3() METHOD
+RefactoringAction 1475152661434 TestRomanNumerals.java RENAME test_CherFor3()=>void test_CherFor3I() METHOD
+RefactoringAction 1475152764363 TestRomanNumerals.java ADD RomanNumerals romanNumerals FIELD
+EditAction 1475152770354 TestRomanNumerals.java 409 2 3 1
+CompilationAction 1475152770533 TestRomanNumerals.java
+RefactoringAction 1475152785945 RomanNumerals.java ADD boolean cherFor3I(String) METHOD
+CompilationAction 1475152910860 TestRomanNumerals.java
+EditAction 1475152910876 RomanNumerals.java 389 2 4 0
+UnitTestCaseAction 1475152918095 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475152918096 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475152939535 TestRomanNumerals.java OK
+UnitTestSessionAction 1475152939536 Rerun TestRomanNumerals.test_CherFor3I OK
+EditAction 1475152954181 TestRomanNumerals.java 423 2 3 1
+UnitTestCaseAction 1475152954939 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475152954939 TestRomanNumerals.java FAIL
+EditAction 1475152967856 TestRomanNumerals.java 416 2 3 1
+RefactoringAction 1475152971810 TestRomanNumerals.java ADD void test_CherFor3I()/2 METHOD
+RefactoringAction 1475152976846 TestRomanNumerals.java RENAME test_CherFor3I()/2=>void test_CherFor3() METHOD
+RefactoringAction 1475152977894 TestRomanNumerals.java RENAME test_CherFor3()=>void test_CherFor3C() METHOD
+RefactoringAction 1475152979943 TestRomanNumerals.java RENAME test_CherFor3C()=>void test_CherFor3X() METHOD
+RefactoringAction 1475152992744 RomanNumerals.java ADD boolean cherFor3X(String) METHOD
+EditAction 1475153008204 RomanNumerals.java 642 3 7 0
+EditAction 1475153008392 TestRomanNumerals.java 616 3 5 2
+UnitTestCaseAction 1475153009292 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475153009292 TestRomanNumerals.java FAIL
+RefactoringAction 1475153015583 TestRomanNumerals.java ADD void test_CherFor3X()/2 METHOD
+RefactoringAction 1475153020107 TestRomanNumerals.java RENAME test_CherFor3X()/2=>void test_CherFor3C() METHOD
+RefactoringAction 1475153026646 RomanNumerals.java ADD boolean cherFor3C(String) METHOD
+EditAction 1475153041684 RomanNumerals.java 921 4 10 0
+EditAction 1475153041819 TestRomanNumerals.java 819 4 7 3
+UnitTestCaseAction 1475153042641 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475153042642 TestRomanNumerals.java FAIL
+RefactoringAction 1475153052280 TestRomanNumerals.java ADD void test_CherFor3C()/2 METHOD
+RefactoringAction 1475153055319 TestRomanNumerals.java RENAME test_CherFor3C()/2=>void test_CherFor3M() METHOD
+RefactoringAction 1475153062594 RomanNumerals.java ADD boolean cherFor3M(String) METHOD
+EditAction 1475153074670 RomanNumerals.java 1175 5 13 0
+EditAction 1475153074829 TestRomanNumerals.java 1020 5 9 4
+UnitTestCaseAction 1475153075541 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475153075542 TestRomanNumerals.java FAIL
+RefactoringAction 1475153175046 TestRomanNumerals.java ADD void test_CherFor3M()/2 METHOD
+RefactoringAction 1475153203606 TestRomanNumerals.java RENAME test_CherFor3M()/2=>void test_CherForNo() METHOD
+RefactoringAction 1475153205127 TestRomanNumerals.java RENAME test_CherForNo()=>void test_CherForNoV() METHOD
+EditAction 1475153210562 TestRomanNumerals.java 1127 6 9 4
+RefactoringAction 1475153266779 TestRomanNumerals.java ADD void test_checkFor3I() METHOD
+RefactoringAction 1475153266780 TestRomanNumerals.java ADD void test_checkFor3X() METHOD
+RefactoringAction 1475153266782 TestRomanNumerals.java ADD void test_checkFor3C() METHOD
+RefactoringAction 1475153266785 TestRomanNumerals.java ADD void test_checkFor3M() METHOD
+RefactoringAction 1475153266795 TestRomanNumerals.java ADD void test_checkForNoV() METHOD
+RefactoringAction 1475153278295 RomanNumerals.java ADD boolean checkFor3I(String) METHOD
+RefactoringAction 1475153278296 RomanNumerals.java ADD boolean checkFor3X(String) METHOD
+RefactoringAction 1475153278297 RomanNumerals.java ADD boolean checkFor3C(String) METHOD
+RefactoringAction 1475153278297 RomanNumerals.java ADD boolean checkFor3M(String) METHOD
+EditAction 1475153280571 TestRomanNumerals.java 1206 6 11 5
+CompilationAction 1475153280845 TestRomanNumerals.java
+CompilationAction 1475153280845 TestRomanNumerals.java
+CompilationAction 1475153280845 TestRomanNumerals.java
+CompilationAction 1475153280845 TestRomanNumerals.java
+CompilationAction 1475153280845 TestRomanNumerals.java
+CompilationAction 1475153281030 TestRomanNumerals.java
+RefactoringAction 1475153296142 RomanNumerals.java ADD boolean checkForNorepeatV(String) METHOD
+CompilationAction 1475153411415 TestRomanNumerals.java
+UnitTestCaseAction 1475153412029 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475153412029 TestRomanNumerals.java FAIL
+RefactoringAction 1475153424069 TestRomanNumerals.java ADD void test_checkForNoV()/2 METHOD
+RefactoringAction 1475153427599 TestRomanNumerals.java RENAME test_checkForNoV()/2=>void test_checkForNoL() METHOD
+RefactoringAction 1475153436569 RomanNumerals.java ADD boolean checkForNorepeatL(String) METHOD
+EditAction 1475153459314 RomanNumerals.java 1881 7 21 0
+EditAction 1475153459462 TestRomanNumerals.java 1392 7 13 6
+UnitTestCaseAction 1475153460322 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475153460323 TestRomanNumerals.java FAIL
+RefactoringAction 1475153468674 TestRomanNumerals.java ADD void test_checkForNoL()/2 METHOD
+RefactoringAction 1475153470692 TestRomanNumerals.java RENAME test_checkForNoL()/2=>void test_checkForNo() METHOD
+RefactoringAction 1475153471716 TestRomanNumerals.java RENAME test_checkForNo()=>void test_checkForNoD() METHOD
+RefactoringAction 1475153478480 RomanNumerals.java ADD boolean checkForNorepeatD(String) METHOD
+EditAction 1475153490459 RomanNumerals.java 2176 8 24 0
+EditAction 1475153490618 TestRomanNumerals.java 1573 8 15 7
+UnitTestCaseAction 1475153491557 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475153491558 TestRomanNumerals.java FAIL
+RefactoringAction 1475153530962 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475153532482 TestRomanNumerals.java RENAME test=>void test_ FIELD
+RefactoringAction 1475153536504 TestRomanNumerals.java RENAME test_=>void test_() METHOD
+RefactoringAction 1475153615121 TestRomanNumerals.java RENAME test_()=>void test_First() METHOD
+RefactoringAction 1475153616148 TestRomanNumerals.java RENAME test_First()=>void test_FirstI() METHOD
+RefactoringAction 1475153638818 RomanNumerals.java ADD boolean checkFirstI(String) METHOD
+RefactoringAction 1475154830909 TestRomanNumerals.java RENAME test_FirstI()=>void test_che() METHOD
+RefactoringAction 1475154831978 TestRomanNumerals.java RENAME test_che()=>void test_check() METHOD
+RefactoringAction 1475154835504 TestRomanNumerals.java RENAME test_check()=>void test_che() METHOD
+RefactoringAction 1475154840030 TestRomanNumerals.java RENAME test_che()=>void test_check() METHOD
+RefactoringAction 1475154843054 TestRomanNumerals.java RENAME test_check()=>void test_checkIf() METHOD
+RefactoringAction 1475154846583 TestRomanNumerals.java RENAME test_checkIf()=>void test_checkIfIVis() METHOD
+RefactoringAction 1475154848107 TestRomanNumerals.java RENAME test_checkIfIVis()=>void test_checkIfIVis$() METHOD
+RefactoringAction 1475154849624 TestRomanNumerals.java RENAME test_checkIfIVis$()=>void test_checkIfIVis4() METHOD
+RefactoringAction 1475154898952 RomanNumerals.java RENAME checkFirstI(String)=>boolean checkIfIVis4(String) METHOD
+RefactoringAction 1475155051379 RomanNumerals.java RENAME checkIfIVis4(String)=>int wahtIVis4(String) METHOD
+RefactoringAction 1475155052406 RomanNumerals.java RENAME wahtIVis4(String)=>int wahtIIVis4(String) METHOD
+RefactoringAction 1475155053932 RomanNumerals.java RENAME wahtIIVis4(String)=>int wahtIsIVis4(String) METHOD
+EditAction 1475155100008 TestRomanNumerals.java 1853 9 15 7
+CompilationAction 1475155100365 TestRomanNumerals.java
+CompilationAction 1475155100366 TestRomanNumerals.java
+UnitTestCaseAction 1475155102330 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475155102331 TestRomanNumerals.java FAIL
+RefactoringAction 1475155121960 RomanNumerals.java ADD Object checkIfIVis4(String) METHOD
+RefactoringAction 1475155134198 RomanNumerals.java REMOVE checkIfIVis4(String) METHOD
+CompilationAction 1475155138095 TestRomanNumerals.java
+CompilationAction 1475155138096 TestRomanNumerals.java
+UnitTestCaseAction 1475155138741 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475155138742 TestRomanNumerals.java FAIL
+RefactoringAction 1475155146594 TestRomanNumerals.java ADD void test_checkIfIVis4()/2 METHOD
+RefactoringAction 1475155152619 TestRomanNumerals.java RENAME test_checkIfIVis4()/2=>void test_checkIfIVis9() METHOD
+RefactoringAction 1475155185151 TestRomanNumerals.java REMOVE test_checkIfIVis9() METHOD
+RefactoringAction 1475155211683 TestRomanNumerals.java ADD void test_checkIfIVis4()/2 METHOD
+RefactoringAction 1475155222236 TestRomanNumerals.java RENAME test_checkIfIVis4()/2=>void test_() METHOD
+RefactoringAction 1475155286106 TestRomanNumerals.java REMOVE test_() METHOD
+RefactoringAction 1475155290188 TestRomanNumerals.java ADD void test_checkIfIVis4()/2 METHOD
+RefactoringAction 1475155293215 TestRomanNumerals.java RENAME test_checkIfIVis4()/2=>void test_checkIfIVis9() METHOD
+RefactoringAction 1475155304302 TestRomanNumerals.java ADD void test_checkIfIVis9()/2 METHOD
+RefactoringAction 1475155307882 TestRomanNumerals.java RENAME test_checkIfIVis9()/2=>void test_checkIfIVis() METHOD
+RefactoringAction 1475155312926 TestRomanNumerals.java RENAME test_checkIfIVis()=>void test_checkIfIVis49() METHOD
+RefactoringAction 1475155321997 TestRomanNumerals.java ADD void test_checkIfIVis9()/2 METHOD
+RefactoringAction 1475155336091 TestRomanNumerals.java RENAME test_checkIfIVis9()/2=>void test_checkIfIVis99() METHOD
+RefactoringAction 1475155344137 TestRomanNumerals.java ADD void test_checkIfIVis99()/2 METHOD
+RefactoringAction 1475155347156 TestRomanNumerals.java RENAME test_checkIfIVis99()/2=>void test_checkIfIVis49()/2 METHOD
+RefactoringAction 1475155357608 RomanNumerals.java ADD Object wahtIsIVis9(String) METHOD
+RefactoringAction 1475155363134 RomanNumerals.java ADD Object wahtIsIVis49(String) METHOD
+RefactoringAction 1475155367896 RomanNumerals.java ADD Object wahtIsIVis99(String) METHOD
+RefactoringAction 1475155373907 RomanNumerals.java ADD Object wahtIsIVis499(String) METHOD
+RefactoringAction 1475155471553 TestRomanNumerals.java RENAME test_checkIfIVis49()/2=>void test_checkIfIVis490() METHOD
+RefactoringAction 1475155472573 TestRomanNumerals.java RENAME test_checkIfIVis490()=>void test_checkIfIVis4909() METHOD
+RefactoringAction 1475155473598 TestRomanNumerals.java RENAME test_checkIfIVis4909()=>void test_checkIfIVis499() METHOD
+EditAction 1475155477149 RomanNumerals.java 3240 13 34 0
+EditAction 1475155477794 TestRomanNumerals.java 2925 13 25 12
+UnitTestCaseAction 1475155478566 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475155478566 TestRomanNumerals.java FAIL
+RefactoringAction 1475155599251 TestRomanNumerals.java ADD void test_checkIfIVis9()/2 METHOD
+RefactoringAction 1475155599254 TestRomanNumerals.java ADD void test_checkIfIVis49()/2 METHOD
+RefactoringAction 1475155599255 TestRomanNumerals.java ADD void test_checkIfIVis99()/2 METHOD
+RefactoringAction 1475155599259 TestRomanNumerals.java ADD void test_checkIfIVis499()/2 METHOD
+RefactoringAction 1475155613814 TestRomanNumerals.java RENAME test_checkIfIVis9()/2=>void test_checkIfIVis40() METHOD
+RefactoringAction 1475155627910 TestRomanNumerals.java RENAME test_checkIfIVis49()/2=>void test_checkIfIVis90() METHOD
+RefactoringAction 1475155662144 TestRomanNumerals.java RENAME test_checkIfIVis99()/2=>void test_checkIfIVis490() METHOD
+RefactoringAction 1475155671204 TestRomanNumerals.java REMOVE test_checkIfIVis499()/2 METHOD
+RefactoringAction 1475155709830 RomanNumerals.java ADD Object wahtIsXLis40(String) METHOD
+RefactoringAction 1475155715450 RomanNumerals.java ADD Object wahtIsXCis90(String) METHOD
+RefactoringAction 1475155719726 RomanNumerals.java ADD Object wahtIsXDis490(String) METHOD
+RefactoringAction 1475155731080 RomanNumerals.java RENAME wahtIsIVis9(String)=>Object wahtIsIis9(String) METHOD
+RefactoringAction 1475155732103 RomanNumerals.java RENAME wahtIsIis9(String)=>Object wahtIsIXis9(String) METHOD
+RefactoringAction 1475155735651 RomanNumerals.java RENAME wahtIsIVis49(String)=>Object wahtIsIis49(String) METHOD
+RefactoringAction 1475155736683 RomanNumerals.java RENAME wahtIsIis49(String)=>Object wahtIsILis49(String) METHOD
+RefactoringAction 1475155740713 RomanNumerals.java RENAME wahtIsIVis99(String)=>Object wahtIsIis99(String) METHOD
+RefactoringAction 1475155743743 RomanNumerals.java RENAME wahtIsIis99(String)=>Object wahtIsICis99(String) METHOD
+RefactoringAction 1475155746765 RomanNumerals.java RENAME wahtIsIVis499(String)=>Object wahtIsIis499(String) METHOD
+RefactoringAction 1475155747793 RomanNumerals.java RENAME wahtIsIis499(String)=>Object wahtIsIDis499(String) METHOD
+EditAction 1475155790661 RomanNumerals.java 3830 16 40 0
+CompilationAction 1475155790853 TestRomanNumerals.java
+CompilationAction 1475155790854 TestRomanNumerals.java
+CompilationAction 1475155790854 TestRomanNumerals.java
+CompilationAction 1475155790854 TestRomanNumerals.java
+EditAction 1475155790871 TestRomanNumerals.java 3750 16 31 15
+CompilationAction 1475155791042 TestRomanNumerals.java
+CompilationAction 1475155791042 TestRomanNumerals.java
+CompilationAction 1475155791042 TestRomanNumerals.java
+CompilationAction 1475155791043 TestRomanNumerals.java
+EditAction 1475155823048 TestRomanNumerals.java 3750 16 31 15
+UnitTestCaseAction 1475155823717 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475155823718 TestRomanNumerals.java FAIL
+RefactoringAction 1475155837169 TestRomanNumerals.java ADD void test_checkIfIVis90()/2 METHOD
+RefactoringAction 1475155837171 TestRomanNumerals.java ADD void test_checkIfIVis490()/2 METHOD
+RefactoringAction 1475155841249 TestRomanNumerals.java RENAME test_checkIfIVis90()/2=>void test_checkIfLis90() METHOD
+RefactoringAction 1475155844279 TestRomanNumerals.java RENAME test_checkIfLis90()=>void test_checkIfLCis90() METHOD
+RefactoringAction 1475155869828 TestRomanNumerals.java REMOVE test_checkIfIVis490()/2 METHOD
+RefactoringAction 1475155888376 TestRomanNumerals.java ADD void test_checkIfIVis490()/2 METHOD
+RefactoringAction 1475155892424 TestRomanNumerals.java REMOVE test_checkIfIVis490()/2 METHOD
+RefactoringAction 1475155905506 TestRomanNumerals.java REMOVE test_checkIfIVis99() METHOD
+RefactoringAction 1475155905508 TestRomanNumerals.java REMOVE test_checkIfIVis499() METHOD
+RefactoringAction 1475155905509 TestRomanNumerals.java REMOVE test_checkIfIVis49() METHOD
+RefactoringAction 1475155928119 TestRomanNumerals.java RENAME test_checkIfLCis90()=>void test_checkIfis90() METHOD
+RefactoringAction 1475155930164 TestRomanNumerals.java RENAME test_checkIfis90()=>void test_checkIfCDis90() METHOD
+RefactoringAction 1475155936704 TestRomanNumerals.java RENAME test_checkIfCDis90()=>void test_checkIfCDis400() METHOD
+RefactoringAction 1475155944229 TestRomanNumerals.java RENAME test_checkIfIVis490()=>void test_checkIfIVis900() METHOD
+RefactoringAction 1475155971401 RomanNumerals.java ADD Object wahtIsCDis400(String) METHOD
+RefactoringAction 1475155990571 RomanNumerals.java ADD Object wahtIsCMis900(String) METHOD
+EditAction 1475156005715 RomanNumerals.java 4226 18 44 0
+EditAction 1475156006062 TestRomanNumerals.java 4284 14 27 13
+CompilationAction 1475156006248 TestRomanNumerals.java
+CompilationAction 1475156016664 TestRomanNumerals.java
+UnitTestCaseAction 1475156017235 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475156017236 TestRomanNumerals.java FAIL
+EditAction 1475156019752 TestRomanNumerals.java 4301 14 27 13
+RefactoringAction 1475156043750 TestRomanNumerals.java ADD be made FIELD
+RefactoringAction 1475156043750 TestRomanNumerals.java ADD per numeral() METHOD
+RefactoringAction 1475156046271 TestRomanNumerals.java REMOVE made FIELD
+RefactoringAction 1475156046272 TestRomanNumerals.java REMOVE numeral() METHOD
