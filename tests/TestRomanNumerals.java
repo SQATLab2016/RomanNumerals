@@ -72,5 +72,24 @@ public class TestRomanNumerals {
 		String numM = ("M");
 		assertTrue(RomanNumerals.repeatLessThanThreeTimesM(numM));
 	}
+	
+	@Test
+	public void test_neverRepeatV(){
+		String numV = ("V");
+		assertTrue(RomanNumerals.neverRepeatV(numV));
+	}
+	
+	@Test
+	public void test_neverRepeatL(){
+		String numL = ("L");
+		assertTrue(RomanNumerals.neverRepeatL(numL));
+	}
+	
+	@Test
+	public void test_neverRepeatD(){
+		String numD = ("D");
+		assertTrue(RomanNumerals.neverRepeatD(numD));
+	}
+	
 
 }

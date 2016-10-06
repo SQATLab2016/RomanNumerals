@@ -76,6 +76,7 @@ public class RomanNumerals {
 			}
 		}
 
+
 		if (repeat<4) {
 			return true;
 		}else{
@@ -101,5 +102,69 @@ public class RomanNumerals {
 
 	}
 
+	public static boolean neverRepeatV(String numV){
 
+		int repeat = 0;
+
+		for (int i = 0; i < numV.length(); i++) {
+			if(numV.charAt(i) == 'V'){
+				repeat ++;
+			}
+		}
+		if(repeat == 1){
+			return true;
+		}else{
+			return false;
+		}
+	}
+
+	public static boolean neverRepeatL(String numL){
+
+		int repeat = 0;
+
+		for (int i = 0; i < numL.length(); i++) {
+			if(numL.charAt(i) == 'L'){
+				repeat ++;
+			}
+		}
+		if(repeat == 1){
+			return true;
+		}else{
+			return false;
+		}
+	}
+
+	public static boolean neverRepeatD(String numD){
+
+		int repeat = 0;
+
+		for (int i = 0; i < numD.length(); i++) {
+			if(numD.charAt(i) == 'D'){
+				repeat ++;
+			}
+		}
+		if(repeat == 1 || repeat == 0){
+			return true;
+		}else{
+			return false;
+		}
+	}
+
+	public static void substracted(String oneSymbol){
+
+		int repeat = 0;
+
+		for (int i = 0; i < oneSymbol.length(); i++) {
+
+			if(oneSymbol.charAt(i) == 'I'){
+				repeat ++;
+			}else{
+
+				if(repeat != 0 && ( (oneSymbol.charAt(i) == 'V') || (oneSymbol.charAt(i) == 'X'))){
+					// onesymbol pass to int and then oneSymbol.charAt(i)-repeat
+				}
+			}
+
+		}
+	}
 }
