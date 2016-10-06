@@ -10,3 +10,4 @@ RefactoringAction 1475753722986 RomanNumerals.java REMOVE I FIELD
 RefactoringAction 1475753722987 RomanNumerals.java REMOVE X FIELD
 RefactoringAction 1475753722988 RomanNumerals.java REMOVE L FIELD
 EditAction 1475753723585 RomanNumerals.java 101 1 1 0
+EditAction 1475753745493 RomanNumerals.java 152 1 2 0
