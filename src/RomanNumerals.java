@@ -150,8 +150,15 @@ public class RomanNumerals {
 		}
 	}
 
-	public static void substracted(String oneSymbol){
-
+	
+	public static String substracted(String oneSymbol){
+		
+		char J = 3;
+		char K = 8;
+		char R = 80;
+		char Z = 30;
+		char W = 300;
+		char Y = 800;
 		int repeat = 0;
 
 		for (int i = 0; i < oneSymbol.length(); i++) {
@@ -160,11 +167,68 @@ public class RomanNumerals {
 				repeat ++;
 			}else{
 
-				if(repeat != 0 && ( (oneSymbol.charAt(i) == 'V') || (oneSymbol.charAt(i) == 'X'))){
-					// onesymbol pass to int and then oneSymbol.charAt(i)-repeat
+				if(repeat == 1 && ( (oneSymbol.charAt(i) == 'V') || (oneSymbol.charAt(i) == 'X'))){
+				
+					if((oneSymbol.charAt(i) == 'V')){
+						
+						char[] l = oneSymbol.toCharArray();
+						l[i] = J;
+						oneSymbol = l.toString();
+						
+					}
+				}else if(oneSymbol.charAt(i) == 'X'){
+
+					char[] l = oneSymbol.toCharArray();
+					l[i] = K;
+					oneSymbol = l.toString();
+					
 				}
 			}
+			
+			if(oneSymbol.charAt(i) == 'X'){
+				repeat ++;
+			}else{
 
+				if(repeat == 1 && ( (oneSymbol.charAt(i) == 'C') || (oneSymbol.charAt(i) == 'L'))){
+				
+					if((oneSymbol.charAt(i) == 'C')){
+						
+						char[] l = oneSymbol.toCharArray();
+						l[i] = R;
+						oneSymbol = l.toString();
+						
+					}
+				}else if(oneSymbol.charAt(i) == 'L'){
+
+					char[] l = oneSymbol.toCharArray();
+					l[i] = Z;
+					oneSymbol = l.toString();
+					
+				}
+			}
+			
+			if(oneSymbol.charAt(i) == 'C'){
+				repeat ++;
+			}else{
+
+				if(repeat == 1 && ( (oneSymbol.charAt(i) == 'D') || (oneSymbol.charAt(i) == 'M'))){
+				
+					if((oneSymbol.charAt(i) == 'D')){
+						
+						char[] l = oneSymbol.toCharArray();
+						l[i] = W;
+						oneSymbol = l.toString();
+						
+					}
+				}else if(oneSymbol.charAt(i) == 'M'){
+
+					char[] l = oneSymbol.toCharArray();
+					l[i] = Y;
+					oneSymbol = l.toString();
+					
+				}
+			}		
 		}
+	return oneSymbol;
 	}
 }

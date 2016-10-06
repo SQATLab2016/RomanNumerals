@@ -91,5 +91,9 @@ public class TestRomanNumerals {
 		assertTrue(RomanNumerals.neverRepeatD(numD));
 	}
 	
-
+	@Test
+	public void test_substracted(){
+		String oneSymbol = ("CD");
+		assertEquals("CW", oneSymbol);
+	}
 }
