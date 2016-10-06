@@ -11,7 +11,8 @@ public class RomanNumerals {
 				String s = romanNum.substring(i, i+1);
 				if(s.equals("M")){
 					result += 1000;
-				} else if (s.equals("C")){
+				} 
+				else if (s.equals("C")){
 					String next = romanNum.substring(i+1,i+2);
 					if (next.equals("M")){
 						result += 900;
@@ -20,6 +21,9 @@ public class RomanNumerals {
 					else {
 						result += 100;
 					}
+				} 
+				else if(s.equals("D")){
+					result += 500;
 				}
 			}
 		}
