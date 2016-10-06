@@ -19,7 +19,7 @@ public class RomanNumerals {
 		int value = 0;
 		int index = romanNum.length() - 1;
 		for (int i = index - 1; i > 0; i--) {
-			if (getRomanCharValue(getCharFromRomanNum(romanNum, i)) >= getRomanCharValue(getCharFromRomanNum(romanNum))) {
+			if (getRomanCharValue(getCharFromRomanNum(romanNum, i)) >= getRomanCharValue(getCharFromRomanNum(romanNum, i + 1))) {
 				value += getRomanCharValue(getCharFromRomanNum(romanNum, i));
 			}
 			else
