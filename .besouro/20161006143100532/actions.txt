@@ -80,3 +80,5 @@ RefactoringAction 1475755190604 TestRomanNumerals.java ADD void testConvertToInt
 RefactoringAction 1475755193118 TestRomanNumerals.java RENAME testConvertToInteger_I_1()/2=>void testConvertToInteger_IV_1() METHOD
 RefactoringAction 1475755194131 TestRomanNumerals.java RENAME testConvertToInteger_IV_1()=>void testConvertToInteger_IV_4() METHOD
 EditAction 1475755197674 TestRomanNumerals.java 1307 8 16 8
+UnitTestCaseAction 1475755198425 TestRomanNumerals.java OK
+UnitTestSessionAction 1475755198426 TestRomanNumerals.java OK
