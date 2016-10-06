@@ -56,6 +56,7 @@ public class RomanNumerals {
 			case "D": subStringValues.add(500);
 			break;
 			case "M": subStringValues.add(1000);
+			System.out.println(subStringValues.toString());
 			break;
 			default: subStringValues.add(0);
 			}
