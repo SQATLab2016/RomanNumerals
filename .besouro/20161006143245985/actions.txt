@@ -10,3 +10,10 @@ UnitTestSessionAction 1475754162538 TestRomanNumerals.java OK
 RefactoringAction 1475754207482 TestRomanNumerals.java ADD void convertIX()/2 METHOD
 RefactoringAction 1475754210087 TestRomanNumerals.java RENAME convertIX()/2=>void convertIV() METHOD
 EditAction 1475754221007 TestRomanNumerals.java 1931 9 22 7
+UnitTestCaseAction 1475754222945 TestRomanNumerals.java OK
+UnitTestSessionAction 1475754222945 TestRomanNumerals.java OK
+RefactoringAction 1475754574164 TestRomanNumerals.java ADD void convertIV()/2 METHOD
+RefactoringAction 1475754597860 TestRomanNumerals.java RENAME convertIV()/2=>void convertXC() METHOD
+RefactoringAction 1475754619591 TestRomanNumerals.java RENAME convertIV()=>void convert() METHOD
+RefactoringAction 1475754632477 TestRomanNumerals.java RENAME convert()=>void convertCD() METHOD
+EditAction 1475754646674 RomanNumerals.java 1804 1 7 0

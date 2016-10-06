@@ -70,11 +70,13 @@ public class RomanNumerals {
 				throw new IllegalArgumentException("This roman number can't be repeated");
 			}
 			
-			if(((value == 5 || value == 10) && lastValue == 1)) {
+			if(((value == 5 || value == 10) && lastValue == 1) 
+					|| ((value == 50 || value == 100) && lastValue == 10) 
+					|| ((value == 500 || value == 1000) && lastValue == 100)) {
 				value = value - lastValue - lastValue;
 				sum = sum + value;
 				lastValue = value;
-			}
+			} 
 
 			else {
 			sum = sum + value;
