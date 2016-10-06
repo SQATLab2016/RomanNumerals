@@ -253,4 +253,17 @@ public class TestRomanNumerals {
 		assertEquals(true, thrown);
 	}
 	
+	@Test
+	public void testConvertingLC() {
+		RomanNumerals rn = new RomanNumerals();
+		boolean thrown = false;
+		try {
+			rn.convertToInteger("LC");
+		}
+		catch(RomanNumeralsException e) {
+			thrown = true;
+		}
+		assertEquals(true, thrown);
+	}
+	
 }
