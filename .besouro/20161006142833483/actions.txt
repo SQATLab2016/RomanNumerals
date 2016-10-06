@@ -189,3 +189,6 @@ RefactoringAction 1475758460219 TestRomanNumerals.java ADD void testConvertingVX
 RefactoringAction 1475758474735 TestRomanNumerals.java RENAME testConvertingVX()/2=>void testConvertingL()/2 METHOD
 RefactoringAction 1475758479253 TestRomanNumerals.java RENAME testConvertingL()/2=>void testConvertingLC() METHOD
 EditAction 1475758484409 TestRomanNumerals.java 5067 22 62 9
+UnitTestCaseAction 1475758485848 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475758485848 TestRomanNumerals.java FAIL
+EditAction 1475758514875 RomanNumerals.java 3238 1 7 0
