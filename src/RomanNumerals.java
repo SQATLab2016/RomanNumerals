@@ -10,13 +10,18 @@ public class RomanNumerals {
 	private static final int M_VALUE = 1000;
 	
 	public int convertToInteger(String romanNum) {
-		romanNum.toUpperCase();
+		romanNum = convertRomanNumToUpperCase(romanNum);
 		if (!checkIfValidRomanNumeral(romanNum)) {
 			return -1;
 		}
 		else {
 			return getRomanNumberValue(romanNum);	
 		}			
+	}
+
+	private String convertRomanNumToUpperCase(String romanNum) {
+		romanNum = romanNum.toUpperCase();
+		return romanNum;
 	}
 
 	private boolean checkIfValidRomanNumeral(String romanNum) {

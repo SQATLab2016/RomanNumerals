@@ -107,3 +107,5 @@ RefactoringAction 1475755397933 TestRomanNumerals.java RENAME test_ConvertToInte
 UnitTestCaseAction 1475755452562 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475755452563 TestRomanNumerals.java FAIL
 EditAction 1475755494391 RomanNumerals.java 1723 5 11 0
+RefactoringAction 1475755568518 RomanNumerals.java ADD String convertRomanNumToUpperCase(String) METHOD
+EditAction 1475755573742 RomanNumerals.java 1870 6 13 0
