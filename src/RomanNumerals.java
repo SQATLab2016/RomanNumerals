@@ -2,26 +2,51 @@
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
 		// To be Implemented
-		int num=0;
+		//1984	=	MCMLXXXIV
+		int num=0, tempNum=0, tempNum2=0, tempNum3=0;
+		char tempChar;
 		if (checkFor3C(romanNum)&&checkFor3I(romanNum)&&checkFor3M(romanNum)&&checkFor3X(romanNum)) {
 			if (checkForNorepeatD(romanNum)&&checkForNorepeatL(romanNum)&&checkForNorepeatV(romanNum)) {
 
-
-
-
+				for (int i = romanNum.length(); i < 0; i--) {
+					tempChar= romanNum.charAt(i);
+					tempNum= convertCharToNum(tempChar);
+					tempNum2=convertCharToNum(romanNum.charAt(i-1));
+					tempNum3=convertCharToNum(romanNum.charAt(i-2));
+					if (tempNum>tempNum2&&tempNum<tempNum3) {
+						num= num+(tempNum-tempNum2);
+					} else if (tempNum>tempNum&&tempNum>tempNum3) {
+						num= num+(tempNum-tempNum2-tempNum3);
+					}
+				}
 			}
+		}
+		return 0;
+	}
 
+	public int convertCharToNum(Character a){
+		int num=0;
 
+		if (a=='I') {
+			num=1;
 
+		}else if(a=='V') {
+			num=5;
 
+		}else if(a=='X') {
+			num=10;
 
+		}else if(a=='L') {
+			num=50;
+
+		}else if (a=='C') {
+			num=100;
+
+		}else if(a=='M') {
+			num=1000;
 
 		}
-
-
-		return 0;
-
-
+		return num;
 
 	}
 	//1 rule
