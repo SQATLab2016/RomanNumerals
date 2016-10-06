@@ -4,7 +4,7 @@ public class RomanNumerals {
 		int result = 0;
 		for (int i = 0; i < romanNum.length(); i++) {
 			// Check last character seperately
-			if(i == romanNum.length()-1){
+			if(i == romanNum.length()){
 				
 			}
 			else{
