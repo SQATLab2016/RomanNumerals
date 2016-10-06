@@ -33,10 +33,9 @@ public class RomanNumerals {
 						break;
 				}
 			}
-			if(counter == 1)
-				subStrings.add(romanNum.substring(oldPos, oldPos+1));
-			else 
-				subStrings.add(romanNum.substring(oldPos, oldPos+counter));	
+			
+			subStrings.add(romanNum.substring(oldPos, oldPos+1));
+			c += counter;
 			counter = 1;
 		}
 		
