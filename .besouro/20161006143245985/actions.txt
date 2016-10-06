@@ -48,3 +48,8 @@ RefactoringAction 1475755960249 TestRomanNumerals.java ADD void convertCD()/2 ME
 RefactoringAction 1475755973182 TestRomanNumerals.java RENAME convertCD()/2=>void convertMCMLXXXIV() METHOD
 EditAction 1475755989999 RomanNumerals.java 2037 1 8 0
 EditAction 1475755991559 TestRomanNumerals.java 2543 12 30 9
+UnitTestCaseAction 1475755993710 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755993710 TestRomanNumerals.java FAIL
+RefactoringAction 1475756017469 TestRomanNumerals.java ADD void convertMCMLXXXIV()/2 METHOD
+RefactoringAction 1475756025206 TestRomanNumerals.java RENAME convertMCMLXXXIV()/2=>void convertMMXIV() METHOD
+EditAction 1475756038201 TestRomanNumerals.java 2709 13 32 10

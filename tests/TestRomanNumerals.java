@@ -86,6 +86,12 @@ public class TestRomanNumerals {
 		RomanNumerals romanNumerals = new RomanNumerals();
 		assertEquals("1984", 1984, romanNumerals.convertToInteger("MCMLXXXIV"));
 	}
+	
+	@Test
+	public void convertMMXIV() {
+		RomanNumerals romanNumerals = new RomanNumerals();
+		assertEquals("2014", 2014, romanNumerals.convertToInteger("MMXIV"));
+	}
 
 	
 	
