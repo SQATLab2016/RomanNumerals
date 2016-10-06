@@ -1,0 +1,12 @@
+FileOpenedAction 1475753460743 RomanNumerals.java 101 1 1 0
+RefactoringAction 1475753653844 RomanNumerals.java ADD int I FIELD
+RefactoringAction 1475753679365 RomanNumerals.java ADD int V FIELD
+RefactoringAction 1475753690413 RomanNumerals.java ADD int X FIELD
+RefactoringAction 1475753697942 RomanNumerals.java ADD int L FIELD
+RefactoringAction 1475753708457 RomanNumerals.java ADD int C FIELD
+RefactoringAction 1475753722984 RomanNumerals.java REMOVE V FIELD
+RefactoringAction 1475753722985 RomanNumerals.java REMOVE C FIELD
+RefactoringAction 1475753722986 RomanNumerals.java REMOVE I FIELD
+RefactoringAction 1475753722987 RomanNumerals.java REMOVE X FIELD
+RefactoringAction 1475753722988 RomanNumerals.java REMOVE L FIELD
+EditAction 1475753723585 RomanNumerals.java 101 1 1 0
