@@ -86,6 +86,7 @@ public class RomanNumerals {
 				else if(subStringValues.get(i)>subStringValues.get(i+1)){
 					if(subStringValues.get(i+1)<subStringValues.get(i+2)) {
 						sum += subStringValues.get(i+2)-subStringValues.get(i+1)+subStringValues.get(i);
+						System.out.println("joo");
 						i++;
 					}
 					else
