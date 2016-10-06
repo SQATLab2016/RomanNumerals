@@ -83,7 +83,7 @@ public class RomanNumerals {
 					sum += subStringValues.get(i+1)-subStringValues.get(i);
 					i++;
 				}
-				else if(subStringValues.get(i)>subStringValues.get(i+1)){
+				else if(subStringValues.get(i).intValue()>subStringValues.get(i+1).intValue()){
 					if(subStringValues.get(i+1)<subStringValues.get(i+2)) {
 						sum += subStringValues.get(i+2)-subStringValues.get(i+1)+subStringValues.get(i);
 						System.out.println("joo");
