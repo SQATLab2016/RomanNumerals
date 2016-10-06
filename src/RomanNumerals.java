@@ -55,7 +55,9 @@ public class RomanNumerals {
 			default: subStringValues.add(0);
 			}
 		}
-		if(subStringValues.get(0)<subStringValues.get(1))
+		if(subStringValues.size() == 1)
+			return subStringValues.get(0);
+		else if(subStringValues.get(0)<subStringValues.get(1))
 			return subStringValues.get(1)-subStringValues.get(0);
 		else
 			return subStringValues.get(1)+subStringValues.get(0);
