@@ -94,10 +94,10 @@ public class RomanNumerals {
 					}
 					else
 						sum += subStringValues.get(1)+subStringValues.get(0);
-					System.out.println(sum);
 					i++;
 				}
 			}
+			System.out.println(sum);
 			return sum;
 		}
 	}
