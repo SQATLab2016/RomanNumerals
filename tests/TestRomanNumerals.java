@@ -80,10 +80,26 @@ public class TestRomanNumerals {
 	public void test_ConvertToIntegerValueMCMLXXXIV() {
 		assertRomanValue(1984, "MCMLXXXIV");
 	}
+	
+	@Test
+	public void test_ConvertToIntegerInvalidRomanNumberABC() {
+		try {
+			numerals.convertToInteger("ABC");
+			fail("RomanNumberException not caught in case of ABC");
+		} catch (RomanNumberException e) {
+		}
+	}
 
 	private void assertRomanValue(int expected, String testValue) {
-		int value = numerals.convertToInteger(testValue);
-		assertEquals(expected, value);
+		int value;
+		try {
+			value = numerals.convertToInteger(testValue);
+			assertEquals(expected, value);
+		} catch (RomanNumberException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 
 }

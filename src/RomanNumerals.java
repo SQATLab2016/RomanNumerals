@@ -10,7 +10,17 @@ public class RomanNumerals {
 	private static final int M_VALUE = 1000;
 	
 	public int convertToInteger(String romanNum) {
-		return getRomanNumberValue(romanNum);		
+		if (!checkIfValidRomanNumeral(romanNum)) {
+			return -1;
+		}
+		else {
+			return getRomanNumberValue(romanNum);	
+		}			
+	}
+
+	private boolean checkIfValidRomanNumeral(String romanNum) {
+		
+		return false;
 	}
 
 	private int getRomanNumberValue(String romanNum) {
