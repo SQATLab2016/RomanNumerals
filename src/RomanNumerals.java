@@ -12,21 +12,7 @@ public class RomanNumerals {
 	private static final int M_VALUE = 1000;
 	
 	public int convertToInteger(String romanNum) {
-
-		return getRomanNumberValue(romanNum);
-		
-	}
-
-	private int getSubstractiveRomanNumberValue(String romanNum) {
-		int value = getRomanCharValue(getCharFromRomanNum(romanNum, romanNum.length() - 1));
-		for (int i = romanNum.length() - 2; i >= 0; i--) {
-			value -= getRomanCharValue(getCharFromRomanNum(romanNum, i));
-		}
-		return value;
-	}
-
-	private boolean hasSubstractiveNumber(String romanNum) {
-		return romanNum == "IV";
+		return getRomanNumberValue(romanNum);		
 	}
 
 	private int getRomanNumberValue(String romanNum) {
@@ -42,30 +28,11 @@ public class RomanNumerals {
 		}
 		
 		value += getRomanCharValue(getCharFromRomanNum(romanNum, 0));
-		return value;
+		return Math.abs(value);
 	}
 
 	private char getCharFromRomanNum(String romanNum, int index) {
 		return romanNum.charAt(index);
-	}
-	
-	private List<String> parseRomanNumStringToTokens(String romanNum) {
-		List<String> tokens = new ArrayList<String>();
-		StringBuilder sb = new StringBuilder();
-		char prevChar;
-		for(int i = 0; i < romanNum.length(); i++) {
-			prevChar = romanNum.charAt(i);
-			if(prevChar == romanNum.charAt(i)) {
-				sb.append(prevChar);
-				continue;
-			}
-			else {
-				sb.append(romanNum.charAt(i));
-				tokens.add(sb.toString());
-				sb.setLength(0);
-			}
-		}
-		return tokens;
 	}
 	
 	public int getRomanCharValue(char romanChar) {
