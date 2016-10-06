@@ -8,9 +8,8 @@ public class TestRomanNumerals {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
-
-
+		int num= romanNumerals.convertToInteger("MCMLXXXIV");
+		assertEquals(1984, num);
 
 	}
 
@@ -155,9 +154,9 @@ public class TestRomanNumerals {
 		assertEquals(900, (romanNumerals.wahtIsCMis900(num)));
 	}
 	//4 rule
-	
-//	Only	one	subtraction	can
-//	be	made	per	numeral	('XC'	is	allowed,	'XXC'	is	not).	
+
+	//	Only	one	subtraction	can
+	//	be	made	per	numeral	('XC'	is	allowed,	'XXC'	is	not).	
 
 
 }
