@@ -48,3 +48,10 @@ RefactoringAction 1475754947727 TestRomanNumerals.java RENAME testConvertToInteg
 RefactoringAction 1475754960769 TestRomanNumerals.java REMOVE testConvertToInteger_MCMXCIV_1994()/2 METHOD
 RefactoringAction 1475754960770 TestRomanNumerals.java REMOVE testConvertToInteger_MCMXCIV_1994()/3 METHOD
 EditAction 1475754963121 TestRomanNumerals.java 600 3 6 3
+UnitTestCaseAction 1475754964358 TestRomanNumerals.java OK
+UnitTestSessionAction 1475754964359 TestRomanNumerals.java OK
+RefactoringAction 1475754988295 TestRomanNumerals.java ADD void testConvertToInteger_MCMXCIV_1994()/2 METHOD
+RefactoringAction 1475754988297 TestRomanNumerals.java ADD void testConvertToInteger_MCMXCIV_1994()/3 METHOD
+RefactoringAction 1475754990811 TestRomanNumerals.java RENAME testConvertToInteger_MCMXCIV_1994()/3=>void testConvertToInteger_MCMXCIX_1994() METHOD
+RefactoringAction 1475754992325 TestRomanNumerals.java RENAME testConvertToInteger_MCMXCIX_1994()=>void testConvertToInteger_MCMXCIX_1999() METHOD
+EditAction 1475754995288 TestRomanNumerals.java 904 5 10 5
