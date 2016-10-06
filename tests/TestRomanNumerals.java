@@ -35,5 +35,10 @@ public class TestRomanNumerals {
 
 		assertEquals(47, arabicNum);
 	}
+	@Test
+	public void testConvertToInteger_XXIV_24() {
+		int arabicNum = converter.convertToInteger("XXIV");
 
+		assertEquals(24, arabicNum);
+	}
 }
