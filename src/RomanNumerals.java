@@ -76,8 +76,11 @@ public class RomanNumerals {
 			int sum = 0;
 			int size = subStringValues.size();
 			for(int i = 0;i<size-1;i++) {
-				if(subStringValues.get(i)==subStringValues.get(i+1))
-					sum += subStringValues.get(i) + subStringValues.get(i+1);
+				if(subStringValues.get(i)==subStringValues.get(i+1) && subStringValues.get(i)==subStringValues.get(i+2)) {
+					sum += subStringValues.get(i) + subStringValues.get(i+1) + subStringValues.get(i+2);
+					i++;
+					i++;
+				}
 				if(subStringValues.get(i)<subStringValues.get(i+1)) {
 					if(subStringValues.get(i)==5)
 						throw new RomanNumeralsException("Roman Numeral to be converted isn't valid");
