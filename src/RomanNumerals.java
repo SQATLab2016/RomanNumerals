@@ -50,6 +50,8 @@ public class RomanNumerals {
 			break;
 			case "V": subStringValues.add(5);
 			break;
+			case "X": subStringValues.add(10);
+			break;
 			default: subStringValues.add(0);
 			}
 		}
