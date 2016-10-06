@@ -44,3 +44,9 @@ EditAction 1475754110525 RomanNumerals.java 1446 4 7 0
 UnitTestCaseAction 1475754114746 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475754114747 TestRomanNumerals.java FAIL
 EditAction 1475754170905 RomanNumerals.java 1447 4 7 0
+UnitTestCaseAction 1475754175450 TestRomanNumerals.java OK
+UnitTestSessionAction 1475754175451 TestRomanNumerals.java OK
+RefactoringAction 1475754298530 RomanNumberException.java ADD RomanNumberException.java CLASS
+FileOpenedAction 1475754298714 RomanNumberException.java 62 0 0 0
+RefactoringAction 1475754335749 RomanNumberException.java ADD RomanNumberException(String) METHOD
+EditAction 1475754341980 RomanNumberException.java 133 1 1 0
