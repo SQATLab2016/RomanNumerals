@@ -31,3 +31,8 @@ EditAction 1475755394217 RomanNumerals.java 1955 1 8 0
 UnitTestCaseAction 1475755395749 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475755395749 TestRomanNumerals.java FAIL
 EditAction 1475755542139 RomanNumerals.java 1903 1 7 0
+UnitTestCaseAction 1475755544248 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755544248 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475755562504 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755562504 Rerun TestRomanNumerals.convertXXC FAIL
+EditAction 1475755831696 RomanNumerals.java 1994 1 8 0
