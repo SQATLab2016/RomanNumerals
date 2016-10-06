@@ -55,6 +55,6 @@ public class RomanNumerals {
 				}
 			}
 		}
-		return 1994;
+		return result;
 	}
 }
