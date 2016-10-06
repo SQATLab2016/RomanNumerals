@@ -55,3 +55,10 @@ RefactoringAction 1475754988297 TestRomanNumerals.java ADD void testConvertToInt
 RefactoringAction 1475754990811 TestRomanNumerals.java RENAME testConvertToInteger_MCMXCIV_1994()/3=>void testConvertToInteger_MCMXCIX_1994() METHOD
 RefactoringAction 1475754992325 TestRomanNumerals.java RENAME testConvertToInteger_MCMXCIX_1994()=>void testConvertToInteger_MCMXCIX_1999() METHOD
 EditAction 1475754995288 TestRomanNumerals.java 904 5 10 5
+CompilationAction 1475754995465 TestRomanNumerals.java
+RefactoringAction 1475755003860 TestRomanNumerals.java RENAME testConvertToInteger_MCMXCIV_1994()/2=>void testConvertToInteger_XLVII_1994() METHOD
+RefactoringAction 1475755006373 TestRomanNumerals.java RENAME testConvertToInteger_XLVII_1994()=>void testConvertToInteger_XLVII_47() METHOD
+CompilationAction 1475755009550 TestRomanNumerals.java
+UnitTestCaseAction 1475755010324 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475755010324 TestRomanNumerals.java FAIL
+EditAction 1475755135571 RomanNumerals.java 1665 1 3 0

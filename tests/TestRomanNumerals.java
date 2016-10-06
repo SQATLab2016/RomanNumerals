@@ -30,10 +30,10 @@ public class TestRomanNumerals {
 		assertEquals(1999, arabicNum);
 	}
 	@Test
-	public void testConvertToInteger_MCMXCIV_1994() {
-		int arabicNum = converter.convertToInteger("MCMXCIV");
+	public void testConvertToInteger_XLVII_47() {
+		int arabicNum = converter.convertToInteger("XLVII");
 
-		assertEquals(1994, arabicNum);
+		assertEquals(47, arabicNum);
 	}
 
 }
