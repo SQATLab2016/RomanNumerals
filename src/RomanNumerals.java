@@ -77,6 +77,7 @@ public class RomanNumerals {
 				else if(subStringValues.get(i)==subStringValues.get(i+1)) {
 					sum += subStringValues.get(i) + subStringValues.get(i+1);
 					System.out.println(sum);
+					System.out.println(subStringValues.toString());
 					i++;
 				}
 				else if(subStringValues.get(i)<subStringValues.get(i+1)) {
