@@ -58,7 +58,7 @@ public class RomanNumerals {
 			
 			if(lastValue != value) {
 				counter = 0;
-			} else if(lastValue == value) {
+			} else if(lastValue == value && counter == 1) {
 			
 			unlawfulSubtraction = true;
 			}
