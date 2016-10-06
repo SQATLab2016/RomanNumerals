@@ -183,4 +183,28 @@ public class TestRomanNumerals {
 		}
 	}
 	
+	@Test
+	public void testConvertingD() {
+		RomanNumerals rn = new RomanNumerals();
+		try {
+			int converted = rn.convertToInteger("D");
+			assertEquals(500, converted);
+		}
+		catch(RomanNumeralsException e) {
+		}
+	}
+	
+	@Test
+	public void testConvertingDD() {
+		RomanNumerals rn = new RomanNumerals();
+		boolean thrown = false;
+		try {
+			rn.convertToInteger("DD");
+		}
+		catch(RomanNumeralsException e) {
+			thrown = true;
+		}
+		assertEquals(true, thrown);
+	}
+	
 }

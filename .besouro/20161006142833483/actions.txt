@@ -32,3 +32,10 @@ EditAction 1475753882459 TestRomanNumerals.java 3460 15 42 6
 UnitTestCaseAction 1475753886496 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475753886496 TestRomanNumerals.java FAIL
 EditAction 1475753901514 RomanNumerals.java 2027 1 6 0
+UnitTestCaseAction 1475753902746 TestRomanNumerals.java OK
+UnitTestSessionAction 1475753902746 TestRomanNumerals.java OK
+RefactoringAction 1475753921775 TestRomanNumerals.java ADD void testConvertingL()/2 METHOD
+RefactoringAction 1475753921776 TestRomanNumerals.java ADD void testConvertingLL()/2 METHOD
+RefactoringAction 1475753926797 TestRomanNumerals.java RENAME testConvertingL()/2=>void testConvertingD() METHOD
+RefactoringAction 1475753934855 TestRomanNumerals.java RENAME testConvertingLL()/2=>void testConvertingDD() METHOD
+EditAction 1475753939624 TestRomanNumerals.java 3921 17 48 7
