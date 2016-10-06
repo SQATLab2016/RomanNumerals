@@ -62,15 +62,6 @@ public class RomanNumerals {
 		}
 		if(subStringValues.size() == 1)
 			return subStringValues.get(0);
-		else if(subStringValues.size() == 2){
-			if(subStringValues.get(0)<subStringValues.get(1)) {
-				if(subStringValues.get(0)==5)
-					throw new RomanNumeralsException("Roman Numeral to be converted isn't valid");
-				return subStringValues.get(1)-subStringValues.get(0);
-			}
-			else
-				return subStringValues.get(1)+subStringValues.get(0);
-		}
 		else {
 			int sum = 0;
 			int size = subStringValues.size();
