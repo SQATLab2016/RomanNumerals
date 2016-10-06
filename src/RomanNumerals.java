@@ -30,7 +30,12 @@ public class RomanNumerals {
 					result += 50;
 				}
 				else if(s.equals("X")){
-					
+					// Check special case.
+					String next = romanNum.substring(i+1,i+2);
+					if (next.equals("C")){
+						result += 90;
+						i++;
+					}
 				}
 			}
 		}
