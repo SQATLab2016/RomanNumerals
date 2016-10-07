@@ -18,7 +18,7 @@ public class RomanNumerals {
 				
 				if (lastNumeral > 1) {
 					
-					convertedInteger = 1 - decimal;
+					convertedInteger = decimal - 1;
 				}
 				else {
 					convertedInteger = 1 + decimal;
@@ -33,7 +33,7 @@ public class RomanNumerals {
 
 				if (lastNumeral > 5) {
 						
-					convertedInteger = 1 - 5;
+					convertedInteger = decimal - 5;
 				}
 				else {
 					convertedInteger = 1 + 5;
