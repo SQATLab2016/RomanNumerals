@@ -39,3 +39,15 @@ EditAction 1475840937956 RomanNumerals.java 1942 5 21 0
 UnitTestCaseAction 1475840941406 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475840941406 RomanNumerals.java FAIL
 EditAction 1475840950548 RomanNumerals.java 1941 5 21 0
+UnitTestCaseAction 1475841046850 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475841046850 RomanNumerals.java FAIL
+CompilationAction 1475841123773 RomanNumerals.java
+CompilationAction 1475841128594 RomanNumerals.java
+UnitTestCaseAction 1475841130781 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475841130781 RomanNumerals.java FAIL
+UnitTestCaseAction 1475841306549 TestRomanNumerals.java OK
+UnitTestSessionAction 1475841306549 RomanNumerals.java OK
+UnitTestCaseAction 1475841513504 TestRomanNumerals.java OK
+UnitTestSessionAction 1475841513505 RomanNumerals.java OK
+RefactoringAction 1475841588197 RomanNumerals.java RENAME SumDoubleRepeat(String)=>int SumTwoValuess(String) METHOD
+EditAction 1475841588727 RomanNumerals.java 1931 5 15 0

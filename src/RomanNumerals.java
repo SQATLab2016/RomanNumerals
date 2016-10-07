@@ -11,12 +11,9 @@ public class RomanNumerals {
 		// if literal repeats sum
 		
 		
-		if(romanNum == "II")
-			return SumDoubleRepeat(romanNum);
-		
-		if(romanNum == "XX")
-			return SumDoubleRepeat(romanNum);
-		
+		if(romanNum.length() == 2)
+			return ReturnDoubleValue(romanNum);		
+			
 		if(romanNum == "III")
 			return SumDoubleRepeat(romanNum.substring(1,3))+ReturnSingleValue(romanNum.substring(0,1));
 						
@@ -36,24 +33,30 @@ public class RomanNumerals {
 	}
 
 
-	private int SumDoubleRepeat(String romanNum) {
+	private int SumTwoValues(String romanNum) {
 		return ReturnSingleValue(romanNum.substring(0,1))+ReturnSingleValue(romanNum.substring(1,2));
 	}	
 	
 	private int ReturnDoubleValue(String romanNum) {
-			
-		if(romanNum.equals("IV"))
-			SubstractTwoValues(romanNum);
+		
+		if(romanNum == "II")
+			return SumDoubleRepeat(romanNum);
+		
+		if(romanNum == "XX")
+			return SumDoubleRepeat(romanNum);
+		
+		if(romanNum == "IV")
+			return SubstractTwoValues(romanNum);
 		
 		if(romanNum.equals("VI"))
-			return ReturnSingleValue(romanNum.substring(0,1))+ReturnSingleValue(romanNum.substring(1,2));
+			return Sum
 		
 		if(romanNum.equals("IX"))
 			return SubstractTwoValues(romanNum);		
 		
 		if(romanNum.equals("XL"))
 			return SubstractTwoValues(romanNum);
-	
+		
 		return 0;
 	}
 	
