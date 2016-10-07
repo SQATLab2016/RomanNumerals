@@ -36,7 +36,7 @@ public class RomanNumerals {
 				convertedInteger += 100;
 			break;
 			}
-		}	
+		
 		if (romanNum.contains("IV")){
 			
 			convertedInteger -= 2;
@@ -48,6 +48,7 @@ public class RomanNumerals {
 		if (romanNum.contains("XC")){
 			
 			convertedInteger -= 10;
+		}
 		}
 				
 			
