@@ -133,3 +133,25 @@ CompilationAction 1475842142893 RomanNumerals.java
 CompilationAction 1475842142940 RomanNumerals.java
 CompilationAction 1475842142956 RomanNumerals.java
 EditAction 1475842189787 RomanNumerals.java 1865 6 21 0
+CompilationAction 1475842191207 RomanNumerals.java
+CompilationAction 1475842191207 RomanNumerals.java
+CompilationAction 1475842240363 RomanNumerals.java
+CompilationAction 1475842240363 RomanNumerals.java
+CompilationAction 1475842240441 RomanNumerals.java
+CompilationAction 1475842246868 RomanNumerals.java
+CompilationAction 1475842247024 RomanNumerals.java
+CompilationAction 1475842268771 RomanNumerals.java
+CompilationAction 1475842268818 RomanNumerals.java
+CompilationAction 1475842279348 RomanNumerals.java
+CompilationAction 1475842279472 RomanNumerals.java
+CompilationAction 1475842279472 RomanNumerals.java
+CompilationAction 1475842290658 RomanNumerals.java
+CompilationAction 1475842290658 RomanNumerals.java
+CompilationAction 1475842290704 RomanNumerals.java
+CompilationAction 1475842310579 RomanNumerals.java
+UnitTestCaseAction 1475842314622 TestRomanNumerals.java OK
+UnitTestSessionAction 1475842314622 RomanNumerals.java OK
+RefactoringAction 1475842681457 TestRomanNumerals.java ADD void test_XXReturns20()/2 METHOD
+RefactoringAction 1475842687135 TestRomanNumerals.java RENAME test_XXReturns20()/2=>void test_XXXReturns20() METHOD
+RefactoringAction 1475842688680 TestRomanNumerals.java RENAME test_XXXReturns20()=>void test_XXXReturns30() METHOD
+EditAction 1475842692283 TestRomanNumerals.java 1641 19 20 2

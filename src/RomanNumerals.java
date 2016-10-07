@@ -1,5 +1,3 @@
-import com.sun.org.apache.xpath.internal.operations.String;
-
 public class RomanNumerals {
 	
 	
@@ -11,9 +9,16 @@ public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
 		
 		// if literal repeats sum
+					
 		
+		if(romanNum.length() == 2)
+			return ReturnDoubleValue(romanNum);		
 		
-			
+		if(romanNum.length() == 3)
+			return ReturnTripleValue(romanNum);
+		
+		if(romanNum.equals("VIII"))
+				return SumTwoValues(romanNum.substring(1,3))+ReturnSingleValue(romanNum.substring(0,1))+ReturnSingleValue(romanNum.substring(3,4));
 		
 		return ReturnSingleValue(romanNum);
 	}
@@ -30,10 +35,10 @@ public class RomanNumerals {
 	
 	private int ReturnTripleValue(String romanNum) {
 		if(romanNum.equals("III"))
-			return SumDoubleRepeat(romanNum.substring(1,3))+ReturnSingleValue(romanNum.substring(0,1));
+			return SumTwoValues(romanNum.substring(1,3))+ReturnSingleValue(romanNum.substring(0,1));
 						
 		if(romanNum.equals("VII"))
-			return SumDoubleRepeat(romanNum.substring(1,3))+ReturnSingleValue(romanNum.substring(0,1));
+			return SumTwoValues(romanNum.substring(1,3))+ReturnSingleValue(romanNum.substring(0,1));
 		
 		
 		return 0;
