@@ -33,7 +33,6 @@ public class RomanNumerals {
 				}
 				
 				lastNumeral = 1;
-				convertedInteger = 1;
 				break;
 			}
 				
