@@ -36,10 +36,9 @@ public class RomanNumerals {
 				convertedInteger += 100;
 			break;
 			}
-			case 'C':
+			case 'D':
 				convertedInteger += 500;
 			break;
-		}
 		}	
 		if (romanNum.contains("IV")){
 			
@@ -48,6 +47,10 @@ public class RomanNumerals {
 		if (romanNum.contains("XL")){
 			
 			convertedInteger -= 10;
+		}
+		if (romanNum.contains("XC")){
+			
+			convertedInteger -= 20;
 		}
 		if (romanNum.contains("XC")){
 			
