@@ -1,3 +1,4 @@
+import com.sun.org.apache.xpath.internal.operations.String;
 
 public class RomanNumerals {
 	
@@ -6,16 +7,10 @@ public class RomanNumerals {
 	private static final String ROMAN10 = "X";
 	private static final String ROMAN5 = "V";
 	private static final String ROMAN1 = "I";
+	
 	public int convertToInteger(String romanNum) {
 		
 		// if literal repeats sum
-		
-		
-		if(romanNum.length() == 2)
-			return ReturnDoubleValue(romanNum);		
-		
-		if(romanNum.lenght() == 3)
-			return TripleValue(romanNum);
 		
 		
 			
@@ -33,28 +28,26 @@ public class RomanNumerals {
 		return ReturnSingleValue(romanNum.substring(0,1))+ReturnSingleValue(romanNum.substring(1,2));
 	}	
 	
-	private int ReturnTripleValue(string romanNum) {
-		if(romanNum == "III")
+	private int ReturnTripleValue(String romanNum) {
+		if(romanNum.equals("III"))
 			return SumDoubleRepeat(romanNum.substring(1,3))+ReturnSingleValue(romanNum.substring(0,1));
 						
-		if(romanNum == "VII")
+		if(romanNum.equals("VII"))
 			return SumDoubleRepeat(romanNum.substring(1,3))+ReturnSingleValue(romanNum.substring(0,1));
 		
-		if(romanNum == "VIII")
-			return SumDoubleRepeat(romanNum.substring(1,3))+ReturnSingleValue(romanNum.substring(0,1))+ReturnSingleValue(romanNum.substring(3,4));
 		
 		return 0;
 	}
 	
 	private int ReturnDoubleValue(String romanNum) {
 		
-		if(romanNum == "II")
+		if(romanNum.equals("II"))
 			return SumTwoValues(romanNum);
 		
-		if(romanNum == "XX")
+		if(romanNum.equals("XX"))
 			return SumTwoValues(romanNum);
 		
-		if(romanNum == "IV")
+		if(romanNum.equals("IV"))
 			return SubstractTwoValues(romanNum);
 		
 		if(romanNum.equals("VI"))
