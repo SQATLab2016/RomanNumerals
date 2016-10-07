@@ -43,16 +43,16 @@ public class RomanNumerals {
 	private int ReturnDoubleValue(String romanNum) {
 		
 	
-		if(romanNum == "IV")
+		if(romanNum.equals("IV"))
 			SubstractTwoValues(romanNum);
 		
-		if(romanNum == "VI")
+		if(romanNum.equals("VI"))
 			return ReturnSingleValue(romanNum.substring(0,1))+ReturnSingleValue(romanNum.substring(1,2));
 		
-		if(romanNum == "IX")
+		if(romanNum.equals("IX"))
 			return SubstractTwoValues(romanNum);		
 		
-		if(romanNum == "XL")
+		if(romanNum.equals("XL"))
 			return SubstractTwoValues(romanNum);
 	
 		return 0;
