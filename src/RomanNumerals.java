@@ -55,7 +55,7 @@ public class RomanNumerals {
 		}
 		if (romanNum.contains("CD")){
 			
-			convertedInteger -= 100;
+			convertedInteger -= 200;
 		}
 				
 			
