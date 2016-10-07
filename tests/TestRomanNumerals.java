@@ -143,8 +143,8 @@ public class TestRomanNumerals {
 	@Test
 	public void testRomanNumberals_Hundred() {
 		
-	int integer = test.convertToInteger("XC");
-	assertEquals(90, integer);
+	int integer = test.convertToInteger("C");
+	assertEquals(100, integer);
 		
 	}
 	

@@ -320,3 +320,5 @@ UnitTestSessionAction 1475844832287 TestRomanNumerals.java OK
 RefactoringAction 1475844847151 TestRomanNumerals.java ADD void testRomanNumberals_Ninety()/2 METHOD
 RefactoringAction 1475844854666 TestRomanNumerals.java RENAME testRomanNumberals_Ninety()/2=>void testRomanNumberals_h() METHOD
 EditAction 1475844857287 TestRomanNumerals.java 2851 20 39 20
+CompilationAction 1475844858519 TestRomanNumerals.java
+EditAction 1475844869580 TestRomanNumerals.java 2851 20 39 20
