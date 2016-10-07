@@ -247,3 +247,8 @@ RefactoringAction 1475844199260 TestRomanNumerals.java ADD void testRomanNumbera
 EditAction 1475844213139 TestRomanNumerals.java 2049 14 27 14
 EditAction 1475844216189 TestRomanNumerals.java 2047 14 27 14
 EditAction 1475844219039 TestRomanNumerals.java 2047 14 27 14
+UnitTestCaseAction 1475844221020 TestRomanNumerals.java OK
+UnitTestSessionAction 1475844221021 TestRomanNumerals.java OK
+UnitTestCaseAction 1475844224883 TestRomanNumerals.java OK
+UnitTestSessionAction 1475844224884 TestRomanNumerals.java OK
+EditAction 1475844248153 TestRomanNumerals.java 2061 14 27 14
