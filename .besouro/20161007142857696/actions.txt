@@ -155,3 +155,6 @@ RefactoringAction 1475842681457 TestRomanNumerals.java ADD void test_XXReturns20
 RefactoringAction 1475842687135 TestRomanNumerals.java RENAME test_XXReturns20()/2=>void test_XXXReturns20() METHOD
 RefactoringAction 1475842688680 TestRomanNumerals.java RENAME test_XXXReturns20()=>void test_XXXReturns30() METHOD
 EditAction 1475842692283 TestRomanNumerals.java 1641 19 20 2
+UnitTestCaseAction 1475842694392 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475842694392 TestRomanNumerals.java FAIL
+EditAction 1475843083755 RomanNumerals.java 2134 6 24 0

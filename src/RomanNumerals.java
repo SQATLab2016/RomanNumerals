@@ -34,13 +34,13 @@ public class RomanNumerals {
 	}	
 	
 	private int ReturnTripleValue(String romanNum) {
-		if(romanNum.equals("III"))
+		if(romanNum.equals("III") || romanNum.equals("XXX"))
 			return SumTwoValues(romanNum.substring(1,3))+ReturnSingleValue(romanNum.substring(0,1));
 						
 		if(romanNum.equals("VII"))
 			return SumTwoValues(romanNum.substring(1,3))+ReturnSingleValue(romanNum.substring(0,1));
 		
-		
+			
 		return 0;
 	}
 	
