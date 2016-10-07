@@ -23,7 +23,6 @@ public class RomanNumerals {
 				else {
 					convertedInteger = lastNumeral + 1;
 				}
-				decimal = 1;
 				lastNumeral = 1;
 				break;
 			}
@@ -38,7 +37,6 @@ public class RomanNumerals {
 				else {
 					convertedInteger = lastNumeral + 5;
 				}
-				decimal = 5;
 				lastNumeral = 5;
 				break;
 				}
