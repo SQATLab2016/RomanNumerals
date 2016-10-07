@@ -16,7 +16,7 @@ public class RomanNumerals {
 			switch (currentRomanNumeral){
 			case 'I':
 				
-				if (lastNumeral > 1) {
+			/*	if (lastNumeral > 1) {
 					
 					convertedInteger = lastNumeral - 1;
 				}
@@ -26,7 +26,8 @@ public class RomanNumerals {
 				}
 				else {
 					convertedInteger = lastNumeral + 2;
-				}
+				}*/
+				
 				lastNumeral = 1;
 				break;
 			}
