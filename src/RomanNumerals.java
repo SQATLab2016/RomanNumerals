@@ -18,9 +18,12 @@ public class RomanNumerals {
 		 * returns true if failed
 		 */
 		if(testFirstSubtractedOnlyTwoNextSecondHighest(romanNum)) throw new RomanNumeralsException();
+		
 		if(romanNum == "IIII") throw new RomanNumeralsException();
 		
-		//If every test pass then we can decode the roman to arabic
+		
+		
+		//If every test pass then we can decode the roman numbers to arabic
 		int number = decode(romanNum);
 		return number;
 	}
@@ -100,10 +103,42 @@ public class RomanNumerals {
 	}
 	
 	public boolean testFirstSubtractedOnlyTwoNextSecondHighest(String romanNum){
+		//if roman number does not include I, X or C it cannot be substracted from second highest thus always false
+		if(!(romanNum.contains("I") || romanNum.contains("X") || romanNum.contains("C"))) return false;
+		//Should make table from all the symbols on romanNum but too lazy
+		char[] table = new char[romanNum.length()];
+		for(int i=0; i < romanNum.length(); i++){
+			table[i] = romanNum.charAt(i);
+		}
+		for(char c : table){
+			System.out.print(" spröde: " + c);
+		}
+		System.out.println();
 		
+		/*
+		//test if symbol "I" is included with wrong symbols
+		if(romanNum.contains("I")){
+			if(romanNum.contains("L") || romanNum.contains("C") || romanNum.contains("D") || romanNum.contains("M")){
+				return true;
+			}
+		}
+		//test if symbol "X" is included with wrong symbols
+		if(romanNum.contains("X")){
+			if(romanNum.contains("V") || romanNum.contains("X") || romanNum.contains("D") || romanNum.contains("M")){
+				return true;
+			}
+		}
+		//test if symbol "C" is included with wrong symbols
+		if(romanNum.contains("X")){
+			if(romanNum.contains("V") || romanNum.contains("X") || romanNum.contains("C") || romanNum.contains("D")){
+				return true;
+			}
+		}
+		*/
 		
-		return false;
+	return false;
 	}
+
 	
 	
 }
