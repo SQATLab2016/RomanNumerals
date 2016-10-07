@@ -30,10 +30,10 @@ public class RomanNumerals {
 					convertedInteger = convertedInteger - 1;
 				}
 				
-			/*	if (numOfInts > 1)
+				if (numOfInts > 1)
 				{
 					convertedInteger += convertedInteger;
-				}*/
+				}
 				else {
 					convertedInteger = convertedInteger + 1;
 				}
