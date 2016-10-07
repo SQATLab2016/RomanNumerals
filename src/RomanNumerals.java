@@ -5,7 +5,7 @@ public class RomanNumerals {
 	
 	public int convertToInteger(String romanNum) {
 		
-		
+		//two-letter groups
 		if (romanNum.length() == 1)
 			return convertSingleRoman(romanNum);
 		else if (romanNum.length() == 2) {
@@ -15,17 +15,26 @@ public class RomanNumerals {
 				return convertSingleRoman(romanNum.substring(1)) - convertSingleRoman(romanNum.substring(0,1));	
 			else if ((convertSingleRoman(romanNum.substring(0,1))) > convertSingleRoman((romanNum.substring(1))))
 				return convertSingleRoman(romanNum.substring(1)) + convertSingleRoman(romanNum.substring(0,1));
-			
+		//three-letter groups
 			else if (romanNum.length() == 3) {
-				if (romanNum.substring(0,2).equals(romanNum.substring(1)))	
-					return 3*convertSingleRoman(romanNum.substring(0, 2));
-				else if ((convertSingleRoman(romanNum.substring(0,2))) < convertSingleRoman((romanNum.substring(1))))
-					return convertSingleRoman(romanNum.substring(1)) - convertSingleRoman(romanNum.substring(0,2));	
-				else if ((convertSingleRoman(romanNum.substring(0,2))) > convertSingleRoman((romanNum.substring(1))))
-					return convertSingleRoman(romanNum.substring(1)) + convertSingleRoman(romanNum.substring(0,2));
+				if (romanNum.substring(0,1).equals(romanNum.substring(1,2)) && (romanNum.substring(1,2).equals(romanNum.substring(2,3))))	
+					return 3*convertSingleRoman(romanNum.substring(1,3));
+				else if ((convertSingleRoman(romanNum.substring(0,2))) < convertSingleRoman((romanNum.substring(2))))
+					return convertSingleRoman(romanNum.substring(2)) - convertSingleRoman(romanNum.substring(0,2));	
+				else if ((convertSingleRoman(romanNum.substring(0,2))) > convertSingleRoman((romanNum.substring(2))))
+					return convertSingleRoman(romanNum.substring(2)) + convertSingleRoman(romanNum.substring(0,2));
+				
+				else if (romanNum.length() == 4) {
+					if (romanNum.substring(0,3).equals(romanNum.substring(3)))	
+						return 4*convertSingleRoman(romanNum.substring(0, 3));
+					else if ((convertSingleRoman(romanNum.substring(0,3))) < convertSingleRoman((romanNum.substring(3))))
+						return convertSingleRoman(romanNum.substring(3)) - convertSingleRoman(romanNum.substring(0,3));	
+					else if ((convertSingleRoman(romanNum.substring(0,3))) > convertSingleRoman((romanNum.substring(3))))
+						return convertSingleRoman(romanNum.substring(3)) + convertSingleRoman(romanNum.substring(0,3));
+				}
 //TODO: implement the conversion for the three-letter groups
-		}else if (romanNum == "III"){
-			return 1 + 1 + 1;
+		}//else if (romanNum == "III"){
+			//return 1 + 1 + 1;
 
 		}else if (romanNum == "VII"){
 			return 5 + 1 + 1;

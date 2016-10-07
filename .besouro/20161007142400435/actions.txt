@@ -4,3 +4,20 @@ FileOpenedAction 1475840112282 TestRomanNumerals.java 1817 11 34 12
 EditAction 1475840155494 RomanNumerals.java 2303 2 2 0
 CompilationAction 1475840156960 RomanNumerals.java
 EditAction 1475840175509 RomanNumerals.java 2302 2 1 0
+CompilationAction 1475840175727 RomanNumerals.java
+CompilationAction 1475840222714 RomanNumerals.java
+UnitTestCaseAction 1475840229958 TestRomanNumerals.java OK
+UnitTestSessionAction 1475840229958 TestRomanNumerals.java OK
+UnitTestCaseAction 1475840520637 TestRomanNumerals.java OK
+UnitTestSessionAction 1475840520637 TestRomanNumerals.java OK
+CompilationAction 1475840654111 RomanNumerals.java
+CompilationAction 1475840668712 RomanNumerals.java
+UnitTestCaseAction 1475840674175 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475840674175 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475840798651 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475840798651 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475840844066 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475840844066 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475841486202 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475841486202 TestRomanNumerals.java FAIL
+EditAction 1475841514392 RomanNumerals.java 3002 2 3 0
