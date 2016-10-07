@@ -17,7 +17,7 @@ public class TestRomanNumerals {
 		RomanNumerals numeral = new RomanNumerals();
 		String num = numeral.getRomanNumeral();
 		
-		assertEquals("I", num);
+		assertEquals("MMX", num);
 	}
 	
 	@Test
@@ -31,11 +31,19 @@ public class TestRomanNumerals {
 	@Test
 	public void testConvertEachRomanNumeralToCorrespondingArabicNumber(){
 		RomanNumerals numeral = new RomanNumerals();
-		int num = numeral.convertEachRomanNumToArabicNum();
+		int num = numeral.convertEachRomanNumToArabicNum("V");
 		
-		assertEquals(1,num);
+		assertEquals(5,num);
 		
 	}
 	
-
+	@Test
+	public void testReadRomanNumeralLetterByLetter(){
+		RomanNumerals numeral = new RomanNumerals();
+		int num = numeral.readRomanNumeralLetterByLetter();
+		
+		assertEquals(2010,num);
+	}
+	
+	
 }
