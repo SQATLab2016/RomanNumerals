@@ -410,3 +410,8 @@ UnitTestCaseAction 1475845217381 TestRomanNumerals.java OK
 UnitTestSessionAction 1475845217382 TestRomanNumerals.java OK
 RefactoringAction 1475845234376 TestRomanNumerals.java ADD void testRomanNumberals_OneThousandNineHundredNinetyThree()/2 METHOD
 EditAction 1475845234395 TestRomanNumerals.java 4163 29 57 29
+CompilationAction 1475845235530 TestRomanNumerals.java
+RefactoringAction 1475845239910 TestRomanNumerals.java RENAME testRomanNumberals_OneThousandNineHundredNinetyThree()/2=>void testRomanNumberals_1984() METHOD
+CompilationAction 1475845247827 TestRomanNumerals.java
+UnitTestCaseAction 1475845249694 TestRomanNumerals.java OK
+UnitTestSessionAction 1475845249695 TestRomanNumerals.java OK

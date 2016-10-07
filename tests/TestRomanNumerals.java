@@ -204,10 +204,10 @@ public class TestRomanNumerals {
 		
 	}	
 	@Test
-	public void testRomanNumberals_OneThousandNineHundredNinetyThree() {
+	public void testRomanNumberals_1984() {
 		
-	int integer = test.convertToInteger("MCMXCIII");
-	assertEquals(1993, integer);
+	int integer = test.convertToInteger("MCMLXXXIV");
+	assertEquals(1984, integer);
 		
 	}	
 	
