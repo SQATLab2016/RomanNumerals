@@ -23,6 +23,10 @@ public class RomanNumerals {
 			case 'V':
 				convertedInteger += 5;
 			break;
+			
+			case 'X':
+				convertedInteger += 10;
+			break;
 				
 			}
 		}	
