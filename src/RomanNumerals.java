@@ -26,7 +26,10 @@ public class RomanNumerals {
 				
 			}
 		}	
-		if (romanNum.contains("IV"))
+		if (romanNum.contains("IV")){
+			
+			convertedInteger -= 2;
+		}
 				
 			
 		return convertedInteger;
