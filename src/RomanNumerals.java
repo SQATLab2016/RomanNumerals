@@ -34,7 +34,7 @@ public class RomanNumerals {
 					convertedInteger += lastNumeral;
 				}
 				else {
-					convertedInteger += lastNumeral + 1;
+					convertedInteger = lastNumeral + 1;
 				}
 				
 				numOfInts++;
