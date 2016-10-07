@@ -51,6 +51,7 @@ public class RomanNumerals {
 				num++;
 			else
 				return -1;
+		return num;
 	}
 	
 	private int ReturnDoubleValue(String romanNum) {

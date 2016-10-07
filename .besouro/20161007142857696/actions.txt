@@ -163,3 +163,5 @@ RefactoringAction 1475843101584 RomanNumerals.java RENAME CheckRepeats()=>int Ch
 RefactoringAction 1475843258617 RomanNumerals.java RENAME CheckRepeats(String)=>int CheckRepeats(char) METHOD
 RefactoringAction 1475843262221 RomanNumerals.java RENAME CheckRepeats(char)=>int CheckRepeats(char, String) METHOD
 EditAction 1475843307024 RomanNumerals.java 2312 7 26 0
+CompilationAction 1475843308569 RomanNumerals.java
+EditAction 1475843318069 RomanNumerals.java 2326 7 27 0
