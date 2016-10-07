@@ -39,11 +39,11 @@ public class RomanNumerals {
 			case 'D':
 				convertedInteger += 500;
 			break;
-			}
+			
 			case 'M':
-				convertedInteger += 500;
+				convertedInteger += 1000;
 			break;
-		}
+			}
 		}	
 		if (romanNum.contains("IV")){
 			

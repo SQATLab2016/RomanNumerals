@@ -189,6 +189,13 @@ public class TestRomanNumerals {
 	assertEquals(1000, integer);
 		
 	}	
+	@Test
+	public void testRomanNumberals_NineHundred() {
+		
+	int integer = test.convertToInteger("CM");
+	assertEquals(900, integer);
+		
+	}	
 	
 	
 	
