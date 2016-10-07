@@ -49,7 +49,7 @@ public class RomanNumerals {
 		}else if (romanNum == "DCCC"){
 			return 500 + 100 + 100 + 100;}
 		return 0;
-	}}
+	}
 	
 	private int convertSingleRoman(String roman) {
 		if (roman.equals("I"))
