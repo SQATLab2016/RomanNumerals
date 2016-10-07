@@ -2,22 +2,46 @@
 public class RomanNumerals {
 	
 	int convertedInteger = 0;
-	
+	int decimal = 0;
+	int lastNumeral = 0;
 	
 	
 	public int convertToInteger(String romanNum) {
 		
 		String[] characters = new String[romanNum.length()];
 		
-		for (int i = 0; i < romanNum.length(); i++) {
-		characters[i] = romanNum.substring(i, i+1);
+		for (int i = romanNum.length() - 1; i >= 0; i--) {
+			char currentRomanNumeral = romanNum.charAt(i);
+			
+			switch (currentRomanNumeral){
+			case 'I':
+				if (lastNumeral > decimal) {
+					
+					convertedInteger = 1 - decimal;
+				}
+				else {
+					convertedInteger = 1 + decimal;
+				}
+				
+			switch (currentRomanNumeral){
+			case 'V':
+				if (lastNumeral > decimal) {
+						
+					convertedInteger = 1 - decimal;
+				}
+				else {
+					convertedInteger = 1 + decimal;
+				}
+							
+			}
+		
+		
 		}
-		convertTo(romanNum);
 			
 		return convertedInteger;
 		
 	}
-
+/*
 	private void convertTo(String romanNum) {
 		
 		if (romanNum == "VII")
@@ -41,5 +65,5 @@ public class RomanNumerals {
 		else if (romanNum == "I")
 			convertedInteger += 1;
 		
-	}
+	}*/
 }
