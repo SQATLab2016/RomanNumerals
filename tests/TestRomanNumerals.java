@@ -69,7 +69,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test 
-	public void test XLReturns40{
+	public void test_XLReturns40{
 		AssertNumeral(40, "XL");
 	}
 	
