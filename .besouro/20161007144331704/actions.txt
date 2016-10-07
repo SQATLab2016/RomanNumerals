@@ -255,3 +255,8 @@ EditAction 1475844248153 TestRomanNumerals.java 2061 14 27 14
 UnitTestCaseAction 1475844250978 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475844250979 TestRomanNumerals.java FAIL
 EditAction 1475844273118 RomanNumerals.java 1174 1 4 0
+UnitTestCaseAction 1475844275404 TestRomanNumerals.java OK
+UnitTestSessionAction 1475844275406 TestRomanNumerals.java OK
+RefactoringAction 1475844289344 TestRomanNumerals.java ADD void testRomanNumberals_Fifty()/2 METHOD
+RefactoringAction 1475844293356 TestRomanNumerals.java RENAME testRomanNumberals_Fifty()/2=>void testRomanNumberals_Fourty() METHOD
+EditAction 1475844293615 TestRomanNumerals.java 2189 15 29 15
