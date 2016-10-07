@@ -54,7 +54,8 @@ public class RomanNumerals {
 		
 		if(romanNum == "XL")
 			return SubstractTwoValues(romanNum);
-		
+	
+		return 0;
 	}
 	
 	
