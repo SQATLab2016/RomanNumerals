@@ -14,11 +14,18 @@ public class RomanNumerals {
 			else if ((convertSingleRoman(romanNum.substring(0,1))) < convertSingleRoman((romanNum.substring(1))))
 				return convertSingleRoman(romanNum.substring(1)) - convertSingleRoman(romanNum.substring(0,1));	
 			else if ((convertSingleRoman(romanNum.substring(0,1))) > convertSingleRoman((romanNum.substring(1))))
-				return convertSingleRoman(romanNum.substring(1)) + convertSingleRoman(romanNum.substring(0,1));	
+				return convertSingleRoman(romanNum.substring(1)) + convertSingleRoman(romanNum.substring(0,1));
+			
+			else if (romanNum.length() == 3) {
+				if (romanNum.substring(0,2).equals(romanNum.substring(1)))	
+					return 3*convertSingleRoman(romanNum.substring(0, 2));
+				else if ((convertSingleRoman(romanNum.substring(0,2))) < convertSingleRoman((romanNum.substring(1))))
+					return convertSingleRoman(romanNum.substring(1)) - convertSingleRoman(romanNum.substring(0,2));	
+				else if ((convertSingleRoman(romanNum.substring(0,2))) > convertSingleRoman((romanNum.substring(1))))
+					return convertSingleRoman(romanNum.substring(1)) + convertSingleRoman(romanNum.substring(0,2));
 //TODO: implement the conversion for the three-letter groups
 		}else if (romanNum == "III"){
 			return 1 + 1 + 1;
-
 
 		}else if (romanNum == "VII"){
 			return 5 + 1 + 1;
@@ -42,7 +49,7 @@ public class RomanNumerals {
 		}else if (romanNum == "DCCC"){
 			return 500 + 100 + 100 + 100;}
 		return 0;
-	}
+	}}
 	
 	private int convertSingleRoman(String roman) {
 		if (roman.equals("I"))
