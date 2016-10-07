@@ -68,6 +68,11 @@ public class TestRomanNumerals {
 		AssertNumeral(20, "XX");
 	}
 	
+	@Test 
+	public void test XLReturns40{
+		AssertNumeral(40, "XL");
+	}
+	
 	
 	@Test
 	public void test_LReturns50() {		
