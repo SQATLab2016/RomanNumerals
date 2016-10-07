@@ -47,7 +47,7 @@ public class RomanNumerals {
 			SubstractTwoValues(romanNum);
 		
 		if(romanNum == "VI")
-			return SumDoubleRepeat(romanNum);
+			return ReturnSingleValue(romanNum.substring(0,1))+ReturnSingleValue(romanNum.substring(1,2));
 		
 		if(romanNum == "IX")
 			return SubstractTwoValues(romanNum);		
