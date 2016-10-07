@@ -21,7 +21,7 @@ public class RomanNumerals {
 					convertedInteger = decimal - 1;
 				}
 				else {
-					convertedInteger = 1 + decimal;
+					convertedInteger = decimal + 1;
 				}
 				decimal = 1;
 				lastNumeral = 1;
@@ -36,7 +36,7 @@ public class RomanNumerals {
 					convertedInteger = decimal - 5;
 				}
 				else {
-					convertedInteger = 1 + 5;
+					convertedInteger = decimal + 5;
 				}
 				decimal = 5;
 				lastNumeral = 5;
