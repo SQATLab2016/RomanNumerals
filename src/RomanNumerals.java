@@ -19,9 +19,13 @@ public class RomanNumerals {
 			case 'I':
 				convertedInteger += 1;
 				break;
-				
 			
+			case 'V'
+				convertedInteger += 5;
+			break;
 				
+			}
+		}	
 				
 			
 		return convertedInteger;
