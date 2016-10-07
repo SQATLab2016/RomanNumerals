@@ -168,6 +168,13 @@ public class TestRomanNumerals {
 	assertEquals(500, integer);
 		
 	}
+	@Test
+	public void testRomanNumberals_SixHundred() {
+		
+	int integer = test.convertToInteger("DC");
+	assertEquals(500, integer);
+		
+	}
 	
 	
 	

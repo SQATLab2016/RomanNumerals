@@ -362,3 +362,8 @@ UnitTestSessionAction 1475845017187 TestRomanNumerals.java OK
 RefactoringAction 1475845032975 TestRomanNumerals.java ADD void testRomanNumberals_FourHundred()/2 METHOD
 RefactoringAction 1475845040489 TestRomanNumerals.java RENAME testRomanNumberals_FourHundred()/2=>void testRomanNumberals_FiveHundred() METHOD
 EditAction 1475845046398 TestRomanNumerals.java 3281 23 45 23
+UnitTestCaseAction 1475845048491 TestRomanNumerals.java OK
+UnitTestSessionAction 1475845048492 TestRomanNumerals.java OK
+RefactoringAction 1475845058519 TestRomanNumerals.java ADD void testRomanNumberals_FiveHundred()/2 METHOD
+RefactoringAction 1475845062535 TestRomanNumerals.java RENAME testRomanNumberals_FiveHundred()/2=>void testRomanNumberals_SixHundred() METHOD
+EditAction 1475845064989 TestRomanNumerals.java 3417 24 47 24
