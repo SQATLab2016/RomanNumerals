@@ -24,6 +24,12 @@ public class TestRomanNumerals {
 		assertEquals(3, result);
 	}
 	@Test
+	public void test_IIII() {
+		RomanNumerals roman = new RomanNumerals();
+		int result = roman.convertToInteger("IIII");
+		assertEquals(4, result);
+	}
+	@Test
 	public void test_IV() {
 		RomanNumerals roman = new RomanNumerals();
 		int result = roman.convertToInteger("IV");
@@ -65,7 +71,12 @@ public class TestRomanNumerals {
 		int result = roman.convertToInteger("X");
 		assertEquals(10, result);
 	}
-	
+	@Test
+	public void test_XI() {
+		RomanNumerals roman = new RomanNumerals();
+		int result = roman.convertToInteger("XI");
+		assertEquals(11, result);
+	}
 	
 
 	@Test
