@@ -33,7 +33,7 @@ public class RomanNumerals {
 		return ReturnSingleValue(romanNum.substring(0,1))+ReturnSingleValue(romanNum.substring(1,2));
 	}	
 	
-	private int ReturnTripleValue(string romanNUm) {
+	private int ReturnTripleValue(string romanNum) {
 		if(romanNum == "III")
 			return SumDoubleRepeat(romanNum.substring(1,3))+ReturnSingleValue(romanNum.substring(0,1));
 						
