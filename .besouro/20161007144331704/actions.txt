@@ -209,3 +209,8 @@ EditAction 1475844017237 RomanNumerals.java 1068 1 4 0
 UnitTestCaseAction 1475844022876 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475844022877 TestRomanNumerals.java FAIL
 EditAction 1475844038529 RomanNumerals.java 1123 1 4 0
+UnitTestCaseAction 1475844040609 TestRomanNumerals.java OK
+UnitTestSessionAction 1475844040610 TestRomanNumerals.java OK
+RefactoringAction 1475844050510 TestRomanNumerals.java ADD void testRomanNumberals_Eleven()/2 METHOD
+RefactoringAction 1475844056540 TestRomanNumerals.java RENAME testRomanNumberals_Eleven()/2=>void testRomanNumberals_Twelve() METHOD
+EditAction 1475844058875 TestRomanNumerals.java 1529 10 19 10
