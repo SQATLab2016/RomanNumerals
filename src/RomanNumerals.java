@@ -47,7 +47,7 @@ public class RomanNumerals {
 		}
 		if (romanNum.contains("XC")){
 			
-			convertedInteger -= 10;
+			convertedInteger -= 20;
 		}
 				
 			
