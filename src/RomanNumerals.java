@@ -80,7 +80,7 @@ public class RomanNumerals {
 		if(romanNum.equals("M"))
 			return 1000;
 		
-		else
-			return 0;
+		
+		return 0;
 	}
 }

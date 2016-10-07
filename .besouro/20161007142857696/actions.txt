@@ -26,3 +26,5 @@ RefactoringAction 1475840331669 RomanNumerals.java ADD int Return FIELD
 RefactoringAction 1475840334633 RomanNumerals.java RENAME Return=>int ReturnDoubleValue() METHOD
 RefactoringAction 1475840338549 RomanNumerals.java RENAME ReturnDoubleValue()=>int ReturnDoubleValue(String) METHOD
 EditAction 1475840638756 RomanNumerals.java 1856 5 19 0
+CompilationAction 1475840640347 RomanNumerals.java
+EditAction 1475840732559 RomanNumerals.java 1851 5 20 0
