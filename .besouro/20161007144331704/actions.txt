@@ -399,3 +399,10 @@ EditAction 1475845161125 TestRomanNumerals.java 3829 27 53 27
 UnitTestCaseAction 1475845163076 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475845163077 TestRomanNumerals.java FAIL
 EditAction 1475845172091 RomanNumerals.java 1618 1 8 0
+UnitTestCaseAction 1475845176831 TestRomanNumerals.java OK
+UnitTestSessionAction 1475845176832 TestRomanNumerals.java OK
+RefactoringAction 1475845184290 TestRomanNumerals.java ADD void testRomanNumberals_NineHundred()/2 METHOD
+RefactoringAction 1475845188305 TestRomanNumerals.java RENAME testRomanNumberals_NineHundred()/2=>void testRomanNumberals_T() METHOD
+RefactoringAction 1475845189321 TestRomanNumerals.java RENAME testRomanNumberals_T()=>void testRomanNumberals_Th() METHOD
+RefactoringAction 1475845197340 TestRomanNumerals.java RENAME testRomanNumberals_Th()=>void testRomanNumberals_OneThousandNineHundredNinetyThree() METHOD
+EditAction 1475845214449 TestRomanNumerals.java 3996 28 55 28

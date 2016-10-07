@@ -196,6 +196,13 @@ public class TestRomanNumerals {
 	assertEquals(900, integer);
 		
 	}	
+	@Test
+	public void testRomanNumberals_OneThousandNineHundredNinetyThree() {
+		
+	int integer = test.convertToInteger("MCMXCIII");
+	assertEquals(1993, integer);
+		
+	}	
 	
 	
 	
