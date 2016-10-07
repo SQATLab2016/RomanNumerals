@@ -48,7 +48,7 @@ public class RomanNumerals {
 
 				if (convertedInteger > 5) {
 						
-					convertedInteger = lastNumeral - 5;
+					convertedInteger = convertedInteger - 5;
 				}
 				else {
 					convertedInteger = lastNumeral + 5;
