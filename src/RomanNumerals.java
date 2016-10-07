@@ -20,8 +20,12 @@ public class RomanNumerals {
 					
 					convertedInteger = lastNumeral - 1;
 				}
-				else {
+				if (lastNumeral < 1) {
+					
 					convertedInteger = lastNumeral + 1;
+				}
+				else {
+					convertedInteger = lastNumeral + 2;
 				}
 				lastNumeral = 1;
 				break;
