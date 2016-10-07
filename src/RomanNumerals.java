@@ -17,47 +17,12 @@ public class RomanNumerals {
 			
 			switch (currentRomanNumeral){
 			case 'I':
-				
-				
-				if (convertedInteger < 1) {
-					
-					convertedInteger = lastNumeral + 1;
-				}
-
-
-
-				if (convertedInteger > 1) {
-					convertedInteger = convertedInteger - 1;
-				}
-				
-				if (numOfInts > 1)
-				{
-					convertedInteger += convertedInteger;
-				}
-				else {
-					convertedInteger = convertedInteger + 1;
-				}
-				
-				numOfInts++;
-				lastNumeral = 1;
+				convertedInteger += 1;
 				break;
-			}
 				
-			switch (currentRomanNumeral){
-			case 'V':
-
-				if (convertedInteger > 5) {
-						
-					convertedInteger = convertedInteger - 5;
-				}
-				else {
-					convertedInteger = convertedInteger + 5;
-				}
+			
 				
-				lastNumeral = 5;
-				break;
-				}
-			}
+				
 			
 		return convertedInteger;
 		
