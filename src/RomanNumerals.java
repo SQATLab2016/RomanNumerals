@@ -28,6 +28,9 @@ public class RomanNumerals {
 				convertedInteger += 10;
 			break;
 				
+			case 'L':
+				convertedInteger += 50;
+			break;
 			}
 		}	
 		if (romanNum.contains("IV")){
