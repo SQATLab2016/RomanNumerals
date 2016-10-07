@@ -46,15 +46,15 @@ public class RomanNumerals {
 			switch (currentRomanNumeral){
 			case 'V':
 
-				if (lastV > 5) {
+				if (convertedInteger > 5) {
 						
-					convertedInteger = lastV - 5;
+					convertedInteger = lastNumeral - 5;
 				}
 				else {
-					convertedInteger = lastV + 5;
+					convertedInteger = lastNumeral + 5;
 				}
 				
-				lastV = 5;
+				lastNumeral = 5;
 				break;
 				}
 			}
