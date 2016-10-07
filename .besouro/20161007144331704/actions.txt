@@ -276,3 +276,8 @@ UnitTestSessionAction 1475844360720 TestRomanNumerals.java OK
 RefactoringAction 1475844366963 TestRomanNumerals.java ADD void testRomanNumberals_Sixty()/2 METHOD
 RefactoringAction 1475844369478 TestRomanNumerals.java RENAME testRomanNumberals_Sixty()/2=>void testRomanNumberals_SixtyFour() METHOD
 EditAction 1475844373577 TestRomanNumerals.java 2456 17 33 17
+UnitTestCaseAction 1475844375630 TestRomanNumerals.java OK
+UnitTestSessionAction 1475844375631 TestRomanNumerals.java OK
+RefactoringAction 1475844380513 TestRomanNumerals.java ADD void testRomanNumberals_SixtyFour()/2 METHOD
+RefactoringAction 1475844387027 TestRomanNumerals.java RENAME testRomanNumberals_SixtyFour()/2=>void testRomanNumberals_Hundred() METHOD
+EditAction 1475844391089 TestRomanNumerals.java 2588 18 35 18

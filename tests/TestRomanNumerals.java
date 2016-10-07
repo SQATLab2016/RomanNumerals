@@ -126,6 +126,13 @@ public class TestRomanNumerals {
 	assertEquals(64, integer);
 		
 	}
+	@Test
+	public void testRomanNumberals_Hundred() {
+		
+	int integer = test.convertToInteger("C");
+	assertEquals(100, integer);
+		
+	}
 	
 	
 	
