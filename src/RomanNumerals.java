@@ -53,7 +53,6 @@ public class RomanNumerals {
 					convertedInteger = lastNumeral + 5;
 				}
 				
-				
 				lastNumeral = 5;
 				break;
 				}
