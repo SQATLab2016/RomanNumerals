@@ -17,25 +17,12 @@ public class RomanNumerals {
 			switch (currentRomanNumeral){
 			case 'I':
 				
-			/*	if (lastNumeral > 1) {
-					
-					convertedInteger = lastNumeral - 1;
-				}
+				
 				if (lastNumeral < 1) {
 					
 					convertedInteger = lastNumeral + 1;
 				}
-				else {
-					convertedInteger = lastNumeral + 2;
-				}*/
-				if (lastNumeral < 1) {
-					
-					convertedInteger = lastNumeral + 1;
-				}
-				if (numOfInts > 1)
-				{
-					convertedInteger += lastNumeral;
-				}
+
 
 				else {
 					convertedInteger = lastNumeral + 1;
@@ -43,6 +30,10 @@ public class RomanNumerals {
 				
 				if (lastNumeral > 1) {
 					convertedInteger = lastNumeral - 1;
+				}
+				if (numOfInts > 1)
+				{
+					convertedInteger += lastNumeral;
 				}
 				numOfInts++;
 				lastNumeral = 1;
