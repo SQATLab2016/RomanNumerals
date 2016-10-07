@@ -13,11 +13,11 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void ConvertNumber1284() {
+	public void ConvertNumber1334() {
 		
 		RomanNumerals romannumerals = new RomanNumerals();
 		
-		assertEquals(6, romannumerals.get_Roman_Number("MCCLXXXIV"));
+		assertEquals(1134, romannumerals.get_Roman_Number("MCCCLXXXIV"));
 	}
 
 }
