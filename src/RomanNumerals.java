@@ -61,6 +61,11 @@ public class RomanNumerals {
 			
 			convertedInteger -= 200;
 		}
+		if (romanNum.contains("CM")){
+			
+			convertedInteger -= 200;
+		}
+				
 				
 			
 		return convertedInteger;
