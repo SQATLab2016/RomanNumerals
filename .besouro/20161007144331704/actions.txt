@@ -241,3 +241,7 @@ RefactoringAction 1475844185720 TestRomanNumerals.java ADD void testRomanNumbera
 RefactoringAction 1475844187734 TestRomanNumerals.java RENAME testRomanNumberals_Twenty()/2=>void testRomanNumberals_TwentyFive() METHOD
 EditAction 1475844189805 TestRomanNumerals.java 1923 13 25 13
 EditAction 1475844192519 TestRomanNumerals.java 1923 13 25 13
+UnitTestCaseAction 1475844194480 TestRomanNumerals.java OK
+UnitTestSessionAction 1475844194481 TestRomanNumerals.java OK
+RefactoringAction 1475844199260 TestRomanNumerals.java ADD void testRomanNumberals_TwentyFive()/2 METHOD
+EditAction 1475844213139 TestRomanNumerals.java 2049 14 27 14
