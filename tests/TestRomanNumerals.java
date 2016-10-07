@@ -112,6 +112,13 @@ public class TestRomanNumerals {
 	assertEquals(50, integer);
 		
 	}
+	@Test
+	public void testRomanNumberals_Sixty() {
+		
+	int integer = test.convertToInteger("LX");
+	assertEquals(60, integer);
+		
+	}
 	
 	
 	
