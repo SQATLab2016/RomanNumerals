@@ -172,7 +172,7 @@ public class TestRomanNumerals {
 	public void testRomanNumberals_SixHundred() {
 		
 	int integer = test.convertToInteger("DC");
-	assertEquals(500, integer);
+	assertEquals(600, integer);
 		
 	}
 	
