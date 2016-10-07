@@ -1,0 +1,134 @@
+FileOpenedAction 1475149115895 TestRomanNumerals.java 159 2 2 1
+RefactoringAction 1475149129818 TestRomanNumerals.java RENAME test()/2=>void test2() METHOD
+EditAction 1475149150848 RomanNumerals.java 206 2 1 0
+EditAction 1475149152126 TestRomanNumerals.java 232 2 2 1
+UnitTestCaseAction 1475149153772 TestRomanNumerals.java OK
+UnitTestSessionAction 1475149153773 TestRomanNumerals.java OK
+RefactoringAction 1475149367594 TestRomanNumerals.java RENAME test2()=>void test()/2 METHOD
+RefactoringAction 1475149372113 TestRomanNumerals.java RENAME test()/2=>void testReturn() METHOD
+RefactoringAction 1475149581805 RomanNumerals.java ADD int getNumber() METHOD
+RefactoringAction 1475149616055 RomanNumerals.java RENAME changeNumber()=>int getNumber() METHOD
+RefactoringAction 1475149617082 RomanNumerals.java REMOVE getNumber() METHOD
+EditAction 1475149703515 RomanNumerals.java 241 2 2 0
+EditAction 1475149705008 TestRomanNumerals.java 362 2 5 2
+UnitTestCaseAction 1475149706544 TestRomanNumerals.java OK
+UnitTestSessionAction 1475149706545 TestRomanNumerals.java OK
+RefactoringAction 1475149719805 TestRomanNumerals.java RENAME testReturn()=>void testReturnWithOne() METHOD
+RefactoringAction 1475149728324 TestRomanNumerals.java RENAME testReturnWithOne()=>void testReturnWith() METHOD
+RefactoringAction 1475149729840 TestRomanNumerals.java RENAME testReturnWith()=>void testReturnWith_I() METHOD
+EditAction 1475149992309 TestRomanNumerals.java 368 2 5 2
+UnitTestCaseAction 1475149993823 TestRomanNumerals.java OK
+UnitTestSessionAction 1475149993824 TestRomanNumerals.java OK
+RefactoringAction 1475150244923 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475150247440 TestRomanNumerals.java RENAME test=>void testReturn FIELD
+RefactoringAction 1475150251957 TestRomanNumerals.java RENAME testReturn=>void test FIELD
+RefactoringAction 1475150256973 TestRomanNumerals.java RENAME test=>void testMoreThanThree_I FIELD
+RefactoringAction 1475150258488 TestRomanNumerals.java RENAME testMoreThanThree_I=>void testMoreThanThree_I_s FIELD
+RefactoringAction 1475150261005 TestRomanNumerals.java RENAME testMoreThanThree_I_s=>void testMoreThanThree_I_s() METHOD
+RefactoringAction 1475150376755 RomanNumeralsException.java ADD RomanNumeralsException.java CLASS
+FileOpenedAction 1475150376902 RomanNumeralsException.java 46 0 0 0
+RefactoringAction 1475150398270 RomanNumeralsException.java ADD long serialVersionUID FIELD
+RefactoringAction 1475150401433 RomanNumeralsException.java REMOVE serialVersionUID FIELD
+EditAction 1475150451226 RomanNumeralsException.java 63 0 0 0
+EditAction 1475150456703 RomanNumerals.java 272 2 2 0
+EditAction 1475150457915 TestRomanNumerals.java 452 3 5 2
+CompilationAction 1475150459010 TestRomanNumerals.java
+FileOpenedAction 1475150694540 RomanNumeralsException.java 63 0 0 0
+RefactoringAction 1475151414637 RomanNumerals.java RENAME RomanNumerals(String)=>RomanNumerals() METHOD
+CompilationAction 1475151666276 TestRomanNumerals.java
+UnitTestCaseAction 1475151667677 TestRomanNumerals.java OK
+UnitTestSessionAction 1475151667678 TestRomanNumerals.java OK
+RefactoringAction 1475151728099 RomanNumerals.java ADD boolean test FIELD
+RefactoringAction 1475151734613 RomanNumerals.java RENAME test=>boolean testR FIELD
+RefactoringAction 1475151735629 RomanNumerals.java RENAME testR=>boolean testRea FIELD
+RefactoringAction 1475151740143 RomanNumerals.java RENAME testRea=>boolean testRepeatedTooManyTimes() METHOD
+RefactoringAction 1475151745170 RomanNumerals.java RENAME testRepeatedTooManyTimes()=>boolean testRepeatedTooManyTimes(string) METHOD
+RefactoringAction 1475151749684 RomanNumerals.java RENAME testRepeatedTooManyTimes(string)=>boolean testRepeatedTooManyTimes(String) METHOD
+EditAction 1475152881098 RomanNumerals.java 833 3 7 0
+UnitTestCaseAction 1475152883417 TestRomanNumerals.java OK
+UnitTestSessionAction 1475152883418 TestRomanNumerals.java OK
+RefactoringAction 1475152917916 TestRomanNumerals.java ADD void testMoreThanThree_I_s()/2 METHOD
+RefactoringAction 1475152922431 TestRomanNumerals.java RENAME testMoreThanThree_I_s()/2=>void testMoreThanThree_X_s() METHOD
+EditAction 1475153030093 RomanNumerals.java 893 3 7 0
+EditAction 1475153031262 TestRomanNumerals.java 813 4 9 2
+UnitTestCaseAction 1475153032867 TestRomanNumerals.java OK
+UnitTestSessionAction 1475153032869 TestRomanNumerals.java OK
+RefactoringAction 1475153049469 TestRomanNumerals.java RENAME testMoreThanThree_I_s()=>void testMoreThanThree_I__s() METHOD
+RefactoringAction 1475153050984 TestRomanNumerals.java RENAME testMoreThanThree_I__s()=>void testMoreThanThree_I_X FIELD
+RefactoringAction 1475153054510 TestRomanNumerals.java RENAME testMoreThanThree_I_X_C__s()=>void testMoreThanThree_I_X_C_M_s() METHOD
+RefactoringAction 1475153081605 TestRomanNumerals.java REMOVE testMoreThanThree_X_s() METHOD
+EditAction 1475153082410 TestRomanNumerals.java 720 3 10 2
+UnitTestCaseAction 1475153084123 TestRomanNumerals.java OK
+UnitTestSessionAction 1475153084124 TestRomanNumerals.java OK
+RefactoringAction 1475153424193 TestRomanNumerals.java ADD void testmore FIELD
+RefactoringAction 1475153427208 TestRomanNumerals.java REMOVE testmore FIELD
+RefactoringAction 1475153428720 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475153433236 TestRomanNumerals.java RENAME test=>void testThree FIELD
+RefactoringAction 1475153439749 TestRomanNumerals.java RENAME testThree=>void testThree_I_X_C_M FIELD
+RefactoringAction 1475153442263 TestRomanNumerals.java RENAME testThree_I_X_C_M=>void testThree_I_X_C_M_s() METHOD
+EditAction 1475153477506 TestRomanNumerals.java 961 4 15 2
+UnitTestCaseAction 1475153478987 TestRomanNumerals.java OK
+UnitTestSessionAction 1475153478989 TestRomanNumerals.java OK
+RefactoringAction 1475153637399 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475153640419 TestRomanNumerals.java RENAME test=>void testRepetition FIELD
+RefactoringAction 1475153641933 TestRomanNumerals.java RENAME testRepetition=>void testRepetition_ FIELD
+RefactoringAction 1475153645948 TestRomanNumerals.java RENAME testRepetition_=>void testRepetition_V_L_D FIELD
+RefactoringAction 1475153648462 TestRomanNumerals.java RENAME testRepetition_V_L_D=>void testRepetition_V_L_D_s() METHOD
+RefactoringAction 1475153894825 RomanNumerals.java ADD boolean testSameRepeatedTooManyTimes() METHOD
+RefactoringAction 1475153902350 RomanNumerals.java RENAME testSameRepeatedTooManyTimes()=>boolean testSameRepeatedTooManyTimesromanNum FIELD
+RefactoringAction 1475153904364 RomanNumerals.java RENAME testSameRepeatedTooManyTimesromanNum=>boolean testSameRepeatedTooManyTimes(String) METHOD
+EditAction 1475154092674 RomanNumerals.java 1299 4 10 0
+EditAction 1475154094053 TestRomanNumerals.java 1157 5 17 2
+UnitTestCaseAction 1475154097132 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475154097133 TestRomanNumerals.java FAIL
+EditAction 1475154110991 TestRomanNumerals.java 1159 5 17 2
+UnitTestCaseAction 1475154112711 TestRomanNumerals.java OK
+UnitTestSessionAction 1475154112712 TestRomanNumerals.java OK
+EditAction 1475154539579 RomanNumerals.java 1658 4 15 0
+EditAction 1475154540997 TestRomanNumerals.java 1157 5 17 2
+UnitTestCaseAction 1475154542570 TestRomanNumerals.java OK
+UnitTestSessionAction 1475154542571 TestRomanNumerals.java OK
+EditAction 1475154577456 TestRomanNumerals.java 1217 5 19 2
+UnitTestCaseAction 1475154579192 TestRomanNumerals.java OK
+UnitTestSessionAction 1475154579193 TestRomanNumerals.java OK
+RefactoringAction 1475154675259 TestRomanNumerals.java ADD void testRepetition_V_L_D_s()/2 METHOD
+RefactoringAction 1475154682284 TestRomanNumerals.java RENAME testRepetition_V_L_D_s()/2=>void testRepetition_V_L_D_s_pass() METHOD
+EditAction 1475154688847 TestRomanNumerals.java 1434 6 23 2
+UnitTestCaseAction 1475154690642 TestRomanNumerals.java OK
+UnitTestSessionAction 1475154690643 TestRomanNumerals.java OK
+RefactoringAction 1475154705857 TestRomanNumerals.java ADD void testRepetition_V_L_D_s()/2 METHOD
+RefactoringAction 1475154715371 TestRomanNumerals.java RENAME testRepetition_V_L_D_s()/2=>void testSubs() METHOD
+RefactoringAction 1475154717884 TestRomanNumerals.java RENAME testSubs()=>void testSubtraction() METHOD
+RefactoringAction 1475154718897 TestRomanNumerals.java RENAME testSubtraction()=>void testSubtractionFrom() METHOD
+RefactoringAction 1475154723913 TestRomanNumerals.java RENAME testSubtractionFrom()=>void testSubtractionFrom2NextHighest() METHOD
+EditAction 1475155327410 TestRomanNumerals.java 1635 7 25 2
+UnitTestCaseAction 1475155328941 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475155328942 TestRomanNumerals.java FAIL
+RefactoringAction 1475155418755 RomanNumerals.java ADD static int decodeSingle(char) METHOD
+RefactoringAction 1475155439331 RomanNumerals.java ADD static int decode(String) METHOD
+EditAction 1475155526088 RomanNumerals.java 2903 6 21 0
+UnitTestCaseAction 1475155527623 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475155527624 TestRomanNumerals.java FAIL
+RefactoringAction 1475155559573 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475155562086 TestRomanNumerals.java RENAME test=>void testBig FIELD
+RefactoringAction 1475155571602 TestRomanNumerals.java RENAME testBig=>void testBigNumber() METHOD
+EditAction 1475155661282 TestRomanNumerals.java 1862 8 28 3
+UnitTestCaseAction 1475155662833 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475155662840 TestRomanNumerals.java FAIL
+EditAction 1475155805684 RomanNumerals.java 2990 6 21 0
+EditAction 1475155806921 TestRomanNumerals.java 1862 8 28 3
+UnitTestCaseAction 1475155808558 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475155808559 TestRomanNumerals.java FAIL
+RefactoringAction 1475155856629 RomanNumerals.java REMOVE decodeSingle(char) METHOD
+RefactoringAction 1475155856630 RomanNumerals.java REMOVE testRepeatedTooManyTimes(String) METHOD
+RefactoringAction 1475155856631 RomanNumerals.java REMOVE decode(String) METHOD
+RefactoringAction 1475155856633 RomanNumerals.java REMOVE testSameRepeatedTooManyTimes(String) METHOD
+RefactoringAction 1475155860728 RomanNumerals.java ADD static int decodeSingle(char) METHOD
+RefactoringAction 1475155860729 RomanNumerals.java ADD static int decode(String) METHOD
+RefactoringAction 1475155860729 RomanNumerals.java ADD boolean testRepeatedTooManyTimes(String) METHOD
+RefactoringAction 1475155860730 RomanNumerals.java ADD boolean testSameRepeatedTooManyTimes(String) METHOD
+RefactoringAction 1475156005119 RomanNumerals.java ADD void testFirstSubtractedOnlyTwoNextSecondHighest() METHOD
+RefactoringAction 1475156009136 RomanNumerals.java RENAME testFirstSubtractedOnlyTwoNextSecondHighest()=>void testFirstSubtractedOnlyTwoNextSecondHighest(String) METHOD
+EditAction 1475156134779 RomanNumerals.java 3516 7 22 0
+UnitTestCaseAction 1475156136611 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475156136612 TestRomanNumerals.java FAIL
