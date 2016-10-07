@@ -74,7 +74,7 @@ public class TestRomanNumerals {
 	public void testRomanNumberals_Twelve() {
 		
 	int integer = test.convertToInteger("XII");
-	assertEquals(11, integer);
+	assertEquals(12, integer);
 		
 	}
 	
