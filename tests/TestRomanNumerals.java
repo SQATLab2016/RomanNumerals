@@ -182,7 +182,13 @@ public class TestRomanNumerals {
 	assertEquals(800, integer);
 		
 	}	
-	
+	@Test
+	public void testRomanNumberals_Thousand() {
+		
+	int integer = test.convertToInteger("M");
+	assertEquals(1000, integer);
+		
+	}	
 	
 	
 	
