@@ -4,6 +4,7 @@ public class RomanNumerals {
 	int convertedInteger = 0;
 	int decimal = 0;
 	int lastNumeral = 0;
+	int lastV = 0;
 	int numOfInts = 0;
 	
 	
@@ -45,15 +46,15 @@ public class RomanNumerals {
 			switch (currentRomanNumeral){
 			case 'V':
 
-				if (lastNumeral > 5) {
+				if (lastV > 5) {
 						
-					convertedInteger = lastNumeral - 5;
+					convertedInteger = lastV - 5;
 				}
 				else {
-					convertedInteger = lastNumeral + 5;
+					convertedInteger = lastV + 5;
 				}
 				
-				lastNumeral = 5;
+				lastV = 5;
 				break;
 				}
 			}
