@@ -17,7 +17,7 @@ public class RomanNumerals {
 				return convertSingleRoman(romanNum.substring(1)) + convertSingleRoman(romanNum.substring(0,1));
 		//three-letter groups
 			else if (romanNum.length() == 3) {
-				if (romanNum.substring(0,1).equals(romanNum.substring(1,2)) && (romanNum.substring(1,2).equals(romanNum.substring(2,3))))	
+				if (romanNum.substring(0,1).equals(romanNum.substring(1)) && (romanNum.substring(1,2).equals(romanNum.substring(3))))	
 					return 3*convertSingleRoman(romanNum.substring(1,3));
 				else if ((convertSingleRoman(romanNum.substring(0,2))) < convertSingleRoman((romanNum.substring(2))))
 					return convertSingleRoman(romanNum.substring(2)) - convertSingleRoman(romanNum.substring(0,2));	
@@ -25,7 +25,7 @@ public class RomanNumerals {
 					return convertSingleRoman(romanNum.substring(2)) + convertSingleRoman(romanNum.substring(0,2));
 				
 				else if (romanNum.length() == 4) {
-					if (romanNum.substring(0,3).equals(romanNum.substring(3)))	
+					if (romanNum.substring(0,1).equals(romanNum.substring(1)) && (romanNum.substring(1,2).equals(romanNum.substring(3) && (romanNum.substring(3,4).equals(romanNum.substring(4))))))	
 						return 4*convertSingleRoman(romanNum.substring(0, 3));
 					else if ((convertSingleRoman(romanNum.substring(0,3))) < convertSingleRoman((romanNum.substring(3))))
 						return convertSingleRoman(romanNum.substring(3)) - convertSingleRoman(romanNum.substring(0,3));	
