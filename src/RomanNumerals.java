@@ -18,10 +18,10 @@ public class RomanNumerals {
 				
 				if (lastNumeral > 1) {
 					
-					convertedInteger = decimal - 1;
+					convertedInteger = lastNumeral - 1;
 				}
 				else {
-					convertedInteger = decimal + 1;
+					convertedInteger = lastNumeral + 1;
 				}
 				decimal = 1;
 				lastNumeral = 1;
@@ -33,10 +33,10 @@ public class RomanNumerals {
 
 				if (lastNumeral > 5) {
 						
-					convertedInteger = decimal - 5;
+					convertedInteger = lastNumeral - 5;
 				}
 				else {
-					convertedInteger = decimal + 5;
+					convertedInteger = lastNumeral + 5;
 				}
 				decimal = 5;
 				lastNumeral = 5;
