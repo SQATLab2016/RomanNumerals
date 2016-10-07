@@ -4,6 +4,7 @@ public class RomanNumerals {
 	int convertedInteger = 0;
 	int decimal = 0;
 	int lastNumeral = 0;
+	int numOfInts = 0;
 	
 	
 	public int convertToInteger(String romanNum) {
@@ -40,7 +41,7 @@ public class RomanNumerals {
 				if (lastNumeral > 1) {
 					convertedInteger = lastNumeral - 1;
 				}
-				
+				numOfInts++;
 				lastNumeral = 1;
 				break;
 			}
