@@ -140,6 +140,13 @@ public class TestRomanNumerals {
 	assertEquals(90, integer);
 		
 	}
+	@Test
+	public void testRomanNumberals_Hundred() {
+		
+	int integer = test.convertToInteger("XC");
+	assertEquals(90, integer);
+		
+	}
 	
 	
 	
