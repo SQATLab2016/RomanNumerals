@@ -35,10 +35,11 @@ public class RomanNumerals {
 			case 'C':
 				convertedInteger += 100;
 			break;
-			}
+			
 			case 'D':
 				convertedInteger += 500;
 			break;
+			}
 		}	
 		if (romanNum.contains("IV")){
 			
@@ -52,9 +53,9 @@ public class RomanNumerals {
 			
 			convertedInteger -= 20;
 		}
-		if (romanNum.contains("XC")){
+		if (romanNum.contains("CD")){
 			
-			convertedInteger -= 20;
+			convertedInteger -= 100;
 		}
 				
 			
