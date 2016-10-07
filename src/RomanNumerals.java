@@ -24,17 +24,19 @@ public class RomanNumerals {
 				}
 
 
-				else {
-					convertedInteger = lastNumeral + 1;
-				}
-				
+
 				if (lastNumeral > 1) {
 					convertedInteger = lastNumeral - 1;
 				}
+				
 				if (numOfInts > 1)
 				{
 					convertedInteger += lastNumeral;
 				}
+				else {
+					convertedInteger += lastNumeral + 1;
+				}
+				
 				numOfInts++;
 				lastNumeral = 1;
 				break;
