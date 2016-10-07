@@ -80,7 +80,7 @@ public class TestRomanNumerals {
 	@Test
 	public void testRomanNumberals_Fourteen() {
 		
-	int integer = test.convertToInteger("XII");
+	int integer = test.convertToInteger("XIV");
 	assertEquals(12, integer);
 		
 	}
