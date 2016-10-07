@@ -26,6 +26,7 @@ public class RomanNumerals {
 				
 			}
 		}	
+		if (romanNum.contains("IV"))
 				
 			
 		return convertedInteger;
