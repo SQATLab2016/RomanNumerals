@@ -133,6 +133,13 @@ public class TestRomanNumerals {
 	assertEquals(100, integer);
 		
 	}
+	@Test
+	public void testRomanNumberals_Ninety() {
+		
+	int integer = test.convertToInteger("XC");
+	assertEquals(90, integer);
+		
+	}
 	
 	
 	

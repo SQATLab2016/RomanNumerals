@@ -31,11 +31,11 @@ public class RomanNumerals {
 			case 'L':
 				convertedInteger += 50;
 			break;
-			}
+			
 			case 'C':
 				convertedInteger += 100;
 			break;
-		}
+			}
 		}	
 		if (romanNum.contains("IV")){
 			
