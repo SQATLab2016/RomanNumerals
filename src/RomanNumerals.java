@@ -35,7 +35,7 @@ public class RomanNumerals {
 					convertedInteger = lastNumeral - 1;
 				}
 				
-				lastNumeral += 1;
+				lastNumeral = 1;
 				break;
 			}
 				
