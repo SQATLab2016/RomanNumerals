@@ -41,8 +41,7 @@ public class RomanNumerals {
 	}	
 	
 	private int ReturnDoubleValue(String romanNum) {
-		
-	
+			
 		if(romanNum.equals("IV"))
 			SubstractTwoValues(romanNum);
 		
