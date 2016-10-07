@@ -32,10 +32,10 @@ public class RomanNumerals {
 				
 				if (numOfInts > 1)
 				{
-					convertedInteger += lastNumeral;
+					convertedInteger += convertedInteger;
 				}
 				else {
-					convertedInteger = lastNumeral + 1;
+					convertedInteger = convertedInteger + 1;
 				}
 				
 				numOfInts++;
