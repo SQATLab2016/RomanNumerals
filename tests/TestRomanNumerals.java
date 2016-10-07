@@ -3,10 +3,14 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class TestRomanNumerals {
+	
+	 private static void assertRomanNumeralsEquals(String romanNum, int arabNum) {
+	        //assertThat(roman, is(RomanNumerals.convert(arabNum)));
+	}
 
 	@Test
 	public void testIs1() {
-		assertEquals("I gives an invalid value.");
+		assertRomanNumeralsEquals("I", 200);
 	}
 	
 	@Test

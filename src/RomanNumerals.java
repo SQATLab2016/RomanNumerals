@@ -1,33 +1,67 @@
-
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
 		
-		int decimalNum = 0;
+		int arabicNum = 0;
 		
-		// Convert romanNums to upper case, if they are lower case
-		String romanNum = romanNum.toUpperCase();
+		String roman = romanNum.toUpperCase();
+	    for(int x = 0;x<romanNum.length();x++)
+	    {
+	        char convertToDecimal = romanNum.charAt(x);
 		
-		for (int x romanNum.length() - 1; x >= 0; x--) {
-			char convertToDecimalNum = romanNum.charAt(x);
-			
-			switch (convertToDecimalNum) {
-			
-			case 'I':
-				decimalNum = 1;
-				break;
-				
-			case 'V':
-				decimalNum = 5;
-				break;
-				
-			case 'X':
-				decimalNum = 10;
-				break;
-			
-			}
+	        switch (convertToDecimal)  {
+	        case 'M':
+	            arabicNum += 1000;
+	            break;
+
+	        case 'D':
+	        	arabicNum += 500;
+	            break;
+
+	        case 'C':
+	        	arabicNum += 100;
+	            break;
+
+	        case 'L':
+	        	arabicNum += 50;
+	            break;
+
+	        case 'X':
+	        	arabicNum += 10;
+	            break;
+
+	        case 'V':
+	        	arabicNum += 5;
+	            break;
+
+	        case 'I':
+	        	arabicNum += 1;
+	            break;
+	        }
 		}
-		
-		return decimalNum;
-		
+	    if (roman.contains("IV"))
+	    {
+	    	arabicNum-=2;
+	    }
+	    if (roman.contains("IX"))
+	    {
+	    	arabicNum-=2;
+	    }
+	    if (roman.contains("XL"))
+	    {
+	    	arabicNum-=10;
+	    }
+	    if (roman.contains("XC"))
+	    {
+	    	arabicNum-=10;
+	    }
+	    if (roman.contains("CD"))
+	    {
+	    	arabicNum-=100;
+	    }
+	    if (roman.contains("CM"))
+	    {
+	    	arabicNum-=100;
+	    }
+	    return arabicNum;
 	}
 }
