@@ -18,9 +18,9 @@ public class RomanNumerals {
 			switch (currentRomanNumeral){
 			case 'I':
 				convertedInteger += 1;
-				break;
+			break;
 			
-			case 'V'
+			case 'V':
 				convertedInteger += 5;
 			break;
 				
