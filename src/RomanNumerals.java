@@ -19,24 +19,7 @@ public class RomanNumerals {
 			case 'I':
 				
 				
-				if (convertedInteger < 1) {
-					
-					convertedInteger = lastNumeral + 1;
-				}
-
-
-
-				if (convertedInteger > 1) {
-					convertedInteger = convertedInteger - 1;
-				}
-				
-				if (numOfInts > 1)
-				{
-					convertedInteger += convertedInteger;
-				}
-				else {
-					convertedInteger = convertedInteger + 1;
-				}
+				process();
 				
 				numOfInts++;
 				lastNumeral = 1;
@@ -87,4 +70,26 @@ public class RomanNumerals {
 			convertedInteger += 1;
 		
 	}*/
+
+
+	private void process() {
+		if (convertedInteger < 1) {
+			
+			convertedInteger = lastNumeral + 1;
+		}
+
+
+
+		if (convertedInteger > 1) {
+			convertedInteger = convertedInteger - 1;
+		}
+		
+		if (numOfInts > 1)
+		{
+			convertedInteger += convertedInteger;
+		}
+		else {
+			convertedInteger = convertedInteger + 1;
+		}
+	}
 }
