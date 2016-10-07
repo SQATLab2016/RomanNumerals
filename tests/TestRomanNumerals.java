@@ -100,7 +100,7 @@ public class TestRomanNumerals {
 	public void testRomanNumberals_Fifty() {
 		
 	int integer = test.convertToInteger("L");
-	assertEquals(25, integer);
+	assertEquals(50, integer);
 		
 	}
 	
