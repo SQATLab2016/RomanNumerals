@@ -81,7 +81,7 @@ public class TestRomanNumerals {
 	public void testRomanNumberals_Fourteen() {
 		
 	int integer = test.convertToInteger("XIV");
-	assertEquals(12, integer);
+	assertEquals(14, integer);
 		
 	}
 	
