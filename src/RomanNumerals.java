@@ -60,17 +60,11 @@ public class RomanNumerals {
 		if(CheckRepeats(romanNum.charAt(0), romanNum) == 1)
 			return SumTwoValues(romanNum);
 		
-		if(romanNum.equals("IV"))
+		if(romanNum.equals("IV") || romanNum.equals("IX") || romanNum.equals("XL") )
 			return SubstractTwoValues(romanNum);
 		
 		if(romanNum.equals("VI"))
-			return SumTwoValues(romanNum);
-		
-		if(romanNum.equals("IX"))
-			return SubstractTwoValues(romanNum);		
-		
-		if(romanNum.equals("XL"))
-			return SubstractTwoValues(romanNum);
+			return SumTwoValues(romanNum);		
 		
 		return 0;
 	}
