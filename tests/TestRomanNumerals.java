@@ -119,6 +119,13 @@ public class TestRomanNumerals {
 	assertEquals(60, integer);
 		
 	}
+	@Test
+	public void testRomanNumberals_SixtyFour() {
+		
+	int integer = test.convertToInteger("LXIV");
+	assertEquals(64, integer);
+		
+	}
 	
 	
 	
