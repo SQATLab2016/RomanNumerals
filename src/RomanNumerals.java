@@ -16,7 +16,7 @@ public class RomanNumerals {
 			switch (currentRomanNumeral){
 			case 'I':
 				
-				if (lastNumeral > decimal) {
+				if (lastNumeral > 1) {
 					
 					convertedInteger = 1 - decimal;
 				}
@@ -31,7 +31,7 @@ public class RomanNumerals {
 			switch (currentRomanNumeral){
 			case 'V':
 
-				if (lastNumeral > decimal) {
+				if (lastNumeral > 5) {
 						
 					convertedInteger = 1 - 5;
 				}
