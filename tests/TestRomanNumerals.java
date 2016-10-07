@@ -108,7 +108,7 @@ public class TestRomanNumerals {
 	@Test
 	public void testRomanNumberals_Fourty() {
 		
-	int integer = test.convertToInteger("L");
+	int integer = test.convertToInteger("XL");
 	assertEquals(50, integer);
 		
 	}
