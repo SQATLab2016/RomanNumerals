@@ -18,3 +18,55 @@ UnitTestSessionAction 1475840999992 TestRomanNumerals.java FAIL
 UnitTestCaseAction 1475841046990 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475841046991 TestRomanNumerals.java FAIL
 EditAction 1475841098212 RomanNumerals.java 1281 1 3 0
+UnitTestCaseAction 1475841100316 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475841100317 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475841182472 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475841182473 TestRomanNumerals.java FAIL
+RefactoringAction 1475841225877 RomanNumerals.java RENAME lastNumeral=>int earl FIELD
+RefactoringAction 1475841227895 RomanNumerals.java RENAME earl=>int earlierNumber FIELD
+CompilationAction 1475841234486 RomanNumerals.java
+CompilationAction 1475841314106 RomanNumerals.java
+CompilationAction 1475841314261 RomanNumerals.java
+CompilationAction 1475841314262 RomanNumerals.java
+CompilationAction 1475841314264 RomanNumerals.java
+RefactoringAction 1475841331336 RomanNumerals.java ADD void alreadyExists() METHOD
+CompilationAction 1475841331341 RomanNumerals.java
+CompilationAction 1475841331619 RomanNumerals.java
+CompilationAction 1475841331620 RomanNumerals.java
+CompilationAction 1475841331621 RomanNumerals.java
+CompilationAction 1475841384604 RomanNumerals.java
+CompilationAction 1475841384809 RomanNumerals.java
+CompilationAction 1475841384810 RomanNumerals.java
+CompilationAction 1475841384811 RomanNumerals.java
+RefactoringAction 1475841385656 RomanNumerals.java REMOVE alreadyExists() METHOD
+RefactoringAction 1475841398240 RomanNumeralsData.java ADD RomanNumeralsData.java CLASS
+CompilationAction 1475841398243 RomanNumerals.java
+CompilationAction 1475841398244 RomanNumerals.java
+CompilationAction 1475841398245 RomanNumerals.java
+CompilationAction 1475841398466 RomanNumerals.java
+CompilationAction 1475841398468 RomanNumerals.java
+CompilationAction 1475841398469 RomanNumerals.java
+RefactoringAction 1475841404054 RomanNumeralsData.java REMOVE RomanNumeralsData.java CLASS
+CompilationAction 1475841404057 RomanNumerals.java
+CompilationAction 1475841404058 RomanNumerals.java
+CompilationAction 1475841404058 RomanNumerals.java
+CompilationAction 1475841404277 RomanNumerals.java
+CompilationAction 1475841404279 RomanNumerals.java
+CompilationAction 1475841404280 RomanNumerals.java
+RefactoringAction 1475841405198 RomanNumerals.java RENAME data=>int convertedInteger FIELD
+CompilationAction 1475841427223 RomanNumerals.java
+CompilationAction 1475841427225 RomanNumerals.java
+CompilationAction 1475841427226 RomanNumerals.java
+CompilationAction 1475841427360 RomanNumerals.java
+UnitTestCaseAction 1475841431266 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475841431267 TestRomanNumerals.java FAIL
+CompilationAction 1475841440663 RomanNumerals.java
+CompilationAction 1475841440834 RomanNumerals.java
+UnitTestCaseAction 1475841444489 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475841444491 TestRomanNumerals.java FAIL
+CompilationAction 1475841450072 RomanNumerals.java
+UnitTestCaseAction 1475841451540 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475841451541 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475841457367 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475841457368 TestRomanNumerals.java FAIL
+EditAction 1475841470567 RomanNumerals.java 1287 1 3 0
