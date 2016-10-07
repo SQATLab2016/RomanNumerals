@@ -175,6 +175,13 @@ public class TestRomanNumerals {
 	assertEquals(600, integer);
 		
 	}
+	@Test
+	public void testRomanNumberals_EightHundred() {
+		
+	int integer = test.convertToInteger("DCCC");
+	assertEquals(800, integer);
+		
+	}	
 	
 	
 	
