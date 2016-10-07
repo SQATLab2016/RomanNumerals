@@ -36,6 +36,10 @@ public class RomanNumerals {
 				convertedInteger += 100;
 			break;
 			}
+			case 'C':
+				convertedInteger += 500;
+			break;
+		}
 		}	
 		if (romanNum.contains("IV")){
 			

@@ -158,7 +158,7 @@ public class TestRomanNumerals {
 	public void testRomanNumberals_FourHundred() {
 		
 	int integer = test.convertToInteger("CD");
-	assertEquals(400), integer);
+	assertEquals(400, integer);
 		
 	}
 	
