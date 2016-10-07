@@ -94,7 +94,7 @@ public class TestRomanNumerals {
 	public void testRomanNumberals_TwentyFive() {
 		
 	int integer = test.convertToInteger("XXV");
-	assertEquals(20, integer);
+	assertEquals(25, integer);
 		
 	}
 	
