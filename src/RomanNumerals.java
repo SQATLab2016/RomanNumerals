@@ -27,6 +27,10 @@ public class RomanNumerals {
 				else {
 					convertedInteger = lastNumeral + 2;
 				}*/
+				if (lastNumeral < 0) {
+					
+					convertedInteger = lastNumeral + 1;
+				}
 				
 				lastNumeral = 1;
 				convertedInteger = 1;
