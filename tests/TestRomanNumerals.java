@@ -141,10 +141,17 @@ public class TestRomanNumerals {
 		
 	}
 	@Test
-	public void testRomanNumberals_Hundred() {
+	public void testRomanNumberals_TwoHundred() {
 		
-	int integer = test.convertToInteger("C");
-	assertEquals(100, integer);
+	int integer = test.convertToInteger("CC");
+	assertEquals(200, integer);
+		
+	}
+	@Test
+	public void testRomanNumberals_TwoHundredThirtySeven() {
+		
+	int integer = test.convertToInteger("CCXXXVII");
+	assertEquals(200, integer);
 		
 	}
 	
