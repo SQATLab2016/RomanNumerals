@@ -35,6 +35,8 @@ public class RomanNumerals {
 		if(romanNum == "XX")
 			return SumDoubleRepeat(romanNum);
 		
+		if(romanNum == "XL")
+			return SubstractTwoValues(romanNum);
 		
 		return ReturnSingleValue(romanNum);
 	}
