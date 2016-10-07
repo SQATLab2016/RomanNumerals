@@ -34,7 +34,8 @@ public class RomanNumerals {
 	}	
 	
 	private int ReturnTripleValue(String romanNum) {
-		if(romanNum.equals("III") || romanNum.equals("XXX"))
+		
+		if(CheckRepeats(romanNum.charAt(0), romanNum) == 2)
 			return SumTwoValues(romanNum.substring(1,3))+ReturnSingleValue(romanNum.substring(0,1));
 						
 		if(romanNum.equals("VII"))
@@ -46,7 +47,7 @@ public class RomanNumerals {
 	
 	private int CheckRepeats(char c, String string) {
 		int num = 0;
-		for(int i = 0; i != string.length(); i++)
+		for(int i = 1; i != string.length(); i++)
 			if(string.charAt(i) == c)
 				num++;
 			else
@@ -56,10 +57,7 @@ public class RomanNumerals {
 	
 	private int ReturnDoubleValue(String romanNum) {
 		
-		if(romanNum.equals("II"))
-			return SumTwoValues(romanNum);
-		
-		if(romanNum.equals("XX"))
+		if(CheckRepeats(romanNum.charAt(0), romanNum) == 1)
 			return SumTwoValues(romanNum);
 		
 		if(romanNum.equals("IV"))
