@@ -99,7 +99,7 @@ public class TestRomanNumerals {
 	}
 	public void testRomanNumberals_Fifty() {
 		
-	int integer = test.convertToInteger("XXV");
+	int integer = test.convertToInteger("L");
 	assertEquals(25, integer);
 		
 	}
