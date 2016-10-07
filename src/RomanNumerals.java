@@ -22,7 +22,7 @@ public class RomanNumerals {
 				}
 				if (lastNumeral < 1) {
 					
-					convertedInteger += lastNumeral + 1;
+					convertedInteger = lastNumeral + 1;
 				}
 				else {
 					convertedInteger = lastNumeral + 2;
