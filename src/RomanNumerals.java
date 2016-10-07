@@ -22,21 +22,23 @@ public class RomanNumerals {
 				else {
 					convertedInteger = 1 + decimal;
 				}
+				lastNumeral = 1;
+				break;
+			}
 				
 			switch (currentRomanNumeral){
 			case 'V':
 				if (lastNumeral > decimal) {
 						
-					convertedInteger = 1 - decimal;
+					convertedInteger = 1 - 5;
 				}
 				else {
-					convertedInteger = 1 + decimal;
+					convertedInteger = 1 + 5;
 				}
-							
+				lastNumeral = 5;
+				break;
+				}
 			}
-		
-		
-		}
 			
 		return convertedInteger;
 		
