@@ -151,7 +151,7 @@ public class TestRomanNumerals {
 	public void testRomanNumberals_TwoHundredThirtySeven() {
 		
 	int integer = test.convertToInteger("CCXXXVII");
-	assertEquals(200, integer);
+	assertEquals(237, integer);
 		
 	}
 	
