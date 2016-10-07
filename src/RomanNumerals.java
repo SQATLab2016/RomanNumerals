@@ -13,15 +13,11 @@ public class RomanNumerals {
 		
 		if(romanNum.length() == 2)
 			return ReturnDoubleValue(romanNum);		
-			
-		if(romanNum == "III")
-			return SumDoubleRepeat(romanNum.substring(1,3))+ReturnSingleValue(romanNum.substring(0,1));
-						
-		if(romanNum == "VII")
-			return SumDoubleRepeat(romanNum.substring(1,3))+ReturnSingleValue(romanNum.substring(0,1));
 		
-		if(romanNum == "VIII")
-			return SumDoubleRepeat(romanNum.substring(1,3))+ReturnSingleValue(romanNum.substring(0,1))+ReturnSingleValue(romanNum.substring(3,4));
+		if(romanNum.lenght() == 3)
+			return TripleValue(romanNum);
+		
+		
 			
 		
 		return ReturnSingleValue(romanNum);
@@ -37,19 +33,32 @@ public class RomanNumerals {
 		return ReturnSingleValue(romanNum.substring(0,1))+ReturnSingleValue(romanNum.substring(1,2));
 	}	
 	
+	private int ReturnTripleValue(string romanNUm) {
+		if(romanNum == "III")
+			return SumDoubleRepeat(romanNum.substring(1,3))+ReturnSingleValue(romanNum.substring(0,1));
+						
+		if(romanNum == "VII")
+			return SumDoubleRepeat(romanNum.substring(1,3))+ReturnSingleValue(romanNum.substring(0,1));
+		
+		if(romanNum == "VIII")
+			return SumDoubleRepeat(romanNum.substring(1,3))+ReturnSingleValue(romanNum.substring(0,1))+ReturnSingleValue(romanNum.substring(3,4));
+		
+		return 0;
+	}
+	
 	private int ReturnDoubleValue(String romanNum) {
 		
 		if(romanNum == "II")
-			return SumDoubleRepeat(romanNum);
+			return SumTwoValues(romanNum);
 		
 		if(romanNum == "XX")
-			return SumDoubleRepeat(romanNum);
+			return SumTwoValues(romanNum);
 		
 		if(romanNum == "IV")
 			return SubstractTwoValues(romanNum);
 		
 		if(romanNum.equals("VI"))
-			return Sum
+			return SumTwoValues(romanNum);
 		
 		if(romanNum.equals("IX"))
 			return SubstractTwoValues(romanNum);		

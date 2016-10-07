@@ -51,3 +51,20 @@ UnitTestCaseAction 1475841513504 TestRomanNumerals.java OK
 UnitTestSessionAction 1475841513505 RomanNumerals.java OK
 RefactoringAction 1475841588197 RomanNumerals.java RENAME SumDoubleRepeat(String)=>int SumTwoValuess(String) METHOD
 EditAction 1475841588727 RomanNumerals.java 1931 5 15 0
+CompilationAction 1475841590178 RomanNumerals.java
+CompilationAction 1475841590178 RomanNumerals.java
+CompilationAction 1475841590178 RomanNumerals.java
+CompilationAction 1475841617322 RomanNumerals.java
+CompilationAction 1475841617322 RomanNumerals.java
+CompilationAction 1475841617322 RomanNumerals.java
+CompilationAction 1475841617462 RomanNumerals.java
+RefactoringAction 1475841669145 RomanNumerals.java ADD int Return FIELD
+RefactoringAction 1475841672374 RomanNumerals.java RENAME Return=>int ReturnTripleValue FIELD
+RefactoringAction 1475841674122 RomanNumerals.java RENAME ReturnTripleValue=>int ReturnTripleValue() METHOD
+RefactoringAction 1475841676555 RomanNumerals.java RENAME ReturnTripleValue()=>int ReturnTripleValue(string) METHOD
+CompilationAction 1475841681610 RomanNumerals.java
+CompilationAction 1475841681610 RomanNumerals.java
+CompilationAction 1475841681610 RomanNumerals.java
+CompilationAction 1475841681610 RomanNumerals.java
+CompilationAction 1475841681610 RomanNumerals.java
+EditAction 1475841692904 RomanNumerals.java 2082 6 24 0
