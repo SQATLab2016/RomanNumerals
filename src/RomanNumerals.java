@@ -39,7 +39,7 @@ public class RomanNumerals {
 		}
 		if (romanNum.contains("XL")){
 			
-			convertedInteger -= 2;
+			convertedInteger -= 10;
 		}
 				
 			
