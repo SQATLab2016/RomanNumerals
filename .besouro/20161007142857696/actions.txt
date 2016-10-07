@@ -158,3 +158,8 @@ EditAction 1475842692283 TestRomanNumerals.java 1641 19 20 2
 UnitTestCaseAction 1475842694392 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475842694392 TestRomanNumerals.java FAIL
 EditAction 1475843083755 RomanNumerals.java 2134 6 24 0
+RefactoringAction 1475843097557 RomanNumerals.java ADD int CheckRepeats() METHOD
+RefactoringAction 1475843101584 RomanNumerals.java RENAME CheckRepeats()=>int CheckRepeats(String) METHOD
+RefactoringAction 1475843258617 RomanNumerals.java RENAME CheckRepeats(String)=>int CheckRepeats(char) METHOD
+RefactoringAction 1475843262221 RomanNumerals.java RENAME CheckRepeats(char)=>int CheckRepeats(char, String) METHOD
+EditAction 1475843307024 RomanNumerals.java 2312 7 26 0

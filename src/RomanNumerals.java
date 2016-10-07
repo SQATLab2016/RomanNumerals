@@ -44,6 +44,15 @@ public class RomanNumerals {
 		return 0;
 	}
 	
+	private int CheckRepeats(char c, String string) {
+		int num = 0;
+		for(int i = 0; i != string.length(); i++)
+			if(string.charAt(i) == c)
+				num++;
+			else
+				return -1;
+	}
+	
 	private int ReturnDoubleValue(String romanNum) {
 		
 		if(romanNum.equals("II"))
