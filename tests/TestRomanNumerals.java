@@ -13,11 +13,27 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void ConvertNumber1334() {
+	public void ConvertNumberlength2() {
 		
 		RomanNumerals romannumerals = new RomanNumerals();
 		
-		assertEquals(1134, romannumerals.get_Roman_Number("MCCCLXXXIV"));
+		assertEquals(8, romannumerals.get_Roman_Number("VIII"));
+	}
+	
+	@Test
+	public void ConvertNumber1384() {
+		
+		RomanNumerals romannumerals = new RomanNumerals();
+		
+		assertEquals(1384, romannumerals.get_Roman_Number("MCCCLXXXIV"));
+	}
+	
+	@Test
+	public void ConvertNumber1210() {
+		
+		RomanNumerals romannumerals = new RomanNumerals();
+		
+		assertEquals(1210, romannumerals.get_Roman_Number("MCCX"));
 	}
 
 }

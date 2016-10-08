@@ -56,25 +56,26 @@ public class RomanNumerals {
 				RomanNumAsinteger = RomanNumAsinteger + this.gethundreds(romanum);
 		}
 		
-		int Length4 = romanum.length() - length - Charsleft - 1;
-		Charsleft = romanum.length() - Length4;
+		int Length4 = romanum.length() - length - Charsleft;
+		Length4 = romanum.length() - Length4;
 		
-		if(romanum.charAt(Charsleft) == 'X' || romanum.charAt(Charsleft) == 'L'){
+		if(romanum.charAt(Length4) == 'X' || romanum.charAt(Length4) == 'L'){
 			RomanNumAsinteger = RomanNumAsinteger + this.getTens(romanum, Length4);
 		}if(romanum.charAt(0) == 'I' || romanum.charAt(0) == 'V'){
 			RomanNumAsinteger = convertToInteger(romanum);
-		}
+		}else{
 		
-		String number = null;
-		int length3 = length1 + Charsleft;
+			Length4 = Length4 + length1;
+			StringBuilder builder = new StringBuilder();
 		
-		while(length3 != romanum.length()){
-			number = romanum.charAt(length3) + number;
-			length3++;
-		}
+			while(Length4 <= romanum.length() - 1){
+				builder.append(romanum.charAt(Length4));
+				Length4++;
+			}
 		
-		if(length3 == romanum.length()){
-			RomanNumAsinteger = RomanNumAsinteger + convertToInteger(number);
+			if(Length4 == romanum.length()){
+				RomanNumAsinteger = RomanNumAsinteger + convertToInteger(builder.toString());
+			}
 		}
 		
 		return RomanNumAsinteger;
@@ -89,7 +90,7 @@ public class RomanNumerals {
 			length = length + 1;
 		}else if(romanum.charAt(2) == 'C' && romanum.charAt(3) != 'C'){
 				hundreds = 200;
-				length = length - 2;
+				length = length + 2;
 		}else if(romanum.charAt(3) == 'C'){
 			hundreds = 300;
 			length = length + 3;
@@ -121,35 +122,33 @@ public class RomanNumerals {
 		int tens = 0;
 		length1 = length2;
 		
-		if(romanum.charAt(length1) == 'X' && romanum.charAt(length1 + 1) != 'X'){
+		if(romanum.charAt(length1) == 'X' || romanum.charAt(length1) == 'X' && romanum.charAt(length1 + 1) != 'X'){
 			tens = 10;
-			length1++;
-		}if(romanum.charAt(length1 + 1) == 'X' && romanum.charAt(length1 + 2) != 'X'){
+			length1 = 1;
+		}else if(romanum.charAt(length1 + 1) == 'X' && romanum.charAt(length1 + 2) != 'X'){
 			tens = 20;
-			length1 = length1 + 2;
-		}if(romanum.charAt(length1 + 2) == 'X'){
+			length1 = 2;
+		}else if(romanum.charAt(length1 + 2) == 'X' && romanum.charAt(length1) != 'L'){
 			tens = 30;
-			length1 = length1 + 3;
-		}if(romanum.charAt(length1 + 2) == 'L'){
+			length1 = 3;
+		}else if(romanum.charAt(length1 + 2) == 'L' && romanum.charAt(length1 + 1) == 'X'){
 			tens = 40;
-			length1 = length1 + 2;
-		}if(romanum.charAt(length + 2) == 'C'){
+			length1 = 2;
+		}else if(romanum.charAt(length1 + 2) == 'C'){
 			tens = 90;
-			length1 = length1 + 2;
-		}
-		
-		if(romanum.charAt(length1) == 'L'){
+			length1 = 2;
+		}else if(romanum.charAt(length1) == 'L' && romanum.charAt(length1 + 1) != 'X'){
 			tens = 50;
-			length1++;
-		}if(romanum.charAt(length1 + 2) == 'X' && romanum.charAt(length1 + 3) != 'X'){
+			length1 = 1;
+		}else if(romanum.charAt(length1 + 1) == 'X' && romanum.charAt(length1 + 2) != 'X'){
 			tens = 60;
-			length1 = length1 + 2;
-		}if(romanum.charAt(length1 + 3) == 'X' && romanum.charAt(length1 + 4) != 'X'){
+			length1 = 2;
+		}else if(romanum.charAt(length1 + 2) == 'X' && romanum.charAt(length1 + 3) != 'X'){
 			tens = 70;
-			length1 = length1 + 3;
-		}if(romanum.charAt(length1 + 4) == 'X'){
+			length1 = 3;
+		}else if(romanum.charAt(length1 + 3) == 'X'){
 			tens = 80;
-			length1 = length1 + 4;
+			length1 = 4;
 		}
 			
 		return tens;
