@@ -296,3 +296,10 @@ EditAction 1476224926648 RomanNumerals.java 4300 9 40 0
 UnitTestCaseAction 1476224930258 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1476224930259 TestRomanNumerals.java FAIL
 EditAction 1476225086118 RomanNumerals.java 4417 9 33 0
+CompilationAction 1476225086318 RomanNumerals.java
+CompilationAction 1476225127678 RomanNumerals.java
+UnitTestCaseAction 1476225130410 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1476225130411 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1476225169182 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1476225169183 TestRomanNumerals.java FAIL
+EditAction 1476225212567 RomanNumerals.java 4420 9 41 0

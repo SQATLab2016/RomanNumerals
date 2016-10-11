@@ -74,8 +74,8 @@ public class RomanNumerals {
 		if (isFiveSymbol(romanNum.substring(pos, pos + 1)))
 			throw new RomanNumeralException("'5' symbols can never be subtracted");
 		
-		System.out.println(romanNum.substring(pos, pos + 1)) + " && " + indexTable.get(romanNum.substring(pos, pos + 2)));
-		if (indexTable.get(romanNum.substring(pos, pos + 1)) - indexTable.get(romanNum.substring(pos, pos + 2)) < -2)
+		System.out.println(romanNum.substring(pos, pos + 1) + " && " + indexTable.get(romanNum.substring(pos, pos + 2)));
+		if (indexTable.get(romanNum.substring(pos, pos + 1)) - indexTable.get(romanNum.substring(pos + 1, pos + 2)) < -2)
 			throw new RomanNumeralException("'1' symbols can only be subtracted from 2 next highest values");
 		
 		if (convertToInteger(romanNum.substring(pos, pos + 1)) < convertToInteger(romanNum.substring((pos + 1), (pos + 2))))
