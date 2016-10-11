@@ -149,3 +149,9 @@ EditAction 1476220186911 TestRomanNumerals.java 1750 3 16 3
 CompilationAction 1476220187056 TestRomanNumerals.java
 RefactoringAction 1476220209521 RomanNumerals.java ADD boolean repeatingOK(String) METHOD
 EditAction 1476220218287 RomanNumerals.java 2048 6 22 0
+UnitTestCaseAction 1476220224949 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1476220224949 TestRomanNumerals.java FAIL
+RefactoringAction 1476220316023 RomanNumerals.java RENAME repeatingOK(String)=>boolean repeatingOk(String) METHOD
+RefactoringAction 1476220318531 RomanNumerals.java RENAME repeatingOk(String)=>boolean repeatingOkOneSymbols(String) METHOD
+CompilationAction 1476220318827 TestRomanNumerals.java
+EditAction 1476220320687 TestRomanNumerals.java 1760 3 16 3

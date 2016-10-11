@@ -71,8 +71,11 @@ public class RomanNumerals {
 		return false;
 	}
 
-	public boolean repeatingOK(String string) {
+	public boolean repeatingOkOneSymbols(String string) {
 		// TODO Auto-generated method stub
+		
+		
+		
 		return false;
 	}
 }

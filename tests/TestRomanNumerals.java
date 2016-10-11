@@ -77,7 +77,7 @@ public class TestRomanNumerals {
 		};
 		
 		for (i = 0; i < testCases.length; i++) {
-			if (correctResults[i] != romans.repeatingOK(testCases[i])) {
+			if (correctResults[i] != romans.repeatingOkOneSymbols(testCases[i])) {
 				caseFailed = true;
 				break;
 			}
