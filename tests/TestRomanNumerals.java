@@ -56,7 +56,7 @@ public class TestRomanNumerals {
 			}
 		}
 		
-		assertTrue("Subtraction not detected. Failed case: " + testCases[i],
+		assertTrue("Subtraction not detected. Failed case number: " + i,
 					false == caseFailed);
 	}
 }
