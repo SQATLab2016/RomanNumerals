@@ -67,7 +67,6 @@ public class RomanNumerals {
 		if ((pos + 2) >  romanNum.length())
 			return false;
 
-		// test if in IV before I is another I -> fail
 		if (pos - 1 >= 0 && romanNum.substring(pos, pos + 1).equals(romanNum.substring(pos - 1, pos)))
 			throw new RomanNumeralException("Only one subtraction can be made per numeral");
 		
