@@ -35,3 +35,11 @@ CompilationAction 1476215387869 TestRomanNumerals.java
 UnitTestCaseAction 1476215409408 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1476215409410 TestRomanNumerals.java FAIL
 EditAction 1476215459808 TestRomanNumerals.java 1233 2 9 2
+UnitTestCaseAction 1476215463093 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1476215463095 TestRomanNumerals.java FAIL
+RefactoringAction 1476215998184 RomanNumerals.java ADD RomanNumerals() METHOD
+RefactoringAction 1476216022774 RomanNumerals.java ADD Hashtable<> numeralT FIELD
+RefactoringAction 1476216023789 RomanNumerals.java RENAME numeralT=>Hashtable<> numeralTable FIELD
+RefactoringAction 1476216029805 RomanNumerals.java RENAME numeralTable=>Hashtable<> numTable FIELD
+RefactoringAction 1476216043823 RomanNumerals.java REMOVE numTable FIELD
+EditAction 1476216043874 RomanNumerals.java 881 3 6 0

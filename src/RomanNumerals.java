@@ -1,5 +1,11 @@
 
 public class RomanNumerals {
+	private Hashtable<String, int> numTable;  
+	
+	public RomanNumerals() {
+		
+	}
+	
 	public int convertToInteger(String romanNum) throws RomanNumeralException {
 		if (romanNum.equals("I"))
 			return 1;
