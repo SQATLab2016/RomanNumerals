@@ -69,7 +69,7 @@ public class RomanNumerals {
 		// test if in IV before I is another I -> fail
 		
 		// '5' symbols can never be subtracted
-		if (isFiveSymbol)
+		if (isFiveSymbol(romanNum.substring(pos, pos + 1)))
 			
 		
 		if (convertToInteger(romanNum.substring(pos, pos + 1)) < convertToInteger(romanNum.substring((pos + 1), (pos + 2))))
