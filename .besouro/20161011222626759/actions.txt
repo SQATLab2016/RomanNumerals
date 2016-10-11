@@ -3,3 +3,6 @@ RefactoringAction 1476214090680 RomanNumerals.java RENAME isSubtraction(String)=
 EditAction 1476214240697 RomanNumerals.java 519 2 4 0
 CompilationAction 1476214241048 TestRomanNumerals.java
 EditAction 1476214534972 RomanNumerals.java 766 2 2 0
+CompilationAction 1476214535133 RomanNumerals.java
+CompilationAction 1476214535134 RomanNumerals.java
+EditAction 1476214617778 RomanNumerals.java 766 2 2 0
