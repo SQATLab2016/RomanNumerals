@@ -48,7 +48,7 @@ public class TestRomanNumerals {
 		};
 
 		for (i = 0; i < testCases.length; i++) {
-			if (!correctResults[i] == romans.isSubtraction(testCases[i], 0)) {
+			if (correctResults[i] != romans.isSubtraction(testCases[i], 0)) {
 				caseFailed = true;
 				break;
 			}
@@ -56,5 +56,32 @@ public class TestRomanNumerals {
 		
 		assertTrue("Subtraction not detected. Failed case number: " + i,
 					false == caseFailed);
+	}
+
+	@Test
+	public void maxThreeRepeats() {
+		RomanNumerals romans = new RomanNumerals();
+		boolean caseFailed = false;
+		int i = 0;
+
+		String[] testCases = {
+			"VIII",
+			"MCCCC",
+			"XXX"
+		};
+		
+		boolean[] correctResults = {
+				true,
+				false,
+				true
+		};
+		
+		for (int i = 0; i < testCases.length; i++) {
+			if (correctResults[i] != romans.isSubtraction()) {
+				
+			}
+		}
+		
+		
 	}
 }
