@@ -48,7 +48,9 @@ public class TestRomanNumerals {
 		};
 
 		for (i = 0; i < testCases.length; i++) {
-			if (correctResults[i].equals(romans.isSubtraction(testCases[i], 0))) {
+			System.out.println("correctResults[i] == " + correctResults[i]);
+			System.out.println("subtraction test == " + romans.isSubtraction(testCases[i], 0));
+			if (!correctResults[i] == romans.isSubtraction(testCases[i], 0)) {
 				caseFailed = true;
 				break;
 			}
