@@ -7,23 +7,19 @@ public class RomanNumerals {
 		throw new RomanNumeralException("No equivalent found for given roman number: " + romanNum);
 	}
 	
-	public boolean isSubtraction(String romanNum, int pos) {
+	public boolean isSubtraction(String romanNum, int pos) throws RomanNumeralException {
 		if ((romanNum.length() - 1) < pos)
 			throw new RomanNumeralException(
 						"Position to check for subtraction is out of bounds. roman num length was: " +
 						romanNum.length() + " position was: " + pos);
-		
-		// Only one subtraction can be made per numeral
-		if ((pos) romanNum.length())
+
+		// Character at pos is the last character
+		if ((pos + 2) >  romanNum.length())
 			return false;
-		
-		
-		
-		if (romanNum.charAt(pos) < )
-		
-		/*if (convertToInteger(romanNum)) 
-			return ;*/
-		
-		return true; // this ok or something else?
+
+		if (convertToInteger(romanNum.substring(pos, pos)) < convertToInteger(romanNum.substring((pos + 1), (pos + 1))))
+			return true;
+
+		return false;
 	}
 }
