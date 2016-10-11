@@ -272,3 +272,10 @@ UnitTestCaseAction 1476223700474 TestRomanNumerals.java OK
 UnitTestSessionAction 1476223700474 TestRomanNumerals.java OK
 EditAction 1476223812903 RomanNumerals.java 3912 9 38 0
 EditAction 1476223844224 RomanNumerals.java 3851 9 39 0
+UnitTestCaseAction 1476223849422 TestRomanNumerals.java OK
+UnitTestSessionAction 1476223849423 TestRomanNumerals.java OK
+RefactoringAction 1476224094213 RomanNumerals.java ADD String FIELD
+RefactoringAction 1476224098223 RomanNumerals.java RENAME roman=>String FIELD
+RefactoringAction 1476224184916 RomanNumerals.java ADD int FIELD
+RefactoringAction 1476224193927 RomanNumerals.java REMOVE roman FIELD
+EditAction 1476224194262 RomanNumerals.java 3919 9 39 0

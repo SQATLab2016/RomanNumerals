@@ -1,7 +1,8 @@
 import java.util.Hashtable;
 
 public class RomanNumerals {
-	private Hashtable<String, Integer> numTable;  
+	private Hashtable<String, Integer> numTable;
+	private String[] romanChars = { "I", "V", "X", "L", "C", "D", "M" };
 	
 	public RomanNumerals() {
 		numTable = new Hashtable<String, Integer>();
