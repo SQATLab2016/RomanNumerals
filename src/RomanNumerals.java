@@ -50,7 +50,7 @@ public class RomanNumerals {
 		ret = numTable.get(num);
 		
 		if (null == ret)
-			throw new RomanNumeralException("Roman number: " + num + " not found");
+			throw new RomanNumeralException("Arabic conversion for Roman number: " + num + " not found");
 
 		return ret;
 	}
