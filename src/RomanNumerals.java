@@ -92,12 +92,7 @@ public class RomanNumerals {
 	}
 	
 	public boolean isOneSymbol(String sym) throws RomanNumeralException {
-		String[] oneSymbols = {
-			"I",
-			"X",
-			"C",
-			"M"
-		};
+		String[] oneSymbols = {	"I", "X", "C", "M" };
 
 		if (sym.length() > 1)
 			throw new RomanNumeralException("Only one character must be checked with isOneSymbol");
@@ -111,7 +106,7 @@ public class RomanNumerals {
 	}
 	
 	public boolean isFiveSymbol(String sym) throws RomanNumeralException {
-		String[] fiveSymbols = { "I", "X", "C",	"M"	};
+		String[] fiveSymbols = { "V", "L", "D"	};
 		
 		if (sym.length() > 1)
 			throw new RomanNumeralException("Only one character must be checked with isFiveSymbol");
@@ -124,11 +119,20 @@ public class RomanNumerals {
 		return false;
 	}
 
-	public boolean repeatingOkFiveSymbols(String num) {
+	public boolean repeatingOkFiveSymbols(String num) throws RomanNumeralException {
+		int subsequentAmount = 0;
+		
 		for (int i = 0; i < num.length(); i++) {
+			if (isFiveSymbol(num.substring(i, i + 1))) {
+				subsequentAmount++;
+			} else {
+				subsequentAmount = 0;
+			}
 			
+			if (subsequentAmount > 1)
+				return false;
 		}
 		
-		return ;
+		return true;
 	}
 }

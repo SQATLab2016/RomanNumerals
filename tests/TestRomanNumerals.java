@@ -88,7 +88,7 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void fiveSymbolsNotRepeated() {
+	public void fiveSymbolsNotRepeated() throws RomanNumeralException {
 		RomanNumerals romans = new RomanNumerals();
 		boolean caseFailed = false;
 		int i = 0;
