@@ -135,7 +135,7 @@ public class RomanNumerals {
 				subsequentAmount = 0;
 			}
 			
-			if (subsequentAmount > 1)
+			if (subsequentAmount > 0)
 				return false;
 			
 			prev = num.substring(i, i + 1);
