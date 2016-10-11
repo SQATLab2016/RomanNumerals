@@ -61,12 +61,12 @@ public class RomanNumerals {
 						"Position to check for subtraction is out of bounds. roman num length was: " +
 						romanNum.length() + " position was: " + pos);
 
+		System.out.println("pos & pos + 1 == " + convertToInteger(romanNum.substring(pos, pos + 1)));
+		System.out.println("pos + 1 & pos + 2 == " + convertToInteger(romanNum.substring(pos + 1, pos + 2)));
+		
 		// Character at pos is the last character
 		if ((pos + 2) >  romanNum.length())
 			return false;
-
-		System.out.println("pos == " + pos + " substr(pos, pos) == " + romanNum.substring(pos, pos));
-		System.out.println("pos == " + pos + " substr(pos, 1) == " + romanNum.substring(, 2));
 		
 		if (convertToInteger(romanNum.substring(pos, pos + 1)) < convertToInteger(romanNum.substring((pos + 1), (pos + 2))))
 			return true;
