@@ -4,7 +4,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
-@RunWith(Parameterized.class)
+//@RunWith(Parameterized.class)
 public class TestRomanNumerals {
 	//private RomanNumerals = new RomanNumerals();
 	
@@ -30,7 +30,7 @@ public class TestRomanNumerals {
 	}
 
 	@Test
-	public void subtractionOccurs() {
+	public void subtractionOccurs() throws RomanNumeralException {
 		RomanNumerals romans = new RomanNumerals();
 		boolean caseFailed = false;
 		int i = 0;
