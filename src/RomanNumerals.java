@@ -70,4 +70,9 @@ public class RomanNumerals {
 
 		return false;
 	}
+
+	public boolean repeatingOK(String string) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }

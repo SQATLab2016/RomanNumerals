@@ -146,3 +146,6 @@ CompilationAction 1476220129593 TestRomanNumerals.java
 CompilationAction 1476220129753 TestRomanNumerals.java
 CompilationAction 1476220129753 TestRomanNumerals.java
 EditAction 1476220186911 TestRomanNumerals.java 1750 3 16 3
+CompilationAction 1476220187056 TestRomanNumerals.java
+RefactoringAction 1476220209521 RomanNumerals.java ADD boolean repeatingOK(String) METHOD
+EditAction 1476220218287 RomanNumerals.java 2048 6 22 0
