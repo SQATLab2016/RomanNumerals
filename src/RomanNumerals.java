@@ -69,13 +69,13 @@ public class RomanNumerals {
 
 		// test if in IV before I is another I -> fail
 		if (pos - 1 >= 0 && romanNum.substring(pos, pos + 1).equals(romanNum.substring(pos - 1, pos)))
-			return false;
+			throw new RomanNumeralException("Only one subtraction can be made per numeral");
 		
-		// '5' symbols can never be subtracted
 		if (isFiveSymbol(romanNum.substring(pos, pos + 1)))
-			return false;
+			throw new RomanNumeralException("'5' symbols can never be subtracted");
 		
-		if (indexTable.get(romanNum.substring(pos, pos + 2)) - indexTable.get(romanNum.substring(pos, pos + 1)))
+		if (indexTable.get(romanNum.substring(pos, pos + 1)) - indexTable.get(romanNum.substring(pos, pos + 2)) < -2)
+			throw new RomanNumeralException("'1' symbols can only be subtracted from 2 next highest values");
 		
 		if (convertToInteger(romanNum.substring(pos, pos + 1)) < convertToInteger(romanNum.substring((pos + 1), (pos + 2))))
 			return true;
