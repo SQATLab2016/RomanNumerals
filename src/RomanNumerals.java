@@ -47,12 +47,12 @@ public class RomanNumerals {
 
 	public int singleNumToInteger(String num) throws RomanNumeralException, NullPointerException {
 		Integer ret = null;
-		
-		if (num.length() > 1)
-			throw new RomanNumeralException("");
 
 		if (null == num)
 			throw new RomanNumeralException("Null value can't be converted from Roman numeral to Arabic");
+
+		if (num.length() > 1)
+			throw new RomanNumeralException("Only single numbers accepted");
 
 		ret = numTable.get(num);
 
