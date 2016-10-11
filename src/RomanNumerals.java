@@ -67,10 +67,10 @@ public class RomanNumerals {
 		// Character at pos is the last character
 		if ((pos + 2) >  romanNum.length())
 			return false;
-		
+		System.out.println("testing");
 		if (convertToInteger(romanNum.substring(pos, pos + 1)) < convertToInteger(romanNum.substring((pos + 1), (pos + 2))))
 			return true;
-
+		System.out.println("returning false");
 		return false;
 	}
 }
