@@ -66,9 +66,9 @@ public class RomanNumerals {
 			return false;
 
 		System.out.println("pos == " + pos + " substr(pos, pos) == " + romanNum.substring(pos, pos));
-		System.out.println("pos == " + pos + " substr(pos, 1) == " + romanNum.substring(1, 2));
+		System.out.println("pos == " + pos + " substr(pos, 1) == " + romanNum.substring(, 2));
 		
-		if (convertToInteger(romanNum.substring(pos, pos)) < convertToInteger(romanNum.substring((pos + 1), (pos + 1))))
+		if (convertToInteger(romanNum.substring(pos, pos + 1)) < convertToInteger(romanNum.substring((pos + 1), (pos + 2))))
 			return true;
 
 		return false;
