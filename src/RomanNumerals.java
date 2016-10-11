@@ -8,9 +8,18 @@ public class RomanNumerals {
 	}
 	
 	public boolean isSubtraction(String romanNum, int pos) {
-		// Only one subtraction can be made per numeral
 		if (romanNum.length() < (pos - 1))
+			throw new RomanNumeralException(
+						"Position to check for subtraction is out of bounds. roman num length was: " +
+						romanNum.length() + " position was: " + pos);
+		
+		// Only one subtraction can be made per numeral
+		if ((pos) romanNum.length())
 			return false;
+		
+		
+		
+		if (romanNum.charAt(pos) < )
 		
 		/*if (convertToInteger(romanNum)) 
 			return ;*/

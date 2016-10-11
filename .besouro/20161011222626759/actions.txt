@@ -1,3 +1,5 @@
 FileOpenedAction 1476213987195 TestRomanNumerals.java 1199 2 9 2
 RefactoringAction 1476214090680 RomanNumerals.java RENAME isSubtraction(String)=>boolean isSubtraction(String, int) METHOD
 EditAction 1476214240697 RomanNumerals.java 519 2 4 0
+CompilationAction 1476214241048 TestRomanNumerals.java
+EditAction 1476214534972 RomanNumerals.java 766 2 2 0
