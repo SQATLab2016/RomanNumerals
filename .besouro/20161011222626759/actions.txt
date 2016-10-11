@@ -279,3 +279,12 @@ RefactoringAction 1476224098223 RomanNumerals.java RENAME roman=>String FIELD
 RefactoringAction 1476224184916 RomanNumerals.java ADD int FIELD
 RefactoringAction 1476224193927 RomanNumerals.java REMOVE roman FIELD
 EditAction 1476224194262 RomanNumerals.java 3919 9 39 0
+RefactoringAction 1476224287030 RomanNumerals.java ADD int FIELD
+RefactoringAction 1476224347143 RomanNumerals.java RENAME numTable=>Hashtable<String,Integer> indexTable FIELD
+CompilationAction 1476224367948 RomanNumerals.java
+CompilationAction 1476224376191 RomanNumerals.java
+UnitTestCaseAction 1476224390705 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1476224390706 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1476224498221 TestRomanNumerals.java OK
+UnitTestSessionAction 1476224498222 TestRomanNumerals.java OK
+EditAction 1476224647031 RomanNumerals.java 4110 9 39 0

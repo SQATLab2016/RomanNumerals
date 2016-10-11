@@ -1,11 +1,12 @@
 import java.util.Hashtable;
 
 public class RomanNumerals {
-	private Hashtable<String, Integer> numTable;
+	private Hashtable<String, Integer> indexTable;
 	private String[] romanChars = { "I", "V", "X", "L", "C", "D", "M" };
+	private int[] arabVals = { 1, 5, 10, 50, 100, 500, 1000 };
 	
 	public RomanNumerals() {
-		numTable = new Hashtable<String, Integer>();
+		indexTable = new Hashtable<String, Integer>();
 		fillNumTable();
 	}
 
@@ -20,13 +21,13 @@ public class RomanNumerals {
 	9 IX 	90 XC 	900 CM
 */
 	private void fillNumTable() {
-		numTable.put("I", 1);
-		numTable.put("V", 5);
-		numTable.put("X", 10);
-		numTable.put("L", 50);
-		numTable.put("C", 100);
-		numTable.put("D", 500);
-		numTable.put("M", 1000);
+		indexTable.put("I", 0);
+		indexTable.put("V", 1);
+		indexTable.put("X", 2);
+		indexTable.put("L", 3);
+		indexTable.put("C", 4);
+		indexTable.put("D", 5);
+		indexTable.put("M", 6);
 	}
 	
 	public int convertToInteger(String romanNum) throws RomanNumeralException {
@@ -48,7 +49,7 @@ public class RomanNumerals {
 		if (num.length() > 1)
 			throw new RomanNumeralException("Only single numbers accepted");
 
-		ret = numTable.get(num);
+		ret = arabVals[indexTable.get(num)];
 		
 		if (null == ret)
 			throw new RomanNumeralException("Arabic conversion for Roman number: " + num + " not found");
@@ -73,6 +74,8 @@ public class RomanNumerals {
 		// '5' symbols can never be subtracted
 		if (isFiveSymbol(romanNum.substring(pos, pos + 1)))
 			return false;
+		
+		if (indexTable.get(romanNum.substring(pos, pos + 2)) - indexTable.get(romanNum.substring(pos, pos + 1)))
 		
 		if (convertToInteger(romanNum.substring(pos, pos + 1)) < convertToInteger(romanNum.substring((pos + 1), (pos + 2))))
 			return true;
