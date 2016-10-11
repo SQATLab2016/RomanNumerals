@@ -127,9 +127,7 @@ public class RomanNumerals {
 		String prev = "";
 		
 		for (int i = 0; i < num.length(); i++) {
-			System.out.println("handling " + num.substring(i, i + 1) + "prev equal test: " + prev.equals(num.substring(i, i + 1)) );
 			if (prev.equals(num.substring(i, i + 1)) && isFiveSymbol(num.substring(i, i + 1))) {
-				//System.out.println("incrementing subsqtAmt (" + subsequentAmount + ")  because of: " + num.substring(i, i + 1));
 				subsequentAmount++;
 			} else {
 				subsequentAmount = 0;
