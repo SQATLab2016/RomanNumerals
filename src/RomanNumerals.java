@@ -71,17 +71,24 @@ public class RomanNumerals {
 		return false;
 	}
 
-	public boolean repeatingOkOneSymbols(String num) {
-		// TODO Auto-generated method stub
+	public boolean repeatingOkOneSymbols(String num) throws RomanNumeralException {
+		int subsequentAmount = 0;
 		
 		for (int i = 0; i < num.length(); i++) {
-			if (isOneSymbol)
+			if (isOneSymbol(num.substring(i, i + 1))) {
+				subsequentAmount++;
+			} else {
+				subsequentAmount = 0;
+			}
+			
+			if (subsequentAmount > 3)
+				return false;
 		}
 		
-		return false;
+		return true;
 	}
 	
-	public boolean isOneSymbol(String sym) {
+	public boolean isOneSymbol(String sym) throws RomanNumeralException {
 		String[] oneSymbols = {
 			"I",
 			"X",
