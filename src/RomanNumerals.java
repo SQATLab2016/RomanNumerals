@@ -79,7 +79,7 @@ public class RomanNumerals {
 		String prev = "";
 		
 		for (int i = 0; i < num.length(); i++) {
-			if (prev == num.substring(i, i + 1) && isOneSymbol(num.substring(i, i + 1))) {
+			if (prev.equals(num.substring(i, i + 1)) && isOneSymbol(num.substring(i, i + 1))) {
 				subsequentAmount++;
 			} else {
 				subsequentAmount = 0;
