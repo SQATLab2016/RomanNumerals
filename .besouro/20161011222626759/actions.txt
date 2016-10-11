@@ -155,3 +155,27 @@ RefactoringAction 1476220316023 RomanNumerals.java RENAME repeatingOK(String)=>b
 RefactoringAction 1476220318531 RomanNumerals.java RENAME repeatingOk(String)=>boolean repeatingOkOneSymbols(String) METHOD
 CompilationAction 1476220318827 TestRomanNumerals.java
 EditAction 1476220320687 TestRomanNumerals.java 1760 3 16 3
+UnitTestCaseAction 1476220322736 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1476220322737 TestRomanNumerals.java FAIL
+RefactoringAction 1476220441208 RomanNumerals.java ADD boolean isOneSymbol() METHOD
+RefactoringAction 1476220488790 RomanNumerals.java RENAME isOneSymbol()=>boolean isOneSymbol(String) METHOD
+CompilationAction 1476220552931 RomanNumerals.java
+CompilationAction 1476220552932 RomanNumerals.java
+CompilationAction 1476220552932 RomanNumerals.java
+CompilationAction 1476220552932 RomanNumerals.java
+CompilationAction 1476220726346 RomanNumerals.java
+CompilationAction 1476220726513 RomanNumerals.java
+CompilationAction 1476220726514 RomanNumerals.java
+CompilationAction 1476220726514 RomanNumerals.java
+CompilationAction 1476220726514 RomanNumerals.java
+CompilationAction 1476220728400 RomanNumerals.java
+CompilationAction 1476220728569 RomanNumerals.java
+CompilationAction 1476220728570 RomanNumerals.java
+CompilationAction 1476220728571 RomanNumerals.java
+CompilationAction 1476220728572 RomanNumerals.java
+CompilationAction 1476220751111 RomanNumerals.java
+CompilationAction 1476220751274 RomanNumerals.java
+CompilationAction 1476220751274 RomanNumerals.java
+CompilationAction 1476220751274 RomanNumerals.java
+CompilationAction 1476220751275 RomanNumerals.java
+EditAction 1476220813850 RomanNumerals.java 2478 7 25 0

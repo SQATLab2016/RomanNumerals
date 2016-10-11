@@ -71,10 +71,31 @@ public class RomanNumerals {
 		return false;
 	}
 
-	public boolean repeatingOkOneSymbols(String string) {
+	public boolean repeatingOkOneSymbols(String num) {
 		// TODO Auto-generated method stub
 		
+		for (int i = 0; i < num.length(); i++) {
+			if (isOneSymbol)
+		}
 		
+		return false;
+	}
+	
+	public boolean isOneSymbol(String sym) {
+		String[] oneSymbols = {
+			"I",
+			"X",
+			"C",
+			"M"
+		};
+
+		if (sym.length() > 1)
+			throw new RomanNumeralException("Only one character must be checked with isOneSymbol");
+		
+		for (int i = 0; i < oneSymbols.length; i++) {
+			if (sym.equals(oneSymbols[i]))
+				return true;
+		}
 		
 		return false;
 	}
