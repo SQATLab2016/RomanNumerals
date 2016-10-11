@@ -86,7 +86,7 @@ public class RomanNumerals {
 				subsequentAmount = 0;
 			}
 			
-			if (subsequentAmount > 3)
+			if (subsequentAmount > 2)
 				return false;
 			
 			prev = num.substring(i, i + 1);
