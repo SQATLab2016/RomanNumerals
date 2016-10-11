@@ -125,10 +125,10 @@ public class RomanNumerals {
 
 	public boolean repeatingOkFiveSymbols(String num) throws RomanNumeralException {
 		int subsequentAmount = 0;
+		String prev = "";
 		
 		for (int i = 0; i < num.length(); i++) {
-			
-			if (isFiveSymbol(num.substring(i, i + 1))) {
+			if (prev.equals(num.substring(i, i + 1)) && isFiveSymbol(num.substring(i, i + 1))) {
 				//System.out.println("incrementing subsqtAmt (" + subsequentAmount + ")  because of: " + num.substring(i, i + 1));
 				subsequentAmount++;
 			} else {
@@ -137,6 +137,8 @@ public class RomanNumerals {
 			
 			if (subsequentAmount > 1)
 				return false;
+			
+			prev = num.substring(i, i + 1);
 		}
 		
 		return true;
