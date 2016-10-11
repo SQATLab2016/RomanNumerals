@@ -76,9 +76,10 @@ public class RomanNumerals {
 
 	public boolean repeatingOkOneSymbols(String num) throws RomanNumeralException {
 		int subsequentAmount = 0;
+		String prev = "";
 		
 		for (int i = 0; i < num.length(); i++) {
-			if (isOneSymbol(num.substring(i, i + 1))) {
+			if (prev == num.substring(i, i + 1) && isOneSymbol(num.substring(i, i + 1))) {
 				subsequentAmount++;
 			} else {
 				subsequentAmount = 0;
@@ -86,6 +87,8 @@ public class RomanNumerals {
 			
 			if (subsequentAmount > 3)
 				return false;
+			
+			prev = num.substring(i, i + 1);
 		}
 		
 		return true;
