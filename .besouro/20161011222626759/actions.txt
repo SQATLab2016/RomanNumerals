@@ -192,3 +192,10 @@ CompilationAction 1476220927293 RomanNumerals.java
 CompilationAction 1476220946199 RomanNumerals.java
 CompilationAction 1476220946377 TestRomanNumerals.java
 EditAction 1476221000078 RomanNumerals.java 2671 7 28 0
+CompilationAction 1476221025098 TestRomanNumerals.java
+UnitTestCaseAction 1476221028090 TestRomanNumerals.java OK
+UnitTestSessionAction 1476221028091 TestRomanNumerals.java OK
+RefactoringAction 1476221279507 TestRomanNumerals.java ADD void fiveSymbols FIELD
+RefactoringAction 1476221282514 TestRomanNumerals.java RENAME fiveSymbols=>void fiveSymbolsNotRepeated FIELD
+RefactoringAction 1476221286526 TestRomanNumerals.java RENAME fiveSymbolsNotRepeated=>void fiveSymbolsNotRepeated() METHOD
+EditAction 1476221556366 TestRomanNumerals.java 2319 4 16 3

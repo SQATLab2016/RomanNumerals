@@ -59,7 +59,7 @@ public class TestRomanNumerals {
 	}
 
 	@Test
-	public void maxThreeRepeats() {
+	public void maxThreeRepeats() throws RomanNumeralException {
 		RomanNumerals romans = new RomanNumerals();
 		boolean caseFailed = false;
 		int i = 0;
@@ -84,6 +84,34 @@ public class TestRomanNumerals {
 		}
 		
 		assertTrue("Repeating of '1' symbols is not ok for test case: " + i,
+					false == caseFailed);
+	}
+	
+	@Test
+	public void fiveSymbolsNotRepeated() {
+		RomanNumerals romans = new RomanNumerals();
+		boolean caseFailed = false;
+		int i = 0;
+
+		String[] testCases = {
+			"DCCLL",
+			"MDDLX",
+			"DCDLXIV"
+		};
+		
+		boolean[] correctResults = {
+				false,
+				,
+		};
+		
+		for (i = 0; i < testCases.length; i++) {
+			if (correctResults[i] != romans.repeatingOkFiveSymbols(testCases[i])) {
+				caseFailed = true;
+				break;
+			}
+		}
+		
+		assertTrue("Repeating of '5' symbols is not ok for test case: " + i,
 					false == caseFailed);
 	}
 }
