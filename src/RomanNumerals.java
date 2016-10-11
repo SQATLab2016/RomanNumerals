@@ -60,9 +60,6 @@ public class RomanNumerals {
 			throw new RomanNumeralException(
 						"Position to check for subtraction is out of bounds. roman num length was: " +
 						romanNum.length() + " position was: " + pos);
-
-		System.out.println("pos & pos + 1 == " + convertToInteger(romanNum.substring(pos, pos + 1)));
-		System.out.println("pos + 1 & pos + 2 == " + convertToInteger(romanNum.substring(pos + 1, pos + 2)));
 		
 		// Character at pos is the last character
 		if ((pos + 2) >  romanNum.length())
