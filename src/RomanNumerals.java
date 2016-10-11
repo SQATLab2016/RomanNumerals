@@ -65,9 +65,9 @@ public class RomanNumerals {
 		if ((pos + 2) >  romanNum.length())
 			return false;
 
-		// test if left from leftmost of subtraction is same as leftmost of subtraction
 		// test if in IV before I is another I -> fail
-		if (pos - 1 >= 0 && romanNum.substring(pos, pos + 1) == romanNum.substring(pos - 1, pos)) 
+		if (pos - 1 >= 0 && romanNum.substring(pos, pos + 1).equals(romanNum.substring(pos - 1, pos)))
+			return false;
 		
 		// '5' symbols can never be subtracted
 		if (isFiveSymbol(romanNum.substring(pos, pos + 1)))
