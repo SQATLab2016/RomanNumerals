@@ -43,3 +43,14 @@ RefactoringAction 1476216023789 RomanNumerals.java RENAME numeralT=>Hashtable<> 
 RefactoringAction 1476216029805 RomanNumerals.java RENAME numeralTable=>Hashtable<> numTable FIELD
 RefactoringAction 1476216043823 RomanNumerals.java REMOVE numTable FIELD
 EditAction 1476216043874 RomanNumerals.java 881 3 6 0
+CompilationAction 1476216044018 RomanNumerals.java
+CompilationAction 1476216044019 RomanNumerals.java
+RefactoringAction 1476216076345 RomanNumerals.java ADD Hashtable<String,Integer> numTable FIELD
+CompilationAction 1476216078640 RomanNumerals.java
+CompilationAction 1476216078641 RomanNumerals.java
+CompilationAction 1476216078836 RomanNumerals.java
+RefactoringAction 1476216100666 RomanNumerals.java ADD import java.util.Hashtable IMPORT
+CompilationAction 1476216108855 RomanNumerals.java
+RefactoringAction 1476216170687 RomanNumerals.java ADD void fillHashTable() METHOD
+RefactoringAction 1476216185261 RomanNumerals.java RENAME fillHashTable()=>void fillNumTable() METHOD
+EditAction 1476216279554 RomanNumerals.java 1378 4 14 0
