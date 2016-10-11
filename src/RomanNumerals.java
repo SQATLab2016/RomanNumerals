@@ -7,9 +7,9 @@ public class RomanNumerals {
 		throw new RomanNumeralException("No equivalent found for given roman number: " + romanNum);
 	}
 	
-	public boolean isSubtraction(String romanNum) {
+	public boolean isSubtraction(String romanNum, int pos) {
 		// Only one subtraction can be made per numeral
-		if (romanNum.length() > 2)
+		if (romanNum.length() < (pos - 1))
 			return false;
 		
 		/*if (convertToInteger(romanNum)) 
