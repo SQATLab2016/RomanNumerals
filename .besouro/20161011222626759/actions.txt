@@ -118,3 +118,6 @@ EditAction 1476218174808 TestRomanNumerals.java 1391 2 9 2
 UnitTestCaseAction 1476218176885 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1476218176885 TestRomanNumerals.java FAIL
 EditAction 1476218266376 TestRomanNumerals.java 1387 2 9 2
+UnitTestCaseAction 1476218268242 TestRomanNumerals.java OK
+UnitTestSessionAction 1476218268243 TestRomanNumerals.java OK
+EditAction 1476218294522 TestRomanNumerals.java 1232 2 9 2
