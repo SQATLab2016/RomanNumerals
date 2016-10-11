@@ -76,12 +76,14 @@ public class TestRomanNumerals {
 				true
 		};
 		
-		for (int i = 0; i < testCases.length; i++) {
-			if (correctResults[i] != romans.isSubtraction()) {
-				
+		for (i = 0; i < testCases.length; i++) {
+			if (correctResults[i] != romans.repeatingOK(testCases[i])) {
+				caseFailed = true;
+				break;
 			}
 		}
 		
-		
+		assertTrue("Repeating of '1' symbols is not ok for test case: " + i,
+					false == caseFailed);
 	}
 }

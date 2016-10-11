@@ -139,3 +139,10 @@ RefactoringAction 1476218936151 TestRomanNumerals.java RENAME max_triple_repeati
 RefactoringAction 1476218937159 TestRomanNumerals.java RENAME maxThreeepeating()=>void maxThreeRepeating() METHOD
 RefactoringAction 1476218939667 TestRomanNumerals.java RENAME maxThreeRepeating()=>void maxThreeRepeats() METHOD
 EditAction 1476219918399 TestRomanNumerals.java 1620 3 15 2
+CompilationAction 1476219918582 TestRomanNumerals.java
+CompilationAction 1476219918583 TestRomanNumerals.java
+CompilationAction 1476220129591 TestRomanNumerals.java
+CompilationAction 1476220129593 TestRomanNumerals.java
+CompilationAction 1476220129753 TestRomanNumerals.java
+CompilationAction 1476220129753 TestRomanNumerals.java
+EditAction 1476220186911 TestRomanNumerals.java 1750 3 16 3
