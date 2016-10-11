@@ -123,6 +123,7 @@ public class RomanNumerals {
 		int subsequentAmount = 0;
 		
 		for (int i = 0; i < num.length(); i++) {
+			System.out.println("handling " + num.substring(i, i + 1));
 			if (isFiveSymbol(num.substring(i, i + 1))) {
 				System.out.println("incrementing subsqtAmt (" + subsequentAmount + ")  because of: " + num.substring(i, i + 1));
 				subsequentAmount++;
