@@ -2,7 +2,6 @@ import java.util.Hashtable;
 
 public class RomanNumerals {
 	private Hashtable<String, Integer> indexTable;
-	private String[] romanChars = { "I", "V", "X", "L", "C", "D", "M" };
 	private int[] arabVals = { 1, 5, 10, 50, 100, 500, 1000 };
 	
 	public RomanNumerals() {
