@@ -29,10 +29,10 @@ public class RomanNumerals {
 	}
 	
 	public int convertToInteger(String romanNum) throws RomanNumeralException {
-		int ret = null;
-		
+		Integer ret = null;
+
 		try {
-			
+			ret = numTable.get("romanNum");
 		} catch() {
 			
 		}
@@ -42,7 +42,14 @@ public class RomanNumerals {
 		
 		throw new RomanNumeralException("No equivalent found for given roman number: " + romanNum);
 	}
-	
+
+	private int singleNumToInteger(String num) throws RomanNumeralException {
+		if (num.length() > 1)
+			throw new RomanNumeralException("");
+		
+		return -1;
+	}
+
 	public boolean isSubtraction(String romanNum, int pos) throws RomanNumeralException {
 		if ((romanNum.length() - 1) < pos)
 			throw new RomanNumeralException(

@@ -59,3 +59,15 @@ CompilationAction 1476216279731 RomanNumerals.java
 CompilationAction 1476216397180 RomanNumerals.java
 CompilationAction 1476216397180 RomanNumerals.java
 EditAction 1476216561506 RomanNumerals.java 1444 4 13 0
+CompilationAction 1476216561676 RomanNumerals.java
+CompilationAction 1476216561677 RomanNumerals.java
+RefactoringAction 1476216662309 RomanNumerals.java ADD void singleNumToInteger() METHOD
+RefactoringAction 1476216710902 RomanNumerals.java RENAME singleNumToInteger()=>int singleNumToInteger(String) METHOD
+CompilationAction 1476216747739 RomanNumerals.java
+CompilationAction 1476216747740 RomanNumerals.java
+CompilationAction 1476216747910 RomanNumerals.java
+CompilationAction 1476216747910 RomanNumerals.java
+CompilationAction 1476216761563 RomanNumerals.java
+CompilationAction 1476216761718 RomanNumerals.java
+CompilationAction 1476216761719 RomanNumerals.java
+EditAction 1476216773263 RomanNumerals.java 1635 5 15 0
