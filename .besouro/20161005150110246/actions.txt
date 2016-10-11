@@ -1,0 +1,80 @@
+FileOpenedAction 1475668870473 TestRomanNumerals.java 318 1 2 1
+RefactoringAction 1475669518241 TestRomanNumerals.java ADD void is FIELD
+RefactoringAction 1475669527273 TestRomanNumerals.java RENAME is=>void is_subtraction FIELD
+RefactoringAction 1475669532803 TestRomanNumerals.java RENAME is_subtraction=>void issubtraction FIELD
+RefactoringAction 1475669534332 TestRomanNumerals.java RENAME issubtraction=>void isSubtraction FIELD
+RefactoringAction 1475669536361 TestRomanNumerals.java RENAME isSubtraction=>void isSubtraction() METHOD
+RefactoringAction 1475669814220 TestRomanNumerals.java ADD import org.junit.runner.RunWith IMPORT
+RefactoringAction 1475669822533 TestRomanNumerals.java ADD import org.junit.runners.Parameterized IMPORT
+EditAction 1475669828562 TestRomanNumerals.java 465 2 2 1
+RefactoringAction 1475670082177 TestRomanNumerals.java ADD TestRomanNumerals() METHOD
+RefactoringAction 1475670131215 TestRomanNumerals.java ADD String test FIELD
+RefactoringAction 1475670138237 TestRomanNumerals.java RENAME test=>String roman FIELD
+RefactoringAction 1475670144264 TestRomanNumerals.java RENAME roman=>String romanTestNum FIELD
+RefactoringAction 1475670167359 TestRomanNumerals.java RENAME TestRomanNumerals()=>TestRomanNumerals(String) METHOD
+EditAction 1475670175862 TestRomanNumerals.java 578 3 3 1
+RefactoringAction 1475670267647 TestRomanNumerals.java ADD static Collection<Object METHOD
+EditAction 1475670347071 TestRomanNumerals.java 724 4 4 1
+CompilationAction 1475670347287 TestRomanNumerals.java
+CompilationAction 1475670347287 TestRomanNumerals.java
+CompilationAction 1475670347288 TestRomanNumerals.java
+RefactoringAction 1475670434533 TestRomanNumerals.java REMOVE testData() METHOD
+RefactoringAction 1475670445065 TestRomanNumerals.java REMOVE TestRomanNumerals(String) METHOD
+RefactoringAction 1475670445066 TestRomanNumerals.java REMOVE romanTestNum FIELD
+CompilationAction 1475670450238 TestRomanNumerals.java
+CompilationAction 1475670450239 TestRomanNumerals.java
+CompilationAction 1475670450240 TestRomanNumerals.java
+RefactoringAction 1475670478138 TestRomanNumerals.java RENAME isSubtraction()=>void sub() METHOD
+RefactoringAction 1475670481152 TestRomanNumerals.java RENAME sub()=>void subtraction() METHOD
+RefactoringAction 1475670489167 TestRomanNumerals.java RENAME subtraction()=>void findSubtraction() METHOD
+EditAction 1475670533560 TestRomanNumerals.java 756 2 3 1
+CompilationAction 1475670533798 TestRomanNumerals.java
+CompilationAction 1475670533799 TestRomanNumerals.java
+CompilationAction 1475670594345 TestRomanNumerals.java
+CompilationAction 1475670594510 TestRomanNumerals.java
+CompilationAction 1475670609518 TestRomanNumerals.java
+RefactoringAction 1475670759716 TestRomanNumerals.java RENAME findSubtraction()=>void subtractionOccurs() METHOD
+CompilationAction 1475671016290 TestRomanNumerals.java
+CompilationAction 1475671016452 TestRomanNumerals.java
+CompilationAction 1475671016452 TestRomanNumerals.java
+CompilationAction 1475671016452 TestRomanNumerals.java
+CompilationAction 1475671036851 TestRomanNumerals.java
+CompilationAction 1475671036851 TestRomanNumerals.java
+CompilationAction 1475671037013 TestRomanNumerals.java
+CompilationAction 1475671037014 TestRomanNumerals.java
+CompilationAction 1475671070421 TestRomanNumerals.java
+CompilationAction 1475671070421 TestRomanNumerals.java
+CompilationAction 1475671070580 TestRomanNumerals.java
+EditAction 1475671112065 TestRomanNumerals.java 1127 2 2 1
+CompilationAction 1475671112303 TestRomanNumerals.java
+CompilationAction 1475671112303 TestRomanNumerals.java
+CompilationAction 1475671118230 TestRomanNumerals.java
+CompilationAction 1475671118399 TestRomanNumerals.java
+CompilationAction 1475671118405 TestRomanNumerals.java
+EditAction 1475671132497 TestRomanNumerals.java 1130 2 8 2
+CompilationAction 1475671132747 TestRomanNumerals.java
+CompilationAction 1475674175275 TestRomanNumerals.java
+CompilationAction 1475674175803 TestRomanNumerals.java
+CompilationAction 1475674188546 TestRomanNumerals.java
+CompilationAction 1475674188709 TestRomanNumerals.java
+RefactoringAction 1475674274498 RomanNumerals.java ADD boolean isSubtraction FIELD
+RefactoringAction 1475674280504 RomanNumerals.java RENAME isSubtraction=>boolean isSubtraction() METHOD
+EditAction 1475674285604 RomanNumerals.java 321 2 2 0
+CompilationAction 1475674285815 RomanNumerals.java
+CompilationAction 1475674285816 RomanNumerals.java
+CompilationAction 1475674285816 RomanNumerals.java
+CompilationAction 1475674285816 TestRomanNumerals.java
+RefactoringAction 1475674326020 RomanNumerals.java RENAME isSubtraction()=>boolean isSubtraction(String) METHOD
+CompilationAction 1475674348253 TestRomanNumerals.java
+CompilationAction 1475674348411 TestRomanNumerals.java
+CompilationAction 1475674456357 RomanNumerals.java
+CompilationAction 1475674456357 RomanNumerals.java
+CompilationAction 1475674456357 RomanNumerals.java
+CompilationAction 1475674456524 RomanNumerals.java
+EditAction 1475674697270 RomanNumerals.java 476 2 4 0
+CompilationAction 1475674697491 RomanNumerals.java
+CompilationAction 1475674697491 RomanNumerals.java
+CompilationAction 1475674697492 RomanNumerals.java
+CompilationAction 1475674904220 RomanNumerals.java
+CompilationAction 1475674904221 RomanNumerals.java
+CompilationAction 1475674904386 RomanNumerals.java

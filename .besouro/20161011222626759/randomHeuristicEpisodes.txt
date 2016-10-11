@@ -1,0 +1,9 @@
+1476218268243 production 1 4281 false
+1476218304475 refactoring 2A 9 true
+1476218315352 refactoring 2A 2 false
+1476221028091 test-first 1 2281 true
+1476223499473 refactoring 3 2219 true
+1476223700474 production 1 174 false
+1476223849423 production 1 36 false
+1476224498222 refactoring 2A 404 true
+1476225220498 refactoring 2A 573 false
