@@ -7,14 +7,7 @@ public class RomanNumerals {
 		numTable = new Hashtable<String, Integer>();
 		fillNumTable();
 	}
-	
-	private void fillNumTable() {
-		numTable.put(arg0, arg1);
-		numTable.put(arg0, arg1);
-		numTable.put(arg0, arg1);
-		numTable.put(arg0, arg1);
-		numTable.put(arg0, arg1);
-		numTable.put(arg0, arg1);
+
 /*	1 I 	10 X 	100 C
 	2 II 	20 XX 	200 CC
 	3 III 	30 XXX 	300 CCC
@@ -25,9 +18,25 @@ public class RomanNumerals {
 	8 VIII 	80 LXXX 800 DCCC
 	9 IX 	90 XC 	900 CM
 */
+	private void fillNumTable() {
+		numTable.put("I", 1);
+		numTable.put("V", 5);
+		numTable.put("X", 10);
+		numTable.put("L", 50);
+		numTable.put("C", 100);
+		numTable.put("D", 500);
+		numTable.put("M", 1000);
 	}
 	
 	public int convertToInteger(String romanNum) throws RomanNumeralException {
+		int ret = null;
+		
+		try {
+			
+		} catch() {
+			
+		}
+		
 		if (romanNum.equals("I"))
 			return 1;
 		

@@ -54,3 +54,8 @@ CompilationAction 1476216108855 RomanNumerals.java
 RefactoringAction 1476216170687 RomanNumerals.java ADD void fillHashTable() METHOD
 RefactoringAction 1476216185261 RomanNumerals.java RENAME fillHashTable()=>void fillNumTable() METHOD
 EditAction 1476216279554 RomanNumerals.java 1378 4 14 0
+CompilationAction 1476216279731 RomanNumerals.java
+CompilationAction 1476216279731 RomanNumerals.java
+CompilationAction 1476216397180 RomanNumerals.java
+CompilationAction 1476216397180 RomanNumerals.java
+EditAction 1476216561506 RomanNumerals.java 1444 4 13 0
