@@ -293,3 +293,6 @@ CompilationAction 1476224816937 RomanNumerals.java
 CompilationAction 1476224817103 RomanNumerals.java
 CompilationAction 1476224889600 RomanNumerals.java
 EditAction 1476224926648 RomanNumerals.java 4300 9 40 0
+UnitTestCaseAction 1476224930258 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1476224930259 TestRomanNumerals.java FAIL
+EditAction 1476225086118 RomanNumerals.java 4417 9 33 0
