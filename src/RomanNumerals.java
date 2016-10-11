@@ -31,6 +31,8 @@ public class RomanNumerals {
 	public int convertToInteger(String romanNum) throws RomanNumeralException {
 		Integer ret = null;
 
+		// test subtraction for all chars
+		
 		try {
 			ret = numTable.get("romanNum");
 		} catch() {
@@ -40,14 +42,21 @@ public class RomanNumerals {
 		if (romanNum.equals("I"))
 			return 1;
 		
-		throw new RomanNumeralException("No equivalent found for given roman number: " + romanNum);
+		throw new RomanNumeralException("No equivalent found for given Roman number: " + romanNum);
 	}
 
-	private int singleNumToInteger(String num) throws RomanNumeralException {
+	public int singleNumToInteger(String num) throws RomanNumeralException, NullPointerException {
+		Integer ret = null;
+		
 		if (num.length() > 1)
 			throw new RomanNumeralException("");
-		
-		return -1;
+
+		if (null == num)
+			throw new RomanNumeralException("Null value can't be converted from Roman numeral to Arabic");
+
+		ret = numTable.get(num);
+
+		return ret;
 	}
 
 	public boolean isSubtraction(String romanNum, int pos) throws RomanNumeralException {
