@@ -35,7 +35,7 @@ public class RomanNumerals {
 
 		return singleNumToInteger(romanNum);
 		
-		throw new RomanNumeralException("No equivalent found for given Roman number: " + romanNum);
+		//throw new RomanNumeralException("No equivalent found for given Roman number: " + romanNum);
 	}
 
 	public int singleNumToInteger(String num) throws RomanNumeralException, NullPointerException {
@@ -48,6 +48,9 @@ public class RomanNumerals {
 			throw new RomanNumeralException("Only single numbers accepted");
 
 		ret = numTable.get(num);
+		
+		if (null == ret)
+			throw new RomanNumeralException("Roman number " + num + " not found");
 
 		return ret;
 	}
