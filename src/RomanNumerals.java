@@ -106,4 +106,9 @@ public class RomanNumerals {
 		
 		return false;
 	}
+
+	public boolean repeatingOkFiveSymbols(String string) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }

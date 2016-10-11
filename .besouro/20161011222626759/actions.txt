@@ -199,3 +199,10 @@ RefactoringAction 1476221279507 TestRomanNumerals.java ADD void fiveSymbols FIEL
 RefactoringAction 1476221282514 TestRomanNumerals.java RENAME fiveSymbols=>void fiveSymbolsNotRepeated FIELD
 RefactoringAction 1476221286526 TestRomanNumerals.java RENAME fiveSymbolsNotRepeated=>void fiveSymbolsNotRepeated() METHOD
 EditAction 1476221556366 TestRomanNumerals.java 2319 4 16 3
+CompilationAction 1476221556517 TestRomanNumerals.java
+CompilationAction 1476221556517 TestRomanNumerals.java
+CompilationAction 1476221622135 TestRomanNumerals.java
+CompilationAction 1476221622135 TestRomanNumerals.java
+CompilationAction 1476221622298 TestRomanNumerals.java
+RefactoringAction 1476221640999 RomanNumerals.java ADD boolean repeatingOkFiveSymbols(String) METHOD
+EditAction 1476221648158 RomanNumerals.java 2784 8 29 0

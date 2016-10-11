@@ -101,7 +101,8 @@ public class TestRomanNumerals {
 		
 		boolean[] correctResults = {
 				false,
-				,
+				false,
+				true
 		};
 		
 		for (i = 0; i < testCases.length; i++) {
