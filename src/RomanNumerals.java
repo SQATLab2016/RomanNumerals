@@ -124,6 +124,7 @@ public class RomanNumerals {
 		
 		for (int i = 0; i < num.length(); i++) {
 			if (isFiveSymbol(num.substring(i, i + 1))) {
+				System.out.println("incrementing subsqtAmt because of: " + num.substring(i, i + 1));
 				subsequentAmount++;
 			} else {
 				subsequentAmount = 0;
