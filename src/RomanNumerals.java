@@ -65,6 +65,9 @@ public class RomanNumerals {
 		if ((pos + 2) >  romanNum.length())
 			return false;
 
+		// test if left from leftmost of subtraction is same as leftmost of subtraction
+		// test if in IV before I is another I -> fail
+		
 		if (convertToInteger(romanNum.substring(pos, pos + 1)) < convertToInteger(romanNum.substring((pos + 1), (pos + 2))))
 			return true;
 
@@ -106,9 +109,26 @@ public class RomanNumerals {
 		
 		return false;
 	}
-
-	public boolean repeatingOkFiveSymbols(String string) {
-		// TODO Auto-generated method stub
+	
+	public boolean isFiveSymbol(String sym) throws RomanNumeralException {
+		String[] fiveSymbols = { "I", "X", "C",	"M"	};
+		
+		if (sym.length() > 1)
+			throw new RomanNumeralException("Only one character must be checked with isFiveSymbol");
+		
+		for (int i = 0; i < fiveSymbols.length; i++) {
+			if (sym.equals(fiveSymbols[i]))
+				return true;
+		}
+		
 		return false;
+	}
+
+	public boolean repeatingOkFiveSymbols(String num) {
+		for (int i = 0; i < num.length(); i++) {
+			
+		}
+		
+		return ;
 	}
 }

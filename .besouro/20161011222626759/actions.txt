@@ -206,3 +206,14 @@ CompilationAction 1476221622135 TestRomanNumerals.java
 CompilationAction 1476221622298 TestRomanNumerals.java
 RefactoringAction 1476221640999 RomanNumerals.java ADD boolean repeatingOkFiveSymbols(String) METHOD
 EditAction 1476221648158 RomanNumerals.java 2784 8 29 0
+UnitTestCaseAction 1476221652856 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1476221652857 TestRomanNumerals.java FAIL
+RefactoringAction 1476221873309 RomanNumerals.java ADD boolean isFiveSymbol FIELD
+RefactoringAction 1476221875818 RomanNumerals.java RENAME isFiveSymbol=>boolean isFiveSymbol() METHOD
+CompilationAction 1476221896859 RomanNumerals.java
+CompilationAction 1476221904392 RomanNumerals.java
+CompilationAction 1476221923314 RomanNumerals.java
+CompilationAction 1476221979646 RomanNumerals.java
+CompilationAction 1476221999310 RomanNumerals.java
+CompilationAction 1476221999499 RomanNumerals.java
+EditAction 1476222104167 RomanNumerals.java 3299 9 34 0
