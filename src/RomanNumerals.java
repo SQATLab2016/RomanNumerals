@@ -32,15 +32,8 @@ public class RomanNumerals {
 		Integer ret = null;
 
 		// test subtraction for all chars
-		
-		try {
-			ret = numTable.get("romanNum");
-		} catch() {
-			
-		}
-		
-		if (romanNum.equals("I"))
-			return 1;
+
+		return singleNumToInteger(romanNum);
 		
 		throw new RomanNumeralException("No equivalent found for given Roman number: " + romanNum);
 	}
