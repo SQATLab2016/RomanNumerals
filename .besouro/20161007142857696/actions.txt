@@ -1,0 +1,177 @@
+FileOpenedAction 1475839737951 RomanNumerals.java 1732 4 18 0
+FileOpenedAction 1475839912937 TestRomanNumerals.java 1492 17 18 2
+RefactoringAction 1475839965002 TestRomanNumerals.java ADD void test FIELD
+EditAction 1475839998790 TestRomanNumerals.java 1563 17 18 2
+CompilationAction 1475840000316 TestRomanNumerals.java
+CompilationAction 1475840000318 TestRomanNumerals.java
+CompilationAction 1475840000319 TestRomanNumerals.java
+EditAction 1475840018072 TestRomanNumerals.java 1563 17 18 2
+CompilationAction 1475840019429 TestRomanNumerals.java
+CompilationAction 1475840019429 TestRomanNumerals.java
+CompilationAction 1475840019429 TestRomanNumerals.java
+EditAction 1475840090629 TestRomanNumerals.java 1564 17 18 2
+CompilationAction 1475840092220 TestRomanNumerals.java
+CompilationAction 1475840092220 TestRomanNumerals.java
+CompilationAction 1475840092220 TestRomanNumerals.java
+EditAction 1475840103670 TestRomanNumerals.java 1566 18 19 2
+UnitTestCaseAction 1475840147652 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475840147652 RomanNumerals.java FAIL
+UnitTestCaseAction 1475840170814 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475840170814 RomanNumerals.java FAIL
+FileOpenedAction 1475840180580 RomanNumerals.java 1732 4 18 0
+EditAction 1475840210969 RomanNumerals.java 1795 4 19 0
+UnitTestCaseAction 1475840216619 TestRomanNumerals.java OK
+UnitTestSessionAction 1475840216634 RomanNumerals.java OK
+RefactoringAction 1475840331669 RomanNumerals.java ADD int Return FIELD
+RefactoringAction 1475840334633 RomanNumerals.java RENAME Return=>int ReturnDoubleValue() METHOD
+RefactoringAction 1475840338549 RomanNumerals.java RENAME ReturnDoubleValue()=>int ReturnDoubleValue(String) METHOD
+EditAction 1475840638756 RomanNumerals.java 1856 5 19 0
+CompilationAction 1475840640347 RomanNumerals.java
+EditAction 1475840732559 RomanNumerals.java 1851 5 20 0
+CompilationAction 1475840734243 RomanNumerals.java
+EditAction 1475840739079 RomanNumerals.java 1862 5 21 0
+UnitTestCaseAction 1475840746539 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475840746539 RomanNumerals.java FAIL
+EditAction 1475840845678 RomanNumerals.java 1922 5 21 0
+UnitTestCaseAction 1475840847897 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475840847897 RomanNumerals.java FAIL
+EditAction 1475840937956 RomanNumerals.java 1942 5 21 0
+UnitTestCaseAction 1475840941406 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475840941406 RomanNumerals.java FAIL
+EditAction 1475840950548 RomanNumerals.java 1941 5 21 0
+UnitTestCaseAction 1475841046850 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475841046850 RomanNumerals.java FAIL
+CompilationAction 1475841123773 RomanNumerals.java
+CompilationAction 1475841128594 RomanNumerals.java
+UnitTestCaseAction 1475841130781 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475841130781 RomanNumerals.java FAIL
+UnitTestCaseAction 1475841306549 TestRomanNumerals.java OK
+UnitTestSessionAction 1475841306549 RomanNumerals.java OK
+UnitTestCaseAction 1475841513504 TestRomanNumerals.java OK
+UnitTestSessionAction 1475841513505 RomanNumerals.java OK
+RefactoringAction 1475841588197 RomanNumerals.java RENAME SumDoubleRepeat(String)=>int SumTwoValuess(String) METHOD
+EditAction 1475841588727 RomanNumerals.java 1931 5 15 0
+CompilationAction 1475841590178 RomanNumerals.java
+CompilationAction 1475841590178 RomanNumerals.java
+CompilationAction 1475841590178 RomanNumerals.java
+CompilationAction 1475841617322 RomanNumerals.java
+CompilationAction 1475841617322 RomanNumerals.java
+CompilationAction 1475841617322 RomanNumerals.java
+CompilationAction 1475841617462 RomanNumerals.java
+RefactoringAction 1475841669145 RomanNumerals.java ADD int Return FIELD
+RefactoringAction 1475841672374 RomanNumerals.java RENAME Return=>int ReturnTripleValue FIELD
+RefactoringAction 1475841674122 RomanNumerals.java RENAME ReturnTripleValue=>int ReturnTripleValue() METHOD
+RefactoringAction 1475841676555 RomanNumerals.java RENAME ReturnTripleValue()=>int ReturnTripleValue(string) METHOD
+CompilationAction 1475841681610 RomanNumerals.java
+CompilationAction 1475841681610 RomanNumerals.java
+CompilationAction 1475841681610 RomanNumerals.java
+CompilationAction 1475841681610 RomanNumerals.java
+CompilationAction 1475841681610 RomanNumerals.java
+EditAction 1475841692904 RomanNumerals.java 2082 6 24 0
+CompilationAction 1475841694261 RomanNumerals.java
+CompilationAction 1475841694261 RomanNumerals.java
+CompilationAction 1475841694261 RomanNumerals.java
+CompilationAction 1475841694261 RomanNumerals.java
+CompilationAction 1475841694261 RomanNumerals.java
+EditAction 1475841703138 RomanNumerals.java 2082 6 24 0
+CompilationAction 1475841704479 RomanNumerals.java
+CompilationAction 1475841704479 RomanNumerals.java
+CompilationAction 1475841704479 RomanNumerals.java
+RefactoringAction 1475841709393 RomanNumerals.java ADD import javax.print.DocFlavor.STRING IMPORT
+RefactoringAction 1475841715727 RomanNumerals.java RENAME ReturnTripleValue(STRING)=>int ReturnTripleValue(string) METHOD
+RefactoringAction 1475841722622 RomanNumerals.java ADD import com.sun.org.apache.xpath.internal.operations.String IMPORT
+CompilationAction 1475841753432 RomanNumerals.java
+CompilationAction 1475841753432 RomanNumerals.java
+CompilationAction 1475841753432 RomanNumerals.java
+CompilationAction 1475841753619 RomanNumerals.java
+CompilationAction 1475841753619 RomanNumerals.java
+CompilationAction 1475841753619 RomanNumerals.java
+CompilationAction 1475841753619 RomanNumerals.java
+CompilationAction 1475841753619 RomanNumerals.java
+CompilationAction 1475841753619 RomanNumerals.java
+CompilationAction 1475841753619 TestRomanNumerals.java
+CompilationAction 1475841766661 RomanNumerals.java
+CompilationAction 1475841766661 RomanNumerals.java
+CompilationAction 1475841766661 RomanNumerals.java
+CompilationAction 1475841766708 RomanNumerals.java
+CompilationAction 1475841766708 RomanNumerals.java
+CompilationAction 1475841766708 RomanNumerals.java
+CompilationAction 1475841766708 RomanNumerals.java
+CompilationAction 1475841766708 RomanNumerals.java
+CompilationAction 1475841876022 RomanNumerals.java
+CompilationAction 1475841876023 RomanNumerals.java
+CompilationAction 1475841876024 RomanNumerals.java
+CompilationAction 1475841876026 RomanNumerals.java
+CompilationAction 1475841876194 RomanNumerals.java
+CompilationAction 1475841876195 RomanNumerals.java
+CompilationAction 1475841876196 RomanNumerals.java
+CompilationAction 1475841876196 RomanNumerals.java
+CompilationAction 1475841927867 RomanNumerals.java
+CompilationAction 1475841927867 RomanNumerals.java
+CompilationAction 1475841927867 RomanNumerals.java
+CompilationAction 1475841928038 RomanNumerals.java
+CompilationAction 1475841928038 RomanNumerals.java
+CompilationAction 1475841928038 RomanNumerals.java
+CompilationAction 1475841928038 RomanNumerals.java
+CompilationAction 1475841928038 RomanNumerals.java
+CompilationAction 1475841928054 RomanNumerals.java
+CompilationAction 1475841928054 RomanNumerals.java
+CompilationAction 1475842025882 RomanNumerals.java
+CompilationAction 1475842025882 RomanNumerals.java
+CompilationAction 1475842025882 RomanNumerals.java
+CompilationAction 1475842025897 RomanNumerals.java
+CompilationAction 1475842025897 RomanNumerals.java
+CompilationAction 1475842026053 RomanNumerals.java
+CompilationAction 1475842026069 RomanNumerals.java
+CompilationAction 1475842026069 RomanNumerals.java
+CompilationAction 1475842052916 RomanNumerals.java
+CompilationAction 1475842052916 RomanNumerals.java
+CompilationAction 1475842052979 RomanNumerals.java
+CompilationAction 1475842052979 RomanNumerals.java
+CompilationAction 1475842052979 RomanNumerals.java
+CompilationAction 1475842142893 RomanNumerals.java
+CompilationAction 1475842142940 RomanNumerals.java
+CompilationAction 1475842142956 RomanNumerals.java
+EditAction 1475842189787 RomanNumerals.java 1865 6 21 0
+CompilationAction 1475842191207 RomanNumerals.java
+CompilationAction 1475842191207 RomanNumerals.java
+CompilationAction 1475842240363 RomanNumerals.java
+CompilationAction 1475842240363 RomanNumerals.java
+CompilationAction 1475842240441 RomanNumerals.java
+CompilationAction 1475842246868 RomanNumerals.java
+CompilationAction 1475842247024 RomanNumerals.java
+CompilationAction 1475842268771 RomanNumerals.java
+CompilationAction 1475842268818 RomanNumerals.java
+CompilationAction 1475842279348 RomanNumerals.java
+CompilationAction 1475842279472 RomanNumerals.java
+CompilationAction 1475842279472 RomanNumerals.java
+CompilationAction 1475842290658 RomanNumerals.java
+CompilationAction 1475842290658 RomanNumerals.java
+CompilationAction 1475842290704 RomanNumerals.java
+CompilationAction 1475842310579 RomanNumerals.java
+UnitTestCaseAction 1475842314622 TestRomanNumerals.java OK
+UnitTestSessionAction 1475842314622 RomanNumerals.java OK
+RefactoringAction 1475842681457 TestRomanNumerals.java ADD void test_XXReturns20()/2 METHOD
+RefactoringAction 1475842687135 TestRomanNumerals.java RENAME test_XXReturns20()/2=>void test_XXXReturns20() METHOD
+RefactoringAction 1475842688680 TestRomanNumerals.java RENAME test_XXXReturns20()=>void test_XXXReturns30() METHOD
+EditAction 1475842692283 TestRomanNumerals.java 1641 19 20 2
+UnitTestCaseAction 1475842694392 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475842694392 TestRomanNumerals.java FAIL
+EditAction 1475843083755 RomanNumerals.java 2134 6 24 0
+RefactoringAction 1475843097557 RomanNumerals.java ADD int CheckRepeats() METHOD
+RefactoringAction 1475843101584 RomanNumerals.java RENAME CheckRepeats()=>int CheckRepeats(String) METHOD
+RefactoringAction 1475843258617 RomanNumerals.java RENAME CheckRepeats(String)=>int CheckRepeats(char) METHOD
+RefactoringAction 1475843262221 RomanNumerals.java RENAME CheckRepeats(char)=>int CheckRepeats(char, String) METHOD
+EditAction 1475843307024 RomanNumerals.java 2312 7 26 0
+CompilationAction 1475843308569 RomanNumerals.java
+EditAction 1475843318069 RomanNumerals.java 2326 7 27 0
+CompilationAction 1475843406786 RomanNumerals.java
+CompilationAction 1475843426162 RomanNumerals.java
+UnitTestCaseAction 1475843431141 TestRomanNumerals.java OK
+UnitTestSessionAction 1475843431141 TestRomanNumerals.java OK
+EditAction 1475843496459 RomanNumerals.java 2289 7 26 0
+UnitTestCaseAction 1475843499848 TestRomanNumerals.java OK
+UnitTestSessionAction 1475843499848 TestRomanNumerals.java OK
+EditAction 1475844680839 RomanNumerals.java 2198 7 24 0
+UnitTestCaseAction 1475844683529 TestRomanNumerals.java OK
+UnitTestSessionAction 1475844683544 TestRomanNumerals.java OK

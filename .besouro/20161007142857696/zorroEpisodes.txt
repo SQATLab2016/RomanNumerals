@@ -1,0 +1,7 @@
+1475840216634 refactoring 3 478 true
+1475841306549 refactoring 2A 1089 true
+1475841513505 regression 1 206 true
+1475842314622 refactoring 2A 801 true
+1475843431141 test-first 3 1116 true
+1475843499848 refactoring 2A 68 true
+1475844683544 refactoring 2A 1183 true

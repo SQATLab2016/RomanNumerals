@@ -1,0 +1,15 @@
+1475840216634 refactoring 3 478 true
+1475840216635 refactoring 3 478 true
+1475840216636 refactoring 3 478 true
+1475840216637 refactoring 3 478 true
+1475841306549 refactoring 2A 974 true
+1475841306550 production 1 974 false
+1475841306551 production 2 974 false
+1475841513505 regression 1 0 true
+1475842314622 refactoring 2A 726 true
+1475842314623 production 3 726 false
+1475843431141 test-first 3 749 true
+1475843431142 test-first 3 749 true
+1475843431143 test-first 3 749 true
+1475843499848 refactoring 2A 3 true
+1475844683544 refactoring 2A 2 true
