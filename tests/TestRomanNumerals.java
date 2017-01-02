@@ -4,9 +4,101 @@ import org.junit.Test;
 
 public class TestRomanNumerals {
 
-	@Test
-	public void test() {
-		fail("Not yet implemented");
+	RomanNumerals romanNumerals = new RomanNumerals();
+	private void assertRomanNumerals(String roman, int expected) throws RomanNumeralsException {
+		
+		assertEquals(expected, romanNumerals.convertToInteger(roman));
+	}
+	@Test public void testRomanNumerals_I_1() throws RomanNumeralsException {
+		assertRomanNumerals ("I", 1);
 	}
 
+	@Test public void testRomanNumerals_V_5() throws RomanNumeralsException {
+		assertRomanNumerals ("V", 5);
+	}
+	
+	@Test public void testRomanNumerals_X_10() throws RomanNumeralsException {
+		assertRomanNumerals ("X", 10);
+	}
+	
+	@Test public void testRomanNumerals_L_50() throws RomanNumeralsException {
+		assertRomanNumerals ("L", 50);
+	}
+	
+	@Test public void testRomanNumerals_C_100() throws RomanNumeralsException {
+		assertRomanNumerals ("C", 100);
+	}
+	
+	@Test public void testRomanNumerals_D_500() throws RomanNumeralsException {
+		assertRomanNumerals ("D", 500);
+	}
+	
+	@Test public void testRomanNumerals_M_1000() throws RomanNumeralsException {
+		assertRomanNumerals ("M", 1000);
+	}
+	
+	@Test public void testRomanNumerals_II_2() throws RomanNumeralsException {
+		assertRomanNumerals ("II", 2);
+	}
+	
+	@Test public void testRomanNumerals_IV_4() throws RomanNumeralsException {
+		assertRomanNumerals("IV", 4);
+	}
+	
+	@Test public void testRomanNumerals_IX_9() throws RomanNumeralsException {
+		assertRomanNumerals("IX", 9);
+	}
+	
+	@Test public void testRomanNumerals_LXXX_80() throws RomanNumeralsException {
+		assertRomanNumerals("LXXX", 80);
+	}
+	
+	@Test public void testRomanNumerals_MCMLXXXIV_1984() throws RomanNumeralsException {
+		assertRomanNumerals("MCMLXXXIV", 1984);
+	}
+	
+	@Test public void testRomanNumerals_MMXIV_2014() throws RomanNumeralsException {
+		assertRomanNumerals("MMXIV", 2014);
+	}
+	
+	@Test public void testRomanNumerals_DCCC_800() throws RomanNumeralsException {
+		assertRomanNumerals("DCCC", 800);
+	}
+	
+	@Test (expected = RomanNumeralsException.class) public void testRomanNumerals_I_repeated_four_times_IIII_exception() throws RomanNumeralsException {
+		assertRomanNumerals("IIII", 4);
+	}
+	
+	@Test ( expected = RomanNumeralsException.class ) public void testRomanNumerals_X_repeated_five_times_XXXXX_exception() throws RomanNumeralsException {
+		assertRomanNumerals("XXXXX", 50);
+	}
+	
+	@Test ( expected = RomanNumeralsException.class ) public void testRomanNumerals_V_repeated_three_times_VVVVV_exception() throws RomanNumeralsException {
+		assertRomanNumerals("VVVVV", 25);
+	}
+	
+	@Test ( expected = RomanNumeralsException.class ) public void testRomanNumerals_D_repeated_two_times_DD_exception() throws RomanNumeralsException {
+		assertRomanNumerals("DD", 1000);
+	}
+	
+	@Test ( expected = RomanNumeralsException.class ) public void testRomanNumerals__I_subtractedFromL_exception() throws RomanNumeralsException {
+		assertRomanNumerals("IL", 49);
+	}
+	
+	@Test ( expected = RomanNumeralsException.class ) public void testRomanNumerals__X_subtractedFromD_exception() throws RomanNumeralsException {
+		assertRomanNumerals("XD", 490);
+	}
+	
+	@Test public void testRomanNumerals_CM_900() throws RomanNumeralsException {
+		assertRomanNumerals("CM", 900);
+	}
+	
+	@Test ( expected = RomanNumeralsException.class ) public void testRomanNumerals_subtractionMultipleTimes_XXC_exception() throws RomanNumeralsException {
+		assertRomanNumerals("XXC", 80);
+	}
+	
+	@Test ( expected = RomanNumeralsException.class ) public void testRomanNumerals_subtractionMultipleTimes_XXL_exception() throws RomanNumeralsException {
+		assertRomanNumerals("XXL", 30);
+	}
+	
 }
